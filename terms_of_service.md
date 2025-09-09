@@ -1,7 +1,7 @@
 # Terms of Service (Allgemeine Geschäftsbedingungen - AGB)
 
-**Effective Date:** December 25, 2024  
-**Last Updated:** December 25, 2024
+**Effective Date:** September 09, 2025   
+**Last Updated:** September 09, 2025 
 
 ## 1. Service Provider and Scope
 
@@ -302,5 +302,6 @@ Weyertal 109
 ---
 
 **By creating an account or using BeatLoop, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.**
+
 
 **These Terms were last updated on December 25, 2024, and become effective immediately upon acceptance.**
