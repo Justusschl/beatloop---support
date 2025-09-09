@@ -361,6 +361,7 @@ This Privacy Policy is written in English. In case of any discrepancy between di
 
 ---
 
-**This Privacy Policy was last updated on December 25, 2024, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on September 09, 2025, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@beatloop.eu.
+
