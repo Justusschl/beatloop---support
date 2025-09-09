@@ -1,7 +1,7 @@
 # Privacy Policy
 
-**Effective Date:** December 25, 2024  
-**Last Updated:** December 25, 2024
+**Effective Date:** September 09, 2025  
+**Last Updated:** September 09, 2025 
 
 ## 1. Data Controller Information
 
@@ -68,6 +68,7 @@ We process your personal data based on the following legal grounds:
 - Login timestamps and authentication events
 - OAuth tokens from Google and Apple (when using social login)
 - Account creation and last activity timestamps
+- Terms of Service and Privacy Policy acceptance timestamps (stored in our backend systems for legal compliance)
 
 ### 4.3 Information from Third Parties
 
@@ -175,8 +176,10 @@ The following services may process your data outside the EU:
 
 **HubSpot (Customer Relationship Management):**
 - Data location: United States
-- Purpose: Customer support and relationship management
+- Purpose: Customer support, relationship management, and user communication tracking
+- Data processed: Email addresses, support interactions, user engagement metrics, and communication preferences
 - Safeguards: Standard Contractual Clauses and Privacy Shield successor frameworks
+- Note: HubSpot processes contact information and interaction history to provide personalized support and manage customer relationships
 
 **Stripe (Payment Processing):**
 - Data location: United States and EU
@@ -250,6 +253,7 @@ California residents have additional rights including:
 To exercise your privacy rights:
 
 **In-App:** Use the account settings and privacy controls within the BeatLoop app  
+**Account Deletion:** To delete your personal data, delete your account through the app's account settings. This will permanently remove all your personal information from our systems within 30 days  
 **Email:** Contact privacy@beatloop.eu with your request  
 **Identity Verification:** We may require verification of your identity for security purposes  
 **Response Time:** We will respond within 30 days (GDPR) or 45 days (CCPA)  
