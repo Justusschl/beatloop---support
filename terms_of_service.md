@@ -304,4 +304,5 @@ Weyertal 109
 **By creating an account or using BeatLoop, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.**
 
 
-**These Terms were last updated on December 25, 2024, and become effective immediately upon acceptance.**
+**These Terms were last updated on September 09, 2025, and become effective immediately upon acceptance.**
+
