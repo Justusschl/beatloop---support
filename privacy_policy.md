@@ -11,7 +11,7 @@
 BeatLoop  
 Weyertal 109  
 50931 Köln, Germany  
-Email: privacy@beatloop.eu
+Email: privacy@on-beat.de
 
 For all privacy-related inquiries, data protection requests, or exercise of your rights under applicable data protection laws, please contact us at the above email address.
 
@@ -313,7 +313,7 @@ BeatLoop is not intended for users under 16 years of age. We do not knowingly co
 If we become aware that we have collected personal information from a child under 16 without verified parental consent, we will take steps to remove that information immediately.
 
 ### 13.3 Parent Rights
-Parents who believe their child under 16 has provided personal information to BeatLoop may contact us at privacy@beatloop.eu to request deletion of such information.
+Parents who believe their child under 16 has provided personal information to BeatLoop may contact us at privacy@on-beat.de to request deletion of such information.
 
 ## 14. Changes to This Privacy Policy
 
@@ -333,7 +333,7 @@ We maintain a record of significant policy changes for transparency and complian
 ### 15.1 Privacy Inquiries
 For questions about this Privacy Policy or our data practices:
 
-**Email:** privacy@beatloop.eu  
+**Email:** privacy@on-beat.de 
 **Postal Address:**  
 BeatLoop  
 Weyertal 109  
@@ -363,5 +363,6 @@ This Privacy Policy is written in English. In case of any discrepancy between di
 
 **This Privacy Policy was last updated on September 09, 2025, and becomes effective immediately upon posting.**
 
-For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@beatloop.eu.
+For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de   .
+
 
