@@ -1,16 +1,16 @@
 # Privacy Policy
 
-**Effective Date:** September 09, 2025  
-**Last Updated:** September 09, 2025 
+**Effective Date:** February 15, 2026
+**Last Updated:** February 15, 2026
 
 ## 1. Data Controller Information
 
-**BeatLoop** (referred to as "we," "us," or "our") operates the BeatLoop mobile application (the "App"). 
+**BeatLoop** (referred to as "we," "us," or "our") operates the BeatLoop mobile application (the "App").
 
-**Data Controller:**  
-BeatLoop  
-Weyertal 109  
-50931 Köln, Germany  
+**Data Controller:**
+OnBeat HQ UG (haftungsbeschränkt)
+Wichterichstraße 4
+50937 Köln, Germany
 Email: privacy@on-beat.de
 
 For all privacy-related inquiries, data protection requests, or exercise of your rights under applicable data protection laws, please contact us at the above email address.
@@ -19,7 +19,7 @@ For all privacy-related inquiries, data protection requests, or exercise of your
 
 This Privacy Policy explains how we collect, use, process, and protect your personal data when you use our mobile application BeatLoop. This policy applies to all users worldwide and complies with the EU General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and other applicable data protection laws.
 
-**BeatLoop** is a music practice application designed for dancers and musicians to create audio loops and practice sessions. The App processes user-provided audio files locally on your device and maintains user accounts for premium features and session synchronization.
+**BeatLoop** is a music practice application designed for dancers and musicians to create audio loops, adjust playback speed, record video, and manage practice sessions. The App allows users to access music from local device storage, YouTube, Apple Music, and Spotify, and maintains user accounts for premium features and session synchronization.
 
 ## 3. Legal Basis for Data Processing (GDPR Article 6)
 
@@ -41,9 +41,10 @@ We process your personal data based on the following legal grounds:
 - Account preferences and settings
 
 **User-Generated Content:**
-- Audio files you import or create within the App
+- Audio files you import from your device's local storage
+- Music accessed via YouTube, Apple Music, or Spotify integrations (metadata only; see Section 5)
 - Video recordings of practice sessions (stored locally only)
-- Session metadata (markers, segments, practice notes)
+- Session metadata (markers, segments, loops, practice notes)
 - Project organization and naming data
 
 **Communications:**
@@ -77,95 +78,149 @@ We process your personal data based on the following legal grounds:
 - Apple Sign-In: Name, email address, or private relay email
 
 **Payment Processing:**
-- Stripe processes payment information for premium subscriptions
-- We receive transaction confirmations and subscription status only
+- On iOS: Apple processes payment information via In-App Purchase
+- On Android: Google processes payment information via Google Play Billing
+- On Web: Stripe processes payment information for premium subscriptions
+- We receive transaction confirmations and subscription status only; we do not collect or store payment card details via mobile apps
 
-## 5. How We Use Your Information
+## 5. Third-Party Music Service Integrations
 
-### 5.1 Core App Functionality
+BeatLoop integrates with the following third-party music services to allow users to access and practice with music. Each integration involves specific data collection and processing:
+
+### 5.1 YouTube (YouTube API Services)
+
+BeatLoop uses YouTube API Services to allow users to search for and play music from YouTube.
+
+- **Data collected:** Video metadata (title, artist, duration), playback interaction data
+- **Data NOT collected:** BeatLoop does NOT download, store, or cache YouTube audio or video content. All playback occurs via the YouTube API.
+- **YouTube Terms of Service:** [https://www.youtube.com/t/terms](https://www.youtube.com/t/terms)
+- **Google Privacy Policy:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+**Google API Services User Data Policy Compliance:** BeatLoop's use of information received from YouTube API Services will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+
+Users may revoke BeatLoop's access to their YouTube data via the Google security settings page at [https://security.google.com/settings/security/permissions](https://security.google.com/settings/security/permissions).
+
+### 5.2 Apple Music (MusicKit)
+
+BeatLoop uses the Apple MusicKit API to allow users to search for and stream music from Apple Music.
+
+- **Data collected:** Track metadata (title, artist, album, duration), library access (with user permission)
+- **Data NOT collected:** BeatLoop does NOT download, store, or cache Apple Music audio content. Audio is streamed via Apple Music.
+- **Requirement:** Users must have an active Apple Music subscription to use this feature.
+- **Apple Media Services Terms and Conditions:** [https://www.apple.com/legal/internet-services/itunes/](https://www.apple.com/legal/internet-services/itunes/)
+
+### 5.3 Spotify (Spotify Web API)
+
+BeatLoop uses the Spotify Web API to allow users to search for and play music from Spotify.
+
+- **Data collected:** Track metadata (title, artist, album, duration), playback state
+- **Data NOT collected:** BeatLoop does NOT download, store, or cache Spotify audio content. Audio is streamed via Spotify.
+- **Requirement:** Users must have an active Spotify account to use this feature.
+- **Spotify Terms of Use:** [https://www.spotify.com/legal/end-user-agreement/](https://www.spotify.com/legal/end-user-agreement/)
+- **Spotify Privacy Policy:** [https://www.spotify.com/legal/privacy-policy/](https://www.spotify.com/legal/privacy-policy/)
+
+### 5.4 Local Files
+
+Users may import audio files from their device's local storage.
+
+- Local files are processed entirely on-device and are never uploaded to our servers.
+- BeatLoop does not monitor, scan, or validate the content or copyright status of local files.
+
+### 5.5 Metadata Storage
+
+Streaming music metadata (song title, artist, tempo markers, loop points) may be stored locally on your device for session management purposes. Actual audio content from streaming services is NOT stored by BeatLoop.
+
+## 6. How We Use Your Information
+
+### 6.1 Core App Functionality
 - Account creation, authentication, and access management
 - Premium feature activation and usage tracking
-- Local audio processing and session management
+- Local audio processing, looping, speed adjustment, and session management
+- Video recording synchronized with audio playback
 - Cross-device session synchronization (metadata only)
 - Customer support and technical assistance
 
-### 5.2 Service Improvement
+### 6.2 Service Improvement
 - App performance optimization and bug fixes
 - Feature development based on usage patterns
 - Security monitoring and fraud prevention
 - Quality assurance and testing
 
-### 5.3 Communications
+### 6.3 Communications
 - Service-related notifications and updates
 - Premium subscription management
 - Response to support inquiries
 - Important policy or service changes (where legally required)
 
-### 5.4 Analytics and Business Operations
+### 6.4 Analytics and Business Operations
 - Monthly Active User (MAU) metrics and engagement analysis
 - Subscription conversion and retention analytics
 - General usage statistics for business planning
 - Compliance with legal obligations and tax requirements
 
-## 6. User Content and Copyright Liability
+## 7. User Content and Copyright Liability
 
-### 6.1 User Responsibility for Content
+### 7.1 User Responsibility for Content
 
-**IMPORTANT:** BeatLoop is a tool that processes user-provided audio and video files. By using the App, you acknowledge and agree that:
+**IMPORTANT:** BeatLoop is a tool that enables users to access music from multiple sources (local files, YouTube, Apple Music, Spotify) for practice purposes. By using the App, you acknowledge and agree that:
 
-1. **You are solely responsible** for all audio files, music, and other content you import, upload, or create using BeatLoop
+1. **You are solely responsible** for all audio files, music, and other content you import, access, or create using BeatLoop
 2. **You warrant** that you own or have obtained all necessary rights, licenses, and permissions to use any copyrighted material in your content
-3. **You indemnify and hold harmless** BeatLoop, its affiliates, and service providers from any claims, damages, or liabilities arising from your use of copyrighted or otherwise protected content
+3. **You indemnify and hold harmless** OnBeat HQ UG (haftungsbeschränkt), its affiliates, and service providers from any claims, damages, or liabilities arising from your use of copyrighted or otherwise protected content
+4. **Content accessed via streaming services** (YouTube, Apple Music, Spotify) remains subject to those platforms' respective licensing terms and your subscription agreements with them
 
-### 6.2 Copyright Compliance
+### 7.2 Copyright Compliance
 
-- BeatLoop does **not** provide any music, audio tracks, or copyrighted content
+- BeatLoop does **not** provide, host, cache, or redistribute any music, audio tracks, or copyrighted content
 - BeatLoop does **not** monitor, review, or validate the copyright status of user content
+- Content from streaming services is played via those services' official APIs and is not downloaded or stored by BeatLoop
 - Users must comply with all applicable copyright laws in their jurisdiction
 - BeatLoop reserves the right to terminate accounts that repeatedly violate copyright policies
 
-### 6.3 Digital Millennium Copyright Act (DMCA) Compliance
+### 7.3 Digital Millennium Copyright Act (DMCA) Compliance
 
-If you believe content in BeatLoop infringes your copyright, please contact us at privacy@beatloop.eu with:
+If you believe content in BeatLoop infringes your copyright, please contact us at support@on-beat.de with:
 - Your contact information and electronic signature
 - Identification of the copyrighted work claimed to be infringed
 - Identification of the allegedly infringing material
 - A statement of good faith belief that the use is not authorized
 - A statement that the information is accurate and you are authorized to act
 
-### 6.4 No Liability for User Content
+### 7.4 No Liability for User Content
 
 **BeatLoop explicitly disclaims all liability** for:
 - Copyright infringement by users
 - Unauthorized use of protected audio or video content
 - Any legal claims arising from user-generated content
 - Damages resulting from users' failure to obtain proper licenses
+- Copyright claims arising from videos recorded and shared by users
 
-## 7. Data Storage and Security
+## 8. Data Storage and Security
 
-### 7.1 Local Data Storage
-- **Audio and video files** are stored exclusively on your device
+### 8.1 Local Data Storage
+- **Audio and video files** imported from local storage are stored exclusively on your device
+- **Streaming content** from YouTube, Apple Music, and Spotify is NOT stored on your device or our servers
 - **Practice sessions and projects** remain local to your device
 - **No user content** is uploaded to our servers without explicit action
 
-### 7.2 Cloud Data Storage
+### 8.2 Cloud Data Storage
 - **Account information** is securely stored using Supabase infrastructure
-- **Session metadata** (markers, timestamps, project names) may be synchronized
+- **Session metadata** (markers, timestamps, loop points, project names) may be synchronized
 - **Authentication tokens** are encrypted and stored securely
-- **Payment information** is processed and stored by Stripe, not by BeatLoop
+- **Payment information** is processed and stored by Apple (iOS), Google (Android), or Stripe (web), not by BeatLoop
 
-### 7.3 Security Measures
+### 8.3 Security Measures
 - Industry-standard encryption for data transmission (TLS/HTTPS)
 - Secure authentication protocols and token management
 - Regular security assessments and vulnerability monitoring
 - Access controls and audit logs for administrative functions
 - Data breach response procedures and user notification protocols
 
-## 8. International Data Transfers
+## 9. International Data Transfers
 
 BeatLoop operates globally and may transfer your personal data outside your country of residence, including to countries that may not provide the same level of data protection as your home country.
 
-### 8.1 Third-Party Service Providers
+### 9.1 Third-Party Service Providers
 
 The following services may process your data outside the EU:
 
@@ -181,9 +236,24 @@ The following services may process your data outside the EU:
 - Safeguards: Standard Contractual Clauses and Privacy Shield successor frameworks
 - Note: HubSpot processes contact information and interaction history to provide personalized support and manage customer relationships
 
+**Apple (In-App Purchase & MusicKit):**
+- Data location: United States and EU
+- Purpose: Payment processing (iOS) and Apple Music integration
+- Safeguards: Apple's privacy commitments and data processing agreements
+
+**Google (Play Billing & YouTube API):**
+- Data location: United States and EU
+- Purpose: Payment processing (Android) and YouTube integration
+- Safeguards: Standard Contractual Clauses and Google's data processing terms
+
+**Spotify (Spotify Web API):**
+- Data location: United States and EU
+- Purpose: Music streaming integration
+- Safeguards: Standard Contractual Clauses and Spotify's data processing agreements
+
 **Stripe (Payment Processing):**
 - Data location: United States and EU
-- Purpose: Premium subscription payments
+- Purpose: Premium subscription payments (web)
 - Safeguards: PCI DSS compliance, Standard Contractual Clauses
 
 **Resend (Email Communications):**
@@ -196,19 +266,19 @@ The following services may process your data outside the EU:
 - Purpose: Application error tracking and performance monitoring
 - Safeguards: Data Processing Addendum and Standard Contractual Clauses
 
-### 8.2 Legal Safeguards
+### 9.2 Legal Safeguards
 All international data transfers are protected by appropriate safeguards including:
 - Standard Contractual Clauses approved by the European Commission
 - Adequacy decisions where applicable
 - Binding Corporate Rules for multinational service providers
 - Additional technical and organizational measures as required
 
-## 9. Data Sharing and Disclosure
+## 10. Data Sharing and Disclosure
 
-### 9.1 We Do Not Sell Personal Data
+### 10.1 We Do Not Sell Personal Data
 BeatLoop does not sell, rent, or trade your personal information to third parties for their marketing purposes.
 
-### 9.2 Limited Data Sharing
+### 10.2 Limited Data Sharing
 We may share your information only in the following circumstances:
 
 **Service Providers:** With trusted third-party service providers who assist in operating our App, processing payments, or providing customer support, under strict confidentiality agreements.
@@ -219,28 +289,28 @@ We may share your information only in the following circumstances:
 
 **Consent:** With your explicit consent for specific purposes not covered by this policy.
 
-### 9.3 Data Protection in Sharing
+### 10.3 Data Protection in Sharing
 All data sharing arrangements include:
 - Contractual data protection obligations
 - Purpose limitation and use restrictions
 - Security and confidentiality requirements
 - User rights preservation mechanisms
 
-## 10. Your Rights Under Data Protection Laws
+## 11. Your Rights Under Data Protection Laws
 
-### 10.1 GDPR Rights (EU Users)
+### 11.1 GDPR Rights (EU Users)
 
 You have the following rights regarding your personal data:
 
-**Right of Access (Article 15):** Request a copy of your personal data we hold  
-**Right to Rectification (Article 16):** Correct inaccurate or incomplete data  
-**Right to Erasure (Article 17):** Request deletion of your personal data ("right to be forgotten")  
-**Right to Restrict Processing (Article 18):** Limit how we use your data  
-**Right to Data Portability (Article 20):** Receive your data in a portable format  
-**Right to Object (Article 21):** Object to processing based on legitimate interests  
-**Right to Withdraw Consent:** Where processing is based on consent  
+**Right of Access (Article 15):** Request a copy of your personal data we hold
+**Right to Rectification (Article 16):** Correct inaccurate or incomplete data
+**Right to Erasure (Article 17):** Request deletion of your personal data ("right to be forgotten")
+**Right to Restrict Processing (Article 18):** Limit how we use your data
+**Right to Data Portability (Article 20):** Receive your data in a portable format
+**Right to Object (Article 21):** Object to processing based on legitimate interests
+**Right to Withdraw Consent:** Where processing is based on consent
 
-### 10.2 CCPA Rights (California Users)
+### 11.2 CCPA Rights (California Users)
 
 California residents have additional rights including:
 - Right to know what personal information is collected
@@ -248,121 +318,119 @@ California residents have additional rights including:
 - Right to opt-out of the sale of personal information (Note: We do not sell personal information)
 - Right to non-discrimination for exercising privacy rights
 
-### 10.3 Exercising Your Rights
+### 11.3 Exercising Your Rights
 
 To exercise your privacy rights:
 
-**In-App:** Use the account settings and privacy controls within the BeatLoop app  
-**Account Deletion:** To delete your personal data, delete your account through the app's account settings. This will permanently remove all your personal information from our systems within 30 days  
-**Email:** Contact privacy@beatloop.eu with your request  
-**Identity Verification:** We may require verification of your identity for security purposes  
-**Response Time:** We will respond within 30 days (GDPR) or 45 days (CCPA)  
-**No Fee:** Rights requests are generally processed free of charge  
+**In-App:** Use the account settings and privacy controls within the BeatLoop app
+**Account Deletion:** To delete your personal data, delete your account through the app's account settings. This will permanently remove all your personal information from our systems within 30 days
+**Email:** Contact privacy@on-beat.de with your request
+**Identity Verification:** We may require verification of your identity for security purposes
+**Response Time:** We will respond within 30 days (GDPR) or 45 days (CCPA)
+**No Fee:** Rights requests are generally processed free of charge
 
-### 10.4 Right to Lodge a Complaint
+### 11.4 Right to Lodge a Complaint
 
 If you believe we have not adequately addressed your privacy concerns, you have the right to lodge a complaint with your local data protection authority. For EU users, you can find your local authority at: https://edpb.europa.eu/about-edpb/about-edpb/members_en
 
-## 11. Data Retention
+## 12. Data Retention
 
-### 11.1 Account Data
+### 12.1 Account Data
 - **Active accounts:** Retained for the duration of your account plus 30 days
 - **Inactive accounts:** Automatically deleted after 24 months of inactivity
 - **Deleted accounts:** Permanently removed within 30 days of deletion request
 
-### 11.2 Usage and Analytics Data
+### 12.2 Usage and Analytics Data
 - **Login records:** Retained for 12 months for security purposes
 - **Usage analytics:** Aggregated data retained indefinitely, individual data for 24 months
 - **Error logs:** Retained for 12 months for debugging and improvement
 
-### 11.3 Legal and Compliance Data
+### 12.3 Legal and Compliance Data
 - **Payment records:** Retained for 7 years to comply with tax and accounting requirements
 - **Legal correspondence:** Retained as long as necessary for legal purposes
 - **DMCA notices:** Retained for 3 years as required by law
 
-### 11.4 User Content
+### 12.4 User Content
 - **Local files:** Under your complete control on your device
 - **Session metadata:** Retained while account is active, deleted with account deletion
 - **Support communications:** Retained for 3 years for quality and training purposes
 
-## 12. Cookies and Tracking Technologies
+## 13. Cookies and Tracking Technologies
 
-### 12.1 Current Use
+### 13.1 Current Use
 BeatLoop currently uses minimal tracking technologies:
 - **Authentication tokens:** For secure login and session management
 - **App preferences:** Stored locally to remember your settings
 - **Error tracking:** Basic crash reporting for app stability
 
-### 12.2 Future Analytics Implementation
+### 13.2 Future Analytics Implementation
 We plan to implement Monthly Active User (MAU) analytics and may use:
 - **Analytics cookies:** To understand app usage patterns
 - **Performance monitoring:** To optimize app functionality
 - **A/B testing tools:** To improve user experience
 
-### 12.3 Your Control
+### 13.3 Your Control
 - **Cookie settings:** Can be managed through your device settings
 - **Analytics opt-out:** Will be available in app settings when implemented
 - **Third-party tracking:** We do not use advertising or social media tracking pixels
 
-## 13. Children's Privacy
+## 14. Children's Privacy
 
-### 13.1 Age Restriction
+### 14.1 Age Restriction
 BeatLoop is not intended for users under 16 years of age. We do not knowingly collect personal information from children under 16. If you are under 16, please do not use BeatLoop or provide any personal information.
 
-### 13.2 Parental Notice
+### 14.2 Parental Notice
 If we become aware that we have collected personal information from a child under 16 without verified parental consent, we will take steps to remove that information immediately.
 
-### 13.3 Parent Rights
+### 14.3 Parent Rights
 Parents who believe their child under 16 has provided personal information to BeatLoop may contact us at privacy@on-beat.de to request deletion of such information.
 
-## 14. Changes to This Privacy Policy
+## 15. Changes to This Privacy Policy
 
-### 14.1 Policy Updates
-We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors. 
+### 15.1 Policy Updates
+We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors.
 
-### 14.2 Notification of Changes
-**Minor Changes:** Updated "Last Updated" date at the top of this policy  
-**Material Changes:** Email notification to registered users and in-app notification  
-**Continued Use:** Your continued use of BeatLoop after changes constitutes acceptance  
+### 15.2 Notification of Changes
+**Minor Changes:** Updated "Last Updated" date at the top of this policy
+**Material Changes:** Email notification to registered users and in-app notification
+**Continued Use:** Your continued use of BeatLoop after changes constitutes acceptance
 
-### 14.3 Change History
+### 15.3 Change History
 We maintain a record of significant policy changes for transparency and compliance purposes.
 
-## 15. Contact Information
+## 16. Contact Information
 
-### 15.1 Privacy Inquiries
+### 16.1 Privacy Inquiries
 For questions about this Privacy Policy or our data practices:
 
-**Email:** privacy@on-beat.de 
-**Postal Address:**  
-BeatLoop  
-Weyertal 109  
-50931 Köln, Germany  
+**Email:** privacy@on-beat.de
+**Postal Address:**
+OnBeat HQ UG (haftungsbeschränkt)
+Wichterichstraße 4
+50937 Köln, Germany
 
-### 15.2 Data Protection Requests
+### 16.2 Data Protection Requests
 For exercising your data protection rights, please use the email above and include:
 - Your full name and email address associated with your account
 - Specific right you wish to exercise
 - Any additional information needed to verify your identity
 
-### 15.3 Response Commitment
+### 16.3 Response Commitment
 We are committed to responding to privacy inquiries promptly and professionally. We typically respond within 3-5 business days for general inquiries and within the legally required timeframes for formal rights requests.
 
-## 16. Additional Legal Information
+## 17. Additional Legal Information
 
-### 16.1 Governing Law
+### 17.1 Governing Law
 This Privacy Policy is governed by the laws of Germany and the European Union. Any disputes arising from this policy shall be subject to the jurisdiction of German courts.
 
-### 16.2 Severability
+### 17.2 Severability
 If any provision of this Privacy Policy is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary so that the Privacy Policy will otherwise remain in full force and effect.
 
-### 16.3 Language
+### 17.3 Language
 This Privacy Policy is written in English. In case of any discrepancy between different language versions, the English version shall prevail.
 
 ---
 
-**This Privacy Policy was last updated on September 09, 2025, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on February 15, 2026, and becomes effective immediately upon posting.**
 
-For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de   .
-
-
+For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.
