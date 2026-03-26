@@ -45,6 +45,8 @@ BeatLoop allows users to access music from the following sources:
 
 **Spotify:** Music accessed via the Spotify Web API. BeatLoop does NOT download, store, or cache Spotify audio content. Users must have an active Spotify account. Use is subject to the [Spotify Terms of Use](https://www.spotify.com/legal/end-user-agreement/).
 
+**Google Drive:** BeatLoop allows users to import audio files from their Google Drive via the Google Picker. BeatLoop requests read-only access to user-selected files only. BeatLoop does not modify, delete, or store Google Drive files on its servers. Imported audio is processed and stored locally on your device. Users can revoke access at any time via [https://myaccount.google.com/permissions](https://myaccount.google.com/permissions).
+
 ### 2.3 Content Responsibility
 **IMPORTANT**: BeatLoop does not provide, distribute, host, cache, or make available any copyrighted music, audio tracks, or other media content. Local files are provided by users, and streaming content is accessed via third-party APIs under the user's own accounts and subscriptions.
 

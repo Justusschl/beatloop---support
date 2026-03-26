@@ -126,7 +126,19 @@ Users may import audio files from their device's local storage.
 - Local files are processed entirely on-device and are never uploaded to our servers.
 - BeatLoop does not monitor, scan, or validate the content or copyright status of local files.
 
-### 5.5 Metadata Storage
+### 5.5 Google Drive
+
+BeatLoop allows users to import audio files from their Google Drive.
+
+- **Access Type:** Read-only access to files the user explicitly selects via the Google Picker
+- **Data Collected:** File metadata (name, type, size) and audio file content for playback
+- **Data Storage:** Imported audio is processed and stored locally on the user's device only. BeatLoop does NOT upload, cache, or store Google Drive files on its servers
+- **Data Sharing:** Google Drive file data is not shared with any third parties
+- **Revocation:** Users can revoke BeatLoop's access at any time via [https://myaccount.google.com/permissions](https://myaccount.google.com/permissions)
+- **Google API Services User Data Policy Compliance:** BeatLoop's use of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
+- **Google Terms of Service:** [https://developers.google.com/terms](https://developers.google.com/terms)
+
+### 5.6 Metadata Storage
 
 Streaming music metadata (song title, artist, tempo markers, loop points) may be stored locally on your device for session management purposes. Actual audio content from streaming services is NOT stored by BeatLoop.
 
@@ -241,9 +253,10 @@ The following services may process your data outside the EU:
 - Purpose: Payment processing (iOS) and Apple Music integration
 - Safeguards: Apple's privacy commitments and data processing agreements
 
-**Google (Play Billing & YouTube API):**
+**Google (Play Billing, YouTube API & Google Drive):**
 - Data location: United States and EU
-- Purpose: Payment processing (Android) and YouTube integration
+- Purpose: Payment processing (Android), YouTube integration, and user-selected audio file import via Google Drive
+- Data (Drive): File metadata and audio content (read-only, local processing only)
 - Safeguards: Standard Contractual Clauses and Google's data processing terms
 
 **Spotify (Spotify Web API):**
