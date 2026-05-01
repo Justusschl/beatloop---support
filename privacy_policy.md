@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** February 15, 2026
-**Last Updated:** February 15, 2026
+**Last Updated:** May 1, 2026
 
 ## 1. Data Controller Information
 
@@ -57,7 +57,7 @@ We process your personal data based on the following legal grounds:
 - App interaction patterns and feature usage
 - Session duration and frequency of use
 - Device performance metrics related to audio/video processing
-- Error reports and crash logs (via Sentry when implemented)
+- Error reports and crash logs (via Sentry)
 
 **Device and Technical Information:**
 - Device model, operating system, and version
@@ -274,10 +274,16 @@ The following services may process your data outside the EU:
 - Purpose: Transactional email delivery
 - Safeguards: Standard Contractual Clauses and GDPR compliance measures
 
-**Sentry (Error Monitoring - Future Implementation):**
-- Data location: United States or EU region
-- Purpose: Application error tracking and performance monitoring
-- Safeguards: Data Processing Addendum and Standard Contractual Clauses
+**Sentry (Crash and Error Reporting):**
+- **Data location:** European Union (Frankfurt am Main)
+- **Operator:** Sentry GmbH, Krausenstraße 9-10, 10117 Berlin, Germany (parent company: Functional Software, Inc., 45 Fremont Street, 8th Floor, San Francisco, CA 94105, USA)
+- **Purpose:** Detection and resolution of application errors and crashes to improve stability
+- **Data processed:** Error messages, stack traces, app version, device type, operating system version. Personally identifiable information (email addresses, user IDs, file paths) is removed before transmission through technical safeguards (PII scrubbing).
+- **Legal basis:** Art. 6(1)(f) GDPR (legitimate interest in the stability and error-free operation of our application)
+- **Retention period:** 90 days
+- **Safeguards:** Data Processing Agreement (DPA) signed pursuant to Art. 28 GDPR, including Standard Contractual Clauses
+- **Sentry Privacy Policy:** [https://sentry.io/privacy/](https://sentry.io/privacy/)
+- **List of Sub-processors:** [https://sentry.io/legal/subprocessor-list/](https://sentry.io/legal/subprocessor-list/)
 
 ### 9.2 Legal Safeguards
 All international data transfers are protected by appropriate safeguards including:
@@ -444,6 +450,6 @@ This Privacy Policy is written in English. In case of any discrepancy between di
 
 ---
 
-**This Privacy Policy was last updated on February 15, 2026, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on May 1, 2026, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.
