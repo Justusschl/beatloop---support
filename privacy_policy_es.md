@@ -1,7 +1,7 @@
 # Política de Privacidad
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 1 de mayo de 2026
+**Última Actualización:** 18 de junio de 2026
 
 ## 1. Información sobre el Responsable del Tratamiento
 
@@ -19,15 +19,15 @@ Para todas las consultas relacionadas con la privacidad, solicitudes de protecci
 
 Esta Política de Privacidad explica cómo recopilamos, usamos, procesamos y protegemos sus datos personales cuando utiliza nuestra aplicación móvil BeatLoop. Esta política se aplica a todos los usuarios en todo el mundo y cumple con el Reglamento General de Protección de Datos de la UE (RGPD), la Ley de Privacidad del Consumidor de California (CCPA) y otras leyes de protección de datos aplicables.
 
-**BeatLoop** es una aplicación de práctica musical diseñada para bailarines y músicos para crear bucles de audio, ajustar la velocidad de reproducción, grabar vídeo y gestionar sesiones de práctica. La App permite a los usuarios acceder a música desde el almacenamiento local del dispositivo, YouTube, Apple Music y Spotify, y mantiene cuentas de usuario para funciones premium y sincronización de sesiones.
+**BeatLoop** es una aplicación de práctica musical diseñada para bailarines y músicos para crear bucles de audio, ajustar la velocidad de reproducción, grabar vídeo y gestionar sesiones de práctica. La App permite a los usuarios acceder a música desde el almacenamiento local del dispositivo, YouTube y Apple Music, y mantiene cuentas de usuario para funciones premium y sincronización de sesiones.
 
 ## 3. Base Jurídica para el Tratamiento de Datos (Artículo 6 del RGPD)
 
 Procesamos sus datos personales sobre la base de los siguientes fundamentos jurídicos:
 
 - **Ejecución de un Contrato** (Artículo 6(1)(b)): Para proporcionar los servicios de la App, la gestión de cuentas y las funciones premium
-- **Intereses Legítimos** (Artículo 6(1)(f)): Mejora de la App, seguridad, prevención del fraude y atención al cliente
-- **Consentimiento** (Artículo 6(1)(a)): Comunicaciones de marketing, análisis opcionales y determinadas integraciones de terceros
+- **Intereses Legítimos** (Artículo 6(1)(f)): Seguridad, prevención del fraude, diagnóstico de fallos y errores (Sentry) y atención al cliente
+- **Consentimiento** (Artículo 6(1)(a)): Comunicaciones de marketing, **análisis de producto y de uso (PostHog)** y determinadas integraciones opcionales de terceros. El análisis de producto se recopila **únicamente** después de que usted dé su consentimiento explícito (opt-in) y puede retirarse en cualquier momento.
 - **Obligación Legal** (Artículo 6(1)(c)): Cumplimiento de las leyes aplicables, obligaciones fiscales y solicitudes legales
 
 ## 4. Información que Recopilamos
@@ -42,7 +42,7 @@ Procesamos sus datos personales sobre la base de los siguientes fundamentos jur�
 
 **Contenido Generado por el Usuario:**
 - Archivos de audio que importa desde el almacenamiento local de su dispositivo
-- Música a la que se accede a través de integraciones de YouTube, Apple Music o Spotify (solo metadatos; véase la Sección 5)
+- Música a la que se accede a través de integraciones de YouTube o Apple Music (solo metadatos; véase la Sección 5)
 - Grabaciones de vídeo de sesiones de práctica (almacenadas solo localmente)
 - Metadatos de la sesión (marcadores, segmentos, bucles, notas de práctica)
 - Datos de organización y nomenclatura de proyectos
@@ -54,10 +54,10 @@ Procesamos sus datos personales sobre la base de los siguientes fundamentos jur�
 ### 4.2 Información Recopilada Automáticamente
 
 **Datos de Uso y Análisis:**
-- Patrones de interacción con la App y uso de funciones
-- Duración de la sesión y frecuencia de uso
+- Análisis de producto/uso de funciones (qué funciones se usan y cómo) — recopilados a través de PostHog **únicamente después de que usted dé su consentimiento explícito (opt-in)** (véase la Sección 9.1); nunca se recopilan si usted rechaza o aún no ha dado su consentimiento
+- Duración de la sesión y frecuencia de uso (parte del análisis basado en consentimiento mencionado arriba)
 - Métricas de rendimiento del dispositivo relacionadas con el procesamiento de audio/vídeo
-- Informes de errores y registros de fallos (a través de Sentry)
+- Informes de errores y registros de fallos (a través de Sentry — véase la Sección 9.1, tratados sobre la base del interés legítimo, con independencia del consentimiento de análisis)
 
 **Información del Dispositivo y Técnica:**
 - Modelo del dispositivo, sistema operativo y versión
@@ -109,24 +109,14 @@ BeatLoop utiliza la API de Apple MusicKit para permitir a los usuarios buscar y 
 - **Requisito:** Los usuarios deben tener una suscripción activa de Apple Music para usar esta función.
 - **Términos y Condiciones de los Servicios de Medios de Apple:** [https://www.apple.com/legal/internet-services/itunes/](https://www.apple.com/legal/internet-services/itunes/)
 
-### 5.3 Spotify (Spotify Web API)
-
-BeatLoop utiliza la Spotify Web API para permitir a los usuarios buscar y reproducir música de Spotify.
-
-- **Datos recopilados:** Metadatos de la pista (título, artista, álbum, duración), estado de reproducción
-- **Datos NO recopilados:** BeatLoop NO descarga, almacena ni guarda en caché contenido de audio de Spotify. El audio se transmite a través de Spotify.
-- **Requisito:** Los usuarios deben tener una cuenta activa de Spotify para usar esta función.
-- **Condiciones de Uso de Spotify:** [https://www.spotify.com/legal/end-user-agreement/](https://www.spotify.com/legal/end-user-agreement/)
-- **Política de Privacidad de Spotify:** [https://www.spotify.com/legal/privacy-policy/](https://www.spotify.com/legal/privacy-policy/)
-
-### 5.4 Archivos Locales
+### 5.3 Archivos Locales
 
 Los usuarios pueden importar archivos de audio desde el almacenamiento local de su dispositivo.
 
 - Los archivos locales se procesan íntegramente en el dispositivo y nunca se cargan en nuestros servidores.
 - BeatLoop no supervisa, escanea ni valida el contenido o el estado de los derechos de autor de los archivos locales.
 
-### 5.5 Google Drive
+### 5.4 Google Drive
 
 BeatLoop permite a los usuarios importar archivos de audio desde su Google Drive.
 
@@ -138,7 +128,7 @@ BeatLoop permite a los usuarios importar archivos de audio desde su Google Drive
 - **Cumplimiento de la Política de Datos de Usuario de los Servicios de la API de Google:** El uso por parte de BeatLoop de la información recibida de las API de Google se ajustará a la [Política de Datos de Usuario de los Servicios de la API de Google](https://developers.google.com/terms/api-services-user-data-policy), incluidos los requisitos de Uso Limitado.
 - **Condiciones del Servicio de Google:** [https://developers.google.com/terms](https://developers.google.com/terms)
 
-### 5.6 Almacenamiento de Metadatos
+### 5.5 Almacenamiento de Metadatos
 
 Los metadatos de la música en streaming (título de la canción, artista, marcadores de tempo, puntos de bucle) pueden almacenarse localmente en su dispositivo con fines de gestión de la sesión. El contenido de audio real de los servicios de streaming NO es almacenado por BeatLoop.
 
@@ -174,12 +164,12 @@ Los metadatos de la música en streaming (título de la canción, artista, marca
 
 ### 7.1 Responsabilidad del Usuario sobre el Contenido
 
-**IMPORTANTE:** BeatLoop es una herramienta que permite a los usuarios acceder a música de múltiples fuentes (archivos locales, YouTube, Apple Music, Spotify) con fines de práctica. Al usar la App, usted reconoce y acepta que:
+**IMPORTANTE:** BeatLoop es una herramienta que permite a los usuarios acceder a música de múltiples fuentes (archivos locales, YouTube, Apple Music) con fines de práctica. Al usar la App, usted reconoce y acepta que:
 
 1. **Usted es el único responsable** de todos los archivos de audio, música y otros contenidos que importe, acceda o cree usando BeatLoop
 2. **Usted garantiza** que posee u ha obtenido todos los derechos, licencias y permisos necesarios para usar cualquier material protegido por derechos de autor en su contenido
 3. **Usted indemniza y exime de responsabilidad** a OnBeat HQ UG (haftungsbeschränkt), sus filiales y proveedores de servicios de cualquier reclamación, daño o responsabilidad derivada de su uso de contenido protegido por derechos de autor o de otro modo
-4. **El contenido al que se accede a través de servicios de streaming** (YouTube, Apple Music, Spotify) sigue estando sujeto a los respectivos términos de licencia de esas plataformas y a sus acuerdos de suscripción con ellas
+4. **El contenido al que se accede a través de servicios de streaming** (YouTube, Apple Music) sigue estando sujeto a los respectivos términos de licencia de esas plataformas y a sus acuerdos de suscripción con ellas
 
 ### 7.2 Cumplimiento de los Derechos de Autor
 
@@ -211,7 +201,7 @@ Si cree que algún contenido de BeatLoop infringe sus derechos de autor, póngas
 
 ### 8.1 Almacenamiento Local de Datos
 - **Los archivos de audio y vídeo** importados desde el almacenamiento local se almacenan exclusivamente en su dispositivo
-- **El contenido en streaming** de YouTube, Apple Music y Spotify NO se almacena en su dispositivo ni en nuestros servidores
+- **El contenido en streaming** de YouTube y Apple Music NO se almacena en su dispositivo ni en nuestros servidores
 - **Las sesiones de práctica y los proyectos** permanecen locales en su dispositivo
 - **Ningún contenido del usuario** se carga en nuestros servidores sin una acción explícita
 
@@ -259,11 +249,6 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - Datos (Drive): Metadatos del archivo y contenido de audio (solo lectura, procesamiento local únicamente)
 - Salvaguardias: Cláusulas Contractuales Tipo y las condiciones de tratamiento de datos de Google
 
-**Spotify (Spotify Web API):**
-- Ubicación de los datos: Estados Unidos y UE
-- Finalidad: Integración de streaming de música
-- Salvaguardias: Cláusulas Contractuales Tipo y los acuerdos de tratamiento de datos de Spotify
-
 **Stripe (Procesamiento de Pagos):**
 - Ubicación de los datos: Estados Unidos y UE
 - Finalidad: Pagos de suscripciones premium (web)
@@ -284,6 +269,17 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - **Salvaguardias:** Acuerdo de Tratamiento de Datos (DPA) firmado de conformidad con el Art. 28 del RGPD, incluidas las Cláusulas Contractuales Tipo
 - **Política de Privacidad de Sentry:** [https://sentry.io/privacy/](https://sentry.io/privacy/)
 - **Lista de Subencargados del Tratamiento:** [https://sentry.io/legal/subprocessor-list/](https://sentry.io/legal/subprocessor-list/)
+
+**PostHog (Análisis de Producto):**
+- **Ubicación de los datos:** Unión Europea — PostHog Cloud EU (`eu.i.posthog.com`), alojado en AWS en Frankfurt, Alemania (`eu-central-1`)
+- **Operador:** PostHog, Inc. (empresa matriz en EE. UU.; los datos de EU Cloud se almacenan en la UE)
+- **Finalidad:** Análisis de producto y de uso de funciones para entender cómo se usa la App y mejorarla
+- **Datos procesados:** Un **identificador de instancia de app seudónimo** (un ID aleatorio, no vinculado a su nombre ni a su correo electrónico), eventos de uso de funciones dentro de la app, duración de la sesión, tipo de dispositivo/sistema operativo y nivel de suscripción (gratuito/premium). **No se recopila nombre, correo electrónico, dirección IP ni ubicación derivada de GeoIP** (el enriquecimiento de IP y GeoIP está desactivado), y **no se utiliza la reproducción de sesiones (session replay)**.
+- **Base jurídica:** **Consentimiento (Art. 6(1)(a) del RGPD)**. El análisis está **desactivado de forma predeterminada**; solo se activa después de que usted dé su consentimiento explícito a través del diálogo dentro de la app, y puede retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad** (el § 25 de la TDDDG alemana también se cumple con este consentimiento previo).
+- **Período de conservación:** 12 meses
+- **Salvaguardias:** Acuerdo de Tratamiento de Datos (DPA) firmado de conformidad con el Art. 28 del RGPD, incluidas las Cláusulas Contractuales Tipo para cualquier transferencia ulterior a los Estados Unidos
+- **Política de Privacidad de PostHog:** [https://posthog.com/privacy](https://posthog.com/privacy)
+- **Lista de Subencargados del Tratamiento:** [https://posthog.com/subprocessors](https://posthog.com/subprocessors)
 
 ### 9.2 Salvaguardias Legales
 Todas las transferencias internacionales de datos están protegidas por salvaguardias adecuadas, entre ellas:
@@ -361,7 +357,7 @@ Si cree que no hemos abordado adecuadamente sus inquietudes sobre la privacidad,
 
 ### 12.2 Datos de Uso y Análisis
 - **Registros de inicio de sesión:** Conservados durante 12 meses por motivos de seguridad
-- **Análisis de uso:** Datos agregados conservados indefinidamente, datos individuales durante 24 meses
+- **Análisis de producto (PostHog):** Datos de eventos individuales conservados según la Sección 9.1 (12 meses); solo las conclusiones agregadas/derivadas pueden conservarse más tiempo. Recopilados únicamente con su consentimiento.
 - **Registros de errores:** Conservados durante 12 meses para la depuración y la mejora
 
 ### 12.3 Datos Legales y de Cumplimiento
@@ -382,16 +378,18 @@ BeatLoop actualmente utiliza tecnologías de seguimiento mínimas:
 - **Preferencias de la App:** Almacenadas localmente para recordar su configuración
 - **Seguimiento de errores:** Informes básicos de fallos para la estabilidad de la app
 
-### 13.2 Futura Implementación de Análisis
-Planeamos implementar análisis de Usuarios Activos Mensuales (MAU) y podemos usar:
-- **Cookies de análisis:** Para comprender los patrones de uso de la app
-- **Supervisión del rendimiento:** Para optimizar la funcionalidad de la app
-- **Herramientas de pruebas A/B:** Para mejorar la experiencia del usuario
+### 13.2 Análisis de Producto (PostHog)
+Utilizamos **PostHog** (EU Cloud) para el análisis de producto/uso con el fin de entender cómo se usa la App y mejorarla. Este análisis:
+- está **desactivado de forma predeterminada** y solo se ejecuta **después de que usted dé su consentimiento explícito (opt-in)** (Art. 6(1)(a) del RGPD; § 25 de la TDDDG alemana)
+- utiliza únicamente un **identificador de instancia de app seudónimo** — sin nombre, correo electrónico, IP ni ubicación GeoIP, y sin reproducción de sesiones
+- almacena su preferencia de exclusión/consentimiento en su dispositivo
+
+Véase la Sección 9.1 (PostHog) para el alojamiento, la conservación, los subencargados del tratamiento y las salvaguardias.
 
 ### 13.3 Su Control
+- **Exclusión de análisis:** El análisis es opcional (opt-in); puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad**
 - **Configuración de cookies:** Puede gestionarse a través de la configuración de su dispositivo
-- **Exclusión de análisis:** Estará disponible en la configuración de la app cuando se implemente
-- **Seguimiento de terceros:** No utilizamos píxeles de seguimiento de publicidad ni de redes sociales
+- **Seguimiento de terceros:** No utilizamos píxeles de seguimiento de publicidad ni de redes sociales, y no le rastreamos a través de otras apps o sitios web
 
 ## 14. Privacidad de los Menores
 
@@ -450,6 +448,6 @@ Esta Política de Privacidad está redactada en inglés. En caso de cualquier di
 
 ---
 
-**Esta Política de Privacidad se actualizó por última vez el 1 de mayo de 2026 y entra en vigor inmediatamente después de su publicación.**
+**Esta Política de Privacidad se actualizó por última vez el 18 de junio de 2026 y entra en vigor inmediatamente después de su publicación.**
 
 Para obtener la versión más actual de nuestra Política de Privacidad, consulte este documento periódicamente o póngase en contacto con nosotros en privacy@on-beat.de.

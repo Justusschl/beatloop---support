@@ -1,7 +1,7 @@
 # Nutzungsbedingungen (Allgemeine Geschäftsbedingungen - AGB)
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 15. Februar 2026
+**Zuletzt aktualisiert:** 18. Juni 2026
 
 ## 1. Diensteanbieter und Geltungsbereich
 
@@ -25,7 +25,7 @@ Diese Bedingungen unterliegen deutschem Recht. Die deutsche Version dieser Bedin
 ### 2.1 BeatLoop-App
 BeatLoop ist eine mobile Anwendung, die für Tänzer, Musiker und Übungsbegeisterte entwickelt wurde und es Nutzern ermöglicht:
 - Audio aus dem lokalen Gerätespeicher zu importieren
-- Über YouTube-, Apple Music- und Spotify-Integrationen auf Musik zuzugreifen
+- Über YouTube- und Apple Music-Integrationen auf Musik zuzugreifen
 - Audiotracks für Übungssitzungen zu loopen und zu segmentieren
 - Die Wiedergabegeschwindigkeit anzupassen (verlangsamen / beschleunigen)
 - Markierungen und Segmente innerhalb von Audiotracks zu erstellen
@@ -42,8 +42,6 @@ BeatLoop ermöglicht es Nutzern, auf Musik aus den folgenden Quellen zuzugreifen
 **YouTube:** Über YouTube API Services aufgerufene Musik. BeatLoop lädt KEINE YouTube-Audio- oder Videoinhalte herunter, speichert oder zwischenspeichert sie. Die gesamte Wiedergabe erfolgt über die YouTube-API. Die Nutzung der YouTube-Funktionen unterliegt den [YouTube-Nutzungsbedingungen](https://www.youtube.com/t/terms) und der [Google-Datenschutzerklärung](https://policies.google.com/privacy).
 
 **Apple Music:** Über die Apple MusicKit API gestreamte Musik. BeatLoop lädt KEINE Apple Music-Audioinhalte herunter, speichert oder zwischenspeichert sie. Nutzer müssen über ein aktives Apple Music-Abonnement verfügen. Die Nutzung unterliegt den [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/).
-
-**Spotify:** Über die Spotify Web API aufgerufene Musik. BeatLoop lädt KEINE Spotify-Audioinhalte herunter, speichert oder zwischenspeichert sie. Nutzer müssen über ein aktives Spotify-Konto verfügen. Die Nutzung unterliegt den [Spotify-Nutzungsbedingungen](https://www.spotify.com/legal/end-user-agreement/).
 
 **Google Drive:** BeatLoop ermöglicht es Nutzern, Audiodateien aus ihrem Google Drive über den Google Picker zu importieren. BeatLoop fordert nur schreibgeschützten Zugriff auf vom Nutzer ausgewählte Dateien an. BeatLoop ändert, löscht oder speichert keine Google Drive-Dateien auf seinen Servern. Importiertes Audio wird lokal auf Ihrem Gerät verarbeitet und gespeichert. Nutzer können den Zugriff jederzeit über [https://myaccount.google.com/permissions](https://myaccount.google.com/permissions) widerrufen.
 
@@ -84,7 +82,7 @@ Durch die Nutzung von BeatLoop mit beliebigen Inhalten sichern Sie zu und gewäh
 
 **d) Rechtliche Befugnis**: Sie über die rechtliche Befugnis verfügen, die in diesen Bedingungen beschriebenen Rechte zu gewähren
 
-**e) Einhaltung bei Streaming-Inhalten**: Inhalte, auf die über YouTube, Apple Music oder Spotify zugegriffen wird, weiterhin den jeweiligen Lizenzbedingungen dieser Plattformen und Ihren Abonnementverträgen mit ihnen unterliegen
+**e) Einhaltung bei Streaming-Inhalten**: Inhalte, auf die über YouTube oder Apple Music zugegriffen wird, weiterhin den jeweiligen Lizenzbedingungen dieser Plattformen und Ihren Abonnementverträgen mit ihnen unterliegen
 
 ### 4.3 Freistellung
 **Sie erklären sich damit einverstanden, OnBeat HQ UG (haftungsbeschränkt), ihre verbundenen Unternehmen, leitenden Angestellten, Direktoren, Mitarbeiter und Vertreter von allen Ansprüchen, Schäden, Kosten und Aufwendungen (einschließlich angemessener Anwaltsgebühren) freizustellen, zu verteidigen und schadlos zu halten, die sich ergeben aus oder im Zusammenhang stehen mit:**
@@ -132,7 +130,6 @@ Durch die Nutzung der Musikintegrationen von BeatLoop erklären Sie sich damit e
 
 - **YouTube-Nutzungsbedingungen:** [https://www.youtube.com/t/terms](https://www.youtube.com/t/terms)
 - **Apple Media Services Terms and Conditions:** [https://www.apple.com/legal/internet-services/itunes/](https://www.apple.com/legal/internet-services/itunes/)
-- **Spotify-Nutzungsbedingungen:** [https://www.spotify.com/legal/end-user-agreement/](https://www.spotify.com/legal/end-user-agreement/)
 
 ### 5.2 Verfügbarkeit von Drittanbieterdiensten
 BeatLoop ist nicht verantwortlich für Änderungen der Verfügbarkeit, Funktionen oder Bedingungen von Musikdiensten Dritter. Wenn ein Drittanbieterdienst seine API, Preisgestaltung oder Bedingungen ändert, muss BeatLoop möglicherweise die entsprechende Integration anpassen oder einstellen.
@@ -140,7 +137,7 @@ BeatLoop ist nicht verantwortlich für Änderungen der Verfügbarkeit, Funktione
 ### 5.3 Verbotene Nutzung von Inhalten Dritter
 Sie dürfen BeatLoop NICHT verwenden, um:
 - Digitale Rechteverwaltung (DRM) oder andere Zugriffskontrollen für Streaming-Inhalte zu umgehen
-- Unbefugte Kopien von Streaming-Inhalten von YouTube, Apple Music oder Spotify herunterzuladen, zu speichern oder zu erstellen
+- Unbefugte Kopien von Streaming-Inhalten von YouTube oder Apple Music herunterzuladen, zu speichern oder zu erstellen
 - Streaming-Inhalte außerhalb der von der jeweiligen Plattform erlaubten Bedingungen weiterzuverbreiten oder öffentlich aufzuführen
 - Streaming-Integrationen für kommerzielle Zwecke zu nutzen, die nicht durch die Bedingungen der jeweiligen Plattform erlaubt sind
 
@@ -262,7 +259,7 @@ BeatLoop wird „wie besehen" und „wie verfügbar" ohne jegliche Gewährleistu
 - Schäden, die sich aus Urheberrechtsverletzungen durch Nutzer ergeben
 - Technische Probleme, einschließlich, aber nicht beschränkt auf App-Abstürze, Datenverlust oder Probleme mit der Gerätekompatibilität
 - Jegliche Schäden, die den von Ihnen für Premium-Dienste in den 12 Monaten vor dem Anspruch gezahlten Betrag übersteigen
-- Nichtverfügbarkeit oder Änderungen von Musikdiensten Dritter (YouTube, Apple Music, Spotify)
+- Nichtverfügbarkeit oder Änderungen von Musikdiensten Dritter (YouTube, Apple Music)
 
 ### 11.3 Anerkennung durch den Nutzer
 Sie erkennen an, dass:
@@ -353,4 +350,4 @@ Wichterichstraße 4
 **Durch die Erstellung eines Kontos oder die Nutzung von BeatLoop bestätigen Sie, dass Sie diese Nutzungsbedingungen und unsere Datenschutzerklärung gelesen und verstanden haben und sich damit einverstanden erklären, an sie gebunden zu sein.**
 
 
-**Diese Bedingungen wurden zuletzt am 15. Februar 2026 aktualisiert und treten unmittelbar nach Annahme in Kraft.**
+**Diese Bedingungen wurden zuletzt am 18. Juni 2026 aktualisiert und treten unmittelbar nach Annahme in Kraft.**
