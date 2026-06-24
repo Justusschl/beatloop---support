@@ -1,7 +1,7 @@
 # Terms of Service (Allgemeine Geschäftsbedingungen - AGB)
 
 **Effective Date:** February 15, 2026
-**Last Updated:** February 15, 2026
+**Last Updated:** June 18, 2026
 
 ## 1. Service Provider and Scope
 
@@ -25,7 +25,7 @@ These Terms are governed by German law. The German version of these Terms takes 
 ### 2.1 BeatLoop App
 BeatLoop is a mobile application designed for dancers, musicians, and practice enthusiasts that allows users to:
 - Import audio from local device storage
-- Access music via YouTube, Apple Music, and Spotify integrations
+- Access music via YouTube and Apple Music integrations
 - Loop and segment audio tracks for practice sessions
 - Adjust playback speed (slow down / speed up)
 - Create markers and segments within audio tracks
@@ -42,8 +42,6 @@ BeatLoop allows users to access music from the following sources:
 **YouTube:** Music accessed via YouTube API Services. BeatLoop does NOT download, store, or cache YouTube audio or video content. All playback occurs via the YouTube API. Use of YouTube features is subject to the [YouTube Terms of Service](https://www.youtube.com/t/terms) and [Google Privacy Policy](https://policies.google.com/privacy).
 
 **Apple Music:** Music streamed via the Apple MusicKit API. BeatLoop does NOT download, store, or cache Apple Music audio content. Users must have an active Apple Music subscription. Use is subject to the [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/).
-
-**Spotify:** Music accessed via the Spotify Web API. BeatLoop does NOT download, store, or cache Spotify audio content. Users must have an active Spotify account. Use is subject to the [Spotify Terms of Use](https://www.spotify.com/legal/end-user-agreement/).
 
 **Google Drive:** BeatLoop allows users to import audio files from their Google Drive via the Google Picker. BeatLoop requests read-only access to user-selected files only. BeatLoop does not modify, delete, or store Google Drive files on its servers. Imported audio is processed and stored locally on your device. Users can revoke access at any time via [https://myaccount.google.com/permissions](https://myaccount.google.com/permissions).
 
@@ -84,7 +82,7 @@ By using BeatLoop with any content, you warrant and represent that:
 
 **d) Legal Authority**: You have the legal authority to grant the rights described in these Terms
 
-**e) Streaming Content Compliance**: Content accessed via YouTube, Apple Music, or Spotify remains subject to those platforms' respective licensing terms and your subscription agreements with them
+**e) Streaming Content Compliance**: Content accessed via YouTube or Apple Music remains subject to those platforms' respective licensing terms and your subscription agreements with them
 
 ### 4.3 Indemnification
 **You agree to indemnify, defend, and hold harmless OnBeat HQ UG (haftungsbeschränkt), its affiliates, officers, directors, employees, and agents from and against any and all claims, damages, costs, and expenses (including reasonable attorneys' fees) arising from or relating to:**
@@ -132,7 +130,6 @@ By using BeatLoop's music integrations, you agree to comply with the terms of se
 
 - **YouTube Terms of Service:** [https://www.youtube.com/t/terms](https://www.youtube.com/t/terms)
 - **Apple Media Services Terms and Conditions:** [https://www.apple.com/legal/internet-services/itunes/](https://www.apple.com/legal/internet-services/itunes/)
-- **Spotify Terms of Use:** [https://www.spotify.com/legal/end-user-agreement/](https://www.spotify.com/legal/end-user-agreement/)
 
 ### 5.2 Third-Party Service Availability
 BeatLoop is not responsible for changes to the availability, features, or terms of third-party music services. If a third-party service modifies its API, pricing, or terms, BeatLoop may need to adjust or discontinue the corresponding integration.
@@ -140,7 +137,7 @@ BeatLoop is not responsible for changes to the availability, features, or terms 
 ### 5.3 Prohibited Uses of Third-Party Content
 You may NOT use BeatLoop to:
 - Circumvent digital rights management (DRM) or other access controls on streaming content
-- Download, store, or create unauthorized copies of streaming content from YouTube, Apple Music, or Spotify
+- Download, store, or create unauthorized copies of streaming content from YouTube or Apple Music
 - Redistribute or publicly perform streaming content outside the terms permitted by the respective platform
 - Use streaming integrations for any commercial purpose not permitted by the respective platform's terms
 
@@ -262,7 +259,7 @@ BeatLoop is provided "as is" and "as available" without warranties of any kind, 
 - Damages arising from copyright infringement by users
 - Technical issues, including but not limited to app crashes, data loss, or device compatibility problems
 - Any damages exceeding the amount paid by you for premium services in the 12 months preceding the claim
-- Unavailability or changes to third-party music services (YouTube, Apple Music, Spotify)
+- Unavailability or changes to third-party music services (YouTube, Apple Music)
 
 ### 11.3 User Acknowledgment
 You acknowledge that:
@@ -353,4 +350,4 @@ Wichterichstraße 4
 **By creating an account or using BeatLoop, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.**
 
 
-**These Terms were last updated on February 15, 2026, and become effective immediately upon acceptance.**
+**These Terms were last updated on June 18, 2026, and become effective immediately upon acceptance.**

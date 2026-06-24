@@ -30,17 +30,16 @@ Germany
 ### Getting Started
 
 **Q: What is BeatLoop?**
-A: BeatLoop is a music practice application designed for dancers and musicians. It allows you to access music from your local device, YouTube, Apple Music, or Spotify, then create precise audio segments, set markers, loop sections, adjust playback speed, and record video synchronized with your audio for practice and instruction.
+A: BeatLoop is a music practice application designed for dancers and musicians. It allows you to access music from your local device, YouTube, or Apple Music, then create precise audio segments, set markers, loop sections, adjust playback speed, and record video synchronized with your audio for practice and instruction.
 
 **Q: How do I create my first session?**
-A: Tap the "+" button on the home screen, name your session, and select an audio source. You can import a file from your device, or search for music on YouTube, Apple Music, or Spotify. Then add markers and create segments on the timeline.
+A: Tap the "+" button on the home screen, name your session, and select an audio source. You can import a file from your device, or search for music on YouTube or Apple Music. Then add markers and create segments on the timeline.
 
 **Q: What audio sources are supported?**
-A: BeatLoop supports four music sources:
+A: BeatLoop supports three music sources:
 - **Local files**: MP3, M4A, WAV, and other common audio formats from your device
 - **YouTube**: Search and play music via YouTube (requires internet connection)
 - **Apple Music**: Stream music from your Apple Music library (requires active Apple Music subscription)
-- **Spotify**: Search and play music via Spotify (requires active Spotify account)
 
 ### Features & Usage
 
@@ -66,17 +65,17 @@ A: Yes! You can share session metadata (markers, loops, segments) with other Bea
 
 ### Music Sources
 
-**Q: How do I play music from YouTube, Apple Music, or Spotify?**
-A: When creating a new session or selecting audio, choose the music source you want. For YouTube, you can search directly. For Apple Music and Spotify, you'll need to connect your account first in the app settings. Make sure you have an active subscription for the streaming services.
+**Q: How do I play music from YouTube or Apple Music?**
+A: When creating a new session or selecting audio, choose the music source you want. For YouTube, you can search directly. For Apple Music, you'll need to connect your account first in the app settings. Make sure you have an active subscription for the streaming services.
 
 **Q: Do I need a subscription to use streaming features?**
-A: For Apple Music features, you need an active Apple Music subscription. For Spotify features, you need an active Spotify account. YouTube features work with any YouTube account. BeatLoop does not provide music subscriptions.
+A: For Apple Music features, you need an active Apple Music subscription. YouTube features work with any YouTube account. BeatLoop does not provide music subscriptions.
 
 **Q: Can I use BeatLoop offline with streaming music?**
-A: Streaming music from YouTube, Apple Music, and Spotify requires an internet connection. However, sessions created with local audio files work fully offline. Session metadata (markers, segments, loops) is always available offline.
+A: Streaming music from YouTube and Apple Music requires an internet connection. However, sessions created with local audio files work fully offline. Session metadata (markers, segments, loops) is always available offline.
 
 **Q: Does BeatLoop download or store streaming music?**
-A: No. BeatLoop does NOT download, store, or cache any audio from YouTube, Apple Music, or Spotify. Music is streamed in real-time via each service's official API. Only session metadata (markers, loops, segment points) is stored locally.
+A: No. BeatLoop does NOT download, store, or cache any audio from YouTube or Apple Music. Music is streamed in real-time via each service's official API. Only session metadata (markers, loops, segment points) is stored locally.
 
 ### Video Recording
 
@@ -135,7 +134,7 @@ A: Verify that:
 **Q: Streaming music isn't playing.**
 A: Check the following:
 - You have an active internet connection
-- Your streaming account (YouTube, Apple Music, Spotify) is logged in and active
+- Your streaming account (YouTube, Apple Music) is logged in and active
 - The track is available in your region
 - Try logging out and back into the streaming service in app settings
 
@@ -182,7 +181,7 @@ BeatLoop is intended for users who are at least 16 years old. Users under 16 sho
 - **Storage**: At least 500MB free space
 
 ### General
-- **Network**: Internet connection required for account creation, premium features, and streaming music (YouTube, Apple Music, Spotify)
+- **Network**: Internet connection required for account creation, premium features, and streaming music (YouTube, Apple Music)
 - Local audio files and saved sessions work offline
 
 ## Privacy Policy
@@ -201,5 +200,5 @@ If you cannot find the answer to your question in this FAQ, please email us at *
 
 ---
 
-**Last Updated**: February 2026
+**Last Updated**: June 18, 2026
 **App Version**: 2.0

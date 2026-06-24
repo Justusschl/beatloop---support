@@ -87,7 +87,7 @@
 
 <div class="effective-date">
     <strong>Effective Date:</strong> February 15, 2026<br>
-    <strong>Last Updated:</strong> May 1, 2026
+    <strong>Last Updated:</strong> June 18, 2026
 </div>
 
 <h2>1. Data Controller Information</h2>
@@ -108,7 +108,7 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <p>This Privacy Policy explains how we collect, use, process, and protect your personal data when you use our mobile application BeatLoop. This policy applies to all users worldwide and complies with the EU General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and other applicable data protection laws.</p>
 
-<p><strong>BeatLoop</strong> is a music practice application designed for dancers and musicians to create audio loops, adjust playback speed, record video, and manage practice sessions. The App allows users to access music from local device storage, YouTube, Apple Music, and Spotify, and maintains user accounts for premium features and session synchronization.</p>
+<p><strong>BeatLoop</strong> is a music practice application designed for dancers and musicians to create audio loops, adjust playback speed, record video, and manage practice sessions. The App allows users to access music from local device storage, YouTube, and Apple Music, and maintains user accounts for premium features and session synchronization.</p>
 
 <h2>3. Legal Basis for Data Processing (GDPR Article 6)</h2>
 
@@ -116,8 +116,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <ul>
 <li><strong>Contract Performance</strong> (Article 6(1)(b)): To provide App services, account management, and premium features</li>
-<li><strong>Legitimate Interests</strong> (Article 6(1)(f)): App improvement, security, fraud prevention, and customer support</li>
-<li><strong>Consent</strong> (Article 6(1)(a)): Marketing communications, optional analytics, and certain third-party integrations</li>
+<li><strong>Legitimate Interests</strong> (Article 6(1)(f)): Security, fraud prevention, crash and error diagnostics (Sentry), and customer support</li>
+<li><strong>Consent</strong> (Article 6(1)(a)): Marketing communications, <strong>product and usage analytics (PostHog)</strong>, and certain optional third-party integrations. Product analytics is collected <strong>only</strong> after you give explicit opt-in consent and can be withdrawn at any time.</li>
 <li><strong>Legal Obligation</strong> (Article 6(1)(c)): Compliance with applicable laws, tax obligations, and legal requests</li>
 </ul>
 
@@ -136,7 +136,7 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <h4>User-Generated Content:</h4>
 <ul>
 <li>Audio files you import from your device's local storage</li>
-<li>Music accessed via YouTube, Apple Music, or Spotify integrations (metadata only; see Section 5)</li>
+<li>Music accessed via YouTube or Apple Music integrations (metadata only; see Section 5)</li>
 <li>Video recordings of practice sessions (stored locally only)</li>
 <li>Session metadata (markers, segments, loops, practice notes)</li>
 <li>Project organization and naming data</li>
@@ -152,10 +152,10 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <h4>Usage and Analytics Data:</h4>
 <ul>
-<li>App interaction patterns and feature usage</li>
-<li>Session duration and frequency of use</li>
+<li>Product/feature-usage analytics (which features are used and how) — collected via PostHog <strong>only after you give explicit opt-in consent</strong> (see Section 9.1); never collected if you decline or have not yet consented</li>
+<li>Session duration and frequency of use (part of the consent-gated analytics above)</li>
 <li>Device performance metrics related to audio/video processing</li>
-<li>Error reports and crash logs (via Sentry)</li>
+<li>Error reports and crash logs (via Sentry — see Section 9.1, processed under legitimate interest, independent of analytics consent)</li>
 </ul>
 
 <h4>Device and Technical Information:</h4>
@@ -222,19 +222,7 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li><strong>Apple Media Services Terms and Conditions:</strong> <a href="https://www.apple.com/legal/internet-services/itunes/">https://www.apple.com/legal/internet-services/itunes/</a></li>
 </ul>
 
-<h3>5.3 Spotify (Spotify Web API)</h3>
-
-<p>BeatLoop uses the Spotify Web API to allow users to search for and play music from Spotify.</p>
-
-<ul>
-<li><strong>Data collected:</strong> Track metadata (title, artist, album, duration), playback state</li>
-<li><strong>Data NOT collected:</strong> BeatLoop does NOT download, store, or cache Spotify audio content. Audio is streamed via Spotify.</li>
-<li><strong>Requirement:</strong> Users must have an active Spotify account to use this feature.</li>
-<li><strong>Spotify Terms of Use:</strong> <a href="https://www.spotify.com/legal/end-user-agreement/">https://www.spotify.com/legal/end-user-agreement/</a></li>
-<li><strong>Spotify Privacy Policy:</strong> <a href="https://www.spotify.com/legal/privacy-policy/">https://www.spotify.com/legal/privacy-policy/</a></li>
-</ul>
-
-<h3>5.4 Local Files</h3>
+<h3>5.3 Local Files</h3>
 
 <p>Users may import audio files from their device's local storage.</p>
 
@@ -242,6 +230,24 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Local files are processed entirely on-device and are never uploaded to our servers.</li>
 <li>BeatLoop does not monitor, scan, or validate the content or copyright status of local files.</li>
 </ul>
+
+<h3>5.4 Google Drive</h3>
+
+<p>BeatLoop allows users to import audio files from their Google Drive.</p>
+
+<ul>
+<li><strong>Access Type:</strong> Read-only access to files the user explicitly selects via the Google Picker</li>
+<li><strong>Data Collected:</strong> File metadata (name, type, size) and audio file content for playback</li>
+<li><strong>Data Storage:</strong> Imported audio is processed and stored locally on the user's device only. BeatLoop does NOT upload, cache, or store Google Drive files on its servers</li>
+<li><strong>Data Sharing:</strong> Google Drive file data is not shared with any third parties</li>
+<li><strong>Revocation:</strong> Users can revoke BeatLoop's access at any time via <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a></li>
+</ul>
+
+<div class="google-disclosure">
+<p><strong>Google API Services User Data Policy Compliance:</strong> BeatLoop's use of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<p><strong>Google Terms of Service:</strong> <a href="https://developers.google.com/terms">https://developers.google.com/terms</a></p>
+</div>
 
 <h3>5.5 Metadata Storage</h3>
 
@@ -288,13 +294,13 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <h3>7.1 User Responsibility for Content</h3>
 
 <div class="important-notice">
-<strong>IMPORTANT:</strong> BeatLoop is a tool that enables users to access music from multiple sources (local files, YouTube, Apple Music, Spotify) for practice purposes. By using the App, you acknowledge and agree that:
+<strong>IMPORTANT:</strong> BeatLoop is a tool that enables users to access music from multiple sources (local files, YouTube, Apple Music) for practice purposes. By using the App, you acknowledge and agree that:
 
 <ol>
 <li><strong>You are solely responsible</strong> for all audio files, music, and other content you import, access, or create using BeatLoop</li>
 <li><strong>You warrant</strong> that you own or have obtained all necessary rights, licenses, and permissions to use any copyrighted material in your content</li>
 <li><strong>You indemnify and hold harmless</strong> OnBeat HQ UG (haftungsbeschränkt), its affiliates, and service providers from any claims, damages, or liabilities arising from your use of copyrighted or otherwise protected content</li>
-<li><strong>Content accessed via streaming services</strong> (YouTube, Apple Music, Spotify) remains subject to those platforms' respective licensing terms and your subscription agreements with them</li>
+<li><strong>Content accessed via streaming services</strong> (YouTube, Apple Music) remains subject to those platforms' respective licensing terms and your subscription agreements with them</li>
 </ol>
 </div>
 
@@ -335,7 +341,7 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <h3>8.1 Local Data Storage</h3>
 <ul>
 <li><strong>Audio and video files</strong> imported from local storage are stored exclusively on your device</li>
-<li><strong>Streaming content</strong> from YouTube, Apple Music, and Spotify is NOT stored on your device or our servers</li>
+<li><strong>Streaming content</strong> from YouTube and Apple Music is NOT stored on your device or our servers</li>
 <li><strong>Practice sessions and projects</strong> remain local to your device</li>
 <li><strong>No user content</strong> is uploaded to our servers without explicit action</li>
 </ul>
@@ -388,18 +394,11 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Safeguards: Apple's privacy commitments and data processing agreements</li>
 </ul>
 
-<h4>Google (Play Billing & YouTube API):</h4>
+<h4>Google (Play Billing, YouTube API &amp; Google Drive):</h4>
 <ul>
 <li>Data location: United States and EU</li>
-<li>Purpose: Payment processing (Android) and YouTube integration</li>
+<li>Purpose: Payment processing (Android), YouTube integration, and user-selected audio file import via Google Drive</li>
 <li>Safeguards: Standard Contractual Clauses and Google's data processing terms</li>
-</ul>
-
-<h4>Spotify (Spotify Web API):</h4>
-<ul>
-<li>Data location: United States and EU</li>
-<li>Purpose: Music streaming integration</li>
-<li>Safeguards: Standard Contractual Clauses and Spotify's data processing agreements</li>
 </ul>
 
 <h4>Stripe (Payment Processing):</h4>
@@ -427,6 +426,19 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li><strong>Safeguards:</strong> Data Processing Agreement (DPA) signed pursuant to Art. 28 GDPR, including Standard Contractual Clauses</li>
 <li><strong>Sentry Privacy Policy:</strong> <a href="https://sentry.io/privacy/">https://sentry.io/privacy/</a></li>
 <li><strong>List of Sub-processors:</strong> <a href="https://sentry.io/legal/subprocessor-list/">https://sentry.io/legal/subprocessor-list/</a></li>
+</ul>
+
+<h4>PostHog (Product Analytics):</h4>
+<ul>
+<li><strong>Data location:</strong> European Union — PostHog Cloud EU (<code>eu.i.posthog.com</code>), hosted on AWS in Frankfurt, Germany (<code>eu-central-1</code>)</li>
+<li><strong>Operator:</strong> PostHog, Inc. (US parent; EU Cloud data stored in the EU)</li>
+<li><strong>Purpose:</strong> Product and feature-usage analytics to understand how the App is used and improve it</li>
+<li><strong>Data processed:</strong> A <strong>pseudonymous app-instance identifier</strong> (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). <strong>No name, email, IP address, or GeoIP-derived location is collected</strong> (IP and GeoIP enrichment are disabled), and <strong>session replay is not used</strong>.</li>
+<li><strong>Legal basis:</strong> <strong>Consent (Art. 6(1)(a) GDPR)</strong>. Analytics is <strong>off by default</strong>; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in <strong>Account &rarr; Privacy Settings</strong> (German &sect; 25 TDDDG is also satisfied by this prior consent).</li>
+<li><strong>Retention period:</strong> 12 months</li>
+<li><strong>Safeguards:</strong> Data Processing Agreement (DPA) concluded pursuant to Art. 28 GDPR, including Standard Contractual Clauses for any onward transfer to the United States</li>
+<li><strong>PostHog Privacy Policy:</strong> <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
+<li><strong>List of Sub-processors:</strong> <a href="https://posthog.com/subprocessors">https://posthog.com/subprocessors</a></li>
 </ul>
 
 <h3>9.2 Legal Safeguards</h3>
@@ -518,7 +530,7 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <h3>12.2 Usage and Analytics Data</h3>
 <ul>
 <li><strong>Login records:</strong> Retained for 12 months for security purposes</li>
-<li><strong>Usage analytics:</strong> Aggregated data retained indefinitely, individual data for 24 months</li>
+<li><strong>Product analytics (PostHog):</strong> Individual event data retained for 12 months (see Section 9.1); only aggregated/derived insights may be retained longer. Collected only with your consent.</li>
 <li><strong>Error logs:</strong> Retained for 12 months for debugging and improvement</li>
 </ul>
 
@@ -546,19 +558,20 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li><strong>Error tracking:</strong> Basic crash reporting for app stability</li>
 </ul>
 
-<h3>13.2 Future Analytics Implementation</h3>
-<p>We plan to implement Monthly Active User (MAU) analytics and may use:</p>
+<h3>13.2 Product Analytics (PostHog)</h3>
+<p>We use <strong>PostHog</strong> (EU Cloud) for product/usage analytics to understand how the App is used and improve it. This analytics:</p>
 <ul>
-<li><strong>Analytics cookies:</strong> To understand app usage patterns</li>
-<li><strong>Performance monitoring:</strong> To optimize app functionality</li>
-<li><strong>A/B testing tools:</strong> To improve user experience</li>
+<li>Is <strong>off by default</strong> and runs <strong>only after you give explicit opt-in consent</strong> (Art. 6(1)(a) GDPR; German &sect; 25 TDDDG)</li>
+<li>Uses a <strong>pseudonymous app-instance identifier</strong> only — no name, email, IP, or GeoIP location, and no session replay</li>
+<li>Stores its opt-out/consent preference on your device</li>
 </ul>
+<p>See Section 9.1 (PostHog) for hosting, retention, sub-processors, and safeguards.</p>
 
 <h3>13.3 Your Control</h3>
 <ul>
+<li><strong>Analytics opt-out:</strong> Analytics is opt-in; you can grant or withdraw consent at any time in <strong>Account &rarr; Privacy Settings</strong></li>
 <li><strong>Cookie settings:</strong> Can be managed through your device settings</li>
-<li><strong>Analytics opt-out:</strong> Will be available in app settings when implemented</li>
-<li><strong>Third-party tracking:</strong> We do not use advertising or social media tracking pixels</li>
+<li><strong>Third-party tracking:</strong> We do not use advertising or social media tracking pixels, and we do not track you across other apps or websites</li>
 </ul>
 
 <h2>14. Children's Privacy</h2>
@@ -623,7 +636,7 @@ Wichterichstraße 4<br>
 <p>This Privacy Policy is written in English. In case of any discrepancy between different language versions, the English version shall prevail.</p>
 
 <div class="footer">
-<p><strong>This Privacy Policy was last updated on May 1, 2026, and becomes effective immediately upon posting.</strong></p>
+<p><strong>This Privacy Policy was last updated on June 18, 2026, and becomes effective immediately upon posting.</strong></p>
 
 <p>For the most current version of our Privacy Policy, please check this document regularly or contact us at <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a>.</p>
 </div>
