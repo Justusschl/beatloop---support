@@ -1,7 +1,7 @@
 # Datenschutzerklärung
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 18. Juni 2026
+**Zuletzt aktualisiert:** 25. Juni 2026
 
 ## 1. Informationen zum Verantwortlichen
 
@@ -204,6 +204,7 @@ Wenn Sie der Ansicht sind, dass Inhalte in BeatLoop Ihr Urheberrecht verletzen, 
 - **Streaming-Inhalte** von YouTube und Apple Music werden NICHT auf Ihrem Gerät oder unseren Servern gespeichert
 - **Übungssitzungen und Projekte** verbleiben lokal auf Ihrem Gerät
 - **Keine Nutzerinhalte** werden ohne ausdrückliche Handlung auf unsere Server hochgeladen
+- Wenn Sie die **Teilen-Funktion** nutzen, enthalten aus einer lokalen Audio- oder Videodatei erstellte Sitzungen eine Kopie dieser Mediendatei im exportierten `.beatloop`-Bündel, das **direkt über die Teilen-Funktionen Ihres Geräts** gesendet wird — es wird nicht auf unsere Server hochgeladen, über sie übertragen oder dort gespeichert
 
 ### 8.2 Cloud-Datenspeicherung
 - **Kontoinformationen** werden sicher über die Supabase-Infrastruktur gespeichert
@@ -448,6 +449,6 @@ Diese Datenschutzerklärung ist in englischer Sprache verfasst. Im Falle von Abw
 
 ---
 
-**Diese Datenschutzerklärung wurde zuletzt am 18. Juni 2026 aktualisiert und tritt unmittelbar nach Veröffentlichung in Kraft.**
+**Diese Datenschutzerklärung wurde zuletzt am 25. Juni 2026 aktualisiert und tritt unmittelbar nach Veröffentlichung in Kraft.**
 
 Für die aktuellste Version unserer Datenschutzerklärung überprüfen Sie bitte regelmäßig dieses Dokument oder kontaktieren Sie uns unter privacy@on-beat.de.

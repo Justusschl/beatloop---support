@@ -1,7 +1,7 @@
 # Nutzungsbedingungen (Allgemeine Geschäftsbedingungen - AGB)
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 18. Juni 2026
+**Zuletzt aktualisiert:** 25. Juni 2026
 
 ## 1. Diensteanbieter und Geltungsbereich
 
@@ -122,6 +122,16 @@ Senden Sie eine schriftliche Mitteilung an support@on-beat.de mit folgenden Anga
 
 **Kontokündigung:**
 Wir behalten uns das Recht vor, die Konten von Nutzern zu kündigen, die wiederholt Urheberrechte verletzen.
+
+### 4.7 Teilen und Exportieren von Sitzungen
+BeatLoop ermöglicht es Ihnen, eine Sitzung als `.beatloop`-Datei über die Teilen-Funktionen Ihres Geräts (z. B. Messaging-Apps, E-Mail, AirDrop) zu exportieren und zu teilen. Sie erkennen an und stimmen zu, dass:
+
+- Wenn Sie eine Sitzung teilen, die aus einer **lokalen Audio- oder Videodatei** erstellt wurde, diese Mediendatei **im exportierten `.beatloop`-Bündel enthalten** ist und an die von Ihnen gewählten Empfänger übertragen wird. Bei Sitzungen aus Streaming-Quellen (YouTube, Apple Music) werden nur eine Referenz und Ihre Loop-Daten geteilt — es wird keine Audio- oder Videodatei eingeschlossen.
+- Das Teilen erfolgt **direkt von Ihrem Gerät über die von Ihnen gewählte Methode**. BeatLoop lädt die geteilte Datei nicht hoch, hostet, überträgt oder speichert sie nicht auf seinen Servern.
+- **Sie allein sind dafür verantwortlich** sicherzustellen, dass Sie alle erforderlichen Rechte, Lizenzen und Genehmigungen besitzen, um die von Ihnen exportierten Audio-, Video- oder sonstigen Inhalte zu teilen oder zu verbreiten, und das geltende Urheberrecht sowie die Bedingungen etwaiger Drittanbieterdienste einzuhalten.
+- **Sie stellen OnBeat HQ UG (haftungsbeschränkt) von allen Ansprüchen**, Schäden oder Haftungen frei, die sich aus von Ihnen über diese Funktion geteilten oder exportierten Inhalten ergeben.
+
+BeatLoop überwacht, überprüft oder validiert den Inhalt oder Urheberrechtsstatus geteilter Sitzungen nicht.
 
 ## 5. Bedingungen von Drittanbietern
 
@@ -350,4 +360,4 @@ Wichterichstraße 4
 **Durch die Erstellung eines Kontos oder die Nutzung von BeatLoop bestätigen Sie, dass Sie diese Nutzungsbedingungen und unsere Datenschutzerklärung gelesen und verstanden haben und sich damit einverstanden erklären, an sie gebunden zu sein.**
 
 
-**Diese Bedingungen wurden zuletzt am 18. Juni 2026 aktualisiert und treten unmittelbar nach Annahme in Kraft.**
+**Diese Bedingungen wurden zuletzt am 25. Juni 2026 aktualisiert und treten unmittelbar nach Annahme in Kraft.**

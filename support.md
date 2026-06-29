@@ -60,8 +60,12 @@ A: Yes! Use the speed controls to slow down or speed up playback. This works wit
 **Q: How do I save my work?**
 A: Sessions are automatically saved. Tap the "Save" button to ensure all changes are preserved.
 
-**Q: Can I share my session metadata?**
-A: Yes! You can share session metadata (markers, loops, segments) with other BeatLoop users. Note that only the metadata is shared, not the actual audio content.
+**Q: Can I share my sessions, and what gets shared?**
+A: Yes — you can share a session as a `.beatloop` file through your device's normal share options (messaging apps, email, AirDrop, etc.). What's included depends on the source:
+- **Local audio/video sessions:** the actual media file is included in the shared bundle, so the recipient can open the complete session.
+- **YouTube / Apple Music sessions:** only a reference (e.g. the video/track ID) and your loop data (markers, segments, speed) are shared — no audio or video is included; the recipient's app re-streams it from the source.
+
+Sharing happens directly through the app you choose — nothing is uploaded to or stored on BeatLoop's servers. Please only share content you own or have the rights to share.
 
 ### Music Sources
 
@@ -200,5 +204,5 @@ If you cannot find the answer to your question in this FAQ, please email us at *
 
 ---
 
-**Last Updated**: June 18, 2026
+**Last Updated**: June 25, 2026
 **App Version**: 2.0

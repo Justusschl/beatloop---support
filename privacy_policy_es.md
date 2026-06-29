@@ -1,7 +1,7 @@
 # Política de Privacidad
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 18 de junio de 2026
+**Última Actualización:** 25 de junio de 2026
 
 ## 1. Información sobre el Responsable del Tratamiento
 
@@ -204,6 +204,7 @@ Si cree que algún contenido de BeatLoop infringe sus derechos de autor, póngas
 - **El contenido en streaming** de YouTube y Apple Music NO se almacena en su dispositivo ni en nuestros servidores
 - **Las sesiones de práctica y los proyectos** permanecen locales en su dispositivo
 - **Ningún contenido del usuario** se carga en nuestros servidores sin una acción explícita
+- Si utiliza la **función de compartir**, las sesiones creadas a partir de un archivo de audio o vídeo local incluyen una copia de ese archivo multimedia en el paquete `.beatloop` exportado, que se envía **directamente a través de las opciones para compartir de su dispositivo** — no se carga, transmite ni almacena en nuestros servidores
 
 ### 8.2 Almacenamiento de Datos en la Nube
 - **La información de la cuenta** se almacena de forma segura utilizando la infraestructura de Supabase
@@ -448,6 +449,6 @@ Esta Política de Privacidad está redactada en inglés. En caso de cualquier di
 
 ---
 
-**Esta Política de Privacidad se actualizó por última vez el 18 de junio de 2026 y entra en vigor inmediatamente después de su publicación.**
+**Esta Política de Privacidad se actualizó por última vez el 25 de junio de 2026 y entra en vigor inmediatamente después de su publicación.**
 
 Para obtener la versión más actual de nuestra Política de Privacidad, consulte este documento periódicamente o póngase en contacto con nosotros en privacy@on-beat.de.

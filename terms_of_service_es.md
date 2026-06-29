@@ -1,7 +1,7 @@
 # Condiciones del Servicio (Allgemeine Geschäftsbedingungen - AGB)
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 18 de junio de 2026
+**Última Actualización:** 25 de junio de 2026
 
 ## 1. Proveedor del Servicio y Alcance
 
@@ -122,6 +122,16 @@ Envíe un aviso por escrito a support@on-beat.de que incluya:
 
 **Cancelación de la Cuenta:**
 Nos reservamos el derecho de cancelar las cuentas de los usuarios que infrinjan repetidamente los derechos de autor.
+
+### 4.7 Compartir y Exportar Sesiones
+BeatLoop le permite exportar y compartir una sesión como un archivo `.beatloop` a través de las opciones para compartir de su dispositivo (p. ej. apps de mensajería, correo electrónico, AirDrop). Usted reconoce y acepta que:
+
+- Cuando comparte una sesión creada a partir de un **archivo de audio o vídeo local**, ese archivo multimedia **se incluye en el paquete `.beatloop` exportado** y se transmite a los destinatarios que usted elija. Las sesiones creadas a partir de fuentes de streaming (YouTube, Apple Music) comparten únicamente una referencia y sus datos de bucle — no se incluye ningún archivo de audio o vídeo.
+- El compartir ocurre **directamente desde su dispositivo mediante el método que usted seleccione**. BeatLoop no carga, aloja, transmite ni almacena el archivo compartido en sus servidores.
+- **Usted es el único responsable** de asegurarse de poseer todos los derechos, licencias y permisos necesarios para compartir o distribuir cualquier contenido de audio, vídeo u otro que exporte, y de cumplir con la legislación de derechos de autor aplicable y con las condiciones de cualquier servicio de terceros.
+- **Usted indemniza y exime de responsabilidad** a OnBeat HQ UG (haftungsbeschränkt) frente a cualquier reclamación, daño o responsabilidad derivada del contenido que comparta o exporte mediante esta función.
+
+BeatLoop no supervisa, revisa ni valida el contenido o el estado de los derechos de autor de las sesiones compartidas.
 
 ## 5. Condiciones de los Servicios de Terceros
 
@@ -350,4 +360,4 @@ Wichterichstraße 4
 **Al crear una cuenta o usar BeatLoop, usted reconoce que ha leído, entendido y acepta quedar vinculado por estas Condiciones del Servicio y nuestra Política de Privacidad.**
 
 
-**Estas Condiciones se actualizaron por última vez el 18 de junio de 2026 y entran en vigor inmediatamente después de su aceptación.**
+**Estas Condiciones se actualizaron por última vez el 25 de junio de 2026 y entran en vigor inmediatamente después de su aceptación.**

@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** February 15, 2026
-**Last Updated:** June 18, 2026
+**Last Updated:** June 25, 2026
 
 ## 1. Data Controller Information
 
@@ -204,6 +204,7 @@ If you believe content in BeatLoop infringes your copyright, please contact us a
 - **Streaming content** from YouTube and Apple Music is NOT stored on your device or our servers
 - **Practice sessions and projects** remain local to your device
 - **No user content** is uploaded to our servers without explicit action
+- If you use the **share feature**, sessions built from a local audio or video file include a copy of that media file in the exported `.beatloop` bundle, which is sent **directly via your device's share options** — it is not uploaded to, transmitted through, or stored on our servers
 
 ### 8.2 Cloud Data Storage
 - **Account information** is securely stored using Supabase infrastructure
@@ -448,6 +449,6 @@ This Privacy Policy is written in English. In case of any discrepancy between di
 
 ---
 
-**This Privacy Policy was last updated on June 18, 2026, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on June 25, 2026, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.

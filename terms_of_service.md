@@ -1,7 +1,7 @@
 # Terms of Service (Allgemeine Geschäftsbedingungen - AGB)
 
 **Effective Date:** February 15, 2026
-**Last Updated:** June 18, 2026
+**Last Updated:** June 25, 2026
 
 ## 1. Service Provider and Scope
 
@@ -122,6 +122,16 @@ Send a written notice to support@on-beat.de including:
 
 **Account Termination:**
 We reserve the right to terminate accounts of users who repeatedly infringe copyrights.
+
+### 4.7 Sharing and Exporting Sessions
+BeatLoop allows you to export and share a session as a `.beatloop` file through your device's sharing options (e.g. messaging apps, email, AirDrop). You acknowledge and agree that:
+
+- When you share a session created from a **local audio or video file**, that media file is **included in the exported `.beatloop` bundle** and transmitted to the recipient(s) you choose. Sessions created from streaming sources (YouTube, Apple Music) share only a reference and your loop data — no audio or video file is included.
+- Sharing occurs **directly from your device through the sharing method you select**. BeatLoop does not upload, host, transmit, or store the shared file on its servers.
+- **You are solely responsible** for ensuring you hold all rights, licenses, and permissions necessary to share or distribute any audio, video, or other content you export, and for complying with applicable copyright law and any third-party service terms.
+- **You indemnify and hold harmless** OnBeat HQ UG (haftungsbeschränkt) from any claims, damages, or liabilities arising from content you share or export using this feature.
+
+BeatLoop does not monitor, review, or validate the content or copyright status of shared sessions.
 
 ## 5. Third-Party Service Terms
 
@@ -350,4 +360,4 @@ Wichterichstraße 4
 **By creating an account or using BeatLoop, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.**
 
 
-**These Terms were last updated on June 18, 2026, and become effective immediately upon acceptance.**
+**These Terms were last updated on June 25, 2026, and become effective immediately upon acceptance.**
