@@ -145,15 +145,26 @@ A: Check the following:
 ### Account & Privacy
 
 **Q: How do I delete my account?**
-A: Go to Account Settings > Privacy > Delete Account. This will permanently remove all your data from our servers within 30 days. You can also email support@on-beat.de to request account deletion.
+A: Go to Account Settings > Delete Account. Your account is deactivated immediately and your personal data is permanently erased within 30 days. During those 30 days, signing in again with the same credentials restores your account — this protects you against accidental deletion. If you want immediate, irreversible erasure with no grace period, email privacy@on-beat.de. Payment and invoicing records are kept for 7 years as German tax law requires.
 
 **Q: What data does BeatLoop collect?**
-A: We collect minimal data necessary for app functionality:
-- Account information (email address)
-- Usage data to improve the app
-- Session metadata (stored locally on your device)
+A: We collect the minimum necessary for the app to work:
+- Account information (email address, display name)
+- Session metadata (markers, segments, loop points, file names)
+- Subscription status
+- Product analytics — **only if you turn them on** (see below)
+- Crash reports, so we can fix what breaks
 
-Audio and video content is stored locally on your device. Streaming music is NOT downloaded or stored by BeatLoop.
+Audio and video content is stored **only on your device** and is never uploaded to us. Streaming music is NOT downloaded or stored by BeatLoop. We show no ads and do not sell your data.
+
+**Q: How do I turn push notifications on or off?**
+A: Notifications are **off unless you actively switch them on**. You're asked once, in a prompt separate from the Terms. Turn them on or off any time in Account > Settings, or in your phone's system settings. Turning them off unsubscribes your device immediately. We only target notifications by subscription tier and app language — never individually. See Section 6 of the Privacy Policy.
+
+**Q: How do I turn analytics on or off?**
+A: Analytics are **off unless you actively switch them on**. You can change your mind any time in Account > Settings. If analytics are off, nothing is collected and the app works exactly the same. We use PostHog, hosted in Frankfurt, Germany, and your events are never linked to your account, name, email, or location.
+
+**Q: Does BeatLoop scan the files on my phone?**
+A: On Android, the file browser lists audio and video across your device's shared storage, including media folders created by other apps, so you can pick any track. This runs entirely on your device — **file names and paths are never sent to us or anyone else**. You can revoke the media permission any time in your device settings.
 
 **Q: What are my privacy rights?**
 A: Under GDPR and CCPA, you have the right to:

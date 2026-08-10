@@ -1,7 +1,7 @@
 # Condiciones del Servicio (Allgemeine Geschäftsbedingungen - AGB)
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 25 de junio de 2026
+**Última Actualización:** 10 de agosto de 2026
 
 ## 1. Proveedor del Servicio y Alcance
 
@@ -204,13 +204,11 @@ BeatLoop ofrece niveles de suscripción tanto gratuitos como premium:
 - Puede gestionar y cancelar las suscripciones en la configuración de Google Play Store
 - Los reembolsos son gestionados por Google de acuerdo con su política de reembolsos
 
-**Web (si corresponde):**
-- Las suscripciones premium en la web se procesan a través de Stripe
-- Se facturan de acuerdo con el plan que haya seleccionado (mensual, anual, etc.)
-- Las suscripciones se renuevan automáticamente a menos que se cancelen al menos 24 horas antes del final del período actual
-- Puede cancelar su suscripción en cualquier momento a través de la configuración de su cuenta
+**Infraestructura de Gestión de Suscripciones:**
+- Utilizamos **RevenueCat** para validar las compras con Apple y Google y determinar su derecho a premium. RevenueCat no procesa pagos y nunca recibe los datos de su tarjeta de pago.
+- Las suscripciones premium se ofrecen actualmente **únicamente a través de las aplicaciones móviles**. No vendemos suscripciones en la web.
 
-**Importante:** BeatLoop no recopila ni almacena información de tarjetas de pago a través de las aplicaciones móviles. Todo el procesamiento de pagos en dispositivos móviles es gestionado por Apple (iOS) o Google (Android).
+**Importante:** BeatLoop nunca recopila ni almacena información de tarjetas de pago. Todo el procesamiento de pagos es gestionado por Apple (iOS) o Google (Android) conforme a sus propios términos, y los reembolsos son administrados por ellos.
 
 ### 7.3 Cambios de Precios
 Nos reservamos el derecho de modificar los precios de las suscripciones con un aviso de al menos 30 días a los suscriptores existentes. Los cambios de precios no afectarán a su ciclo de facturación actual.
@@ -245,6 +243,15 @@ Cuando usted acepta estas Condiciones del Servicio y nuestra Política de Privac
 ### 9.4 Derechos del Usuario
 Usted tiene varios derechos con respecto a sus datos personales, incluidos el acceso, la corrección, la eliminación y la portabilidad. Consulte nuestra Política de Privacidad para obtener información detallada.
 
+### 9.5 Notificaciones Push
+BeatLoop puede enviar notificaciones push, incluidas notificaciones promocionales sobre ofertas y precios de suscripción. Se envían **únicamente si usted ha dado su consentimiento previo y explícito**, solicitado mediante un aviso independiente en la aplicación que no está agrupado con la aceptación de estos Términos. Puede retirar su consentimiento en cualquier momento —en Cuenta → Ajustes, o revocando el permiso de notificaciones en los ajustes de su dispositivo— y **rechazarlas o retirarlas no restringe en modo alguno su uso de BeatLoop**. Véase la Sección 6 de nuestra Política de Privacidad.
+
+### 9.6 Analítica
+La analítica de producto está **desactivada salvo que usted consienta activamente**. Si la rechaza, no se crea ni se transmite ningún dato analítico y la aplicación sigue siendo plenamente funcional. De forma independiente, utilizamos informes de fallos y errores sobre la base de nuestro interés legítimo en mantener la estabilidad de la aplicación; puede oponerse conforme al Artículo 21 del RGPD. Consulte nuestra Política de Privacidad para más detalles.
+
+### 9.7 Eliminación de la Cuenta
+Eliminar su cuenta la desactiva de inmediato y activa el borrado permanente en un plazo de 30 días. Durante ese período, volver a iniciar sesión con las mismas credenciales restaura su cuenta y sus datos. Para un borrado inmediato e irreversible, escriba a privacy@on-beat.de. Los registros que estamos legalmente obligados a conservar, como los de pago y facturación, se mantienen durante el período legal.
+
 ## 10. Disponibilidad y Modificaciones del Servicio
 
 ### 10.1 Disponibilidad del Servicio
@@ -255,6 +262,9 @@ Nos reservamos el derecho de modificar, actualizar o suspender funciones de Beat
 
 ### 10.3 Compatibilidad de Dispositivos
 BeatLoop está diseñado para dispositivos iOS y Android compatibles. No garantizamos la compatibilidad con todos los dispositivos o versiones de sistemas operativos.
+
+### 10.4 Actualizaciones Obligatorias y Versión Mínima Admitida
+BeatLoop comprueba al iniciarse la versión mínima admitida. Si su versión instalada es anterior a ese mínimo, **la aplicación le exigirá actualizar antes de poder seguir utilizándola**. Solo recurrimos a ello cuando una versión anterior es insegura, presenta fallos o es incompatible con nuestro servidor. Si una actualización obligatoria le impide utilizar una suscripción que ya ha pagado y no puede instalarla en su dispositivo, escriba a support@on-beat.de y le ayudaremos a obtener una solución prorrateada a través de la tienda de aplicaciones correspondiente.
 
 ## 11. Renuncias y Limitaciones de Responsabilidad
 

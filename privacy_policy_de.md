@@ -1,7 +1,7 @@
 # Datenschutzerklärung
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 25. Juni 2026
+**Zuletzt aktualisiert:** 10. August 2026
 
 ## 1. Informationen zum Verantwortlichen
 
@@ -27,7 +27,7 @@ Wir verarbeiten Ihre personenbezogenen Daten auf der Grundlage der folgenden Rec
 
 - **Vertragserfüllung** (Artikel 6 Abs. 1 lit. b): Zur Bereitstellung von App-Diensten, Kontoverwaltung und Premium-Funktionen
 - **Berechtigte Interessen** (Artikel 6 Abs. 1 lit. f): Sicherheit, Betrugsprävention, Absturz- und Fehlerdiagnose (Sentry) und Kundensupport
-- **Einwilligung** (Artikel 6 Abs. 1 lit. a): Marketingkommunikation, **Produkt- und Nutzungsanalyse (PostHog)** und bestimmte optionale Integrationen von Drittanbietern. Die Produktanalyse wird **nur** nach Ihrer ausdrücklichen Einwilligung (Opt-in) erhoben und kann jederzeit widerrufen werden.
+- **Einwilligung** (Artikel 6 Abs. 1 lit. a): **Push-Benachrichtigungen und Marketingkommunikation** (Art. 6 Abs. 1 lit. a DSGVO i.V.m. § 7 Abs. 2 UWG — siehe Abschnitt 6), **Produkt- und Nutzungsanalyse (PostHog)** und bestimmte optionale Integrationen von Drittanbietern. Die Produktanalyse wird **nur** nach Ihrer ausdrücklichen Einwilligung (Opt-in) erhoben und kann jederzeit widerrufen werden.
 - **Rechtliche Verpflichtung** (Artikel 6 Abs. 1 lit. c): Einhaltung geltender Gesetze, steuerlicher Verpflichtungen und behördlicher Anfragen
 
 ## 4. Informationen, die wir erheben
@@ -54,10 +54,10 @@ Wir verarbeiten Ihre personenbezogenen Daten auf der Grundlage der folgenden Rec
 ### 4.2 Automatisch erhobene Informationen
 
 **Nutzungs- und Analysedaten:**
-- Produkt-/Funktionsnutzungsanalyse (welche Funktionen wie genutzt werden) — über PostHog erfasst, **nur nachdem Sie ausdrücklich zugestimmt haben** (siehe Abschnitt 9.1); niemals erfasst, wenn Sie ablehnen oder noch nicht zugestimmt haben
+- Produkt-/Funktionsnutzungsanalyse (welche Funktionen wie genutzt werden) — über PostHog erfasst, **nur nachdem Sie ausdrücklich zugestimmt haben** (siehe Abschnitt 10.1); niemals erfasst, wenn Sie ablehnen oder noch nicht zugestimmt haben
 - Sitzungsdauer und Nutzungshäufigkeit (Teil der oben genannten einwilligungsbasierten Analyse)
 - Geräteleistungskennzahlen im Zusammenhang mit der Audio-/Videoverarbeitung
-- Fehlerberichte und Absturzprotokolle (über Sentry — siehe Abschnitt 9.1, verarbeitet auf Grundlage berechtigter Interessen, unabhängig von der Analyse-Einwilligung)
+- Fehlerberichte und Absturzprotokolle (über Sentry — siehe Abschnitt 10.1, verarbeitet auf Grundlage berechtigter Interessen, unabhängig von der Analyse-Einwilligung)
 
 **Geräte- und technische Informationen:**
 - Gerätemodell, Betriebssystem und Version
@@ -80,8 +80,14 @@ Wir verarbeiten Ihre personenbezogenen Daten auf der Grundlage der folgenden Rec
 **Zahlungsabwicklung:**
 - Unter iOS: Apple verarbeitet Zahlungsinformationen über In-App-Käufe
 - Unter Android: Google verarbeitet Zahlungsinformationen über Google Play Billing
-- Im Web: Stripe verarbeitet Zahlungsinformationen für Premium-Abonnements
+- **RevenueCat** erhält von Apple und Google die Bestätigung Ihrer Käufe und meldet uns Ihren Berechtigungsstatus zurück (siehe Abschnitt 10). Premium-Abonnements werden ausschließlich über die mobilen Apps verkauft; wir verkaufen keine Abonnements über das Web.
 - Wir erhalten nur Transaktionsbestätigungen und den Abonnementstatus; wir erheben oder speichern keine Zahlungskartendaten über mobile Apps
+
+### 4.4 Zugriff auf lokale Medien unter Android
+
+Damit Sie einen Titel auswählen können, durchsucht der Dateibrowser von BeatLoop die Audio- und Videodateien im gemeinsamen Speicher Ihres Geräts. Unter Android umfasst dies gängige Medienordner wie `Music`, `Downloads`, `DCIM` und `Documents` sowie die von anderen Apps angelegten Medienordner (beispielsweise WhatsApp, Telegram, Instagram, Facebook, Snapchat und TikTok) und den SD-Kartenspeicher.
+
+**Dieser Suchlauf findet ausschließlich auf Ihrem Gerät statt.** Dateinamen, Pfade und Ordnerinhalte werden **zu keinem Zeitpunkt an uns oder an Dritte übermittelt**. Er setzt die Medienberechtigung voraus, die Sie auf Betriebssystemebene erteilen und jederzeit in den Geräteeinstellungen widerrufen können.
 
 ## 5. Integrationen von Musikdiensten Dritter
 
@@ -132,9 +138,67 @@ BeatLoop ermöglicht es Nutzern, Audiodateien aus ihrem Google Drive zu importie
 
 Metadaten von Streaming-Musik (Songtitel, Künstler, Tempo-Markierungen, Loop-Punkte) können zu Zwecken der Sitzungsverwaltung lokal auf Ihrem Gerät gespeichert werden. Die tatsächlichen Audioinhalte von Streaming-Diensten werden von BeatLoop NICHT gespeichert.
 
-## 6. Wie wir Ihre Informationen verwenden
+### 5.6 Übertragung auf externe Bildschirme (Chromecast und AirPlay)
 
-### 6.1 Kernfunktionalität der App
+Wenn Sie ein aufgenommenes Video an ein Chromecast- oder AirPlay-Gerät übertragen, startet BeatLoop einen **temporären HTTP-Server in Ihrem lokalen WLAN** und stellt die ausgewählte Videodatei für das Empfangsgerät bereit. Dazu liest die App die lokale Netzwerkadresse Ihres Geräts aus und nutzt Bonjour und Bluetooth, um Empfangsgeräte in der Nähe zu finden.
+
+- Der Server läuft **nur während der aktiven Übertragung** und ist **ausschließlich aus Ihrem lokalen Netzwerk** erreichbar — nicht aus dem Internet und nicht für uns.
+- Er erfordert keine Authentifizierung. Andere Personen im selben WLAN könnten die bereitgestellte Datei während einer laufenden Übertragung grundsätzlich abrufen. **Vermeiden Sie die Übertragung in nicht vertrauenswürdigen öffentlichen Netzwerken.**
+- Es werden keine Übertragungsdaten an unsere Server gesendet.
+
+### 5.7 Sichtbarkeit von Dateien auf dem Gerät (iOS)
+
+Unter iOS ist der Dokumentenordner von BeatLoop über die Dateien-App sowie über Finder/iTunes per USB zugänglich, damit Sie Ihre eigenen Aufnahmen abrufen können. Wer physischen Zugang zu Ihrem entsperrten Computer hat, während Ihr Gerät angeschlossen ist, kann daher auf diese Dateien zugreifen. Dies ist eine Funktion auf Geräteebene; eine Übermittlung an uns findet nicht statt.
+
+## 6. Push-Benachrichtigungen und Marketingkommunikation
+
+### 6.1 Was wir senden
+
+Mit Ihrer Einwilligung sendet BeatLoop Push-Benachrichtigungen an Ihr Gerät. Diese lassen sich in zwei Kategorien einteilen:
+
+- **Produktbenachrichtigungen** — neue Funktionen und wichtige Serviceinformationen
+- **Werbliche Benachrichtigungen** — Angebote, Preisänderungen und Abonnement-Aktionen
+
+Beim Antippen einer Benachrichtigung kann die App auf dem Startbildschirm, in einer Übungssitzung oder im Abonnement-Bildschirm geöffnet werden.
+
+### 6.2 Rechtsgrundlage und Einwilligung
+
+Push-Benachrichtigungen, insbesondere **werbliche** Benachrichtigungen, werden **ausschließlich auf Grundlage Ihrer vorherigen, ausdrücklichen Einwilligung** gemäß **Art. 6 Abs. 1 lit. a DSGVO** und **§ 7 Abs. 2 UWG** versendet.
+
+- Die Einwilligung wird über eine **gesonderte, eigens dafür vorgesehene Abfrage in der App** eingeholt. Sie ist **nicht** mit der Annahme unserer Nutzungsbedingungen oder Datenschutzerklärung gekoppelt, und es werden keine vorangekreuzten Kästchen verwendet.
+- Zwei voneinander unabhängige Voraussetzungen müssen erfüllt sein, bevor Sie eine Benachrichtigung erreichen kann: Ihre **Einwilligung in der App** und die **Benachrichtigungsberechtigung Ihres Betriebssystems**. Der Widerruf einer der beiden beendet die Zustellung.
+- **Eine Ablehnung hat keinerlei Auswirkungen auf Ihre Nutzung von BeatLoop** (Kopplungsverbot). Sämtliche Funktionen bleiben verfügbar.
+- Wir speichern den Zeitpunkt Ihrer Einwilligung in Ihrem Nutzerprofil, um diese gemäß Art. 7 Abs. 1 DSGVO nachweisen zu können.
+
+### 6.3 Wie die Zustellung funktioniert
+
+Wir nutzen **Firebase Cloud Messaging (FCM)**, einen Dienst der Google Ireland Limited, als Auftragsverarbeiter für die Zustellung. Firebase Cloud Messaging ist das **einzige** Firebase-Produkt, das wir einsetzen — wir verwenden weder Firebase Analytics noch Crashlytics, Firebase Authentication, Firestore oder Firebase Storage.
+
+Die Zustellung erfolgt **themenbasiert und nicht individuell adressiert**. Mit Ihrer Einwilligung abonniert Ihr Gerät Broadcast-Themen. Die einzigen beiden Merkmale zur Auswahl der Zielgruppe sind Ihre **Abonnementstufe** (Premium oder kostenlos) und Ihre **App-Sprache**. Kampagnen werden jeweils an ein gesamtes Thema gesendet. **Wir senden keine Benachrichtigungen an einzelne Personen und erstellen keine Verhaltensprofile für die Ausspielung von Benachrichtigungen.**
+
+**Geräteregistrierungs-Token.** Damit Firebase Cloud Messaging funktioniert, registriert das Firebase-SDK Ihr Gerät bei Google, und Google stellt ein Geräteregistrierungs-Token aus. **BeatLoop liest, empfängt und speichert dieses Token zu keinem Zeitpunkt, und wir speichern keine Gerätekennungen für Benachrichtigungszwecke.** Google verarbeitet das Token nach seiner eigenen Datenschutzerklärung. Diese Registrierung erfolgt beim Start der App, bevor Sie um Ihre Einwilligung gebeten werden; Sie können sie verhindern, indem Sie BeatLoop die Benachrichtigungsberechtigung auf Betriebssystemebene verweigern.
+
+### 6.4 Auf Ihrem Endgerät gespeicherte Informationen (§ 25 TDDDG)
+
+Mit Ihrer Einwilligung speichert BeatLoop Ihre Entscheidung über Benachrichtigungen sowie die Liste der von Ihrem Gerät abonnierten Themen, sodass nur Änderungen übermittelt werden müssen und nicht bei jedem Start erneut abonniert wird. Nach **§ 25 TDDDG** erfordert diese Speicherung auf dem Endgerät Ihre Einwilligung, die über die in Abschnitt 6.2 beschriebene Abfrage eingeholt wird.
+
+### 6.5 Widerruf der Einwilligung
+
+Sie können Ihre Einwilligung jederzeit widerrufen; der Widerruf ist **so einfach wie die Erteilung** (Art. 7 Abs. 3 DSGVO):
+
+- **In der App:** Konto → Einstellungen → Schalter für Benachrichtigungen. Das Ausschalten beendet sofort alle Themen-Abonnements Ihres Geräts.
+- **Auf Ihrem Gerät:** Entziehen Sie die Benachrichtigungsberechtigung in den iOS- oder Android-Systemeinstellungen.
+- **Per E-Mail:** privacy@on-beat.de
+
+Bei der Abmeldung von Ihrem Konto werden die Themen-Abonnements Ihres Geräts automatisch beendet.
+
+### 6.6 E-Mail-Kommunikation
+
+Transaktions-E-Mails (Passwortzurücksetzung, Kontobestätigung, Kaufbelege) werden zur Vertragserfüllung versendet. **Newsletter und Marketing-E-Mails werden ausschließlich mit Ihrer gesonderten, ausdrücklichen Einwilligung** versendet, die mit Zeitstempel dokumentiert wird; jede dieser E-Mails enthält einen Abmeldelink.
+
+## 7. Wie wir Ihre Informationen verwenden
+
+### 7.1 Kernfunktionalität der App
 - Kontoerstellung, Authentifizierung und Zugriffsverwaltung
 - Aktivierung von Premium-Funktionen und Nutzungserfassung
 - Lokale Audioverarbeitung, Looping, Geschwindigkeitsanpassung und Sitzungsverwaltung
@@ -142,27 +206,31 @@ Metadaten von Streaming-Musik (Songtitel, Künstler, Tempo-Markierungen, Loop-Pu
 - Geräteübergreifende Sitzungssynchronisierung (nur Metadaten)
 - Kundensupport und technische Unterstützung
 
-### 6.2 Serviceverbesserung
+### 7.2 Serviceverbesserung
 - Optimierung der App-Leistung und Fehlerbehebung
 - Funktionsentwicklung basierend auf Nutzungsmustern
 - Sicherheitsüberwachung und Betrugsprävention
 - Qualitätssicherung und Tests
 
-### 6.3 Kommunikation
+### 7.3 Kommunikation
 - Servicebezogene Benachrichtigungen und Updates
 - Verwaltung von Premium-Abonnements
 - Antwort auf Support-Anfragen
 - Wichtige Richtlinien- oder Serviceänderungen (sofern gesetzlich vorgeschrieben)
 
-### 6.4 Analysen und Geschäftsbetrieb
+### 7.4 Analysen und Geschäftsbetrieb
 - Kennzahlen zu monatlich aktiven Nutzern (MAU) und Engagement-Analyse
 - Analysen zu Abonnement-Konversion und -Bindung
 - Allgemeine Nutzungsstatistiken für die Geschäftsplanung
 - Einhaltung gesetzlicher Verpflichtungen und steuerlicher Anforderungen
 
-## 7. Nutzerinhalte und Urheberrechtshaftung
+### 7.5 Produkttests (A/B-Tests)
 
-### 7.1 Verantwortung des Nutzers für Inhalte
+Gelegentlich führen wir Tests durch, bei denen verschiedenen Nutzerinnen und Nutzern unterschiedliche Varianten eines Bildschirms angezeigt werden — meist des Abonnement-Bildschirms —, um zu bewerten, welche Variante besser funktioniert. Die Zuordnung zu einer Testgruppe wird als Analyseereignis erfasst; die **Teilnahme an Tests wird daher nur gemessen, wenn Sie in die Analyse eingewilligt haben**. Ohne Ihre Einwilligung werden keinerlei Testdaten zu Ihnen erfasst. Tests verändern niemals den von Ihnen zu zahlenden Preis; der geltende Preis wird stets vor Abschluss eines Kaufs angezeigt.
+
+## 8. Nutzerinhalte und Urheberrechtshaftung
+
+### 8.1 Verantwortung des Nutzers für Inhalte
 
 **WICHTIG:** BeatLoop ist ein Werkzeug, das es Nutzern ermöglicht, auf Musik aus mehreren Quellen (lokale Dateien, YouTube, Apple Music) zu Übungszwecken zuzugreifen. Durch die Nutzung der App erkennen Sie an und stimmen zu, dass:
 
@@ -171,7 +239,7 @@ Metadaten von Streaming-Musik (Songtitel, Künstler, Tempo-Markierungen, Loop-Pu
 3. **Sie OnBeat HQ UG (haftungsbeschränkt)**, ihre verbundenen Unternehmen und Dienstleister von allen Ansprüchen, Schäden oder Haftungen freistellen und schadlos halten, die sich aus Ihrer Nutzung urheberrechtlich oder anderweitig geschützter Inhalte ergeben
 4. **Inhalte, auf die über Streaming-Dienste zugegriffen wird** (YouTube, Apple Music), weiterhin den jeweiligen Lizenzbedingungen dieser Plattformen und Ihren Abonnementverträgen mit ihnen unterliegen
 
-### 7.2 Einhaltung des Urheberrechts
+### 8.2 Einhaltung des Urheberrechts
 
 - BeatLoop stellt KEINE Musik, Audiotracks oder urheberrechtlich geschützten Inhalte bereit, hostet, zwischenspeichert oder verbreitet sie weiter
 - BeatLoop überwacht, überprüft oder validiert den Urheberrechtsstatus von Nutzerinhalten NICHT
@@ -179,7 +247,7 @@ Metadaten von Streaming-Musik (Songtitel, Künstler, Tempo-Markierungen, Loop-Pu
 - Nutzer müssen alle geltenden Urheberrechtsgesetze in ihrer Gerichtsbarkeit einhalten
 - BeatLoop behält sich das Recht vor, Konten zu kündigen, die wiederholt gegen Urheberrechtsrichtlinien verstoßen
 
-### 7.3 Einhaltung des Digital Millennium Copyright Act (DMCA)
+### 8.3 Einhaltung des Digital Millennium Copyright Act (DMCA)
 
 Wenn Sie der Ansicht sind, dass Inhalte in BeatLoop Ihr Urheberrecht verletzen, kontaktieren Sie uns bitte unter support@on-beat.de mit:
 - Ihren Kontaktinformationen und Ihrer elektronischen Unterschrift
@@ -188,7 +256,7 @@ Wenn Sie der Ansicht sind, dass Inhalte in BeatLoop Ihr Urheberrecht verletzen, 
 - Einer Erklärung des guten Glaubens, dass die Nutzung nicht autorisiert ist
 - Einer Erklärung, dass die Informationen korrekt sind und Sie zum Handeln berechtigt sind
 
-### 7.4 Keine Haftung für Nutzerinhalte
+### 8.4 Keine Haftung für Nutzerinhalte
 
 **BeatLoop lehnt ausdrücklich jegliche Haftung ab** für:
 - Urheberrechtsverletzungen durch Nutzer
@@ -197,33 +265,37 @@ Wenn Sie der Ansicht sind, dass Inhalte in BeatLoop Ihr Urheberrecht verletzen, 
 - Schäden, die sich aus dem Versäumnis der Nutzer ergeben, ordnungsgemäße Lizenzen zu erwerben
 - Urheberrechtsansprüche, die sich aus von Nutzern aufgenommenen und geteilten Videos ergeben
 
-## 8. Datenspeicherung und Sicherheit
+## 9. Datenspeicherung und Sicherheit
 
-### 8.1 Lokale Datenspeicherung
+### 9.1 Lokale Datenspeicherung
 - **Audio- und Videodateien**, die aus dem lokalen Speicher importiert werden, werden ausschließlich auf Ihrem Gerät gespeichert
 - **Streaming-Inhalte** von YouTube und Apple Music werden NICHT auf Ihrem Gerät oder unseren Servern gespeichert
 - **Übungssitzungen und Projekte** verbleiben lokal auf Ihrem Gerät
 - **Keine Nutzerinhalte** werden ohne ausdrückliche Handlung auf unsere Server hochgeladen
 - Wenn Sie die **Teilen-Funktion** nutzen, enthalten aus einer lokalen Audio- oder Videodatei erstellte Sitzungen eine Kopie dieser Mediendatei im exportierten `.beatloop`-Bündel, das **direkt über die Teilen-Funktionen Ihres Geräts** gesendet wird — es wird nicht auf unsere Server hochgeladen, über sie übertragen oder dort gespeichert
 
-### 8.2 Cloud-Datenspeicherung
+### 9.2 Cloud-Datenspeicherung
 - **Kontoinformationen** werden sicher über die Supabase-Infrastruktur gespeichert
 - **Sitzungsmetadaten** (Markierungen, Zeitstempel, Loop-Punkte, Projektnamen) können synchronisiert werden
 - **Authentifizierungs-Tokens** werden verschlüsselt und sicher gespeichert
-- **Zahlungsinformationen** werden von Apple (iOS), Google (Android) oder Stripe (Web) verarbeitet und gespeichert, nicht von BeatLoop
+- **Zahlungsinformationen** werden von Apple (iOS) oder Google (Android) verarbeitet und gespeichert, zu keinem Zeitpunkt von BeatLoop
 
-### 8.3 Sicherheitsmaßnahmen
+### 9.3 Sicherheitsmaßnahmen
 - Branchenübliche Verschlüsselung für die Datenübertragung (TLS/HTTPS)
 - Sichere Authentifizierungsprotokolle und Token-Verwaltung
 - Regelmäßige Sicherheitsbewertungen und Schwachstellenüberwachung
 - Zugriffskontrollen und Audit-Protokolle für administrative Funktionen
 - Verfahren zur Reaktion auf Datenschutzverletzungen und Protokolle zur Benachrichtigung der Nutzer
 
-## 9. Internationale Datenübermittlungen
+### 9.4 Fernkonfiguration und erforderliche Aktualisierungen
+
+BeatLoop ruft beim Start einen kleinen Konfigurationsdatensatz von unserem Backend ab, um die mindestens unterstützte App-Version zu ermitteln. Liegt Ihre installierte Version darunter, fordert die App Sie zur Aktualisierung auf, bevor Sie fortfahren können. Diese Abfrage enthält keine personenbezogenen Daten und wird nicht zu Tracking-Zwecken verwendet.
+
+## 10. Internationale Datenübermittlungen
 
 BeatLoop ist weltweit tätig und kann Ihre personenbezogenen Daten außerhalb Ihres Wohnsitzlandes übermitteln, einschließlich an Länder, die möglicherweise nicht das gleiche Datenschutzniveau wie Ihr Heimatland bieten.
 
-### 9.1 Drittanbieter von Diensten
+### 10.1 Drittanbieter von Diensten
 
 Die folgenden Dienste können Ihre Daten außerhalb der EU verarbeiten:
 
@@ -250,10 +322,19 @@ Die folgenden Dienste können Ihre Daten außerhalb der EU verarbeiten:
 - Daten (Drive): Dateimetadaten und Audioinhalte (schreibgeschützt, nur lokale Verarbeitung)
 - Schutzmaßnahmen: Standardvertragsklauseln und Googles Datenverarbeitungsbedingungen
 
-**Stripe (Zahlungsabwicklung):**
-- Datenstandort: Vereinigte Staaten und EU
-- Zweck: Zahlungen für Premium-Abonnements (Web)
-- Schutzmaßnahmen: PCI-DSS-Konformität, Standardvertragsklauseln
+**Google — Firebase Cloud Messaging (Zustellung von Push-Benachrichtigungen):**
+- Betreiber: Google Ireland Limited
+- Datenstandort: Europäische Union und Vereinigte Staaten
+- Zweck: Zustellung von Push-Benachrichtigungen an Ihr Gerät (siehe Abschnitt 6)
+- Verarbeitete Daten: Geräteregistrierungs-Token, Themen-Abonnements, Inhalt der Benachrichtigung
+- Schutzmaßnahmen: Google Cloud Data Processing Addendum, Standardvertragsklauseln, EU-US Data Privacy Framework
+
+**RevenueCat (Abonnementverwaltung):**
+- Betreiber: RevenueCat, Inc., Vereinigte Staaten
+- Zweck: Überprüfung von Käufen bei Apple und Google sowie Ermittlung Ihrer Premium-Berechtigung
+- Verarbeitete Daten: Ihre BeatLoop-Kontokennung (als RevenueCat-App-Nutzer-ID übermittelt), Kauf- und Verlängerungsereignisse, Produktkennung, Preis, Währung, Store, Angebotscode und Land
+- Hinweis: RevenueCat wickelt keine Zahlungen ab und erhält zu keinem Zeitpunkt Ihre Zahlungskartendaten
+- Schutzmaßnahmen: Auftragsverarbeitungsvertrag, Standardvertragsklauseln
 
 **Resend (E-Mail-Kommunikation):**
 - Datenstandort: Vereinigte Staaten
@@ -282,19 +363,19 @@ Die folgenden Dienste können Ihre Daten außerhalb der EU verarbeiten:
 - **PostHog-Datenschutzerklärung:** [https://posthog.com/privacy](https://posthog.com/privacy)
 - **Liste der Unterauftragsverarbeiter:** [https://posthog.com/subprocessors](https://posthog.com/subprocessors)
 
-### 9.2 Rechtliche Schutzmaßnahmen
+### 10.2 Rechtliche Schutzmaßnahmen
 Alle internationalen Datenübermittlungen sind durch geeignete Schutzmaßnahmen geschützt, einschließlich:
 - Von der Europäischen Kommission genehmigte Standardvertragsklauseln
 - Angemessenheitsbeschlüsse, sofern zutreffend
 - Verbindliche interne Datenschutzvorschriften für multinationale Dienstleister
 - Zusätzliche technische und organisatorische Maßnahmen nach Bedarf
 
-## 10. Datenweitergabe und Offenlegung
+## 11. Datenweitergabe und Offenlegung
 
-### 10.1 Wir verkaufen keine personenbezogenen Daten
+### 11.1 Wir verkaufen keine personenbezogenen Daten
 BeatLoop verkauft, vermietet oder handelt nicht mit Ihren personenbezogenen Daten zu Marketingzwecken Dritter.
 
-### 10.2 Begrenzte Datenweitergabe
+### 11.2 Begrenzte Datenweitergabe
 Wir können Ihre Informationen nur unter den folgenden Umständen weitergeben:
 
 **Dienstleister:** An vertrauenswürdige Drittanbieter, die beim Betrieb unserer App, der Zahlungsabwicklung oder der Bereitstellung von Kundensupport unterstützen, unter strengen Vertraulichkeitsvereinbarungen.
@@ -305,16 +386,16 @@ Wir können Ihre Informationen nur unter den folgenden Umständen weitergeben:
 
 **Einwilligung:** Mit Ihrer ausdrücklichen Einwilligung für bestimmte Zwecke, die nicht von dieser Erklärung abgedeckt sind.
 
-### 10.3 Datenschutz bei der Weitergabe
+### 11.3 Datenschutz bei der Weitergabe
 Alle Vereinbarungen zur Datenweitergabe umfassen:
 - Vertragliche Datenschutzverpflichtungen
 - Zweckbindung und Nutzungsbeschränkungen
 - Sicherheits- und Vertraulichkeitsanforderungen
 - Mechanismen zur Wahrung der Nutzerrechte
 
-## 11. Ihre Rechte nach dem Datenschutzrecht
+## 12. Ihre Rechte nach dem Datenschutzrecht
 
-### 11.1 DSGVO-Rechte (EU-Nutzer)
+### 12.1 DSGVO-Rechte (EU-Nutzer)
 
 Sie haben die folgenden Rechte in Bezug auf Ihre personenbezogenen Daten:
 
@@ -326,7 +407,7 @@ Sie haben die folgenden Rechte in Bezug auf Ihre personenbezogenen Daten:
 **Widerspruchsrecht (Artikel 21):** Widerspruch gegen die Verarbeitung auf der Grundlage berechtigter Interessen
 **Recht auf Widerruf der Einwilligung:** Wenn die Verarbeitung auf Einwilligung beruht
 
-### 11.2 CCPA-Rechte (kalifornische Nutzer)
+### 12.2 CCPA-Rechte (kalifornische Nutzer)
 
 Einwohner Kaliforniens haben zusätzliche Rechte, darunter:
 - Recht zu erfahren, welche personenbezogenen Informationen erhoben werden
@@ -334,7 +415,7 @@ Einwohner Kaliforniens haben zusätzliche Rechte, darunter:
 - Recht, dem Verkauf personenbezogener Informationen zu widersprechen (Hinweis: Wir verkaufen keine personenbezogenen Informationen)
 - Recht auf Nichtdiskriminierung bei der Ausübung von Datenschutzrechten
 
-### 11.3 Ausübung Ihrer Rechte
+### 12.3 Ausübung Ihrer Rechte
 
 Um Ihre Datenschutzrechte auszuüben:
 
@@ -345,80 +426,90 @@ Um Ihre Datenschutzrechte auszuüben:
 **Antwortzeit:** Wir antworten innerhalb von 30 Tagen (DSGVO) oder 45 Tagen (CCPA)
 **Keine Gebühr:** Anfragen zur Ausübung von Rechten werden in der Regel kostenlos bearbeitet
 
-### 11.4 Recht auf Beschwerde
+### 12.4 Recht auf Beschwerde
 
 Wenn Sie der Ansicht sind, dass wir Ihre Datenschutzbedenken nicht angemessen berücksichtigt haben, haben Sie das Recht, eine Beschwerde bei Ihrer örtlichen Datenschutzbehörde einzureichen. EU-Nutzer finden ihre örtliche Behörde unter: https://edpb.europa.eu/about-edpb/about-edpb/members_en
 
-## 12. Datenaufbewahrung
+### 12.5 Kontolöschung — was tatsächlich geschieht
 
-### 12.1 Kontodaten
+Die Löschung erfolgt in mehreren Schritten, die wir Ihnen transparent darlegen möchten:
+
+1. **Sofort:** Ihr Konto wird als gelöscht markiert und deaktiviert. Ihr Profil und Ihre Sitzungsdaten sind über die App nicht mehr zugänglich.
+2. **Innerhalb von 30 Tagen:** Ihre personenbezogenen Daten werden durch einen automatisierten Bereinigungsprozess endgültig aus unseren Produktivsystemen gelöscht.
+3. **Reaktivierung innerhalb dieser 30 Tage:** Melden Sie sich vor der endgültigen Löschung erneut mit denselben Zugangsdaten an, **werden Ihr Konto und Ihre Daten wiederhergestellt**. Diese Karenzzeit schützt Sie vor einer versehentlichen Löschung. Wünschen Sie eine sofortige, unwiderrufliche Löschung ohne Karenzzeit, schreiben Sie an privacy@on-beat.de; wir führen sie dann manuell durch.
+4. **HubSpot:** Die Entfernung Ihres Kontakteintrags aus unserem CRM erfolgt **derzeit manuell** und wird innerhalb von 30 Tagen nach Ihrem Antrag abgeschlossen.
+5. **Gesetzlich aufzubewahrende Daten:** Zahlungs- und Rechnungsunterlagen bewahren wir nach deutschem Steuer- und Handelsrecht 7 Jahre auf, unabhängig von der Kontolöschung.
+
+## 13. Datenaufbewahrung
+
+### 13.1 Kontodaten
 - **Aktive Konten:** Aufbewahrt für die Dauer Ihres Kontos zuzüglich 30 Tagen
 - **Inaktive Konten:** Automatisch gelöscht nach 24 Monaten Inaktivität
 - **Gelöschte Konten:** Innerhalb von 30 Tagen nach der Löschungsanfrage dauerhaft entfernt
 
-### 12.2 Nutzungs- und Analysedaten
+### 13.2 Nutzungs- und Analysedaten
 - **Anmeldeaufzeichnungen:** Aus Sicherheitsgründen 12 Monate aufbewahrt
-- **Produktanalyse (PostHog):** Individuelle Ereignisdaten gemäß Abschnitt 9.1 aufbewahrt (12 Monate); nur aggregierte/abgeleitete Erkenntnisse können länger aufbewahrt werden. Nur mit Ihrer Einwilligung erhoben.
+- **Produktanalyse (PostHog):** Individuelle Ereignisdaten gemäß Abschnitt 10.1 aufbewahrt (12 Monate); nur aggregierte/abgeleitete Erkenntnisse können länger aufbewahrt werden. Nur mit Ihrer Einwilligung erhoben.
 - **Fehlerprotokolle:** Zur Fehlerbehebung und Verbesserung 12 Monate aufbewahrt
 
-### 12.3 Rechts- und Compliance-Daten
+### 13.3 Rechts- und Compliance-Daten
 - **Zahlungsaufzeichnungen:** Zur Einhaltung steuerlicher und buchhalterischer Anforderungen 7 Jahre aufbewahrt
 - **Rechtskorrespondenz:** Aufbewahrt so lange wie für rechtliche Zwecke erforderlich
 - **DMCA-Hinweise:** Gesetzlich vorgeschrieben 3 Jahre aufbewahrt
 
-### 12.4 Nutzerinhalte
+### 13.4 Nutzerinhalte
 - **Lokale Dateien:** Vollständig unter Ihrer Kontrolle auf Ihrem Gerät
 - **Sitzungsmetadaten:** Aufbewahrt, solange das Konto aktiv ist, gelöscht mit der Kontolöschung
 - **Support-Kommunikation:** Zu Qualitäts- und Schulungszwecken 3 Jahre aufbewahrt
 
-## 13. Cookies und Tracking-Technologien
+## 14. Cookies und Tracking-Technologien
 
-### 13.1 Aktuelle Nutzung
+### 14.1 Aktuelle Nutzung
 BeatLoop verwendet derzeit minimale Tracking-Technologien:
 - **Authentifizierungs-Tokens:** Für sichere Anmeldung und Sitzungsverwaltung
 - **App-Präferenzen:** Lokal gespeichert, um Ihre Einstellungen zu speichern
 - **Fehler-Tracking:** Grundlegende Absturzberichterstattung für App-Stabilität
 
-### 13.2 Produktanalyse (PostHog)
+### 14.2 Produktanalyse (PostHog)
 Wir verwenden **PostHog** (EU Cloud) für Produkt-/Nutzungsanalysen, um zu verstehen, wie die App genutzt wird, und sie zu verbessern. Diese Analyse:
 - ist **standardmäßig deaktiviert** und läuft **nur nach Ihrer ausdrücklichen Einwilligung (Opt-in)** (Art. 6 Abs. 1 lit. a DSGVO; § 25 TDDDG)
 - verwendet ausschließlich eine **pseudonyme App-Instanz-Kennung** — kein Name, keine E-Mail, keine IP, kein GeoIP-Standort und kein Session Replay
 - speichert die Opt-out-/Einwilligungseinstellung auf Ihrem Gerät
 
-Siehe Abschnitt 9.1 (PostHog) für Hosting, Aufbewahrung, Unterauftragsverarbeiter und Schutzmaßnahmen.
+Siehe Abschnitt 10.1 (PostHog) für Hosting, Aufbewahrung, Unterauftragsverarbeiter und Schutzmaßnahmen.
 
-### 13.3 Ihre Kontrolle
+### 14.3 Ihre Kontrolle
 - **Analyse-Opt-out:** Die Analyse ist Opt-in; Sie können die Einwilligung jederzeit unter **Konto → Datenschutzeinstellungen** erteilen oder widerrufen
 - **Cookie-Einstellungen:** Können über Ihre Geräteeinstellungen verwaltet werden
 - **Tracking durch Dritte:** Wir verwenden keine Werbe- oder Social-Media-Tracking-Pixel und verfolgen Sie nicht über andere Apps oder Websites hinweg
 
-## 14. Datenschutz von Kindern
+## 15. Datenschutz von Kindern
 
-### 14.1 Altersbeschränkung
+### 15.1 Altersbeschränkung
 BeatLoop ist nicht für Nutzer unter 16 Jahren bestimmt. Wir erheben wissentlich keine personenbezogenen Informationen von Kindern unter 16 Jahren. Wenn Sie unter 16 Jahre alt sind, nutzen Sie BeatLoop bitte nicht und geben Sie keine personenbezogenen Informationen an.
 
-### 14.2 Hinweis für Eltern
+### 15.2 Hinweis für Eltern
 Wenn wir feststellen, dass wir personenbezogene Informationen von einem Kind unter 16 Jahren ohne verifizierte elterliche Einwilligung erhoben haben, werden wir Maßnahmen ergreifen, um diese Informationen unverzüglich zu entfernen.
 
-### 14.3 Rechte der Eltern
+### 15.3 Rechte der Eltern
 Eltern, die der Ansicht sind, dass ihr Kind unter 16 Jahren BeatLoop personenbezogene Informationen bereitgestellt hat, können uns unter privacy@on-beat.de kontaktieren, um die Löschung dieser Informationen zu beantragen.
 
-## 15. Änderungen dieser Datenschutzerklärung
+## 16. Änderungen dieser Datenschutzerklärung
 
-### 15.1 Aktualisierungen der Richtlinie
+### 16.1 Aktualisierungen der Richtlinie
 Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren, um Änderungen unserer Praktiken, Technologie, gesetzlicher Anforderungen oder anderer Faktoren widerzuspiegeln.
 
-### 15.2 Benachrichtigung über Änderungen
+### 16.2 Benachrichtigung über Änderungen
 **Geringfügige Änderungen:** Aktualisiertes „Zuletzt aktualisiert"-Datum am Anfang dieser Erklärung
 **Wesentliche Änderungen:** E-Mail-Benachrichtigung an registrierte Nutzer und In-App-Benachrichtigung
 **Fortgesetzte Nutzung:** Ihre fortgesetzte Nutzung von BeatLoop nach Änderungen stellt eine Annahme dar
 
-### 15.3 Änderungsverlauf
+### 16.3 Änderungsverlauf
 Wir führen aus Gründen der Transparenz und Compliance eine Aufzeichnung wesentlicher Richtlinienänderungen.
 
-## 16. Kontaktinformationen
+## 17. Kontaktinformationen
 
-### 16.1 Datenschutzanfragen
+### 17.1 Datenschutzanfragen
 Bei Fragen zu dieser Datenschutzerklärung oder unseren Datenpraktiken:
 
 **E-Mail:** privacy@on-beat.de
@@ -427,24 +518,24 @@ OnBeat HQ UG (haftungsbeschränkt)
 Wichterichstraße 4
 50937 Köln, Deutschland
 
-### 16.2 Datenschutzanträge
+### 17.2 Datenschutzanträge
 Um Ihre Datenschutzrechte auszuüben, verwenden Sie bitte die oben genannte E-Mail-Adresse und geben Sie an:
 - Ihren vollständigen Namen und die mit Ihrem Konto verknüpfte E-Mail-Adresse
 - Das konkrete Recht, das Sie ausüben möchten
 - Alle zusätzlichen Informationen, die zur Überprüfung Ihrer Identität erforderlich sind
 
-### 16.3 Antwortverpflichtung
+### 17.3 Antwortverpflichtung
 Wir sind bestrebt, Datenschutzanfragen zeitnah und professionell zu beantworten. In der Regel antworten wir innerhalb von 3-5 Werktagen auf allgemeine Anfragen und innerhalb der gesetzlich vorgeschriebenen Fristen auf formelle Anträge zur Ausübung von Rechten.
 
-## 17. Zusätzliche rechtliche Informationen
+## 18. Zusätzliche rechtliche Informationen
 
-### 17.1 Anwendbares Recht
+### 18.1 Anwendbares Recht
 Diese Datenschutzerklärung unterliegt den Gesetzen Deutschlands und der Europäischen Union. Alle Streitigkeiten, die sich aus dieser Erklärung ergeben, unterliegen der Gerichtsbarkeit deutscher Gerichte.
 
-### 17.2 Salvatorische Klausel
+### 18.2 Salvatorische Klausel
 Sollte sich eine Bestimmung dieser Datenschutzerklärung als nicht durchsetzbar oder ungültig erweisen, wird diese Bestimmung auf das Mindestmaß beschränkt oder beseitigt, das erforderlich ist, damit die Datenschutzerklärung im Übrigen in vollem Umfang in Kraft bleibt.
 
-### 17.3 Sprache
+### 18.3 Sprache
 Diese Datenschutzerklärung ist in englischer Sprache verfasst. Im Falle von Abweichungen zwischen verschiedenen Sprachversionen ist die englische Version maßgeblich.
 
 ---

@@ -1,7 +1,7 @@
 # Política de Privacidad
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 25 de junio de 2026
+**Última Actualización:** 10 de agosto de 2026
 
 ## 1. Información sobre el Responsable del Tratamiento
 
@@ -54,10 +54,10 @@ Procesamos sus datos personales sobre la base de los siguientes fundamentos jur�
 ### 4.2 Información Recopilada Automáticamente
 
 **Datos de Uso y Análisis:**
-- Análisis de producto/uso de funciones (qué funciones se usan y cómo) — recopilados a través de PostHog **únicamente después de que usted dé su consentimiento explícito (opt-in)** (véase la Sección 9.1); nunca se recopilan si usted rechaza o aún no ha dado su consentimiento
+- Análisis de producto/uso de funciones (qué funciones se usan y cómo) — recopilados a través de PostHog **únicamente después de que usted dé su consentimiento explícito (opt-in)** (véase la Sección 10.1); nunca se recopilan si usted rechaza o aún no ha dado su consentimiento
 - Duración de la sesión y frecuencia de uso (parte del análisis basado en consentimiento mencionado arriba)
 - Métricas de rendimiento del dispositivo relacionadas con el procesamiento de audio/vídeo
-- Informes de errores y registros de fallos (a través de Sentry — véase la Sección 9.1, tratados sobre la base del interés legítimo, con independencia del consentimiento de análisis)
+- Informes de errores y registros de fallos (a través de Sentry — véase la Sección 10.1, tratados sobre la base del interés legítimo, con independencia del consentimiento de análisis)
 
 **Información del Dispositivo y Técnica:**
 - Modelo del dispositivo, sistema operativo y versión
@@ -80,8 +80,14 @@ Procesamos sus datos personales sobre la base de los siguientes fundamentos jur�
 **Procesamiento de Pagos:**
 - En iOS: Apple procesa la información de pago a través de Compras dentro de la Aplicación
 - En Android: Google procesa la información de pago a través de Google Play Billing
-- En la Web: Stripe procesa la información de pago para las suscripciones premium
+- **RevenueCat** recibe de Apple y Google la confirmación de sus compras y nos comunica su estado de derechos (véase la Sección 10). Las suscripciones premium se venden únicamente a través de las aplicaciones móviles; no vendemos suscripciones en la web.
 - Solo recibimos confirmaciones de transacciones y el estado de la suscripción; no recopilamos ni almacenamos datos de tarjetas de pago a través de las aplicaciones móviles
+
+### 4.4 Acceso a Medios Locales en Android
+
+Para que pueda elegir una pista, el explorador de archivos de BeatLoop enumera los archivos de audio y vídeo del almacenamiento compartido de su dispositivo. En Android esto incluye carpetas de medios habituales como `Music`, `Downloads`, `DCIM` y `Documents`, las carpetas de medios creadas por otras aplicaciones (por ejemplo WhatsApp, Telegram, Instagram, Facebook, Snapchat y TikTok) y el almacenamiento en tarjeta SD.
+
+**Este análisis se ejecuta íntegramente en su dispositivo.** Los nombres de archivo, las rutas y el contenido de las carpetas **nunca se transmiten a nosotros ni a terceros**. Requiere el permiso de medios que usted concede a nivel del sistema operativo y que puede revocar en cualquier momento en los ajustes de su dispositivo.
 
 ## 5. Integraciones de Servicios de Música de Terceros
 
@@ -132,9 +138,67 @@ BeatLoop permite a los usuarios importar archivos de audio desde su Google Drive
 
 Los metadatos de la música en streaming (título de la canción, artista, marcadores de tempo, puntos de bucle) pueden almacenarse localmente en su dispositivo con fines de gestión de la sesión. El contenido de audio real de los servicios de streaming NO es almacenado por BeatLoop.
 
-## 6. Cómo Usamos Su Información
+### 5.6 Transmisión a Pantallas Externas (Chromecast y AirPlay)
 
-### 6.1 Funcionalidad Principal de la App
+Cuando transmite un vídeo grabado a un dispositivo Chromecast o AirPlay, BeatLoop inicia un **servidor HTTP temporal en su red Wi-Fi local** y sirve el archivo de vídeo seleccionado al dispositivo receptor. Para ello, la aplicación lee la dirección de red local de su dispositivo y utiliza Bonjour y Bluetooth para detectar receptores cercanos.
+
+- El servidor funciona **únicamente mientras la transmisión está activa** y solo es accesible **desde su red local**: nunca desde Internet y nunca por nuestra parte.
+- No requiere autenticación. Cualquier otra persona conectada a la misma red Wi-Fi podría, en principio, acceder al archivo servido mientras la transmisión está en curso. **Evite transmitir en redes públicas no confiables.**
+- No se transmiten datos de la reproducción a nuestros servidores.
+
+### 5.7 Visibilidad de Archivos en el Dispositivo (iOS)
+
+En iOS, la carpeta de documentos de BeatLoop es accesible desde la aplicación Archivos y desde Finder/iTunes por USB, para que pueda recuperar sus propias grabaciones. Por tanto, cualquier persona con acceso físico a su ordenador desbloqueado mientras su dispositivo está conectado puede acceder a esos archivos. Se trata de una función a nivel de dispositivo y no implica ninguna transmisión hacia nosotros.
+
+## 6. Notificaciones Push y Comunicaciones de Marketing
+
+### 6.1 Qué Enviamos
+
+Con su consentimiento, BeatLoop envía notificaciones push a su dispositivo. Se dividen en dos categorías:
+
+- **Notificaciones de producto** — nuevas funciones e información importante del servicio
+- **Notificaciones promocionales** — ofertas, cambios de precio y promociones de suscripción
+
+Al tocar una notificación, la aplicación puede abrirse en la pantalla de inicio, en una sesión de práctica o en la pantalla de suscripción.
+
+### 6.2 Base Jurídica y Consentimiento
+
+Las notificaciones push, y en particular las **promocionales**, se envían **únicamente sobre la base de su consentimiento previo y explícito** conforme al **Artículo 6(1)(a) del RGPD** y al **§ 7(2) de la UWG** (Ley alemana contra la competencia desleal).
+
+- El consentimiento se solicita mediante un **aviso específico e independiente dentro de la aplicación**. **No** está agrupado con la aceptación de nuestros Términos de Servicio ni de la Política de Privacidad, y no se utilizan casillas premarcadas.
+- Deben cumplirse dos condiciones independientes antes de que cualquier notificación pueda llegarle: su **consentimiento en la aplicación** y el **permiso de notificaciones de su sistema operativo**. Retirar cualquiera de los dos detiene el envío.
+- **Rechazarlas no afecta en modo alguno a su uso de BeatLoop.** Todas las funciones siguen disponibles.
+- Registramos la fecha y hora de su consentimiento en su perfil de usuario para poder demostrarlo, conforme al Artículo 7(1) del RGPD.
+
+### 6.3 Cómo Funciona el Envío
+
+Utilizamos **Firebase Cloud Messaging (FCM)**, un servicio de Google Ireland Limited, como encargado del tratamiento para el envío. Firebase Cloud Messaging es el **único** producto de Firebase que utilizamos: no usamos Firebase Analytics, Crashlytics, Firebase Authentication, Firestore ni Firebase Storage.
+
+El envío se realiza **por temas, no de forma individualizada**. Cuando usted da su consentimiento, su dispositivo se suscribe a temas de difusión. Los dos únicos atributos utilizados para seleccionar la audiencia son su **nivel de suscripción** (premium o gratuito) y el **idioma de la aplicación**. Las campañas se envían a un tema completo de una sola vez. **No enviamos notificaciones a personas concretas ni elaboramos perfiles de comportamiento para segmentar notificaciones.**
+
+**Token de registro del dispositivo.** Para que Firebase Cloud Messaging funcione, el SDK de Firebase registra su dispositivo en Google, y Google emite un token de registro del dispositivo. **BeatLoop nunca lee, recibe ni almacena este token, y no almacenamos identificadores de dispositivo con fines de notificación.** Google trata el token conforme a su propia política de privacidad. Este registro se produce al iniciarse la aplicación, antes de que se le solicite el consentimiento; puede evitarlo denegando a BeatLoop el permiso de notificaciones a nivel del sistema operativo.
+
+### 6.4 Información Almacenada en Su Dispositivo (§ 25 TDDDG)
+
+Con su consentimiento, BeatLoop almacena su decisión sobre las notificaciones y la lista de temas a los que su dispositivo está suscrito, de modo que solo sea necesario transmitir los cambios en lugar de volver a suscribirse en cada inicio. Conforme al **§ 25 TDDDG**, este almacenamiento en el dispositivo requiere su consentimiento, que se obtiene mediante el aviso descrito en la Sección 6.2.
+
+### 6.5 Retirada del Consentimiento
+
+Puede retirar su consentimiento en cualquier momento, y hacerlo es **tan sencillo como otorgarlo** (Artículo 7(3) del RGPD):
+
+- **En la aplicación:** Cuenta → Ajustes → interruptor de notificaciones. Al desactivarlo, su dispositivo cancela inmediatamente la suscripción a todos los temas.
+- **En su dispositivo:** revoque el permiso de notificaciones en los ajustes del sistema iOS o Android.
+- **Por correo electrónico:** privacy@on-beat.de
+
+Al cerrar sesión, su dispositivo cancela automáticamente la suscripción a todos los temas.
+
+### 6.6 Comunicaciones por Correo Electrónico
+
+Los correos transaccionales (restablecimiento de contraseña, confirmación de cuenta, recibos de compra) se envían sobre la base de la ejecución del contrato. **Los boletines y correos de marketing se envían únicamente con su consentimiento explícito e independiente**, registrado con fecha y hora, y todos ellos incluyen un enlace para darse de baja.
+
+## 7. Cómo Usamos Su Información
+
+### 7.1 Funcionalidad Principal de la App
 - Creación de cuentas, autenticación y gestión de accesos
 - Activación de funciones premium y seguimiento de uso
 - Procesamiento de audio local, creación de bucles, ajuste de velocidad y gestión de sesiones
@@ -142,27 +206,31 @@ Los metadatos de la música en streaming (título de la canción, artista, marca
 - Sincronización de sesiones entre dispositivos (solo metadatos)
 - Atención al cliente y asistencia técnica
 
-### 6.2 Mejora del Servicio
+### 7.2 Mejora del Servicio
 - Optimización del rendimiento de la App y corrección de errores
 - Desarrollo de funciones basado en patrones de uso
 - Supervisión de seguridad y prevención del fraude
 - Garantía de calidad y pruebas
 
-### 6.3 Comunicaciones
+### 7.3 Comunicaciones
 - Notificaciones y actualizaciones relacionadas con el servicio
 - Gestión de suscripciones premium
 - Respuesta a consultas de soporte
 - Cambios importantes en las políticas o el servicio (cuando lo exija la ley)
 
-### 6.4 Análisis y Operaciones Comerciales
+### 7.4 Análisis y Operaciones Comerciales
 - Métricas de Usuarios Activos Mensuales (MAU) y análisis de la interacción
 - Análisis de conversión y retención de suscripciones
 - Estadísticas generales de uso para la planificación empresarial
 - Cumplimiento de obligaciones legales y requisitos fiscales
 
-## 7. Contenido del Usuario y Responsabilidad sobre los Derechos de Autor
+### 7.5 Experimentos de Producto (Pruebas A/B)
 
-### 7.1 Responsabilidad del Usuario sobre el Contenido
+Ocasionalmente realizamos experimentos en los que distintos usuarios ven versiones diferentes de una pantalla —normalmente la de suscripción— para evaluar cuál funciona mejor. La asignación a un grupo experimental se registra como un evento de analítica, por lo que **la participación en experimentos solo se mide si usted ha consentido la analítica**. Si no lo ha hecho, no se registra ningún dato experimental sobre usted. Los experimentos nunca modifican el precio que se le cobra; el precio aplicable se muestra siempre antes de confirmar cualquier compra.
+
+## 8. Contenido del Usuario y Responsabilidad sobre los Derechos de Autor
+
+### 8.1 Responsabilidad del Usuario sobre el Contenido
 
 **IMPORTANTE:** BeatLoop es una herramienta que permite a los usuarios acceder a música de múltiples fuentes (archivos locales, YouTube, Apple Music) con fines de práctica. Al usar la App, usted reconoce y acepta que:
 
@@ -171,7 +239,7 @@ Los metadatos de la música en streaming (título de la canción, artista, marca
 3. **Usted indemniza y exime de responsabilidad** a OnBeat HQ UG (haftungsbeschränkt), sus filiales y proveedores de servicios de cualquier reclamación, daño o responsabilidad derivada de su uso de contenido protegido por derechos de autor o de otro modo
 4. **El contenido al que se accede a través de servicios de streaming** (YouTube, Apple Music) sigue estando sujeto a los respectivos términos de licencia de esas plataformas y a sus acuerdos de suscripción con ellas
 
-### 7.2 Cumplimiento de los Derechos de Autor
+### 8.2 Cumplimiento de los Derechos de Autor
 
 - BeatLoop **no** proporciona, aloja, guarda en caché ni redistribuye música, pistas de audio ni contenido protegido por derechos de autor
 - BeatLoop **no** supervisa, revisa ni valida el estado de los derechos de autor del contenido del usuario
@@ -179,7 +247,7 @@ Los metadatos de la música en streaming (título de la canción, artista, marca
 - Los usuarios deben cumplir con todas las leyes de derechos de autor aplicables en su jurisdicción
 - BeatLoop se reserva el derecho de cancelar las cuentas que infrinjan repetidamente las políticas de derechos de autor
 
-### 7.3 Cumplimiento de la Ley de Derechos de Autor de la Era Digital (DMCA)
+### 8.3 Cumplimiento de la Ley de Derechos de Autor de la Era Digital (DMCA)
 
 Si cree que algún contenido de BeatLoop infringe sus derechos de autor, póngase en contacto con nosotros en support@on-beat.de con:
 - Su información de contacto y firma electrónica
@@ -188,7 +256,7 @@ Si cree que algún contenido de BeatLoop infringe sus derechos de autor, póngas
 - Una declaración de buena fe de que el uso no está autorizado
 - Una declaración de que la información es exacta y de que usted está autorizado para actuar
 
-### 7.4 Ausencia de Responsabilidad por el Contenido del Usuario
+### 8.4 Ausencia de Responsabilidad por el Contenido del Usuario
 
 **BeatLoop renuncia expresamente a toda responsabilidad** por:
 - La infracción de derechos de autor por parte de los usuarios
@@ -197,33 +265,37 @@ Si cree que algún contenido de BeatLoop infringe sus derechos de autor, póngas
 - Los daños resultantes del incumplimiento por parte de los usuarios de la obtención de las licencias adecuadas
 - Las reclamaciones de derechos de autor derivadas de los vídeos grabados y compartidos por los usuarios
 
-## 8. Almacenamiento y Seguridad de los Datos
+## 9. Almacenamiento y Seguridad de los Datos
 
-### 8.1 Almacenamiento Local de Datos
+### 9.1 Almacenamiento Local de Datos
 - **Los archivos de audio y vídeo** importados desde el almacenamiento local se almacenan exclusivamente en su dispositivo
 - **El contenido en streaming** de YouTube y Apple Music NO se almacena en su dispositivo ni en nuestros servidores
 - **Las sesiones de práctica y los proyectos** permanecen locales en su dispositivo
 - **Ningún contenido del usuario** se carga en nuestros servidores sin una acción explícita
 - Si utiliza la **función de compartir**, las sesiones creadas a partir de un archivo de audio o vídeo local incluyen una copia de ese archivo multimedia en el paquete `.beatloop` exportado, que se envía **directamente a través de las opciones para compartir de su dispositivo** — no se carga, transmite ni almacena en nuestros servidores
 
-### 8.2 Almacenamiento de Datos en la Nube
+### 9.2 Almacenamiento de Datos en la Nube
 - **La información de la cuenta** se almacena de forma segura utilizando la infraestructura de Supabase
 - **Los metadatos de la sesión** (marcadores, marcas de tiempo, puntos de bucle, nombres de proyectos) pueden sincronizarse
 - **Los tokens de autenticación** se cifran y almacenan de forma segura
-- **La información de pago** es procesada y almacenada por Apple (iOS), Google (Android) o Stripe (web), no por BeatLoop
+- **La información de pago** es procesada y almacenada por Apple (iOS) o Google (Android), nunca por BeatLoop
 
-### 8.3 Medidas de Seguridad
+### 9.3 Medidas de Seguridad
 - Cifrado estándar del sector para la transmisión de datos (TLS/HTTPS)
 - Protocolos de autenticación seguros y gestión de tokens
 - Evaluaciones de seguridad periódicas y supervisión de vulnerabilidades
 - Controles de acceso y registros de auditoría para funciones administrativas
 - Procedimientos de respuesta a violaciones de datos y protocolos de notificación a los usuarios
 
-## 9. Transferencias Internacionales de Datos
+### 9.4 Configuración Remota y Actualizaciones Obligatorias
+
+Al iniciarse, BeatLoop consulta un pequeño registro de configuración en nuestro servidor para determinar la versión mínima admitida de la aplicación. Si la versión instalada es inferior a ese mínimo, la aplicación le exigirá actualizar antes de continuar. Esta consulta no contiene datos personales y no se utiliza con fines de seguimiento.
+
+## 10. Transferencias Internacionales de Datos
 
 BeatLoop opera a nivel mundial y puede transferir sus datos personales fuera de su país de residencia, incluso a países que pueden no proporcionar el mismo nivel de protección de datos que su país de origen.
 
-### 9.1 Proveedores de Servicios de Terceros
+### 10.1 Proveedores de Servicios de Terceros
 
 Los siguientes servicios pueden procesar sus datos fuera de la UE:
 
@@ -250,10 +322,19 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - Datos (Drive): Metadatos del archivo y contenido de audio (solo lectura, procesamiento local únicamente)
 - Salvaguardias: Cláusulas Contractuales Tipo y las condiciones de tratamiento de datos de Google
 
-**Stripe (Procesamiento de Pagos):**
-- Ubicación de los datos: Estados Unidos y UE
-- Finalidad: Pagos de suscripciones premium (web)
-- Salvaguardias: Cumplimiento de PCI DSS, Cláusulas Contractuales Tipo
+**Google — Firebase Cloud Messaging (Envío de Notificaciones Push):**
+- Operador: Google Ireland Limited
+- Ubicación de los datos: Unión Europea y Estados Unidos
+- Finalidad: Envío de notificaciones push a su dispositivo (véase la Sección 6)
+- Datos tratados: token de registro del dispositivo, suscripciones a temas, contenido de la notificación
+- Salvaguardias: Anexo de Tratamiento de Datos de Google Cloud, Cláusulas Contractuales Tipo, Marco de Privacidad de Datos UE-EE. UU.
+
+**RevenueCat (Gestión de Suscripciones):**
+- Operador: RevenueCat, Inc., Estados Unidos
+- Finalidad: Validación de compras con Apple y Google y determinación de su derecho a premium
+- Datos tratados: su identificador de cuenta de BeatLoop (transmitido como ID de usuario de la aplicación en RevenueCat), eventos de compra y renovación, identificador de producto, precio, moneda, tienda, código de oferta y país
+- Nota: RevenueCat no procesa pagos y nunca recibe los datos de su tarjeta de pago
+- Salvaguardias: Anexo de Tratamiento de Datos, Cláusulas Contractuales Tipo
 
 **Resend (Comunicaciones por Correo Electrónico):**
 - Ubicación de los datos: Estados Unidos
@@ -282,19 +363,19 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - **Política de Privacidad de PostHog:** [https://posthog.com/privacy](https://posthog.com/privacy)
 - **Lista de Subencargados del Tratamiento:** [https://posthog.com/subprocessors](https://posthog.com/subprocessors)
 
-### 9.2 Salvaguardias Legales
+### 10.2 Salvaguardias Legales
 Todas las transferencias internacionales de datos están protegidas por salvaguardias adecuadas, entre ellas:
 - Cláusulas Contractuales Tipo aprobadas por la Comisión Europea
 - Decisiones de adecuación cuando corresponda
 - Normas Corporativas Vinculantes para proveedores de servicios multinacionales
 - Medidas técnicas y organizativas adicionales según sea necesario
 
-## 10. Intercambio y Divulgación de Datos
+## 11. Intercambio y Divulgación de Datos
 
-### 10.1 No Vendemos Datos Personales
+### 11.1 No Vendemos Datos Personales
 BeatLoop no vende, alquila ni comercia con su información personal a terceros con fines de marketing.
 
-### 10.2 Intercambio Limitado de Datos
+### 11.2 Intercambio Limitado de Datos
 Podemos compartir su información únicamente en las siguientes circunstancias:
 
 **Proveedores de Servicios:** Con proveedores de servicios de terceros de confianza que ayudan a operar nuestra App, procesar pagos o proporcionar atención al cliente, bajo estrictos acuerdos de confidencialidad.
@@ -305,16 +386,16 @@ Podemos compartir su información únicamente en las siguientes circunstancias:
 
 **Consentimiento:** Con su consentimiento explícito para fines específicos no cubiertos por esta política.
 
-### 10.3 Protección de Datos en el Intercambio
+### 11.3 Protección de Datos en el Intercambio
 Todos los acuerdos de intercambio de datos incluyen:
 - Obligaciones contractuales de protección de datos
 - Limitación de la finalidad y restricciones de uso
 - Requisitos de seguridad y confidencialidad
 - Mecanismos de preservación de los derechos del usuario
 
-## 11. Sus Derechos en virtud de las Leyes de Protección de Datos
+## 12. Sus Derechos en virtud de las Leyes de Protección de Datos
 
-### 11.1 Derechos del RGPD (Usuarios de la UE)
+### 12.1 Derechos del RGPD (Usuarios de la UE)
 
 Usted tiene los siguientes derechos con respecto a sus datos personales:
 
@@ -326,7 +407,7 @@ Usted tiene los siguientes derechos con respecto a sus datos personales:
 **Derecho de Oposición (Artículo 21):** Oponerse al tratamiento basado en intereses legítimos
 **Derecho a Retirar el Consentimiento:** Cuando el tratamiento se base en el consentimiento
 
-### 11.2 Derechos de la CCPA (Usuarios de California)
+### 12.2 Derechos de la CCPA (Usuarios de California)
 
 Los residentes de California tienen derechos adicionales, entre ellos:
 - Derecho a saber qué información personal se recopila
@@ -334,7 +415,7 @@ Los residentes de California tienen derechos adicionales, entre ellos:
 - Derecho a optar por no participar en la venta de información personal (Nota: No vendemos información personal)
 - Derecho a la no discriminación por ejercer los derechos de privacidad
 
-### 11.3 Ejercicio de Sus Derechos
+### 12.3 Ejercicio de Sus Derechos
 
 Para ejercer sus derechos de privacidad:
 
@@ -345,80 +426,90 @@ Para ejercer sus derechos de privacidad:
 **Tiempo de Respuesta:** Responderemos en un plazo de 30 días (RGPD) o 45 días (CCPA)
 **Sin Coste:** Las solicitudes de ejercicio de derechos se procesan generalmente de forma gratuita
 
-### 11.4 Derecho a Presentar una Reclamación
+### 12.4 Derecho a Presentar una Reclamación
 
 Si cree que no hemos abordado adecuadamente sus inquietudes sobre la privacidad, tiene derecho a presentar una reclamación ante su autoridad local de protección de datos. Los usuarios de la UE pueden encontrar su autoridad local en: https://edpb.europa.eu/about-edpb/about-edpb/members_en
 
-## 12. Conservación de Datos
+### 12.5 Eliminación de la Cuenta — Qué Ocurre Realmente
 
-### 12.1 Datos de la Cuenta
+La eliminación se produce por fases, y queremos que sepa exactamente cómo:
+
+1. **De inmediato:** su cuenta se marca como eliminada y se desactiva. Su perfil y los datos de sus sesiones dejan de ser accesibles a través de la aplicación.
+2. **En un plazo de 30 días:** sus datos personales se borran de forma permanente de nuestros sistemas de producción mediante un proceso automatizado de limpieza.
+3. **Reactivación durante esos 30 días:** si vuelve a iniciar sesión con las mismas credenciales antes del borrado definitivo, **su cuenta y sus datos se restauran**. Este período de gracia le protege frente a eliminaciones accidentales. Si desea un borrado inmediato e irreversible sin período de gracia, escriba a privacy@on-beat.de y lo llevaremos a cabo manualmente.
+4. **HubSpot:** la eliminación de su ficha de contacto de nuestro CRM es **actualmente un paso manual**, que completamos en un plazo de 30 días desde su solicitud.
+5. **Datos que debemos conservar:** los registros de pago y facturación se conservan durante 7 años conforme a la legislación fiscal y mercantil alemana, con independencia de la eliminación de la cuenta.
+
+## 13. Conservación de Datos
+
+### 13.1 Datos de la Cuenta
 - **Cuentas activas:** Conservados durante la duración de su cuenta más 30 días
 - **Cuentas inactivas:** Eliminadas automáticamente después de 24 meses de inactividad
 - **Cuentas eliminadas:** Eliminadas permanentemente en un plazo de 30 días desde la solicitud de eliminación
 
-### 12.2 Datos de Uso y Análisis
+### 13.2 Datos de Uso y Análisis
 - **Registros de inicio de sesión:** Conservados durante 12 meses por motivos de seguridad
-- **Análisis de producto (PostHog):** Datos de eventos individuales conservados según la Sección 9.1 (12 meses); solo las conclusiones agregadas/derivadas pueden conservarse más tiempo. Recopilados únicamente con su consentimiento.
+- **Análisis de producto (PostHog):** Datos de eventos individuales conservados según la Sección 10.1 (12 meses); solo las conclusiones agregadas/derivadas pueden conservarse más tiempo. Recopilados únicamente con su consentimiento.
 - **Registros de errores:** Conservados durante 12 meses para la depuración y la mejora
 
-### 12.3 Datos Legales y de Cumplimiento
+### 13.3 Datos Legales y de Cumplimiento
 - **Registros de pagos:** Conservados durante 7 años para cumplir con los requisitos fiscales y contables
 - **Correspondencia legal:** Conservada durante el tiempo necesario para fines legales
 - **Avisos de la DMCA:** Conservados durante 3 años según lo exige la ley
 
-### 12.4 Contenido del Usuario
+### 13.4 Contenido del Usuario
 - **Archivos locales:** Bajo su control completo en su dispositivo
 - **Metadatos de la sesión:** Conservados mientras la cuenta esté activa, eliminados con la eliminación de la cuenta
 - **Comunicaciones de soporte:** Conservadas durante 3 años con fines de calidad y formación
 
-## 13. Cookies y Tecnologías de Seguimiento
+## 14. Cookies y Tecnologías de Seguimiento
 
-### 13.1 Uso Actual
+### 14.1 Uso Actual
 BeatLoop actualmente utiliza tecnologías de seguimiento mínimas:
 - **Tokens de autenticación:** Para un inicio de sesión seguro y la gestión de sesiones
 - **Preferencias de la App:** Almacenadas localmente para recordar su configuración
 - **Seguimiento de errores:** Informes básicos de fallos para la estabilidad de la app
 
-### 13.2 Análisis de Producto (PostHog)
+### 14.2 Análisis de Producto (PostHog)
 Utilizamos **PostHog** (EU Cloud) para el análisis de producto/uso con el fin de entender cómo se usa la App y mejorarla. Este análisis:
 - está **desactivado de forma predeterminada** y solo se ejecuta **después de que usted dé su consentimiento explícito (opt-in)** (Art. 6(1)(a) del RGPD; § 25 de la TDDDG alemana)
 - utiliza únicamente un **identificador de instancia de app seudónimo** — sin nombre, correo electrónico, IP ni ubicación GeoIP, y sin reproducción de sesiones
 - almacena su preferencia de exclusión/consentimiento en su dispositivo
 
-Véase la Sección 9.1 (PostHog) para el alojamiento, la conservación, los subencargados del tratamiento y las salvaguardias.
+Véase la Sección 10.1 (PostHog) para el alojamiento, la conservación, los subencargados del tratamiento y las salvaguardias.
 
-### 13.3 Su Control
+### 14.3 Su Control
 - **Exclusión de análisis:** El análisis es opcional (opt-in); puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad**
 - **Configuración de cookies:** Puede gestionarse a través de la configuración de su dispositivo
 - **Seguimiento de terceros:** No utilizamos píxeles de seguimiento de publicidad ni de redes sociales, y no le rastreamos a través de otras apps o sitios web
 
-## 14. Privacidad de los Menores
+## 15. Privacidad de los Menores
 
-### 14.1 Restricción de Edad
+### 15.1 Restricción de Edad
 BeatLoop no está destinado a usuarios menores de 16 años. No recopilamos a sabiendas información personal de menores de 16 años. Si es menor de 16 años, no utilice BeatLoop ni proporcione ninguna información personal.
 
-### 14.2 Aviso a los Padres
+### 15.2 Aviso a los Padres
 Si tenemos conocimiento de que hemos recopilado información personal de un menor de 16 años sin el consentimiento parental verificado, tomaremos medidas para eliminar esa información de inmediato.
 
-### 14.3 Derechos de los Padres
+### 15.3 Derechos de los Padres
 Los padres que crean que su hijo menor de 16 años ha proporcionado información personal a BeatLoop pueden ponerse en contacto con nosotros en privacy@on-beat.de para solicitar la eliminación de dicha información.
 
-## 15. Cambios en esta Política de Privacidad
+## 16. Cambios en esta Política de Privacidad
 
-### 15.1 Actualizaciones de la Política
+### 16.1 Actualizaciones de la Política
 Podemos actualizar esta Política de Privacidad de vez en cuando para reflejar cambios en nuestras prácticas, tecnología, requisitos legales u otros factores.
 
-### 15.2 Notificación de Cambios
+### 16.2 Notificación de Cambios
 **Cambios menores:** Fecha de «Última Actualización» actualizada en la parte superior de esta política
 **Cambios sustanciales:** Notificación por correo electrónico a los usuarios registrados y notificación dentro de la app
 **Uso Continuado:** Su uso continuado de BeatLoop después de los cambios constituye una aceptación
 
-### 15.3 Historial de Cambios
+### 16.3 Historial de Cambios
 Mantenemos un registro de los cambios significativos en la política con fines de transparencia y cumplimiento.
 
-## 16. Información de Contacto
+## 17. Información de Contacto
 
-### 16.1 Consultas sobre Privacidad
+### 17.1 Consultas sobre Privacidad
 Para preguntas sobre esta Política de Privacidad o nuestras prácticas de datos:
 
 **Correo electrónico:** privacy@on-beat.de
@@ -427,24 +518,24 @@ OnBeat HQ UG (haftungsbeschränkt)
 Wichterichstraße 4
 50937 Köln, Alemania
 
-### 16.2 Solicitudes de Protección de Datos
+### 17.2 Solicitudes de Protección de Datos
 Para ejercer sus derechos de protección de datos, utilice el correo electrónico anterior e incluya:
 - Su nombre completo y la dirección de correo electrónico asociada a su cuenta
 - El derecho específico que desea ejercer
 - Cualquier información adicional necesaria para verificar su identidad
 
-### 16.3 Compromiso de Respuesta
+### 17.3 Compromiso de Respuesta
 Nos comprometemos a responder a las consultas sobre privacidad de manera rápida y profesional. Normalmente respondemos en un plazo de 3 a 5 días hábiles para consultas generales y dentro de los plazos legalmente requeridos para las solicitudes formales de ejercicio de derechos.
 
-## 17. Información Legal Adicional
+## 18. Información Legal Adicional
 
-### 17.1 Ley Aplicable
+### 18.1 Ley Aplicable
 Esta Política de Privacidad se rige por las leyes de Alemania y la Unión Europea. Cualquier disputa que surja de esta política estará sujeta a la jurisdicción de los tribunales alemanes.
 
-### 17.2 Divisibilidad
+### 18.2 Divisibilidad
 Si alguna disposición de esta Política de Privacidad se considera inaplicable o inválida, dicha disposición se limitará o eliminará en la medida mínima necesaria para que la Política de Privacidad permanezca por lo demás en pleno vigor y efecto.
 
-### 17.3 Idioma
+### 18.3 Idioma
 Esta Política de Privacidad está redactada en inglés. En caso de cualquier discrepancia entre las diferentes versiones lingüísticas, prevalecerá la versión en inglés.
 
 ---

@@ -1,7 +1,7 @@
 # Terms of Service (Allgemeine Geschäftsbedingungen - AGB)
 
 **Effective Date:** February 15, 2026
-**Last Updated:** June 25, 2026
+**Last Updated:** August 10, 2026
 
 ## 1. Service Provider and Scope
 
@@ -204,13 +204,11 @@ BeatLoop offers both free and premium subscription tiers:
 - You can manage and cancel subscriptions in Google Play Store settings
 - Refunds are handled by Google according to their refund policy
 
-**Web (if applicable):**
-- Premium subscriptions on the web are processed through Stripe
-- Billed according to your selected plan (monthly, yearly, etc.)
-- Subscriptions automatically renew unless canceled at least 24 hours before the current period ends
-- You may cancel your subscription at any time through your account settings
+**Subscription Management Infrastructure:**
+- We use **RevenueCat** to validate purchases with Apple and Google and to determine your premium entitlement. RevenueCat does not process payments and never receives your payment card details.
+- Premium subscriptions are currently offered **only through the mobile apps**. We do not sell subscriptions on the web.
 
-**Important:** BeatLoop does not collect or store payment card information via mobile apps. All payment processing on mobile is handled by Apple (iOS) or Google (Android).
+**Important:** BeatLoop never collects or stores payment card information. All payment processing is handled by Apple (iOS) or Google (Android) under their own terms, and refunds are administered by them.
 
 ### 7.3 Price Changes
 We reserve the right to modify subscription prices with at least 30 days' notice to existing subscribers. Price changes will not affect your current billing cycle.
@@ -245,6 +243,15 @@ When you accept these Terms of Service and our Privacy Policy, we record timesta
 ### 9.4 User Rights
 You have various rights regarding your personal data, including access, correction, deletion, and portability. Please refer to our Privacy Policy for detailed information.
 
+### 9.5 Push Notifications
+BeatLoop can send push notifications, including promotional notifications about offers and subscription pricing. These are sent **only if you have given prior, explicit consent**, requested through a separate in-app prompt that is not bundled with your acceptance of these Terms. You may withdraw consent at any time — in Account → Settings, or by revoking the notification permission in your device settings — and **declining or withdrawing does not restrict your use of BeatLoop in any way**. See Section 6 of our Privacy Policy.
+
+### 9.6 Analytics
+Product analytics are **switched off unless you actively consent**. If you decline, no analytics data is created or transmitted and the App remains fully functional. Separately, we use crash and error reporting on the basis of our legitimate interest in keeping the App stable; you may object under Article 21 GDPR. See our Privacy Policy for detail.
+
+### 9.7 Account Deletion
+Deleting your account deactivates it immediately and triggers permanent erasure within 30 days. During that window, signing in again with the same credentials restores your account and data. For immediate irreversible erasure, contact privacy@on-beat.de. Records we are legally required to keep, such as payment and invoicing records, are retained for the statutory period.
+
 ## 10. Service Availability and Modifications
 
 ### 10.1 Service Availability
@@ -255,6 +262,9 @@ We reserve the right to modify, update, or discontinue features of BeatLoop at a
 
 ### 10.3 Device Compatibility
 BeatLoop is designed for compatible iOS and Android devices. We do not guarantee compatibility with all devices or operating system versions.
+
+### 10.4 Required Updates and Minimum Supported Version
+BeatLoop checks a minimum supported version on startup. If your installed version is older than that minimum, **the App will require you to update before you can continue using it**. We use this only where an older version is insecure, broken, or incompatible with our backend. Where a required update prevents you from using a subscription you have already paid for, and you cannot install it on your device, contact support@on-beat.de and we will assist with a pro-rata remedy through the relevant app store.
 
 ## 11. Disclaimers and Limitations of Liability
 
@@ -360,4 +370,4 @@ Wichterichstraße 4
 **By creating an account or using BeatLoop, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.**
 
 
-**These Terms were last updated on June 25, 2026, and become effective immediately upon acceptance.**
+**These Terms were last updated on August 10, 2026, and become effective immediately upon acceptance.**

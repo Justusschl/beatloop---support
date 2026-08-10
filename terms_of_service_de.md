@@ -1,7 +1,7 @@
 # Nutzungsbedingungen (Allgemeine Geschäftsbedingungen - AGB)
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 25. Juni 2026
+**Zuletzt aktualisiert:** 10. August 2026
 
 ## 1. Diensteanbieter und Geltungsbereich
 
@@ -204,13 +204,11 @@ BeatLoop bietet sowohl kostenlose als auch Premium-Abonnementstufen:
 - Sie können Abonnements in den Einstellungen des Google Play Store verwalten und kündigen
 - Rückerstattungen werden von Google gemäß ihrer Rückerstattungsrichtlinie abgewickelt
 
-**Web (sofern zutreffend):**
-- Premium-Abonnements im Web werden über Stripe abgewickelt
-- Abgerechnet gemäß Ihrem ausgewählten Plan (monatlich, jährlich usw.)
-- Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums gekündigt werden
-- Sie können Ihr Abonnement jederzeit über Ihre Kontoeinstellungen kündigen
+**Infrastruktur der Abonnementverwaltung:**
+- Wir setzen **RevenueCat** ein, um Käufe bei Apple und Google zu überprüfen und Ihre Premium-Berechtigung zu ermitteln. RevenueCat wickelt keine Zahlungen ab und erhält zu keinem Zeitpunkt Ihre Zahlungskartendaten.
+- Premium-Abonnements werden derzeit **ausschließlich über die mobilen Apps** angeboten. Wir verkaufen keine Abonnements über das Web.
 
-**Wichtig:** BeatLoop erhebt oder speichert keine Zahlungskartendaten über mobile Apps. Die gesamte Zahlungsabwicklung auf Mobilgeräten wird von Apple (iOS) oder Google (Android) durchgeführt.
+**Wichtig:** BeatLoop erhebt und speichert zu keinem Zeitpunkt Zahlungskartendaten. Die gesamte Zahlungsabwicklung erfolgt durch Apple (iOS) oder Google (Android) nach deren eigenen Bedingungen; Rückerstattungen werden ebenfalls von diesen abgewickelt.
 
 ### 7.3 Preisänderungen
 Wir behalten uns das Recht vor, Abonnementpreise mit einer Frist von mindestens 30 Tagen gegenüber bestehenden Abonnenten zu ändern. Preisänderungen wirken sich nicht auf Ihren aktuellen Abrechnungszeitraum aus.
@@ -245,6 +243,15 @@ Wenn Sie diese Nutzungsbedingungen und unsere Datenschutzerklärung annehmen, ze
 ### 9.4 Nutzerrechte
 Sie haben verschiedene Rechte in Bezug auf Ihre personenbezogenen Daten, einschließlich Auskunft, Berichtigung, Löschung und Übertragbarkeit. Bitte beachten Sie unsere Datenschutzerklärung für detaillierte Informationen.
 
+### 9.5 Push-Benachrichtigungen
+BeatLoop kann Push-Benachrichtigungen senden, einschließlich werblicher Benachrichtigungen zu Angeboten und Abonnementpreisen. Diese werden **ausschließlich bei vorheriger, ausdrücklicher Einwilligung** versendet, die über eine gesonderte Abfrage in der App eingeholt wird und nicht mit der Annahme dieser Bedingungen gekoppelt ist. Sie können Ihre Einwilligung jederzeit widerrufen — unter Konto → Einstellungen oder durch Entzug der Benachrichtigungsberechtigung in den Geräteeinstellungen —, und **eine Ablehnung oder ein Widerruf schränkt Ihre Nutzung von BeatLoop in keiner Weise ein**. Siehe Abschnitt 6 unserer Datenschutzerklärung.
+
+### 9.6 Analyse
+Die Produktanalyse ist **deaktiviert, sofern Sie nicht aktiv einwilligen**. Bei Ablehnung werden keine Analysedaten erzeugt oder übermittelt, und die App bleibt vollständig nutzbar. Unabhängig davon setzen wir eine Absturz- und Fehlerberichterstattung auf Grundlage unseres berechtigten Interesses an der Stabilität der App ein; Sie können dem nach Art. 21 DSGVO widersprechen. Einzelheiten finden Sie in unserer Datenschutzerklärung.
+
+### 9.7 Kontolöschung
+Die Löschung Ihres Kontos deaktiviert es sofort und löst die endgültige Löschung innerhalb von 30 Tagen aus. Innerhalb dieses Zeitraums werden Ihr Konto und Ihre Daten wiederhergestellt, wenn Sie sich erneut mit denselben Zugangsdaten anmelden. Für eine sofortige, unwiderrufliche Löschung wenden Sie sich an privacy@on-beat.de. Gesetzlich aufzubewahrende Unterlagen, etwa Zahlungs- und Rechnungsunterlagen, werden für die gesetzliche Dauer aufbewahrt.
+
 ## 10. Verfügbarkeit und Änderungen des Dienstes
 
 ### 10.1 Verfügbarkeit des Dienstes
@@ -255,6 +262,9 @@ Wir behalten uns das Recht vor, Funktionen von BeatLoop jederzeit zu ändern, zu
 
 ### 10.3 Gerätekompatibilität
 BeatLoop ist für kompatible iOS- und Android-Geräte konzipiert. Wir garantieren keine Kompatibilität mit allen Geräten oder Betriebssystemversionen.
+
+### 10.4 Erforderliche Aktualisierungen und mindestens unterstützte Version
+BeatLoop prüft beim Start die mindestens unterstützte Version. Ist Ihre installierte Version älter, **fordert die App Sie zur Aktualisierung auf, bevor Sie sie weiter nutzen können**. Wir setzen dies nur ein, wenn eine ältere Version unsicher oder fehlerhaft oder mit unserem Backend nicht kompatibel ist. Sofern eine erforderliche Aktualisierung Sie an der Nutzung eines bereits bezahlten Abonnements hindert und Sie sie auf Ihrem Gerät nicht installieren können, wenden Sie sich an support@on-beat.de; wir unterstützen Sie dann bei einer anteiligen Abhilfe über den jeweiligen App-Store.
 
 ## 11. Haftungsausschlüsse und Haftungsbeschränkungen
 

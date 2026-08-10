@@ -87,14 +87,14 @@
 
 <div class="effective-date">
     <strong>Effective Date:</strong> February 15, 2026<br>
-    <strong>Last Updated:</strong> June 25, 2026
+    <strong>Last Updated:</strong> August 10, 2026
 </div>
 
 <h2>1. Data Controller Information</h2>
 
-<div class="contact-info">
-<strong>BeatLoop</strong> (referred to as "we," "us," or "our") operates the BeatLoop mobile application (the "App").
+<p><strong>BeatLoop</strong> (referred to as "we," "us," or "our") operates the BeatLoop mobile application (the "App").</p>
 
+<div class="contact-info">
 <p><strong>Data Controller:</strong><br>
 OnBeat HQ UG (haftungsbeschränkt)<br>
 Wichterichstraße 4<br>
@@ -117,7 +117,7 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <ul>
 <li><strong>Contract Performance</strong> (Article 6(1)(b)): To provide App services, account management, and premium features</li>
 <li><strong>Legitimate Interests</strong> (Article 6(1)(f)): Security, fraud prevention, crash and error diagnostics (Sentry), and customer support</li>
-<li><strong>Consent</strong> (Article 6(1)(a)): Marketing communications, <strong>product and usage analytics (PostHog)</strong>, and certain optional third-party integrations. Product analytics is collected <strong>only</strong> after you give explicit opt-in consent and can be withdrawn at any time.</li>
+<li><strong>Consent</strong> (Article 6(1)(a)): <strong>Push notifications and marketing communications</strong> (Article 6(1)(a) GDPR together with § 7(2) UWG — see Section 6), <strong>product and usage analytics (PostHog)</strong>, and certain optional third-party integrations. Product analytics is collected <strong>only</strong> after you give explicit opt-in consent and can be withdrawn at any time.</li>
 <li><strong>Legal Obligation</strong> (Article 6(1)(c)): Compliance with applicable laws, tax obligations, and legal requests</li>
 </ul>
 
@@ -125,7 +125,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <h3>4.1 Information You Provide Directly</h3>
 
-<h4>Account Information:</h4>
+<p><strong>Account Information:</strong></p>
+
 <ul>
 <li>Email address (required for account creation)</li>
 <li>Authentication credentials (when using email/password login)</li>
@@ -133,7 +134,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Account preferences and settings</li>
 </ul>
 
-<h4>User-Generated Content:</h4>
+<p><strong>User-Generated Content:</strong></p>
+
 <ul>
 <li>Audio files you import from your device's local storage</li>
 <li>Music accessed via YouTube or Apple Music integrations (metadata only; see Section 5)</li>
@@ -142,7 +144,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Project organization and naming data</li>
 </ul>
 
-<h4>Communications:</h4>
+<p><strong>Communications:</strong></p>
+
 <ul>
 <li>Support inquiries and feedback</li>
 <li>Correspondence regarding your account or the App</li>
@@ -150,15 +153,17 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <h3>4.2 Information Collected Automatically</h3>
 
-<h4>Usage and Analytics Data:</h4>
+<p><strong>Usage and Analytics Data:</strong></p>
+
 <ul>
-<li>Product/feature-usage analytics (which features are used and how) — collected via PostHog <strong>only after you give explicit opt-in consent</strong> (see Section 9.1); never collected if you decline or have not yet consented</li>
+<li>Product/feature-usage analytics (which features are used and how) — collected via PostHog <strong>only after you give explicit opt-in consent</strong> (see Section 10.1); never collected if you decline or have not yet consented</li>
 <li>Session duration and frequency of use (part of the consent-gated analytics above)</li>
 <li>Device performance metrics related to audio/video processing</li>
-<li>Error reports and crash logs (via Sentry — see Section 9.1, processed under legitimate interest, independent of analytics consent)</li>
+<li>Error reports and crash logs (via Sentry — see Section 10.1, processed under legitimate interest, independent of analytics consent)</li>
 </ul>
 
-<h4>Device and Technical Information:</h4>
+<p><strong>Device and Technical Information:</strong></p>
+
 <ul>
 <li>Device model, operating system, and version</li>
 <li>App version and installation identifier</li>
@@ -166,7 +171,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Network connection type</li>
 </ul>
 
-<h4>Authentication Data:</h4>
+<p><strong>Authentication Data:</strong></p>
+
 <ul>
 <li>Login timestamps and authentication events</li>
 <li>OAuth tokens from Google and Apple (when using social login)</li>
@@ -176,19 +182,27 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <h3>4.3 Information from Third Parties</h3>
 
-<h4>Social Authentication Providers:</h4>
+<p><strong>Social Authentication Providers:</strong></p>
+
 <ul>
 <li>Google OAuth: Name, email address, profile picture (optional)</li>
 <li>Apple Sign-In: Name, email address, or private relay email</li>
 </ul>
 
-<h4>Payment Processing:</h4>
+<p><strong>Payment Processing:</strong></p>
+
 <ul>
 <li>On iOS: Apple processes payment information via In-App Purchase</li>
 <li>On Android: Google processes payment information via Google Play Billing</li>
-<li>On Web: Stripe processes payment information for premium subscriptions</li>
-<li>We receive transaction confirmations and subscription status only; we do not collect or store payment card details via mobile apps</li>
+<li><strong>RevenueCat</strong> receives confirmation of your purchases from Apple and Google and reports your entitlement status back to us (see Section 10)</li>
+<li>We receive transaction confirmations, product identifier, price, currency, store, and subscription status only. <strong>We never receive or store payment card details.</strong> Premium subscriptions are sold only through the mobile apps; we do not sell subscriptions on the web.</li>
 </ul>
+
+<h3>4.4 Local Media Access on Android</h3>
+
+<p>To let you choose a track, BeatLoop's file browser enumerates audio and video files across your device's shared storage. On Android this includes commonly used media folders such as <code>Music</code>, <code>Downloads</code>, <code>DCIM</code> and <code>Documents</code>, and the media folders created by other apps (for example WhatsApp, Telegram, Instagram, Facebook, Snapchat and TikTok), as well as SD card storage.</p>
+
+<p><strong>This scan runs entirely on your device.</strong> File names, paths and folder contents are <strong>never transmitted to us or to any third party</strong>. It requires the media permission you grant at the operating system level, which you can revoke at any time in your device settings.</p>
 
 <h2>5. Third-Party Music Service Integrations</h2>
 
@@ -207,9 +221,9 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <div class="google-disclosure">
 <p><strong>Google API Services User Data Policy Compliance:</strong> BeatLoop's use of information received from YouTube API Services will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+</div>
 
 <p>Users may revoke BeatLoop's access to their YouTube data via the Google security settings page at <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</p>
-</div>
 
 <h3>5.2 Apple Music (MusicKit)</h3>
 
@@ -241,21 +255,84 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li><strong>Data Storage:</strong> Imported audio is processed and stored locally on the user's device only. BeatLoop does NOT upload, cache, or store Google Drive files on its servers</li>
 <li><strong>Data Sharing:</strong> Google Drive file data is not shared with any third parties</li>
 <li><strong>Revocation:</strong> Users can revoke BeatLoop's access at any time via <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a></li>
+<li><strong>Google API Services User Data Policy Compliance:</strong> BeatLoop's use of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+<li><strong>Google Terms of Service:</strong> <a href="https://developers.google.com/terms">https://developers.google.com/terms</a></li>
 </ul>
-
-<div class="google-disclosure">
-<p><strong>Google API Services User Data Policy Compliance:</strong> BeatLoop's use of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-
-<p><strong>Google Terms of Service:</strong> <a href="https://developers.google.com/terms">https://developers.google.com/terms</a></p>
-</div>
 
 <h3>5.5 Metadata Storage</h3>
 
 <p>Streaming music metadata (song title, artist, tempo markers, loop points) may be stored locally on your device for session management purposes. Actual audio content from streaming services is NOT stored by BeatLoop.</p>
 
-<h2>6. How We Use Your Information</h2>
+<h3>5.6 Casting to External Displays (Chromecast and AirPlay)</h3>
 
-<h3>6.1 Core App Functionality</h3>
+<p>When you cast a recorded video to a Chromecast or AirPlay device, BeatLoop starts a <strong>temporary HTTP server on your local Wi-Fi network</strong> and serves the selected video file to the receiving device. To do this the App reads your device's local network address and uses Bonjour and Bluetooth to discover nearby cast targets.</p>
+
+<ul>
+<li>The server runs <strong>only while casting is active</strong> and is reachable <strong>only from your local network</strong> — never from the internet, and never by us.</li>
+<li>It does not require authentication. Anyone else on the same Wi-Fi network could, in principle, reach the served file while a cast is in progress. <strong>Avoid casting on untrusted public networks.</strong></li>
+<li>No cast data is transmitted to our servers.</li>
+</ul>
+
+<h3>5.7 On-Device File Visibility (iOS)</h3>
+
+<p>On iOS, BeatLoop's documents folder is exposed to the Files app and to Finder/iTunes over USB, so that you can retrieve your own recordings. Anyone with physical access to your unlocked computer while your device is connected can therefore reach those files. This is a device-level feature and involves no transmission to us.</p>
+
+<h2>6. Push Notifications and Marketing Communications</h2>
+
+<h3>6.1 What We Send</h3>
+
+<p>With your consent, BeatLoop sends push notifications to your device. These fall into two categories:</p>
+
+<ul>
+<li><strong>Product notifications</strong> — new features and important service information</li>
+<li><strong>Promotional notifications</strong> — offers, price changes, and subscription promotions</li>
+</ul>
+
+<p>Tapping a notification may open the App at the home screen, a practice session, or the subscription screen.</p>
+
+<h3>6.2 Legal Basis and Consent</h3>
+
+<p>Push notifications, and in particular <strong>promotional</strong> notifications, are sent <strong>only on the basis of your prior, explicit consent</strong> under <strong>GDPR Article 6(1)(a)</strong> and <strong>§ 7(2) UWG</strong> (German Act Against Unfair Competition).</p>
+
+<ul>
+<li>Consent is requested through a <strong>separate, dedicated in-app prompt</strong>. It is <strong>not</strong> bundled into your acceptance of our Terms of Service or Privacy Policy, and there are no pre-ticked boxes.</li>
+<li>Two independent gates must both be satisfied before any notification can reach you: your <strong>in-app consent</strong> and your <strong>operating system notification permission</strong>. Withdrawing either one stops delivery.</li>
+<li><strong>Declining has no effect on your ability to use BeatLoop.</strong> Every feature remains available.</li>
+<li>We record the timestamp of your consent in your user profile so that we can demonstrate it, as required by GDPR Article 7(1).</li>
+</ul>
+
+<h3>6.3 How Delivery Works</h3>
+
+<p>We use <strong>Firebase Cloud Messaging (FCM)</strong>, a service of Google Ireland Limited, as our delivery processor. Firebase Cloud Messaging is the <strong>only</strong> Firebase product we use — we do not use Firebase Analytics, Crashlytics, Firebase Authentication, Firestore, or Firebase Storage.</p>
+
+<p>Delivery is <strong>topic-based, not individually addressed</strong>. When you consent, your device subscribes to broadcast topics. The only two attributes used to select an audience are your <strong>subscription tier</strong> (premium or free) and your <strong>app language</strong>. Campaigns are sent to a whole topic at once. <strong>We do not send notifications to individuals, and we do not build behavioural profiles for notification targeting.</strong></p>
+
+<p><strong>Device registration token.</strong> For Firebase Cloud Messaging to function, the Firebase SDK registers your device with Google, and Google issues a device registration token. <strong>BeatLoop never reads, receives, or stores this token, and we store no device identifiers for notification purposes.</strong> Google processes the token under its own privacy policy. This registration happens when the App starts, before you are asked for notification consent; you can prevent it by denying BeatLoop notification permission at the operating system level.</p>
+
+<h3>6.4 Information Stored on Your Device (§ 25 TDDDG)</h3>
+
+<p>With your consent, BeatLoop stores your notification consent choice and the list of topics your device is subscribed to, so that only changes need to be issued rather than re-subscribing on every launch. Under <strong>§ 25 TDDDG</strong> this on-device storage requires your consent, which is obtained by the prompt described in Section 6.2.</p>
+
+<h3>6.5 Withdrawing Consent</h3>
+
+<p>You can withdraw consent at any time, and doing so is <strong>as easy as giving it</strong> (GDPR Article 7(3)):</p>
+
+<ul>
+<li><strong>In the App:</strong> Account → Settings → notifications toggle. Switching it off immediately unsubscribes your device from every topic.</li>
+<li><strong>On your device:</strong> revoke the notification permission in your iOS or Android system settings.</li>
+<li><strong>By email:</strong> <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></li>
+</ul>
+
+<p>When you sign out, your device is unsubscribed from all topics automatically.</p>
+
+<h3>6.6 Email Communications</h3>
+
+<p>Transactional emails (password reset, account confirmation, purchase receipts) are sent on the basis of contract performance. <strong>Newsletter and marketing emails are sent only with your separate, explicit consent</strong>, recorded with a timestamp, and every such email contains an unsubscribe link.</p>
+
+<h2>7. How We Use Your Information</h2>
+
+<h3>7.1 Core App Functionality</h3>
+
 <ul>
 <li>Account creation, authentication, and access management</li>
 <li>Premium feature activation and usage tracking</li>
@@ -265,7 +342,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Customer support and technical assistance</li>
 </ul>
 
-<h3>6.2 Service Improvement</h3>
+<h3>7.2 Service Improvement</h3>
+
 <ul>
 <li>App performance optimization and bug fixes</li>
 <li>Feature development based on usage patterns</li>
@@ -273,7 +351,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Quality assurance and testing</li>
 </ul>
 
-<h3>6.3 Communications</h3>
+<h3>7.3 Communications</h3>
+
 <ul>
 <li>Service-related notifications and updates</li>
 <li>Premium subscription management</li>
@@ -281,7 +360,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Important policy or service changes (where legally required)</li>
 </ul>
 
-<h3>6.4 Analytics and Business Operations</h3>
+<h3>7.4 Analytics and Business Operations</h3>
+
 <ul>
 <li>Monthly Active User (MAU) metrics and engagement analysis</li>
 <li>Subscription conversion and retention analytics</li>
@@ -289,12 +369,17 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Compliance with legal obligations and tax requirements</li>
 </ul>
 
-<h2>7. User Content and Copyright Liability</h2>
+<h3>7.5 Product Experiments (A/B Testing)</h3>
 
-<h3>7.1 User Responsibility for Content</h3>
+<p>We occasionally run experiments in which different users see different versions of a screen — most commonly the subscription screen — so that we can evaluate which version works better. Assignment to an experiment group is recorded as an analytics event, so <strong>experiment participation is only measured if you have consented to analytics</strong>. If you have not consented, no experiment data is recorded about you. Experiments never change the price you are charged; the applicable price is always shown before any purchase is confirmed.</p>
+
+<h2>8. User Content and Copyright Liability</h2>
+
+<h3>8.1 User Responsibility for Content</h3>
 
 <div class="important-notice">
-<strong>IMPORTANT:</strong> BeatLoop is a tool that enables users to access music from multiple sources (local files, YouTube, Apple Music) for practice purposes. By using the App, you acknowledge and agree that:
+<p><strong>IMPORTANT:</strong> BeatLoop is a tool that enables users to access music from multiple sources (local files, YouTube, Apple Music) for practice purposes. By using the App, you acknowledge and agree that:</p>
+</div>
 
 <ol>
 <li><strong>You are solely responsible</strong> for all audio files, music, and other content you import, access, or create using BeatLoop</li>
@@ -302,9 +387,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li><strong>You indemnify and hold harmless</strong> OnBeat HQ UG (haftungsbeschränkt), its affiliates, and service providers from any claims, damages, or liabilities arising from your use of copyrighted or otherwise protected content</li>
 <li><strong>Content accessed via streaming services</strong> (YouTube, Apple Music) remains subject to those platforms' respective licensing terms and your subscription agreements with them</li>
 </ol>
-</div>
 
-<h3>7.2 Copyright Compliance</h3>
+<h3>8.2 Copyright Compliance</h3>
 
 <ul>
 <li>BeatLoop does <strong>not</strong> provide, host, cache, or redistribute any music, audio tracks, or copyrighted content</li>
@@ -314,9 +398,10 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>BeatLoop reserves the right to terminate accounts that repeatedly violate copyright policies</li>
 </ul>
 
-<h3>7.3 Digital Millennium Copyright Act (DMCA) Compliance</h3>
+<h3>8.3 Digital Millennium Copyright Act (DMCA) Compliance</h3>
 
 <p>If you believe content in BeatLoop infringes your copyright, please contact us at <a href="mailto:support@on-beat.de">support@on-beat.de</a> with:</p>
+
 <ul>
 <li>Your contact information and electronic signature</li>
 <li>Identification of the copyrighted work claimed to be infringed</li>
@@ -325,9 +410,10 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>A statement that the information is accurate and you are authorized to act</li>
 </ul>
 
-<h3>7.4 No Liability for User Content</h3>
+<h3>8.4 No Liability for User Content</h3>
 
 <p><strong>BeatLoop explicitly disclaims all liability</strong> for:</p>
+
 <ul>
 <li>Copyright infringement by users</li>
 <li>Unauthorized use of protected audio or video content</li>
@@ -336,9 +422,10 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Copyright claims arising from videos recorded and shared by users</li>
 </ul>
 
-<h2>8. Data Storage and Security</h2>
+<h2>9. Data Storage and Security</h2>
 
-<h3>8.1 Local Data Storage</h3>
+<h3>9.1 Local Data Storage</h3>
+
 <ul>
 <li><strong>Audio and video files</strong> imported from local storage are stored exclusively on your device</li>
 <li><strong>Streaming content</strong> from YouTube and Apple Music is NOT stored on your device or our servers</li>
@@ -347,15 +434,17 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>If you use the <strong>share feature</strong>, sessions built from a local audio or video file include a copy of that media file in the exported <code>.beatloop</code> bundle, which is sent <strong>directly via your device's share options</strong> — it is not uploaded to, transmitted through, or stored on our servers</li>
 </ul>
 
-<h3>8.2 Cloud Data Storage</h3>
+<h3>9.2 Cloud Data Storage</h3>
+
 <ul>
 <li><strong>Account information</strong> is securely stored using Supabase infrastructure</li>
 <li><strong>Session metadata</strong> (markers, timestamps, loop points, project names) may be synchronized</li>
 <li><strong>Authentication tokens</strong> are encrypted and stored securely</li>
-<li><strong>Payment information</strong> is processed and stored by Apple (iOS), Google (Android), or Stripe (web), not by BeatLoop</li>
+<li><strong>Payment information</strong> is processed and stored by Apple (iOS) or Google (Android), never by BeatLoop</li>
 </ul>
 
-<h3>8.3 Security Measures</h3>
+<h3>9.3 Security Measures</h3>
+
 <ul>
 <li>Industry-standard encryption for data transmission (TLS/HTTPS)</li>
 <li>Secure authentication protocols and token management</li>
@@ -364,22 +453,28 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Data breach response procedures and user notification protocols</li>
 </ul>
 
-<h2>9. International Data Transfers</h2>
+<h3>9.4 Remote Configuration and Required Updates</h3>
+
+<p>BeatLoop reads a small configuration record from our backend at startup to determine the minimum supported App version. If your installed version is below that minimum, the App will require you to update before continuing. This request contains no personal data and is not used for tracking.</p>
+
+<h2>10. International Data Transfers</h2>
 
 <p>BeatLoop operates globally and may transfer your personal data outside your country of residence, including to countries that may not provide the same level of data protection as your home country.</p>
 
-<h3>9.1 Third-Party Service Providers</h3>
+<h3>10.1 Third-Party Service Providers</h3>
 
 <p>The following services may process your data outside the EU:</p>
 
-<h4>Supabase (Database & Authentication):</h4>
+<p><strong>Supabase (Database &amp; Authentication):</strong></p>
+
 <ul>
 <li>Data location: EU region (Frankfurt/London) or US with Standard Contractual Clauses</li>
 <li>Purpose: Account management and authentication</li>
 <li>Safeguards: GDPR-compliant hosting and data processing agreements</li>
 </ul>
 
-<h4>HubSpot (Customer Relationship Management):</h4>
+<p><strong>HubSpot (Customer Relationship Management):</strong></p>
+
 <ul>
 <li>Data location: United States</li>
 <li>Purpose: Customer support, relationship management, and user communication tracking</li>
@@ -388,35 +483,53 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Note: HubSpot processes contact information and interaction history to provide personalized support and manage customer relationships</li>
 </ul>
 
-<h4>Apple (In-App Purchase & MusicKit):</h4>
+<p><strong>Apple (In-App Purchase &amp; MusicKit):</strong></p>
+
 <ul>
 <li>Data location: United States and EU</li>
 <li>Purpose: Payment processing (iOS) and Apple Music integration</li>
 <li>Safeguards: Apple's privacy commitments and data processing agreements</li>
 </ul>
 
-<h4>Google (Play Billing, YouTube API &amp; Google Drive):</h4>
+<p><strong>Google (Play Billing, YouTube API &amp; Google Drive):</strong></p>
+
 <ul>
 <li>Data location: United States and EU</li>
 <li>Purpose: Payment processing (Android), YouTube integration, and user-selected audio file import via Google Drive</li>
+<li>Data (Drive): File metadata and audio content (read-only, local processing only)</li>
 <li>Safeguards: Standard Contractual Clauses and Google's data processing terms</li>
 </ul>
 
-<h4>Stripe (Payment Processing):</h4>
+<p><strong>Google — Firebase Cloud Messaging (Push Notification Delivery):</strong></p>
+
 <ul>
-<li>Data location: United States and EU</li>
-<li>Purpose: Premium subscription payments (web)</li>
-<li>Safeguards: PCI DSS compliance, Standard Contractual Clauses</li>
+<li>Operator: Google Ireland Limited</li>
+<li>Data location: European Union and United States</li>
+<li>Purpose: Delivery of push notifications to your device (see Section 6)</li>
+<li>Data processed: device registration token, topic subscriptions, notification content</li>
+<li>Safeguards: Google Cloud Data Processing Addendum, Standard Contractual Clauses, EU-US Data Privacy Framework</li>
 </ul>
 
-<h4>Resend (Email Communications):</h4>
+<p><strong>RevenueCat (Subscription Management):</strong></p>
+
+<ul>
+<li>Operator: RevenueCat, Inc., United States</li>
+<li>Purpose: Validating purchases with Apple and Google and determining your premium entitlement</li>
+<li>Data processed: your BeatLoop account identifier (transmitted as the RevenueCat app user ID), purchase and renewal events, product identifier, price, currency, store, offer code, and country</li>
+<li>Note: RevenueCat does not process payments and never receives your payment card details</li>
+<li>Safeguards: Data Processing Addendum, Standard Contractual Clauses</li>
+</ul>
+
+<p><strong>Resend (Email Communications):</strong></p>
+
 <ul>
 <li>Data location: United States</li>
 <li>Purpose: Transactional email delivery</li>
 <li>Safeguards: Standard Contractual Clauses and GDPR compliance measures</li>
 </ul>
 
-<h4>Sentry (Crash and Error Reporting):</h4>
+<p><strong>Sentry (Crash and Error Reporting):</strong></p>
+
 <ul>
 <li><strong>Data location:</strong> European Union (Frankfurt am Main)</li>
 <li><strong>Operator:</strong> Sentry GmbH, Krausenstraße 9-10, 10117 Berlin, Germany (parent company: Functional Software, Inc., 45 Fremont Street, 8th Floor, San Francisco, CA 94105, USA)</li>
@@ -429,21 +542,24 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li><strong>List of Sub-processors:</strong> <a href="https://sentry.io/legal/subprocessor-list/">https://sentry.io/legal/subprocessor-list/</a></li>
 </ul>
 
-<h4>PostHog (Product Analytics):</h4>
+<p><strong>PostHog (Product Analytics):</strong></p>
+
 <ul>
 <li><strong>Data location:</strong> European Union — PostHog Cloud EU (<code>eu.i.posthog.com</code>), hosted on AWS in Frankfurt, Germany (<code>eu-central-1</code>)</li>
 <li><strong>Operator:</strong> PostHog, Inc. (US parent; EU Cloud data stored in the EU)</li>
 <li><strong>Purpose:</strong> Product and feature-usage analytics to understand how the App is used and improve it</li>
 <li><strong>Data processed:</strong> A <strong>pseudonymous app-instance identifier</strong> (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). <strong>No name, email, IP address, or GeoIP-derived location is collected</strong> (IP and GeoIP enrichment are disabled), and <strong>session replay is not used</strong>.</li>
-<li><strong>Legal basis:</strong> <strong>Consent (Art. 6(1)(a) GDPR)</strong>. Analytics is <strong>off by default</strong>; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in <strong>Account &rarr; Privacy Settings</strong> (German &sect; 25 TDDDG is also satisfied by this prior consent).</li>
+<li><strong>Legal basis:</strong> <strong>Consent (Art. 6(1)(a) GDPR)</strong>. Analytics is <strong>off by default</strong>; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in <strong>Account → Privacy Settings</strong> (German § 25 TDDDG is also satisfied by this prior consent).</li>
 <li><strong>Retention period:</strong> 12 months</li>
 <li><strong>Safeguards:</strong> Data Processing Agreement (DPA) concluded pursuant to Art. 28 GDPR, including Standard Contractual Clauses for any onward transfer to the United States</li>
 <li><strong>PostHog Privacy Policy:</strong> <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
 <li><strong>List of Sub-processors:</strong> <a href="https://posthog.com/subprocessors">https://posthog.com/subprocessors</a></li>
 </ul>
 
-<h3>9.2 Legal Safeguards</h3>
+<h3>10.2 Legal Safeguards</h3>
+
 <p>All international data transfers are protected by appropriate safeguards including:</p>
+
 <ul>
 <li>Standard Contractual Clauses approved by the European Commission</li>
 <li>Adequacy decisions where applicable</li>
@@ -451,12 +567,14 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Additional technical and organizational measures as required</li>
 </ul>
 
-<h2>10. Data Sharing and Disclosure</h2>
+<h2>11. Data Sharing and Disclosure</h2>
 
-<h3>10.1 We Do Not Sell Personal Data</h3>
+<h3>11.1 We Do Not Sell Personal Data</h3>
+
 <p>BeatLoop does not sell, rent, or trade your personal information to third parties for their marketing purposes.</p>
 
-<h3>10.2 Limited Data Sharing</h3>
+<h3>11.2 Limited Data Sharing</h3>
+
 <p>We may share your information only in the following circumstances:</p>
 
 <p><strong>Service Providers:</strong> With trusted third-party service providers who assist in operating our App, processing payments, or providing customer support, under strict confidentiality agreements.</p>
@@ -467,8 +585,10 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <p><strong>Consent:</strong> With your explicit consent for specific purposes not covered by this policy.</p>
 
-<h3>10.3 Data Protection in Sharing</h3>
+<h3>11.3 Data Protection in Sharing</h3>
+
 <p>All data sharing arrangements include:</p>
+
 <ul>
 <li>Contractual data protection obligations</li>
 <li>Purpose limitation and use restrictions</li>
@@ -476,25 +596,24 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>User rights preservation mechanisms</li>
 </ul>
 
-<h2>11. Your Rights Under Data Protection Laws</h2>
+<h2>12. Your Rights Under Data Protection Laws</h2>
 
-<h3>11.1 GDPR Rights (EU Users)</h3>
+<h3>12.1 GDPR Rights (EU Users)</h3>
 
 <p>You have the following rights regarding your personal data:</p>
 
-<ul>
-<li><strong>Right of Access (Article 15):</strong> Request a copy of your personal data we hold</li>
-<li><strong>Right to Rectification (Article 16):</strong> Correct inaccurate or incomplete data</li>
-<li><strong>Right to Erasure (Article 17):</strong> Request deletion of your personal data ("right to be forgotten")</li>
-<li><strong>Right to Restrict Processing (Article 18):</strong> Limit how we use your data</li>
-<li><strong>Right to Data Portability (Article 20):</strong> Receive your data in a portable format</li>
-<li><strong>Right to Object (Article 21):</strong> Object to processing based on legitimate interests</li>
-<li><strong>Right to Withdraw Consent:</strong> Where processing is based on consent</li>
-</ul>
+<p><strong>Right of Access (Article 15):</strong> Request a copy of your personal data we hold<br>
+<strong>Right to Rectification (Article 16):</strong> Correct inaccurate or incomplete data<br>
+<strong>Right to Erasure (Article 17):</strong> Request deletion of your personal data ("right to be forgotten")<br>
+<strong>Right to Restrict Processing (Article 18):</strong> Limit how we use your data<br>
+<strong>Right to Data Portability (Article 20):</strong> Receive your data in a portable format<br>
+<strong>Right to Object (Article 21):</strong> Object to processing based on legitimate interests<br>
+<strong>Right to Withdraw Consent:</strong> Where processing is based on consent</p>
 
-<h3>11.2 CCPA Rights (California Users)</h3>
+<h3>12.2 CCPA Rights (California Users)</h3>
 
 <p>California residents have additional rights including:</p>
+
 <ul>
 <li>Right to know what personal information is collected</li>
 <li>Right to delete personal information</li>
@@ -502,111 +621,136 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <li>Right to non-discrimination for exercising privacy rights</li>
 </ul>
 
-<h3>11.3 Exercising Your Rights</h3>
+<h3>12.3 Exercising Your Rights</h3>
 
 <p>To exercise your privacy rights:</p>
 
-<ul>
-<li><strong>In-App:</strong> Use the account settings and privacy controls within the BeatLoop app</li>
-<li><strong>Account Deletion:</strong> To delete your personal data, delete your account through the app's account settings. This will permanently remove all your personal information from our systems within 30 days</li>
-<li><strong>Email:</strong> Contact <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a> with your request</li>
-<li><strong>Identity Verification:</strong> We may require verification of your identity for security purposes</li>
-<li><strong>Response Time:</strong> We will respond within 30 days (GDPR) or 45 days (CCPA)</li>
-<li><strong>No Fee:</strong> Rights requests are generally processed free of charge</li>
-</ul>
+<p><strong>In-App:</strong> Use the account settings and privacy controls within the BeatLoop app<br>
+<strong>Account Deletion:</strong> To delete your personal data, delete your account through the app's account settings. This will permanently remove all your personal information from our systems within 30 days<br>
+<strong>Email:</strong> Contact <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a> with your request<br>
+<strong>Identity Verification:</strong> We may require verification of your identity for security purposes<br>
+<strong>Response Time:</strong> We will respond within 30 days (GDPR) or 45 days (CCPA)<br>
+<strong>No Fee:</strong> Rights requests are generally processed free of charge</p>
 
-<h3>11.4 Right to Lodge a Complaint</h3>
+<h3>12.4 Right to Lodge a Complaint</h3>
 
-<p>If you believe we have not adequately addressed your privacy concerns, you have the right to lodge a complaint with your local data protection authority. For EU users, you can find your local authority at: <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en">https://edpb.europa.eu/about-edpb/about-edpb/members_en</a></p>
+<p>If you believe we have not adequately addressed your privacy concerns, you have the right to lodge a complaint with your local data protection authority. For EU users, you can find your local authority at: https://edpb.europa.eu/about-edpb/about-edpb/members_en</p>
 
-<h2>12. Data Retention</h2>
+<h3>12.5 Account Deletion — What Actually Happens</h3>
 
-<h3>12.1 Account Data</h3>
+<p>Deletion happens in stages, and we want you to know exactly how:</p>
+
+<ol>
+<li><strong>Immediately:</strong> your account is marked deleted and deactivated. Your profile and session data are no longer accessible through the App.</li>
+<li><strong>Within 30 days:</strong> your personal data is permanently erased from our production systems by an automated cleanup process.</li>
+<li><strong>Reactivation during those 30 days:</strong> if you sign in again with the same credentials before permanent erasure, <strong>your account and data are restored</strong>. This grace period protects you against accidental deletion. If you want immediate, irreversible erasure with no grace period, email <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a> and we will carry it out manually.</li>
+<li><strong>HubSpot:</strong> removal of your contact record from our CRM is <strong>currently a manual step</strong>, completed within 30 days of your request.</li>
+<li><strong>Data we must retain:</strong> payment and invoicing records are kept for 7 years under German tax and commercial law, regardless of account deletion.</li>
+</ol>
+
+<h2>13. Data Retention</h2>
+
+<h3>13.1 Account Data</h3>
+
 <ul>
 <li><strong>Active accounts:</strong> Retained for the duration of your account plus 30 days</li>
 <li><strong>Inactive accounts:</strong> Automatically deleted after 24 months of inactivity</li>
 <li><strong>Deleted accounts:</strong> Permanently removed within 30 days of deletion request</li>
 </ul>
 
-<h3>12.2 Usage and Analytics Data</h3>
+<h3>13.2 Usage and Analytics Data</h3>
+
 <ul>
 <li><strong>Login records:</strong> Retained for 12 months for security purposes</li>
-<li><strong>Product analytics (PostHog):</strong> Individual event data retained for 12 months (see Section 9.1); only aggregated/derived insights may be retained longer. Collected only with your consent.</li>
+<li><strong>Product analytics (PostHog):</strong> Individual event data retained for 12 months (see Section 10.1); only aggregated/derived insights may be retained longer. Collected only with your consent.</li>
 <li><strong>Error logs:</strong> Retained for 12 months for debugging and improvement</li>
 </ul>
 
-<h3>12.3 Legal and Compliance Data</h3>
+<h3>13.3 Legal and Compliance Data</h3>
+
 <ul>
 <li><strong>Payment records:</strong> Retained for 7 years to comply with tax and accounting requirements</li>
 <li><strong>Legal correspondence:</strong> Retained as long as necessary for legal purposes</li>
 <li><strong>DMCA notices:</strong> Retained for 3 years as required by law</li>
 </ul>
 
-<h3>12.4 User Content</h3>
+<h3>13.4 User Content</h3>
+
 <ul>
 <li><strong>Local files:</strong> Under your complete control on your device</li>
 <li><strong>Session metadata:</strong> Retained while account is active, deleted with account deletion</li>
 <li><strong>Support communications:</strong> Retained for 3 years for quality and training purposes</li>
 </ul>
 
-<h2>13. Cookies and Tracking Technologies</h2>
+<h2>14. Cookies and Tracking Technologies</h2>
 
-<h3>13.1 Current Use</h3>
+<h3>14.1 Current Use</h3>
+
 <p>BeatLoop currently uses minimal tracking technologies:</p>
+
 <ul>
 <li><strong>Authentication tokens:</strong> For secure login and session management</li>
 <li><strong>App preferences:</strong> Stored locally to remember your settings</li>
 <li><strong>Error tracking:</strong> Basic crash reporting for app stability</li>
 </ul>
 
-<h3>13.2 Product Analytics (PostHog)</h3>
+<h3>14.2 Product Analytics (PostHog)</h3>
+
 <p>We use <strong>PostHog</strong> (EU Cloud) for product/usage analytics to understand how the App is used and improve it. This analytics:</p>
+
 <ul>
-<li>Is <strong>off by default</strong> and runs <strong>only after you give explicit opt-in consent</strong> (Art. 6(1)(a) GDPR; German &sect; 25 TDDDG)</li>
+<li>Is <strong>off by default</strong> and runs <strong>only after you give explicit opt-in consent</strong> (Art. 6(1)(a) GDPR; German § 25 TDDDG)</li>
 <li>Uses a <strong>pseudonymous app-instance identifier</strong> only — no name, email, IP, or GeoIP location, and no session replay</li>
 <li>Stores its opt-out/consent preference on your device</li>
 </ul>
-<p>See Section 9.1 (PostHog) for hosting, retention, sub-processors, and safeguards.</p>
 
-<h3>13.3 Your Control</h3>
+<p>See Section 10.1 (PostHog) for hosting, retention, sub-processors, and safeguards.</p>
+
+<h3>14.3 Your Control</h3>
+
 <ul>
-<li><strong>Analytics opt-out:</strong> Analytics is opt-in; you can grant or withdraw consent at any time in <strong>Account &rarr; Privacy Settings</strong></li>
+<li><strong>Analytics opt-out:</strong> Analytics is opt-in; you can grant or withdraw consent at any time in <strong>Account → Privacy Settings</strong></li>
 <li><strong>Cookie settings:</strong> Can be managed through your device settings</li>
 <li><strong>Third-party tracking:</strong> We do not use advertising or social media tracking pixels, and we do not track you across other apps or websites</li>
 </ul>
 
-<h2>14. Children's Privacy</h2>
+<h2>15. Children's Privacy</h2>
 
-<h3>14.1 Age Restriction</h3>
+<h3>15.1 Age Restriction</h3>
+
 <p>BeatLoop is not intended for users under 16 years of age. We do not knowingly collect personal information from children under 16. If you are under 16, please do not use BeatLoop or provide any personal information.</p>
 
-<h3>14.2 Parental Notice</h3>
+<h3>15.2 Parental Notice</h3>
+
 <p>If we become aware that we have collected personal information from a child under 16 without verified parental consent, we will take steps to remove that information immediately.</p>
 
-<h3>14.3 Parent Rights</h3>
+<h3>15.3 Parent Rights</h3>
+
 <p>Parents who believe their child under 16 has provided personal information to BeatLoop may contact us at <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a> to request deletion of such information.</p>
 
-<h2>15. Changes to This Privacy Policy</h2>
+<h2>16. Changes to This Privacy Policy</h2>
 
-<h3>15.1 Policy Updates</h3>
+<h3>16.1 Policy Updates</h3>
+
 <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors.</p>
 
-<h3>15.2 Notification of Changes</h3>
-<ul>
-<li><strong>Minor Changes:</strong> Updated "Last Updated" date at the top of this policy</li>
-<li><strong>Material Changes:</strong> Email notification to registered users and in-app notification</li>
-<li><strong>Continued Use:</strong> Your continued use of BeatLoop after changes constitutes acceptance</li>
-</ul>
+<h3>16.2 Notification of Changes</h3>
 
-<h3>15.3 Change History</h3>
+<p><strong>Minor Changes:</strong> Updated "Last Updated" date at the top of this policy<br>
+<strong>Material Changes:</strong> Email notification to registered users and in-app notification<br>
+<strong>Continued Use:</strong> Your continued use of BeatLoop after changes constitutes acceptance</p>
+
+<h3>16.3 Change History</h3>
+
 <p>We maintain a record of significant policy changes for transparency and compliance purposes.</p>
 
-<h2>16. Contact Information</h2>
+<h2>17. Contact Information</h2>
 
-<h3>16.1 Privacy Inquiries</h3>
+<h3>17.1 Privacy Inquiries</h3>
+
+<p>For questions about this Privacy Policy or our data practices:</p>
+
 <div class="contact-info">
-For questions about this Privacy Policy or our data practices:
-
 <p><strong>Email:</strong> <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a><br>
 <strong>Postal Address:</strong><br>
 OnBeat HQ UG (haftungsbeschränkt)<br>
@@ -614,32 +758,38 @@ Wichterichstraße 4<br>
 50937 Köln, Germany</p>
 </div>
 
-<h3>16.2 Data Protection Requests</h3>
+<h3>17.2 Data Protection Requests</h3>
+
 <p>For exercising your data protection rights, please use the email above and include:</p>
+
 <ul>
 <li>Your full name and email address associated with your account</li>
 <li>Specific right you wish to exercise</li>
 <li>Any additional information needed to verify your identity</li>
 </ul>
 
-<h3>16.3 Response Commitment</h3>
+<h3>17.3 Response Commitment</h3>
+
 <p>We are committed to responding to privacy inquiries promptly and professionally. We typically respond within 3-5 business days for general inquiries and within the legally required timeframes for formal rights requests.</p>
 
-<h2>17. Additional Legal Information</h2>
+<h2>18. Additional Legal Information</h2>
 
-<h3>17.1 Governing Law</h3>
+<h3>18.1 Governing Law</h3>
+
 <p>This Privacy Policy is governed by the laws of Germany and the European Union. Any disputes arising from this policy shall be subject to the jurisdiction of German courts.</p>
 
-<h3>17.2 Severability</h3>
+<h3>18.2 Severability</h3>
+
 <p>If any provision of this Privacy Policy is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary so that the Privacy Policy will otherwise remain in full force and effect.</p>
 
-<h3>17.3 Language</h3>
+<h3>18.3 Language</h3>
+
 <p>This Privacy Policy is written in English. In case of any discrepancy between different language versions, the English version shall prevail.</p>
 
 <div class="footer">
-<p><strong>This Privacy Policy was last updated on June 25, 2026, and becomes effective immediately upon posting.</strong></p>
+<p><strong>This Privacy Policy was last updated on August 10, 2026, and becomes effective immediately upon posting.</strong></p>
 
-<p>For the most current version of our Privacy Policy, please check this document regularly or contact us at <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a>.</p>
+<p>For the most current version of our Privacy Policy, please check this document regularly or contact us at <a href="mailto:privacy@on-beat.de.">privacy@on-beat.de.</a></p>
 </div>
 
 </body>
