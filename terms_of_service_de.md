@@ -18,7 +18,9 @@ Datenschutzkontakt: privacy@on-beat.de
 Diese Nutzungsbedingungen („Bedingungen" oder „AGB") regeln Ihre Nutzung der mobilen Anwendung BeatLoop und der damit verbundenen Dienste. Durch die Erstellung eines Kontos oder die Nutzung von BeatLoop erklären Sie sich damit einverstanden, an diese Bedingungen und unsere Datenschutzerklärung gebunden zu sein.
 
 ### 1.3 Sprache und Gerichtsstand
-Diese Bedingungen unterliegen deutschem Recht. Die deutsche Version dieser Bedingungen hat Vorrang vor allen Übersetzungen. Alle Streitigkeiten werden vor deutschen Gerichten mit Gerichtsstand in Köln, Deutschland, beigelegt.
+Diese Bedingungen unterliegen deutschem Recht. Diese Bedingungen werden in englischer, deutscher und spanischer Sprache veröffentlicht. **Maßgeblich ist die englische Fassung**; die deutsche und die spanische Fassung sind Übersetzungen zur Erleichterung des Verständnisses, und bei Abweichungen geht die englische Fassung vor.
+
+Hiervon unberührt bleibt der Schutz, der Ihnen durch zwingende Vorschriften des Rechts des Staates gewährt wird, in dem Sie Ihren gewöhnlichen Aufenthalt haben, einschließlich des zwingenden deutschen Verbraucherschutzrechts. Streitigkeiten werden vor den zuständigen Gerichten in Köln, Deutschland, beigelegt; sind Sie Verbraucher, bleibt ein gesetzlicher Gerichtsstand zu Ihren Gunsten hiervon unberührt.
 
 ## 2. Beschreibung des Dienstes
 

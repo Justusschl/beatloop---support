@@ -536,7 +536,7 @@ Esta Política de Privacidad se rige por las leyes de Alemania y la Unión Europ
 Si alguna disposición de esta Política de Privacidad se considera inaplicable o inválida, dicha disposición se limitará o eliminará en la medida mínima necesaria para que la Política de Privacidad permanezca por lo demás en pleno vigor y efecto.
 
 ### 18.3 Idioma
-Esta Política de Privacidad está redactada en inglés. En caso de cualquier discrepancia entre las diferentes versiones lingüísticas, prevalecerá la versión en inglés.
+Esta Política de Privacidad se publica en inglés, alemán y español. **La versión en inglés es la versión auténtica**; las versiones en alemán y español son traducciones de cortesía y, en caso de discrepancia, prevalecerá la versión en inglés. Ello no afecta a sus derechos en virtud del Derecho imperativo de protección de datos.
 
 ---
 

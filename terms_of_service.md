@@ -18,7 +18,9 @@ Privacy Contact: privacy@on-beat.de
 These Terms of Service ("Terms" or "AGB") govern your use of the BeatLoop mobile application and related services. By creating an account or using BeatLoop, you agree to be bound by these Terms and our Privacy Policy.
 
 ### 1.3 Language and Jurisdiction
-These Terms are governed by German law. The German version of these Terms takes precedence over any translations. Any disputes shall be resolved in German courts with jurisdiction in Cologne, Germany.
+These Terms are governed by German law. These Terms are published in English, German and Spanish. **The English version is the authoritative version**; the German and Spanish versions are provided as convenience translations, and in the event of any discrepancy the English version prevails.
+
+This does not deprive you of the protection afforded by mandatory provisions of the law of the country in which you are habitually resident, including mandatory German consumer protection law. Any disputes shall be resolved in the competent courts of Cologne, Germany; where you are a consumer, this is without prejudice to any statutory place of jurisdiction available to you.
 
 ## 2. Service Description
 

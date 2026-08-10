@@ -18,7 +18,9 @@ Contacto de Privacidad: privacy@on-beat.de
 Estas Condiciones del Servicio («Condiciones» o «AGB») rigen el uso que usted hace de la aplicación móvil BeatLoop y los servicios relacionados. Al crear una cuenta o usar BeatLoop, usted acepta quedar vinculado por estas Condiciones y nuestra Política de Privacidad.
 
 ### 1.3 Idioma y Jurisdicción
-Estas Condiciones se rigen por la legislación alemana. La versión alemana de estas Condiciones prevalece sobre cualquier traducción. Cualquier disputa se resolverá en los tribunales alemanes con jurisdicción en Colonia, Alemania.
+Estas Condiciones se rigen por la legislación alemana. Estas Condiciones se publican en inglés, alemán y español. **La versión en inglés es la versión auténtica**; las versiones en alemán y español se facilitan como traducciones de cortesía y, en caso de discrepancia, prevalecerá la versión en inglés.
+
+Lo anterior no le priva de la protección que le otorgan las disposiciones imperativas del Derecho del país en el que tenga su residencia habitual, incluido el Derecho imperativo alemán de protección de los consumidores. Las disputas se resolverán ante los tribunales competentes de Colonia, Alemania; si usted es consumidor, ello se entiende sin perjuicio de cualquier fuero legal que le corresponda.
 
 ## 2. Descripción del Servicio
 

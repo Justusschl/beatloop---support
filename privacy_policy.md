@@ -536,7 +536,7 @@ This Privacy Policy is governed by the laws of Germany and the European Union. A
 If any provision of this Privacy Policy is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary so that the Privacy Policy will otherwise remain in full force and effect.
 
 ### 18.3 Language
-This Privacy Policy is written in English. In case of any discrepancy between different language versions, the English version shall prevail.
+This Privacy Policy is published in English, German and Spanish. **The English version is the authoritative version**; the German and Spanish versions are convenience translations, and in case of any discrepancy the English version prevails. This does not affect your rights under mandatory data protection law.
 
 ---
 

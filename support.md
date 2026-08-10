@@ -45,8 +45,10 @@ A: BeatLoop supports three music sources:
 
 **Q: What's the difference between Free and Premium?**
 A:
-- **Free**: 3 markers and 2 segments per session
-- **Premium**: Unlimited markers and segments, plus advanced features
+- **Free**: a limited number of markers and segments per session, with limits on speed, break and count-in controls
+- **Premium**: unlimited markers and segments, full access to speed, break and count-in controls, plus advanced features
+
+The exact free-tier limits are shown in the app and may change over time.
 
 **Q: How do I add markers?**
 A: Tap the "Add Marker" button below the timeline or tap directly on the waveform where you want to place a marker.

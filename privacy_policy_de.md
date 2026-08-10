@@ -536,7 +536,7 @@ Diese Datenschutzerklärung unterliegt den Gesetzen Deutschlands und der Europä
 Sollte sich eine Bestimmung dieser Datenschutzerklärung als nicht durchsetzbar oder ungültig erweisen, wird diese Bestimmung auf das Mindestmaß beschränkt oder beseitigt, das erforderlich ist, damit die Datenschutzerklärung im Übrigen in vollem Umfang in Kraft bleibt.
 
 ### 18.3 Sprache
-Diese Datenschutzerklärung ist in englischer Sprache verfasst. Im Falle von Abweichungen zwischen verschiedenen Sprachversionen ist die englische Version maßgeblich.
+Diese Datenschutzerklärung wird in englischer, deutscher und spanischer Sprache veröffentlicht. **Maßgeblich ist die englische Fassung**; die deutsche und die spanische Fassung sind Übersetzungen zur Erleichterung des Verständnisses, und bei Abweichungen geht die englische Fassung vor. Ihre Rechte nach zwingendem Datenschutzrecht bleiben hiervon unberührt.
 
 ---
 
