@@ -1,7 +1,7 @@
 # Condiciones del Servicio (Allgemeine Geschäftsbedingungen - AGB)
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 10 de agosto de 2026
+**Última Actualización:** 18 de agosto de 2026
 
 ## 1. Proveedor del Servicio y Alcance
 
@@ -206,14 +206,95 @@ BeatLoop ofrece niveles de suscripción tanto gratuitos como premium:
 - Puede gestionar y cancelar las suscripciones en la configuración de Google Play Store
 - Los reembolsos son gestionados por Google de acuerdo con su política de reembolsos
 
+**Web (beatloop.eu):**
+- Las suscripciones premium contratadas en nuestro sitio web son procesadas por **Stripe Payments Europe, Ltd.**
+- La suscripción web se ofrece como **plan anual** y comienza con una **prueba gratuita de 7 días**
+- Durante la prueba gratuita no se realiza ningún cobro. Su medio de pago se cobra por primera vez al finalizar la prueba y, a partir de entonces, una vez al año
+- La suscripción se renueva automáticamente por otro año hasta que se cancele
+- Puede actualizar su medio de pago, consultar sus facturas y cancelar en cualquier momento en el portal de facturación, accesible desde **Cuenta → Mi Suscripción** en beatloop.eu
+- La cancelación pone fin a las renovaciones futuras. Su acceso Premium continúa hasta el final del período que ya ha pagado, y no se realiza ningún cobro adicional
+
 **Infraestructura de Gestión de Suscripciones:**
 - Utilizamos **RevenueCat** para validar las compras con Apple y Google y determinar su derecho a premium. RevenueCat no procesa pagos y nunca recibe los datos de su tarjeta de pago.
-- Las suscripciones premium se ofrecen actualmente **únicamente a través de las aplicaciones móviles**. No vendemos suscripciones en la web.
+- Premium se vende tanto **a través de las aplicaciones móviles** (Apple, Google) como **directamente en beatloop.eu** (Stripe). Su cuenta de BeatLoop es Premium mientras cualquiera de ellas esté activa: nunca necesita más de una suscripción, y comprar en la web no requiere una segunda compra en la aplicación.
 
-**Importante:** BeatLoop nunca recopila ni almacena información de tarjetas de pago. Todo el procesamiento de pagos es gestionado por Apple (iOS) o Google (Android) conforme a sus propios términos, y los reembolsos son administrados por ellos.
+**Importante:** BeatLoop nunca recopila ni almacena los datos de su tarjeta de pago. Los datos de la tarjeta son tratados exclusivamente por el proveedor de pago correspondiente — Apple, Google o Stripe — conforme a sus propios términos. Los reembolsos de compras en App Store y Google Play son administrados por Apple y Google respectivamente. Los reembolsos de compras realizadas en beatloop.eu son gestionados por nosotros conforme a la Sección 7.5.
 
 ### 7.3 Cambios de Precios
 Nos reservamos el derecho de modificar los precios de las suscripciones con un aviso de al menos 30 días a los suscriptores existentes. Los cambios de precios no afectarán a su ciclo de facturación actual.
+
+### 7.4 Cancelación
+
+Puede cancelar en cualquier momento con efecto para el futuro. Dónde debe cancelar depende de dónde haya contratado, porque solo podemos cancelar aquello que nosotros facturamos:
+
+- **Comprado en iOS:** cancele en los Ajustes de su cuenta de Apple ID. No podemos cancelar una suscripción de Apple por usted.
+- **Comprado en Android:** cancele en los ajustes de Google Play Store. No podemos cancelar una suscripción de Google por usted.
+- **Comprado en beatloop.eu:** cancele en el portal de facturación en **Cuenta → Mi Suscripción**, o utilice el botón de cancelación descrito a continuación.
+
+Además, conforme al **§ 312k del BGB alemán**, existe un **botón de cancelación** en **[beatloop.eu/premium/cancel](https://beatloop.eu/premium/cancel)**. Puede utilizarse **sin iniciar sesión**. Recibirá de inmediato una confirmación de recepción por correo electrónico, con la fecha y la hora. Una cancelación presentada por esta vía es efectiva desde su recepción.
+
+La cancelación no equivale al desistimiento (Sección 7.6) y, por sí sola, no da derecho al reembolso de importes ya pagados.
+
+### 7.5 Reembolsos de Compras Realizadas en beatloop.eu
+
+Esta sección se aplica **únicamente** a las suscripciones contratadas directamente en nuestro sitio web. Los reembolsos de compras en App Store y Google Play los deciden Apple y Google conforme a sus propias políticas, y no está en nuestra mano concederlos ni denegarlos.
+
+- Sus derechos legales — en particular el **derecho de desistimiento de la Sección 7.6** — se aplican íntegramente y no se ven afectados por esta sección
+- Dado que toda suscripción web comienza con una **prueba gratuita de 7 días**, puede finalizarla antes de que se cobre importe alguno
+- Más allá de sus derechos legales, podemos conceder un reembolso a nuestra discreción. Si no está satisfecho con BeatLoop, escríbanos a **support@on-beat.de** y cuéntenos por qué: preferimos saberlo a que pague por algo que no utiliza
+- Cuando el pago de una suscripción se reembolsa íntegramente, la suscripción se cancela al mismo tiempo y el acceso Premium finaliza
+- Los reembolsos se devuelven al medio de pago original
+
+### 7.6 Derecho de Desistimiento para Consumidores
+
+*Esta sección se aplica si usted es consumidor, es decir, una persona física que celebra el contrato con fines ajenos a su actividad comercial, empresarial o profesional. Se aplica a las suscripciones contratadas en beatloop.eu.*
+
+#### Derecho de desistimiento
+
+Tiene usted derecho a desistir del presente contrato en un plazo de 14 días naturales sin necesidad de justificación.
+
+El plazo de desistimiento expirará a los 14 días naturales del día de la celebración del contrato.
+
+Para ejercer el derecho de desistimiento, deberá usted notificarnos:
+
+OnBeat HQ UG (haftungsbeschränkt)
+Wichterichstraße 4
+50937 Colonia, Alemania
+Correo electrónico: support@on-beat.de
+
+su decisión de desistir del contrato a través de una declaración inequívoca (por ejemplo, una carta enviada por correo postal o un correo electrónico). Podrá utilizar el modelo de formulario de desistimiento que figura a continuación, aunque su uso no es obligatorio.
+
+Para cumplir el plazo de desistimiento, basta con que la comunicación relativa al ejercicio por su parte de este derecho sea enviada antes de que venza el plazo correspondiente.
+
+#### Consecuencias del desistimiento
+
+En caso de desistimiento por su parte, le devolveremos todos los pagos recibidos de usted sin demora indebida y, en todo caso, a más tardar 14 días naturales a partir de la fecha en la que se nos informe de su decisión de desistir. Procederemos a efectuar dicho reembolso utilizando el mismo medio de pago empleado por usted para la transacción inicial, a no ser que haya dispuesto expresamente lo contrario; en todo caso, no incurrirá en gasto alguno como consecuencia del reembolso.
+
+Si usted solicitó que la prestación del servicio comenzara durante el plazo de desistimiento, deberá abonarnos un importe proporcional a la parte ya prestada del servicio en el momento en que nos comunique su desistimiento, en relación con el objeto total del contrato.
+
+#### Modelo de formulario de desistimiento
+
+*(Solo debe cumplimentar y enviar el presente formulario si desea desistir del contrato.)*
+
+> A la atención de OnBeat HQ UG (haftungsbeschränkt), Wichterichstraße 4, 50937 Colonia, Alemania, support@on-beat.de:
+>
+> Por la presente le comunico/comunicamos (*) que desisto de mi/desistimos de nuestro (*) contrato de prestación del siguiente servicio (*):
+>
+> Solicitado el (*) / recibido el (*):
+>
+> Nombre del consumidor o de los consumidores:
+>
+> Domicilio del consumidor o de los consumidores:
+>
+> Firma del consumidor o de los consumidores (solo si el presente formulario se presenta en papel):
+>
+> Fecha:
+>
+> (*) Táchese lo que no proceda.
+
+#### Resolución de litigios en línea
+
+La Comisión Europea facilita una plataforma de resolución de litigios en línea en [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). No estamos obligados ni dispuestos a participar en procedimientos de resolución de litigios ante una junta de arbitraje de consumo.
 
 ## 8. Derechos de Propiedad Intelectual
 

@@ -1,7 +1,7 @@
 # Terms of Service (Allgemeine Geschäftsbedingungen - AGB)
 
 **Effective Date:** February 15, 2026
-**Last Updated:** August 10, 2026
+**Last Updated:** August 18, 2026
 
 ## 1. Service Provider and Scope
 
@@ -206,14 +206,95 @@ BeatLoop offers both free and premium subscription tiers:
 - You can manage and cancel subscriptions in Google Play Store settings
 - Refunds are handled by Google according to their refund policy
 
+**Web (beatloop.eu):**
+- Premium subscriptions purchased on our website are processed by **Stripe Payments Europe, Ltd.**
+- The web subscription is offered as an **annual plan** and begins with a **7-day free trial**
+- No payment is taken during the free trial. Your payment method is first charged at the end of the trial, and once a year thereafter
+- Subscriptions renew automatically for a further year until cancelled
+- You can update your payment method, view your invoices and cancel at any time in the billing portal, reachable from **Account → My Subscription** on beatloop.eu
+- Cancelling ends future renewals. Your Premium access continues until the end of the period you have already paid for, and no further payment is taken
+
 **Subscription Management Infrastructure:**
 - We use **RevenueCat** to validate purchases with Apple and Google and to determine your premium entitlement. RevenueCat does not process payments and never receives your payment card details.
-- Premium subscriptions are currently offered **only through the mobile apps**. We do not sell subscriptions on the web.
+- Premium is sold both **through the mobile apps** (Apple, Google) and **directly on beatloop.eu** (Stripe). Your BeatLoop account is Premium while any one of these is active — you never need more than one subscription, and buying on the web does not require a second purchase in the app.
 
-**Important:** BeatLoop never collects or stores payment card information. All payment processing is handled by Apple (iOS) or Google (Android) under their own terms, and refunds are administered by them.
+**Important:** BeatLoop never collects or stores your payment card details. Card data is handled solely by the relevant payment provider — Apple, Google or Stripe — under their own terms. Refunds for App Store and Google Play purchases are administered by Apple and Google respectively. Refunds for purchases made on beatloop.eu are handled by us under Section 7.5 below.
 
 ### 7.3 Price Changes
 We reserve the right to modify subscription prices with at least 30 days' notice to existing subscribers. Price changes will not affect your current billing cycle.
+
+### 7.4 Cancellation
+
+You may cancel at any time, and cancellation is always possible for the future. Where you cancel determines how, because we can only cancel what we bill:
+
+- **Bought on iOS:** cancel in your Apple ID Account Settings. We cannot cancel an Apple subscription for you.
+- **Bought on Android:** cancel in Google Play Store settings. We cannot cancel a Google subscription for you.
+- **Bought on beatloop.eu:** cancel in the billing portal under **Account → My Subscription**, or use the cancellation button described below.
+
+In addition, and in accordance with **§ 312k BGB**, a **cancellation button** is available at **[beatloop.eu/premium/cancel](https://beatloop.eu/premium/cancel)**. It can be used **without logging in**. You will receive immediate confirmation of receipt by email, recording the date and time. A cancellation submitted this way is effective on receipt.
+
+Cancellation is not the same as withdrawal (Section 7.6) and does not by itself entitle you to a refund of amounts already paid.
+
+### 7.5 Refunds for Purchases Made on beatloop.eu
+
+This section applies **only** to subscriptions bought directly on our website. Refunds for App Store and Google Play purchases are decided by Apple and Google under their own policies, and we have no power to grant or refuse them.
+
+- Your statutory rights — in particular the **right of withdrawal in Section 7.6** — apply in full and are unaffected by anything in this section
+- Because every web subscription begins with a **7-day free trial**, you can end it before any money is taken
+- Beyond your statutory rights, we may grant a refund at our discretion. If you are unhappy with BeatLoop, write to **support@on-beat.de** and tell us why — we would rather hear from you than have you pay for something you do not use
+- Where a subscription payment is refunded in full, the subscription is cancelled at the same time and Premium access ends
+- Refunds are returned to the original payment method
+
+### 7.6 Right of Withdrawal for Consumers (Widerrufsrecht)
+
+*This section applies if you are a consumer, i.e. a natural person entering into the contract for purposes outside your trade, business or profession. It applies to subscriptions purchased on beatloop.eu.*
+
+#### Right of withdrawal
+
+You have the right to withdraw from this contract within 14 days without giving any reason.
+
+The withdrawal period is 14 days from the day of the conclusion of the contract.
+
+To exercise your right of withdrawal, you must inform us:
+
+OnBeat HQ UG (haftungsbeschränkt)
+Wichterichstraße 4
+50937 Köln, Germany
+Email: support@on-beat.de
+
+by means of a clear statement (for example a letter sent by post, or an email) of your decision to withdraw from this contract. You may use the model withdrawal form below, but this is not obligatory.
+
+To meet the withdrawal deadline, it is sufficient that you send your communication concerning the exercise of the right of withdrawal before the withdrawal period has expired.
+
+#### Effects of withdrawal
+
+If you withdraw from this contract, we shall reimburse to you all payments received from you without undue delay and in any event not later than 14 days from the day on which we receive notification of your withdrawal. We will use the same means of payment that you used for the original transaction, unless expressly agreed otherwise with you; you will not be charged any fees for this reimbursement.
+
+If you requested that the provision of services should begin during the withdrawal period, you shall pay us a reasonable amount corresponding to the proportion of services already provided up to the point at which you notify us of your withdrawal, compared with the total scope of services provided for in the contract.
+
+#### Model withdrawal form
+
+*(Complete and return this form only if you wish to withdraw from the contract.)*
+
+> To OnBeat HQ UG (haftungsbeschränkt), Wichterichstraße 4, 50937 Köln, Germany, support@on-beat.de:
+>
+> I/We (*) hereby give notice that I/We (*) withdraw from my/our (*) contract for the provision of the following service (*):
+>
+> Ordered on (*) / received on (*):
+>
+> Name of the consumer(s):
+>
+> Address of the consumer(s):
+>
+> Signature of the consumer(s) (only if this form is notified on paper):
+>
+> Date:
+>
+> (*) Delete as appropriate.
+
+#### Online dispute resolution
+
+The European Commission provides a platform for online dispute resolution at [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). We are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.
 
 ## 8. Intellectual Property Rights
 

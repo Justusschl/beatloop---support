@@ -1,7 +1,7 @@
 # Nutzungsbedingungen (Allgemeine Geschäftsbedingungen - AGB)
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 10. August 2026
+**Zuletzt aktualisiert:** 18. August 2026
 
 ## 1. Diensteanbieter und Geltungsbereich
 
@@ -206,14 +206,95 @@ BeatLoop bietet sowohl kostenlose als auch Premium-Abonnementstufen:
 - Sie können Abonnements in den Einstellungen des Google Play Store verwalten und kündigen
 - Rückerstattungen werden von Google gemäß ihrer Rückerstattungsrichtlinie abgewickelt
 
+**Web (beatloop.eu):**
+- Auf unserer Website abgeschlossene Premium-Abonnements werden über **Stripe Payments Europe, Ltd.** abgewickelt
+- Das Web-Abonnement wird als **Jahresabonnement** angeboten und beginnt mit einer **7-tägigen kostenlosen Testphase**
+- Während der kostenlosen Testphase erfolgt keine Zahlung. Ihr Zahlungsmittel wird erstmals nach Ablauf der Testphase und danach einmal jährlich belastet
+- Das Abonnement verlängert sich automatisch um jeweils ein weiteres Jahr, bis es gekündigt wird
+- Sie können Ihr Zahlungsmittel ändern, Ihre Rechnungen einsehen und jederzeit kündigen — im Kundenportal, erreichbar über **Konto → Mein Abonnement** auf beatloop.eu
+- Eine Kündigung beendet künftige Verlängerungen. Ihr Premium-Zugang bleibt bis zum Ende des bereits bezahlten Zeitraums bestehen; eine weitere Zahlung erfolgt nicht
+
 **Infrastruktur der Abonnementverwaltung:**
 - Wir setzen **RevenueCat** ein, um Käufe bei Apple und Google zu überprüfen und Ihre Premium-Berechtigung zu ermitteln. RevenueCat wickelt keine Zahlungen ab und erhält zu keinem Zeitpunkt Ihre Zahlungskartendaten.
-- Premium-Abonnements werden derzeit **ausschließlich über die mobilen Apps** angeboten. Wir verkaufen keine Abonnements über das Web.
+- Premium wird sowohl **über die mobilen Apps** (Apple, Google) als auch **unmittelbar über beatloop.eu** (Stripe) verkauft. Ihr BeatLoop-Konto ist Premium, solange eines dieser Abonnements aktiv ist — Sie benötigen niemals mehr als ein Abonnement, und ein Kauf über das Web erfordert keinen zusätzlichen Kauf in der App.
 
-**Wichtig:** BeatLoop erhebt und speichert zu keinem Zeitpunkt Zahlungskartendaten. Die gesamte Zahlungsabwicklung erfolgt durch Apple (iOS) oder Google (Android) nach deren eigenen Bedingungen; Rückerstattungen werden ebenfalls von diesen abgewickelt.
+**Wichtig:** BeatLoop erhebt und speichert zu keinem Zeitpunkt Ihre Zahlungskartendaten. Kartendaten werden ausschließlich vom jeweiligen Zahlungsdienstleister — Apple, Google oder Stripe — nach dessen eigenen Bedingungen verarbeitet. Rückerstattungen für Käufe im App Store und bei Google Play werden von Apple bzw. Google abgewickelt. Rückerstattungen für Käufe über beatloop.eu werden von uns nach Ziffer 7.5 abgewickelt.
 
 ### 7.3 Preisänderungen
 Wir behalten uns das Recht vor, Abonnementpreise mit einer Frist von mindestens 30 Tagen gegenüber bestehenden Abonnenten zu ändern. Preisänderungen wirken sich nicht auf Ihren aktuellen Abrechnungszeitraum aus.
+
+### 7.4 Kündigung
+
+Sie können jederzeit mit Wirkung für die Zukunft kündigen. Wo Sie kündigen, richtet sich danach, wo Sie abgeschlossen haben — wir können nur das kündigen, was wir auch abrechnen:
+
+- **Kauf unter iOS:** Kündigung in den Einstellungen Ihres Apple-ID-Kontos. Wir können ein Apple-Abonnement nicht für Sie kündigen.
+- **Kauf unter Android:** Kündigung in den Einstellungen des Google Play Store. Wir können ein Google-Abonnement nicht für Sie kündigen.
+- **Kauf über beatloop.eu:** Kündigung im Kundenportal unter **Konto → Mein Abonnement** oder über die nachstehend beschriebene Kündigungsschaltfläche.
+
+Darüber hinaus steht Ihnen gemäß **§ 312k BGB** unter **[beatloop.eu/premium/cancel](https://beatloop.eu/premium/cancel)** eine **Kündigungsschaltfläche** zur Verfügung. Diese ist **ohne Anmeldung** nutzbar. Sie erhalten unverzüglich eine Bestätigung des Zugangs per E-Mail unter Angabe von Datum und Uhrzeit. Eine auf diesem Weg erklärte Kündigung wird mit Zugang wirksam.
+
+Die Kündigung ist nicht mit dem Widerruf (Ziffer 7.6) gleichzusetzen und begründet für sich genommen keinen Anspruch auf Rückerstattung bereits gezahlter Beträge.
+
+### 7.5 Rückerstattungen für Käufe über beatloop.eu
+
+Diese Ziffer gilt **ausschließlich** für unmittelbar über unsere Website abgeschlossene Abonnements. Über Rückerstattungen für Käufe im App Store und bei Google Play entscheiden Apple bzw. Google nach deren eigenen Richtlinien; wir können solche Rückerstattungen weder gewähren noch verweigern.
+
+- Ihre gesetzlichen Rechte — insbesondere das **Widerrufsrecht nach Ziffer 7.6** — gelten uneingeschränkt und werden durch diese Ziffer nicht berührt
+- Da jedes Web-Abonnement mit einer **7-tägigen kostenlosen Testphase** beginnt, können Sie es beenden, bevor eine Zahlung erfolgt
+- Über Ihre gesetzlichen Rechte hinaus können wir nach eigenem Ermessen eine Rückerstattung gewähren. Wenn Sie mit BeatLoop nicht zufrieden sind, schreiben Sie uns an **support@on-beat.de** und schildern Sie uns den Grund — uns ist mehr daran gelegen, davon zu erfahren, als daran, dass Sie für etwas zahlen, das Sie nicht nutzen
+- Wird eine Abonnementzahlung vollständig erstattet, wird das Abonnement zugleich gekündigt und der Premium-Zugang endet
+- Rückerstattungen erfolgen auf das ursprünglich verwendete Zahlungsmittel
+
+### 7.6 Widerrufsrecht für Verbraucher
+
+*Diese Ziffer gilt, wenn Sie Verbraucher sind, also eine natürliche Person, die den Vertrag zu Zwecken abschließt, die überwiegend weder Ihrer gewerblichen noch Ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können. Sie gilt für über beatloop.eu abgeschlossene Abonnements.*
+
+#### Widerrufsbelehrung
+
+Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.
+
+Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag des Vertragsschlusses.
+
+Um Ihr Widerrufsrecht auszuüben, müssen Sie uns:
+
+OnBeat HQ UG (haftungsbeschränkt)
+Wichterichstraße 4
+50937 Köln, Deutschland
+E-Mail: support@on-beat.de
+
+mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief oder eine E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das nachstehende Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.
+
+Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.
+
+#### Folgen des Widerrufs
+
+Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.
+
+Haben Sie verlangt, dass die Dienstleistung während der Widerrufsfrist beginnen soll, so haben Sie uns einen angemessenen Betrag zu zahlen, der dem Anteil der bis zu dem Zeitpunkt, zu dem Sie uns von der Ausübung des Widerrufsrechts hinsichtlich dieses Vertrags unterrichten, bereits erbrachten Dienstleistungen im Vergleich zum Gesamtumfang der im Vertrag vorgesehenen Dienstleistungen entspricht.
+
+#### Muster-Widerrufsformular
+
+*(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden Sie es zurück.)*
+
+> An OnBeat HQ UG (haftungsbeschränkt), Wichterichstraße 4, 50937 Köln, Deutschland, support@on-beat.de:
+>
+> Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über die Erbringung der folgenden Dienstleistung (*):
+>
+> Bestellt am (*) / erhalten am (*):
+>
+> Name des/der Verbraucher(s):
+>
+> Anschrift des/der Verbraucher(s):
+>
+> Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier):
+>
+> Datum:
+>
+> (*) Unzutreffendes streichen.
+
+#### Online-Streitbeilegung
+
+Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). Wir sind weder verpflichtet noch bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
 
 ## 8. Rechte am geistigen Eigentum
 
