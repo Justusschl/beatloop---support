@@ -1,7 +1,7 @@
 # Terms of Service (Allgemeine Geschäftsbedingungen - AGB)
 
 **Effective Date:** February 15, 2026
-**Last Updated:** August 18, 2026
+**Last Updated:** November 5, 2026
 
 ## 1. Service Provider and Scope
 
@@ -207,18 +207,19 @@ BeatLoop offers both free and premium subscription tiers:
 - Refunds are handled by Google according to their refund policy
 
 **Web (beatloop.eu):**
-- Premium subscriptions purchased on our website are processed by **Stripe Payments Europe, Ltd.**
-- The web subscription is offered as an **annual plan** and begins with a **7-day free trial**
-- No payment is taken during the free trial. Your payment method is first charged at the end of the trial, and once a year thereafter
-- Subscriptions renew automatically for a further year until cancelled
-- You can update your payment method, view your invoices and cancel at any time in the billing portal, reachable from **Account → My Subscription** on beatloop.eu
+- Premium subscriptions purchased on our website are processed through **RevenueCat Web Billing**
+- Two plans are sold on the web: a **monthly plan at €3.99** and a **yearly plan at €29.99**. The price that applies to you is always shown on the subscription page before you pay
+- Both plans begin with a **7-day free trial**
+- No payment is taken during the free trial. Your payment method is first charged at the end of the trial, and then once per billing period — every month on the monthly plan, every year on the yearly plan
+- Subscriptions renew automatically for a further period of the same length until cancelled
+- You can manage your subscription, including your payment method and invoices, in the **BeatLoop web app** under **Account → Manage subscription**, or through the billing link in your purchase confirmation email
 - Cancelling ends future renewals. Your Premium access continues until the end of the period you have already paid for, and no further payment is taken
 
 **Subscription Management Infrastructure:**
-- We use **RevenueCat** to validate purchases with Apple and Google and to determine your premium entitlement. RevenueCat does not process payments and never receives your payment card details.
-- Premium is sold both **through the mobile apps** (Apple, Google) and **directly on beatloop.eu** (Stripe). Your BeatLoop account is Premium while any one of these is active — you never need more than one subscription, and buying on the web does not require a second purchase in the app.
+- We use **RevenueCat** to determine your premium entitlement on every platform: it validates purchases made with Apple and Google, and **RevenueCat Web Billing** processes subscriptions bought on beatloop.eu.
+- Premium is sold both **through the mobile apps** (Apple, Google) and **directly on beatloop.eu** (RevenueCat Web Billing). Your BeatLoop account is Premium while any one of these is active — you never need more than one subscription, and buying on the web does not require a second purchase in the app.
 
-**Important:** BeatLoop never collects or stores your payment card details. Card data is handled solely by the relevant payment provider — Apple, Google or Stripe — under their own terms. Refunds for App Store and Google Play purchases are administered by Apple and Google respectively. Refunds for purchases made on beatloop.eu are handled by us under Section 7.5 below.
+**Important:** BeatLoop never collects or stores your payment card details. Card data is handled solely by the relevant payment provider — Apple, Google, or RevenueCat Web Billing and its payment processor — under their own terms. Refunds for App Store and Google Play purchases are administered by Apple and Google respectively. Refunds for purchases made on beatloop.eu are handled by us under Section 7.5 below.
 
 ### 7.3 Price Changes
 We reserve the right to modify subscription prices with at least 30 days' notice to existing subscribers. Price changes will not affect your current billing cycle.
@@ -229,7 +230,7 @@ You may cancel at any time, and cancellation is always possible for the future. 
 
 - **Bought on iOS:** cancel in your Apple ID Account Settings. We cannot cancel an Apple subscription for you.
 - **Bought on Android:** cancel in Google Play Store settings. We cannot cancel a Google subscription for you.
-- **Bought on beatloop.eu:** cancel in the billing portal under **Account → My Subscription**, or use the cancellation button described below.
+- **Bought on beatloop.eu:** cancel in the **BeatLoop web app** under **Account → Manage subscription**, through the billing link in your confirmation email, or use the cancellation button described below.
 
 In addition, and in accordance with **§ 312k BGB**, a **cancellation button** is available at **[beatloop.eu/premium/cancel](https://beatloop.eu/premium/cancel)**. It can be used **without logging in**. You will receive immediate confirmation of receipt by email, recording the date and time. A cancellation submitted this way is effective on receipt.
 
@@ -295,6 +296,25 @@ If you requested that the provision of services should begin during the withdraw
 #### Online dispute resolution
 
 The European Commission provides a platform for online dispute resolution at [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). We are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.
+
+### 7.7 Affiliate Codes and Introductory Discounts
+
+Some BeatLoop partners — dance teachers, studios and influencers — share a personal code that entitles you to a discounted subscription on beatloop.eu.
+
+**Who is eligible.** The discount applies when you reach our subscription page with a valid affiliate code, either carried in the link the partner shared or typed into the code field on that page. There is no other eligibility condition: you do not need to be a student, a member of a studio, or in any particular country.
+
+**How the code is checked.** Before checkout, the code is verified against our register of active affiliate codes. A code that is not recognised — because it was mistyped, has been withdrawn, or never existed — receives no discount, and the standard price is shown to you before you pay. We never present a discounted price that the verification has not confirmed.
+
+**What a verified code gives you.** The **7-day free trial plus 20% off an introductory period**:
+
+- Monthly plan: **€3.19 per month for the first 3 months**
+- Yearly plan: **€23.99 for the first year**
+
+**What happens when the introductory period ends.** The subscription renews automatically at the **standard price for your plan** — €3.99 per month or €29.99 per year — unless you cancel before then. Only the price changes: your Premium features are identical during and after the introductory period, and nothing is withdrawn from your account when the discount expires. The price and date of your first full-price renewal are shown to you before you subscribe.
+
+**Other conditions.** A code must be applied before you subscribe; it cannot be added to a subscription that has already started, and codes cannot be combined with one another. Affiliate discounts apply to subscriptions bought on beatloop.eu. Subscriptions bought through the App Store or Google Play use those platforms' own offer mechanisms, and Apple or Google will show you the applicable price before you purchase.
+
+Your cancellation rights (Section 7.4) and your right of withdrawal (Section 7.6) apply to a discounted subscription in exactly the same way as to one at the standard price.
 
 ## 8. Intellectual Property Rights
 
@@ -453,4 +473,4 @@ Wichterichstraße 4
 **By creating an account or using BeatLoop, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.**
 
 
-**These Terms were last updated on August 10, 2026, and become effective immediately upon acceptance.**
+**These Terms were last updated on November 5, 2026, and become effective immediately upon acceptance.**

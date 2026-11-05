@@ -1,7 +1,7 @@
 # Condiciones del Servicio (Allgemeine Geschäftsbedingungen - AGB)
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 18 de agosto de 2026
+**Última Actualización:** 5 de noviembre de 2026
 
 ## 1. Proveedor del Servicio y Alcance
 
@@ -207,18 +207,19 @@ BeatLoop ofrece niveles de suscripción tanto gratuitos como premium:
 - Los reembolsos son gestionados por Google de acuerdo con su política de reembolsos
 
 **Web (beatloop.eu):**
-- Las suscripciones premium contratadas en nuestro sitio web son procesadas por **Stripe Payments Europe, Ltd.**
-- La suscripción web se ofrece como **plan anual** y comienza con una **prueba gratuita de 7 días**
-- Durante la prueba gratuita no se realiza ningún cobro. Su medio de pago se cobra por primera vez al finalizar la prueba y, a partir de entonces, una vez al año
-- La suscripción se renueva automáticamente por otro año hasta que se cancele
-- Puede actualizar su medio de pago, consultar sus facturas y cancelar en cualquier momento en el portal de facturación, accesible desde **Cuenta → Mi Suscripción** en beatloop.eu
+- Las suscripciones premium contratadas en nuestro sitio web se procesan a través de **RevenueCat Web Billing**
+- En la web se ofrecen dos planes: un **plan mensual de 3,99 €** y un **plan anual de 29,99 €**. El precio aplicable se muestra siempre en la página de suscripción antes de pagar
+- Ambos planes comienzan con una **prueba gratuita de 7 días**
+- Durante la prueba gratuita no se realiza ningún cobro. Su medio de pago se cobra por primera vez al finalizar la prueba y, a partir de entonces, una vez por período de facturación: cada mes en el plan mensual y cada año en el plan anual
+- La suscripción se renueva automáticamente por otro período de la misma duración hasta que se cancele
+- Puede gestionar su suscripción, incluidos su medio de pago y sus facturas, en la **aplicación web de BeatLoop** en **Cuenta → Gestionar suscripción**, o mediante el enlace de facturación incluido en su correo de confirmación de compra
 - La cancelación pone fin a las renovaciones futuras. Su acceso Premium continúa hasta el final del período que ya ha pagado, y no se realiza ningún cobro adicional
 
 **Infraestructura de Gestión de Suscripciones:**
-- Utilizamos **RevenueCat** para validar las compras con Apple y Google y determinar su derecho a premium. RevenueCat no procesa pagos y nunca recibe los datos de su tarjeta de pago.
-- Premium se vende tanto **a través de las aplicaciones móviles** (Apple, Google) como **directamente en beatloop.eu** (Stripe). Su cuenta de BeatLoop es Premium mientras cualquiera de ellas esté activa: nunca necesita más de una suscripción, y comprar en la web no requiere una segunda compra en la aplicación.
+- Utilizamos **RevenueCat** para determinar su derecho a premium en todas las plataformas: valida las compras realizadas con Apple y Google, y **RevenueCat Web Billing** procesa las suscripciones contratadas en beatloop.eu.
+- Premium se vende tanto **a través de las aplicaciones móviles** (Apple, Google) como **directamente en beatloop.eu** (RevenueCat Web Billing). Su cuenta de BeatLoop es Premium mientras cualquiera de ellas esté activa: nunca necesita más de una suscripción, y comprar en la web no requiere una segunda compra en la aplicación.
 
-**Importante:** BeatLoop nunca recopila ni almacena los datos de su tarjeta de pago. Los datos de la tarjeta son tratados exclusivamente por el proveedor de pago correspondiente — Apple, Google o Stripe — conforme a sus propios términos. Los reembolsos de compras en App Store y Google Play son administrados por Apple y Google respectivamente. Los reembolsos de compras realizadas en beatloop.eu son gestionados por nosotros conforme a la Sección 7.5.
+**Importante:** BeatLoop nunca recopila ni almacena los datos de su tarjeta de pago. Los datos de la tarjeta son tratados exclusivamente por el proveedor de pago correspondiente — Apple, Google, o RevenueCat Web Billing y su procesador de pagos — conforme a sus propios términos. Los reembolsos de compras en App Store y Google Play son administrados por Apple y Google respectivamente. Los reembolsos de compras realizadas en beatloop.eu son gestionados por nosotros conforme a la Sección 7.5.
 
 ### 7.3 Cambios de Precios
 Nos reservamos el derecho de modificar los precios de las suscripciones con un aviso de al menos 30 días a los suscriptores existentes. Los cambios de precios no afectarán a su ciclo de facturación actual.
@@ -229,7 +230,7 @@ Puede cancelar en cualquier momento con efecto para el futuro. Dónde debe cance
 
 - **Comprado en iOS:** cancele en los Ajustes de su cuenta de Apple ID. No podemos cancelar una suscripción de Apple por usted.
 - **Comprado en Android:** cancele en los ajustes de Google Play Store. No podemos cancelar una suscripción de Google por usted.
-- **Comprado en beatloop.eu:** cancele en el portal de facturación en **Cuenta → Mi Suscripción**, o utilice el botón de cancelación descrito a continuación.
+- **Comprado en beatloop.eu:** cancele en la **aplicación web de BeatLoop** en **Cuenta → Gestionar suscripción**, mediante el enlace de facturación de su correo de confirmación, o utilice el botón de cancelación descrito a continuación.
 
 Además, conforme al **§ 312k del BGB alemán**, existe un **botón de cancelación** en **[beatloop.eu/premium/cancel](https://beatloop.eu/premium/cancel)**. Puede utilizarse **sin iniciar sesión**. Recibirá de inmediato una confirmación de recepción por correo electrónico, con la fecha y la hora. Una cancelación presentada por esta vía es efectiva desde su recepción.
 
@@ -295,6 +296,25 @@ Si usted solicitó que la prestación del servicio comenzara durante el plazo de
 #### Resolución de litigios en línea
 
 La Comisión Europea facilita una plataforma de resolución de litigios en línea en [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). No estamos obligados ni dispuestos a participar en procedimientos de resolución de litigios ante una junta de arbitraje de consumo.
+
+### 7.7 Códigos de Afiliado y Descuentos de Introducción
+
+Algunos socios de BeatLoop — profesores de danza, estudios e influencers — comparten un código personal que da derecho a una suscripción con descuento en beatloop.eu.
+
+**Quién puede acogerse.** El descuento se aplica cuando llega a nuestra página de suscripción con un código de afiliado válido, ya sea incluido en el enlace que compartió el socio o introducido en el campo de código de esa página. No existe ninguna otra condición: no necesita ser estudiante, miembro de un estudio ni residir en un país determinado.
+
+**Cómo se verifica el código.** Antes del pago, el código se verifica frente a nuestro registro de códigos de afiliado activos. Un código no reconocido — porque se escribió incorrectamente, fue retirado o nunca existió — no recibe descuento, y se le muestra el precio estándar antes de pagar. Nunca mostramos un precio con descuento que la verificación no haya confirmado.
+
+**Qué obtiene con un código válido.** La **prueba gratuita de 7 días más un 20 % de descuento durante un período de introducción**:
+
+- Plan mensual: **3,19 € al mes durante los 3 primeros meses**
+- Plan anual: **23,99 € el primer año**
+
+**Qué ocurre al finalizar el período de introducción.** La suscripción se renueva automáticamente al **precio estándar de su plan** — 3,99 € al mes o 29,99 € al año — salvo que cancele antes. Solo cambia el precio: sus funciones Premium son idénticas durante y después del período de introducción, y no se retira nada de su cuenta cuando expira el descuento. El precio y la fecha de su primera renovación a precio completo se le muestran antes de suscribirse.
+
+**Otras condiciones.** El código debe aplicarse antes de suscribirse; no puede añadirse a una suscripción ya iniciada, y los códigos no pueden combinarse entre sí. Los descuentos de afiliado se aplican a las suscripciones contratadas en beatloop.eu. Las suscripciones contratadas a través de App Store o Google Play utilizan los mecanismos de oferta de esas plataformas, y Apple o Google le mostrarán el precio aplicable antes de la compra.
+
+Su derecho de cancelación (Sección 7.4) y su derecho de desistimiento (Sección 7.6) se aplican a una suscripción con descuento exactamente igual que a una a precio estándar.
 
 ## 8. Derechos de Propiedad Intelectual
 

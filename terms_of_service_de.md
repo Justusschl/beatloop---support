@@ -1,7 +1,7 @@
 # Nutzungsbedingungen (Allgemeine Geschäftsbedingungen - AGB)
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 18. August 2026
+**Zuletzt aktualisiert:** 5. November 2026
 
 ## 1. Diensteanbieter und Geltungsbereich
 
@@ -207,18 +207,19 @@ BeatLoop bietet sowohl kostenlose als auch Premium-Abonnementstufen:
 - Rückerstattungen werden von Google gemäß ihrer Rückerstattungsrichtlinie abgewickelt
 
 **Web (beatloop.eu):**
-- Auf unserer Website abgeschlossene Premium-Abonnements werden über **Stripe Payments Europe, Ltd.** abgewickelt
-- Das Web-Abonnement wird als **Jahresabonnement** angeboten und beginnt mit einer **7-tägigen kostenlosen Testphase**
-- Während der kostenlosen Testphase erfolgt keine Zahlung. Ihr Zahlungsmittel wird erstmals nach Ablauf der Testphase und danach einmal jährlich belastet
-- Das Abonnement verlängert sich automatisch um jeweils ein weiteres Jahr, bis es gekündigt wird
-- Sie können Ihr Zahlungsmittel ändern, Ihre Rechnungen einsehen und jederzeit kündigen — im Kundenportal, erreichbar über **Konto → Mein Abonnement** auf beatloop.eu
+- Auf unserer Website abgeschlossene Premium-Abonnements werden über **RevenueCat Web Billing** abgewickelt
+- Über das Web werden zwei Tarife angeboten: ein **Monatsabonnement zu 3,99 €** und ein **Jahresabonnement zu 29,99 €**. Der für Sie gültige Preis wird vor dem Kauf stets auf der Abonnementseite angezeigt
+- Beide Tarife beginnen mit einer **7-tägigen kostenlosen Testphase**
+- Während der kostenlosen Testphase erfolgt keine Zahlung. Ihr Zahlungsmittel wird erstmals nach Ablauf der Testphase belastet und danach einmal je Abrechnungszeitraum — monatlich beim Monatsabonnement, jährlich beim Jahresabonnement
+- Das Abonnement verlängert sich automatisch um jeweils einen weiteren Zeitraum gleicher Länge, bis es gekündigt wird
+- Sie können Ihr Abonnement einschließlich Zahlungsmittel und Rechnungen in der **BeatLoop Web-App** unter **Konto → Abonnement verwalten** verwalten oder über den Abrechnungslink in Ihrer Kaufbestätigungs-E-Mail
 - Eine Kündigung beendet künftige Verlängerungen. Ihr Premium-Zugang bleibt bis zum Ende des bereits bezahlten Zeitraums bestehen; eine weitere Zahlung erfolgt nicht
 
 **Infrastruktur der Abonnementverwaltung:**
-- Wir setzen **RevenueCat** ein, um Käufe bei Apple und Google zu überprüfen und Ihre Premium-Berechtigung zu ermitteln. RevenueCat wickelt keine Zahlungen ab und erhält zu keinem Zeitpunkt Ihre Zahlungskartendaten.
-- Premium wird sowohl **über die mobilen Apps** (Apple, Google) als auch **unmittelbar über beatloop.eu** (Stripe) verkauft. Ihr BeatLoop-Konto ist Premium, solange eines dieser Abonnements aktiv ist — Sie benötigen niemals mehr als ein Abonnement, und ein Kauf über das Web erfordert keinen zusätzlichen Kauf in der App.
+- Wir setzen **RevenueCat** ein, um Ihre Premium-Berechtigung auf allen Plattformen zu ermitteln: RevenueCat überprüft Käufe bei Apple und Google, und **RevenueCat Web Billing** wickelt über beatloop.eu abgeschlossene Abonnements ab.
+- Premium wird sowohl **über die mobilen Apps** (Apple, Google) als auch **unmittelbar über beatloop.eu** (RevenueCat Web Billing) verkauft. Ihr BeatLoop-Konto ist Premium, solange eines dieser Abonnements aktiv ist — Sie benötigen niemals mehr als ein Abonnement, und ein Kauf über das Web erfordert keinen zusätzlichen Kauf in der App.
 
-**Wichtig:** BeatLoop erhebt und speichert zu keinem Zeitpunkt Ihre Zahlungskartendaten. Kartendaten werden ausschließlich vom jeweiligen Zahlungsdienstleister — Apple, Google oder Stripe — nach dessen eigenen Bedingungen verarbeitet. Rückerstattungen für Käufe im App Store und bei Google Play werden von Apple bzw. Google abgewickelt. Rückerstattungen für Käufe über beatloop.eu werden von uns nach Ziffer 7.5 abgewickelt.
+**Wichtig:** BeatLoop erhebt und speichert zu keinem Zeitpunkt Ihre Zahlungskartendaten. Kartendaten werden ausschließlich vom jeweiligen Zahlungsdienstleister — Apple, Google oder RevenueCat Web Billing und dessen Zahlungsabwickler — nach dessen eigenen Bedingungen verarbeitet. Rückerstattungen für Käufe im App Store und bei Google Play werden von Apple bzw. Google abgewickelt. Rückerstattungen für Käufe über beatloop.eu werden von uns nach Ziffer 7.5 abgewickelt.
 
 ### 7.3 Preisänderungen
 Wir behalten uns das Recht vor, Abonnementpreise mit einer Frist von mindestens 30 Tagen gegenüber bestehenden Abonnenten zu ändern. Preisänderungen wirken sich nicht auf Ihren aktuellen Abrechnungszeitraum aus.
@@ -229,7 +230,7 @@ Sie können jederzeit mit Wirkung für die Zukunft kündigen. Wo Sie kündigen, 
 
 - **Kauf unter iOS:** Kündigung in den Einstellungen Ihres Apple-ID-Kontos. Wir können ein Apple-Abonnement nicht für Sie kündigen.
 - **Kauf unter Android:** Kündigung in den Einstellungen des Google Play Store. Wir können ein Google-Abonnement nicht für Sie kündigen.
-- **Kauf über beatloop.eu:** Kündigung im Kundenportal unter **Konto → Mein Abonnement** oder über die nachstehend beschriebene Kündigungsschaltfläche.
+- **Kauf über beatloop.eu:** Kündigung in der **BeatLoop Web-App** unter **Konto → Abonnement verwalten**, über den Abrechnungslink in Ihrer Bestätigungs-E-Mail oder über die nachstehend beschriebene Kündigungsschaltfläche.
 
 Darüber hinaus steht Ihnen gemäß **§ 312k BGB** unter **[beatloop.eu/premium/cancel](https://beatloop.eu/premium/cancel)** eine **Kündigungsschaltfläche** zur Verfügung. Diese ist **ohne Anmeldung** nutzbar. Sie erhalten unverzüglich eine Bestätigung des Zugangs per E-Mail unter Angabe von Datum und Uhrzeit. Eine auf diesem Weg erklärte Kündigung wird mit Zugang wirksam.
 
@@ -295,6 +296,25 @@ Haben Sie verlangt, dass die Dienstleistung während der Widerrufsfrist beginnen
 #### Online-Streitbeilegung
 
 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). Wir sind weder verpflichtet noch bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+### 7.7 Partnercodes und Einführungsrabatte
+
+Einige BeatLoop-Partner — Tanzlehrer:innen, Studios und Influencer — geben einen persönlichen Code weiter, der zu einem rabattierten Abonnement über beatloop.eu berechtigt.
+
+**Wer teilnahmeberechtigt ist.** Der Rabatt gilt, wenn Sie unsere Abonnementseite mit einem gültigen Partnercode erreichen — entweder über den vom Partner geteilten Link oder durch Eingabe des Codes in das entsprechende Feld auf dieser Seite. Weitere Voraussetzungen bestehen nicht: Sie müssen weder Studierende:r noch Mitglied eines Studios sein, noch in einem bestimmten Land wohnen.
+
+**Wie der Code geprüft wird.** Vor dem Checkout wird der Code gegen unser Verzeichnis aktiver Partnercodes geprüft. Ein nicht erkannter Code — etwa weil er falsch eingegeben wurde, zurückgezogen wurde oder nie existierte — führt zu keinem Rabatt; in diesem Fall wird Ihnen vor der Zahlung der Standardpreis angezeigt. Wir zeigen niemals einen rabattierten Preis an, der nicht durch diese Prüfung bestätigt wurde.
+
+**Was ein gültiger Code bewirkt.** Die **7-tägige kostenlose Testphase sowie 20 % Rabatt auf einen Einführungszeitraum**:
+
+- Monatsabonnement: **3,19 € pro Monat für die ersten 3 Monate**
+- Jahresabonnement: **23,99 € für das erste Jahr**
+
+**Was nach dem Einführungszeitraum geschieht.** Das Abonnement verlängert sich automatisch zum **Standardpreis Ihres Tarifs** — 3,99 € pro Monat bzw. 29,99 € pro Jahr —, sofern Sie nicht vorher kündigen. Es ändert sich ausschließlich der Preis: Ihre Premium-Funktionen sind während und nach dem Einführungszeitraum identisch, und mit Ablauf des Rabatts wird Ihrem Konto nichts entzogen. Preis und Datum Ihrer ersten Verlängerung zum Standardpreis werden Ihnen vor Abschluss des Abonnements angezeigt.
+
+**Weitere Bedingungen.** Ein Code muss vor Abschluss des Abonnements eingelöst werden; er kann einem bereits laufenden Abonnement nicht nachträglich hinzugefügt werden, und Codes können nicht miteinander kombiniert werden. Partnerrabatte gelten für Abonnements, die über beatloop.eu abgeschlossen werden. Für Abonnements über den App Store oder Google Play gelten die dortigen Angebotsmechanismen; Apple bzw. Google zeigen Ihnen den jeweils geltenden Preis vor dem Kauf an.
+
+Ihr Kündigungsrecht (Ziffer 7.4) und Ihr Widerrufsrecht (Ziffer 7.6) gelten für ein rabattiertes Abonnement in gleicher Weise wie für ein Abonnement zum Standardpreis.
 
 ## 8. Rechte am geistigen Eigentum
 

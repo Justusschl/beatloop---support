@@ -1,7 +1,7 @@
 # Datenschutzerklärung
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 10. August 2026
+**Zuletzt aktualisiert:** 5. November 2026
 
 ## 1. Informationen zum Verantwortlichen
 
@@ -140,7 +140,14 @@ Metadaten von Streaming-Musik (Songtitel, Künstler, Tempo-Markierungen, Loop-Pu
 
 ### 5.6 Übertragung auf externe Bildschirme (Chromecast und AirPlay)
 
-Wenn Sie ein aufgenommenes Video an ein Chromecast- oder AirPlay-Gerät übertragen, startet BeatLoop einen **temporären HTTP-Server in Ihrem lokalen WLAN** und stellt die ausgewählte Videodatei für das Empfangsgerät bereit. Dazu liest die App die lokale Netzwerkadresse Ihres Geräts aus und nutzt Bonjour und Bluetooth, um Empfangsgeräte in der Nähe zu finden.
+Wenn Sie ein aufgenommenes Video an ein Chromecast- oder AirPlay-Gerät übertragen, startet BeatLoop einen **temporären HTTP-Server in Ihrem lokalen WLAN** und stellt die ausgewählte Videodatei für das Empfangsgerät bereit. Dazu liest die App die lokale Netzwerkadresse Ihres Geräts aus und findet Empfangsgeräte in diesem Netzwerk über Bonjour/mDNS.
+
+Die Geräteerkennung unterscheidet sich je nach Plattform; Ihr Gerät fragt bei der ersten Übertragung die jeweils erforderliche Berechtigung ab:
+
+- Unter **iOS** nutzt die Erkennung das lokale Netzwerk und **Bluetooth** — deshalb fragt iOS den Bluetooth-Zugriff ab. Die Android-Version fordert keine Bluetooth-Berechtigung an.
+- Unter **Android** fragen neuere Versionen den **Zugriff auf das lokale Netzwerk** ab, bevor die App Empfangsgeräte in Ihrem WLAN finden kann.
+
+Diese Berechtigungen ermöglichen der App das Auffinden von Empfangsgeräten; sie verschaffen uns keinen Zugriff auf Ihr Netzwerk oder auf andere Geräte darin.
 
 - Der Server läuft **nur während der aktiven Übertragung** und ist **ausschließlich aus Ihrem lokalen Netzwerk** erreichbar — nicht aus dem Internet und nicht für uns.
 - Er erfordert keine Authentifizierung. Andere Personen im selben WLAN könnten die bereitgestellte Datei während einer laufenden Übertragung grundsätzlich abrufen. **Vermeiden Sie die Übertragung in nicht vertrauenswürdigen öffentlichen Netzwerken.**
