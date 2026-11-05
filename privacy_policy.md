@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** February 15, 2026
-**Last Updated:** August 10, 2026
+**Last Updated:** November 5, 2026
 
 ## 1. Data Controller Information
 
@@ -140,7 +140,14 @@ Streaming music metadata (song title, artist, tempo markers, loop points) may be
 
 ### 5.6 Casting to External Displays (Chromecast and AirPlay)
 
-When you cast a recorded video to a Chromecast or AirPlay device, BeatLoop starts a **temporary HTTP server on your local Wi-Fi network** and serves the selected video file to the receiving device. To do this the App reads your device's local network address and uses Bonjour and Bluetooth to discover nearby cast targets.
+When you cast a recorded video to a Chromecast or AirPlay device, BeatLoop starts a **temporary HTTP server on your local Wi-Fi network** and serves the selected video file to the receiving device. To do this the App reads your device's local network address and discovers nearby cast targets on that network using Bonjour/mDNS.
+
+Discovery differs slightly by platform, and your device will ask for the matching permission the first time you cast:
+
+- On **iOS**, discovery uses the local network and **Bluetooth**, which is why iOS asks for Bluetooth access. The Android build requests no Bluetooth permission.
+- On **Android**, recent versions ask for **local network access** before the App can find cast devices on your Wi-Fi network.
+
+Granting these permissions lets the App find cast receivers; it does not give us access to your network or to any other device on it.
 
 - The server runs **only while casting is active** and is reachable **only from your local network** — never from the internet, and never by us.
 - It does not require authentication. Anyone else on the same Wi-Fi network could, in principle, reach the served file while a cast is in progress. **Avoid casting on untrusted public networks.**
@@ -540,6 +547,6 @@ This Privacy Policy is published in English, German and Spanish. **The English v
 
 ---
 
-**This Privacy Policy was last updated on August 10, 2026, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on November 5, 2026, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.

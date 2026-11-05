@@ -1,7 +1,7 @@
 # Política de Privacidad
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 10 de agosto de 2026
+**Última Actualización:** 5 de noviembre de 2026
 
 ## 1. Información sobre el Responsable del Tratamiento
 
@@ -140,7 +140,14 @@ Los metadatos de la música en streaming (título de la canción, artista, marca
 
 ### 5.6 Transmisión a Pantallas Externas (Chromecast y AirPlay)
 
-Cuando transmite un vídeo grabado a un dispositivo Chromecast o AirPlay, BeatLoop inicia un **servidor HTTP temporal en su red Wi-Fi local** y sirve el archivo de vídeo seleccionado al dispositivo receptor. Para ello, la aplicación lee la dirección de red local de su dispositivo y utiliza Bonjour y Bluetooth para detectar receptores cercanos.
+Cuando transmite un vídeo grabado a un dispositivo Chromecast o AirPlay, BeatLoop inicia un **servidor HTTP temporal en su red Wi-Fi local** y sirve el archivo de vídeo seleccionado al dispositivo receptor. Para ello, la aplicación lee la dirección de red local de su dispositivo y detecta los receptores presentes en esa red mediante Bonjour/mDNS.
+
+La detección varía ligeramente según la plataforma, y su dispositivo le solicitará el permiso correspondiente la primera vez que transmita:
+
+- En **iOS**, la detección utiliza la red local y **Bluetooth**, razón por la cual iOS solicita acceso a Bluetooth. La versión de Android no solicita ningún permiso de Bluetooth.
+- En **Android**, las versiones recientes solicitan **acceso a la red local** antes de que la aplicación pueda encontrar dispositivos receptores en su red Wi-Fi.
+
+Conceder estos permisos permite a la aplicación encontrar receptores de transmisión; no nos otorga acceso a su red ni a ningún otro dispositivo conectado a ella.
 
 - El servidor funciona **únicamente mientras la transmisión está activa** y solo es accesible **desde su red local**: nunca desde Internet y nunca por nuestra parte.
 - No requiere autenticación. Cualquier otra persona conectada a la misma red Wi-Fi podría, en principio, acceder al archivo servido mientras la transmisión está en curso. **Evite transmitir en redes públicas no confiables.**

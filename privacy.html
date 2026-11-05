@@ -87,7 +87,7 @@
 
 <div class="effective-date">
     <strong>Effective Date:</strong> February 15, 2026<br>
-    <strong>Last Updated:</strong> August 10, 2026
+    <strong>Last Updated:</strong> November 5, 2026
 </div>
 
 <h2>1. Data Controller Information</h2>
@@ -265,7 +265,16 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 
 <h3>5.6 Casting to External Displays (Chromecast and AirPlay)</h3>
 
-<p>When you cast a recorded video to a Chromecast or AirPlay device, BeatLoop starts a <strong>temporary HTTP server on your local Wi-Fi network</strong> and serves the selected video file to the receiving device. To do this the App reads your device's local network address and uses Bonjour and Bluetooth to discover nearby cast targets.</p>
+<p>When you cast a recorded video to a Chromecast or AirPlay device, BeatLoop starts a <strong>temporary HTTP server on your local Wi-Fi network</strong> and serves the selected video file to the receiving device. To do this the App reads your device's local network address and discovers nearby cast targets on that network using Bonjour/mDNS.</p>
+
+<p>Discovery differs slightly by platform, and your device will ask for the matching permission the first time you cast:</p>
+
+<ul>
+<li>On <strong>iOS</strong>, discovery uses the local network and <strong>Bluetooth</strong>, which is why iOS asks for Bluetooth access. The Android build requests no Bluetooth permission.</li>
+<li>On <strong>Android</strong>, recent versions ask for <strong>local network access</strong> before the App can find cast devices on your Wi-Fi network.</li>
+</ul>
+
+<p>Granting these permissions lets the App find cast receivers; it does not give us access to your network or to any other device on it.</p>
 
 <ul>
 <li>The server runs <strong>only while casting is active</strong> and is reachable <strong>only from your local network</strong> — never from the internet, and never by us.</li>
@@ -787,7 +796,7 @@ Wichterichstraße 4<br>
 <p>This Privacy Policy is published in English, German and Spanish. <strong>The English version is the authoritative version</strong>; the German and Spanish versions are convenience translations, and in case of any discrepancy the English version prevails. This does not affect your rights under mandatory data protection law.</p>
 
 <div class="footer">
-<p><strong>This Privacy Policy was last updated on August 10, 2026, and becomes effective immediately upon posting.</strong></p>
+<p><strong>This Privacy Policy was last updated on November 5, 2026, and becomes effective immediately upon posting.</strong></p>
 
 <p>For the most current version of our Privacy Policy, please check this document regularly or contact us at <a href="mailto:privacy@on-beat.de.">privacy@on-beat.de.</a></p>
 </div>
