@@ -104,7 +104,7 @@ Dieser Abschnitt betrifft Besuche unserer Website beatloop.eu, einschließlich d
 **Kampagnenbezeichnungen an den Store-Schaltflächen.** Wenn Sie über einen unserer Links zu uns kommen, tragen die App-Store- und Google-Play-Schaltflächen auf dieser Seite dieselbe Kampagnenbezeichnung. Apple und Google zeigen uns daraufhin zusammengefasste Downloadzahlen je Kampagne an. Informationen über Sie persönlich erhalten wir nicht.
 
 **Reichweitenmessung ohne Cookies (PostHog).** Um zu erfahren, welche Seiten und Kampagnen zu Downloads und Käufen führen, zählen wir Besuche unserer Website mit **PostHog** (PostHog Cloud EU, Frankfurt, Deutschland):
-- **Was erfasst wird:** die von Ihnen aufgerufene Seite (ihre Adresse ohne personenbezogene Parameter; Anmelde-, Konto-, Verwaltungs- und Kündigungsseiten werden überhaupt nicht erfasst), die verweisende Website (nur deren Domain), die Kampagnenwerte in dem Link, dem Sie gefolgt sind, Browser, Betriebssystem, Gerätetyp und Bildschirmgröße sowie Klicks auf die App-Store- und Google-Play-Schaltflächen, die Schaltfläche „Web App" und die Schaltfläche „Start free trial".
+- **Was erfasst wird:** die von Ihnen aufgerufene Seite (ihre Adresse ohne personenbezogene Parameter; Anmelde-, Konto-, Verwaltungs- und Kündigungsseiten werden überhaupt nicht erfasst), die verweisende Website (nur deren Domain), die Kampagnenwerte in dem Link, dem Sie gefolgt sind, Browser, Betriebssystem, Gerätetyp und Bildschirmgröße sowie Klicks auf unsere App-Store- und Google-Play-Schaltflächen, auf die Schaltflächen, die die Web-App oder einen Kurs öffnen, und auf die Schaltfläche „Start free trial".
 - **Keine Cookies, nichts auf Ihrem Gerät gespeichert:** Die Messung setzt keine Cookies und legt keine Kennung im Speicher Ihres Browsers ab.
 - **Täglicher Besucherschlüssel:** Um Besucher zu zählen, leiten die Server von PostHog aus Ihrer IP-Adresse und Ihrem User-Agent-String in Verbindung mit einem geheimen, täglich wechselnden Wert einen Schlüssel ab. **Ihre IP-Adresse wird nicht gespeichert.** Da der geheime Wert täglich wechselt, können Besuche an verschiedenen Tagen nicht miteinander verknüpft werden. Es wird kein Profil erstellt, und die Daten werden nicht mit Ihrem BeatLoop-Konto verknüpft.
 - **Rechtsgrundlage:** unser berechtigtes Interesse an der Messung der Reichweite unserer Website und unseres Marketings (Art. 6 Abs. 1 lit. f DSGVO).
@@ -118,9 +118,13 @@ Dieser Abschnitt betrifft Besuche unserer Website beatloop.eu, einschließlich d
 
 **Kündigungsformular.** Unser Kündigungsformular unter beatloop.eu/premium/cancel (§ 312k BGB) fragt Ihren Namen und Ihre E-Mail-Adresse sowie optional eine Referenz und einen Grund ab. Wir leiten Ihre Kündigung an unser Support-Team weiter, senden Ihnen eine Bestätigung per E-Mail (über Resend, siehe Abschnitt 10.1) und bewahren sie wie andere Support-Kommunikation als Nachweis Ihrer Kündigung auf (Abschnitt 13.4). Rechtsgrundlage: Art. 6 Abs. 1 lit. b und c DSGVO.
 
-**Veranstaltungstickets.** Wenn wir auf der Website Tickets für Veranstaltungen verkaufen, wird die Zahlung über Stripe abgewickelt. Wir verarbeiten Ihren Namen, Ihre E-Mail-Adresse, das von Ihnen gebuchte Ticket, den Zahlungsstatus und bei der Veranstaltung Ihren Check-in-Status, um Ihr Ticket auszustellen, Ihnen Einlass zu gewähren und Rückerstattungen abzuwickeln (Art. 6 Abs. 1 lit. b DSGVO). Zahlungsaufzeichnungen werden für die gesetzlichen Fristen aufbewahrt (Abschnitt 13.3).
+**Veranstaltungstickets.** Wenn wir auf der Website Tickets für Veranstaltungen verkaufen, wird die Zahlung über Stripe abgewickelt. Wir verarbeiten Ihren Namen, Ihre E-Mail-Adresse, das von Ihnen gebuchte Ticket, den Zahlungsstatus und bei der Veranstaltung Ihren Check-in-Status, um Ihr Ticket auszustellen, Ihnen Einlass zu gewähren und Rückerstattungen abzuwickeln (Art. 6 Abs. 1 lit. b DSGVO). Ihre Tickets erhalten Sie per E-Mail mit einem QR-Code für den Einlass (über Resend, siehe Abschnitt 10.1). Zahlungsaufzeichnungen werden für die gesetzlichen Fristen aufbewahrt (Abschnitt 13.3).
 
-**Cookies auf der Website.** Unsere Website verwendet ausschließlich unbedingt erforderliche Cookies: Wenn Sie sich anmelden, halten Sitzungscookies Sie angemeldet (§ 25 Abs. 2 Nr. 2 TDDDG). Wir verwenden keine Werbe-, Social-Media- oder Analyse-Cookies; deshalb zeigt die Website kein Cookie-Banner an.
+**Karten der Veranstaltungsorte (OpenStreetMap).** Veranstaltungsseiten zeigen eine Karte des Veranstaltungsorts von OpenStreetMap. Um sie anzuzeigen, lädt Ihr Browser die Karte von den Servern der OpenStreetMap Foundation, die dabei Ihre IP-Adresse, Browserinformationen und den angezeigten Kartenausschnitt erhalten (Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse daran, zu zeigen, wo eine Veranstaltung stattfindet). Siehe Abschnitt 10.1.
+
+**Demovideo (YouTube).** Unsere Startseite zeigt ein Demovideo von YouTube. **Es wird erst geladen, wenn Sie die Wiedergabe starten**; bis dahin wird keine Verbindung zu YouTube hergestellt, und es wird unser eigenes Vorschaubild angezeigt. Wenn Sie die Wiedergabe starten, wird das Video im erweiterten Datenschutzmodus (youtube-nocookie.com) von YouTube geladen. YouTube erhält dann Ihre IP-Adresse und Browserinformationen und kann Informationen in Ihrem Browser speichern. Siehe Abschnitt 10.1.
+
+**Cookies auf der Website.** Unsere Website verwendet ausschließlich unbedingt erforderliche Cookies: Wenn Sie sich anmelden, halten Sitzungscookies Sie angemeldet (§ 25 Abs. 2 Nr. 2 TDDDG). Wir verwenden keine Werbe-, Social-Media- oder Analyse-Cookies; deshalb zeigt die Website kein Cookie-Banner an. Das Demovideo lädt YouTube und damit auch die Speicherung durch YouTube erst, nachdem Sie die Wiedergabe gestartet haben.
 
 ## 5. Integrationen von Musikdiensten Dritter
 
@@ -386,9 +390,25 @@ Die folgenden Dienste können Ihre Daten außerhalb der EU verarbeiten:
 - Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der korrekten Vergütung unserer Affiliates)
 - Gilt nur, wenn Sie mit einem Affiliate-Code kaufen
 
+**YouTube (Demovideo auf unserer Website):**
+- Betreiber: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland
+- Zweck: Wiedergabe unseres Demovideos auf der Startseite im erweiterten Datenschutzmodus, erst nachdem Sie die Wiedergabe gestartet haben (siehe Abschnitt 4.5)
+- Verarbeitete Daten: IP-Adresse, Browserinformationen sowie Informationen, die YouTube nach dem Laden des Videos in Ihrem Browser speichert oder daraus ausliest
+- Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO; das Video wird nur auf Ihre Anforderung hin geladen
+- Schutzmaßnahmen: Übermittlungen an Google LLC in den Vereinigten Staaten erfolgen auf Grundlage des EU-US Data Privacy Framework und von Standardvertragsklauseln
+- Google-Datenschutzerklärung: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+**OpenStreetMap (Karten der Veranstaltungsorte auf Veranstaltungsseiten):**
+- Betreiber: OpenStreetMap Foundation, St John's Innovation Centre, Cowley Road, Cambridge, CB4 0WS, Vereinigtes Königreich
+- Zweck: Anzeige einer Karte des Veranstaltungsorts auf Veranstaltungsseiten (siehe Abschnitt 4.5)
+- Verarbeitete Daten: IP-Adresse, Browserinformationen und der angezeigte Kartenausschnitt
+- Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse daran, zu zeigen, wo eine Veranstaltung stattfindet)
+- Schutzmaßnahmen: Für das Vereinigte Königreich besteht ein Angemessenheitsbeschluss der Europäischen Kommission
+- Datenschutzerklärung der OpenStreetMap Foundation: [https://osmfoundation.org/wiki/Privacy_Policy](https://osmfoundation.org/wiki/Privacy_Policy)
+
 **Resend (E-Mail-Kommunikation):**
 - Datenstandort: Vereinigte Staaten
-- Zweck: Zustellung von Transaktions-E-Mails, einschließlich Bestätigungen von Kündigungen, die über unsere Website eingereicht werden
+- Zweck: Zustellung von Transaktions-E-Mails, einschließlich Bestätigungen von Kündigungen, die über unsere Website eingereicht werden, sowie Veranstaltungstickets mit ihren QR-Codes
 - Schutzmaßnahmen: Standardvertragsklauseln und DSGVO-Konformitätsmaßnahmen
 
 **Sentry (Absturz- und Fehlerberichterstattung):**
@@ -537,7 +557,7 @@ Siehe Abschnitt 10.1 (PostHog) für Hosting, Aufbewahrung, Unterauftragsverarbei
 - **Tracking durch Dritte:** Wir verwenden keine Werbe- oder Social-Media-Tracking-Pixel und verfolgen Sie nicht über andere Apps oder Websites hinweg
 
 ### 14.4 Auf unserer Website
-Unsere Website verwendet ausschließlich Cookies, die unbedingt erforderlich sind, um Sie angemeldet zu halten (§ 25 Abs. 2 Nr. 2 TDDDG). Ihre Reichweitenmessung funktioniert ohne Cookies und speichert nichts auf Ihrem Gerät (siehe Abschnitt 4.5). Aus diesem Grund zeigt die Website kein Cookie-Banner an.
+Unsere Website verwendet ausschließlich Cookies, die unbedingt erforderlich sind, um Sie angemeldet zu halten (§ 25 Abs. 2 Nr. 2 TDDDG). Ihre Reichweitenmessung funktioniert ohne Cookies und speichert nichts auf Ihrem Gerät (siehe Abschnitt 4.5). Aus diesem Grund zeigt die Website kein Cookie-Banner an. Das Demovideo auf unserer Startseite lädt YouTube erst, nachdem Sie die Wiedergabe gestartet haben (siehe Abschnitt 4.5).
 
 ## 15. Datenschutz von Kindern
 

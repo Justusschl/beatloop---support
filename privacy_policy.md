@@ -104,7 +104,7 @@ This section covers visits to our Website beatloop.eu, including the short links
 **Campaign labels on store buttons.** If you arrive through one of our links, the App Store and Google Play buttons on that page carry the same campaign label. Apple and Google then show us aggregated download numbers per campaign. We receive no information about you personally.
 
 **Reach measurement without cookies (PostHog).** To learn which pages and campaigns lead to downloads and purchases, we count visits to our Website with **PostHog** (PostHog Cloud EU, Frankfurt, Germany):
-- **What is recorded:** the page you view (its address without personal parameters; sign-in, account, administration and cancellation pages are not recorded at all), the referring website (its domain only), the campaign values in the link you followed, browser, operating system, device type and screen size, and clicks on the App Store and Google Play buttons, the "Web App" button and the "Start free trial" button.
+- **What is recorded:** the page you view (its address without personal parameters; sign-in, account, administration and cancellation pages are not recorded at all), the referring website (its domain only), the campaign values in the link you followed, browser, operating system, device type and screen size, and clicks on our App Store and Google Play buttons, on the buttons that open the web app or a course, and on the "Start free trial" button.
 - **No cookies, nothing kept on your device:** the measurement sets no cookies and keeps no identifier in your browser's storage.
 - **Daily visitor key:** to count visitors, PostHog's servers derive a key from your IP address and user-agent string, combined with a secret value that changes every day. **Your IP address is not stored.** Because the secret value changes daily, visits on different days cannot be linked to each other. No profile is created, and the data is not linked to your BeatLoop account.
 - **Legal basis:** our legitimate interest in measuring the reach of our Website and our marketing (Art. 6(1)(f) GDPR).
@@ -118,9 +118,13 @@ This section covers visits to our Website beatloop.eu, including the short links
 
 **Cancellation form.** Our cancellation form at beatloop.eu/premium/cancel (§ 312k BGB) asks for your name and email address and, optionally, a reference and a reason. We send your request to our support team and a confirmation to you by email (via Resend, see Section 10.1), and keep it as proof of your cancellation like other support correspondence (Section 13.4). Legal basis: Art. 6(1)(b) and (c) GDPR.
 
-**Event tickets.** When we sell tickets for events on the Website, payment is handled by Stripe. We process your name, email address, the ticket you booked, the payment status and, at the event, your check-in status, in order to issue your ticket, admit you and handle refunds (Art. 6(1)(b) GDPR). Payment records are kept for the statutory periods (Section 13.3).
+**Event tickets.** When we sell tickets for events on the Website, payment is handled by Stripe. We process your name, email address, the ticket you booked, the payment status and, at the event, your check-in status, in order to issue your ticket, admit you and handle refunds (Art. 6(1)(b) GDPR). Your tickets are sent to you by email with a QR code for admission (via Resend, see Section 10.1). Payment records are kept for the statutory periods (Section 13.3).
 
-**Cookies on the Website.** Our Website only uses cookies that are strictly necessary: when you sign in, session cookies keep you signed in (§ 25(2) No. 2 TDDDG). We do not use advertising, social media or analytics cookies, which is why the Website shows no cookie banner.
+**Venue maps (OpenStreetMap).** Event pages show a map of the venue from OpenStreetMap. To display it, your browser loads the map from the servers of the OpenStreetMap Foundation, which receive your IP address, browser information and the map area shown (Art. 6(1)(f) GDPR; our legitimate interest in showing where an event takes place). See Section 10.1.
+
+**Demo video (YouTube).** Our homepage shows a demo video from YouTube. **It is loaded only when you press play**; until then no connection to YouTube is made and our own preview image is shown. When you press play, the video is loaded from YouTube in privacy-enhanced mode (youtube-nocookie.com). YouTube then receives your IP address and browser information and may store information in your browser. See Section 10.1.
+
+**Cookies on the Website.** Our Website only uses cookies that are strictly necessary: when you sign in, session cookies keep you signed in (§ 25(2) No. 2 TDDDG). We do not use advertising, social media or analytics cookies, which is why the Website shows no cookie banner. The demo video only loads YouTube, and with it YouTube's own storage, after you press play.
 
 ## 5. Third-Party Music Service Integrations
 
@@ -386,9 +390,25 @@ The following services may process your data outside the EU:
 - Legal basis: Art. 6(1)(f) GDPR (legitimate interest in paying our affiliates correctly)
 - Applies only if you buy with an affiliate code
 
+**YouTube (Demo Video on our Website):**
+- Operator: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland
+- Purpose: Playing our demo video on the homepage, in privacy-enhanced mode, only after you press play (see Section 4.5)
+- Data processed: IP address, browser information, and information YouTube stores in or reads from your browser once the video is loaded
+- Legal basis: Art. 6(1)(f) GDPR; the video is loaded only at your request
+- Safeguards: transfers to Google LLC in the United States are based on the EU-US Data Privacy Framework and Standard Contractual Clauses
+- Google Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+**OpenStreetMap (Venue Maps on Event Pages):**
+- Operator: OpenStreetMap Foundation, St John's Innovation Centre, Cowley Road, Cambridge, CB4 0WS, United Kingdom
+- Purpose: Displaying a map of the venue on event pages (see Section 4.5)
+- Data processed: IP address, browser information, and the map area shown
+- Legal basis: Art. 6(1)(f) GDPR (legitimate interest in showing where an event takes place)
+- Safeguards: the United Kingdom is covered by an adequacy decision of the European Commission
+- OpenStreetMap Foundation Privacy Policy: [https://osmfoundation.org/wiki/Privacy_Policy](https://osmfoundation.org/wiki/Privacy_Policy)
+
 **Resend (Email Communications):**
 - Data location: United States
-- Purpose: Transactional email delivery, including confirmations of cancellation requests submitted on our Website
+- Purpose: Transactional email delivery, including confirmations of cancellation requests submitted on our Website and event tickets with their QR codes
 - Safeguards: Standard Contractual Clauses and GDPR compliance measures
 
 **Sentry (Crash and Error Reporting):**
@@ -537,7 +557,7 @@ See Section 10.1 (PostHog) for hosting, retention, sub-processors, and safeguard
 - **Third-party tracking:** We do not use advertising or social media tracking pixels, and we do not track you across other apps or websites
 
 ### 14.4 On our Website
-Our Website only uses cookies that are strictly necessary to keep you signed in (§ 25(2) No. 2 TDDDG). Its reach measurement works without cookies and keeps nothing on your device (see Section 4.5). For this reason the Website shows no cookie banner.
+Our Website only uses cookies that are strictly necessary to keep you signed in (§ 25(2) No. 2 TDDDG). Its reach measurement works without cookies and keeps nothing on your device (see Section 4.5). For this reason the Website shows no cookie banner. The demo video on our homepage loads YouTube only after you press play (see Section 4.5).
 
 ## 15. Children's Privacy
 

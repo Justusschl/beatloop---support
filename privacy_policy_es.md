@@ -104,7 +104,7 @@ Esta sección abarca las visitas a nuestro Sitio Web beatloop.eu, incluidos los 
 **Etiquetas de campaña en los botones de las tiendas.** Si llega a través de uno de nuestros enlaces, los botones de App Store y Google Play de esa página llevan la misma etiqueta de campaña. Apple y Google nos muestran después cifras de descargas agregadas por campaña. No recibimos ninguna información sobre usted personalmente.
 
 **Medición del alcance sin cookies (PostHog).** Para saber qué páginas y campañas dan lugar a descargas y compras, contamos las visitas a nuestro Sitio Web con **PostHog** (PostHog Cloud EU, Frankfurt, Alemania):
-- **Qué se registra:** la página que visita (su dirección sin parámetros personales; las páginas de inicio de sesión, de cuenta, de administración y de cancelación no se registran en absoluto), el sitio web de referencia (solo su dominio), los valores de campaña del enlace que ha seguido, el navegador, el sistema operativo, el tipo de dispositivo y el tamaño de pantalla, así como los clics en los botones de App Store y Google Play, en el botón «Web App» y en el botón «Start free trial».
+- **Qué se registra:** la página que visita (su dirección sin parámetros personales; las páginas de inicio de sesión, de cuenta, de administración y de cancelación no se registran en absoluto), el sitio web de referencia (solo su dominio), los valores de campaña del enlace que ha seguido, el navegador, el sistema operativo, el tipo de dispositivo y el tamaño de pantalla, así como los clics en nuestros botones de App Store y Google Play, en los botones que abren la aplicación web o un curso y en el botón «Start free trial».
 - **Sin cookies, nada se guarda en su dispositivo:** la medición no instala cookies ni guarda ningún identificador en el almacenamiento de su navegador.
 - **Clave diaria de visitante:** para contar los visitantes, los servidores de PostHog derivan una clave a partir de su dirección IP y de la cadena de agente de usuario, combinadas con un valor secreto que cambia cada día. **Su dirección IP no se almacena.** Como el valor secreto cambia a diario, las visitas de días distintos no pueden vincularse entre sí. No se crea ningún perfil y los datos no se vinculan a su cuenta de BeatLoop.
 - **Base jurídica:** nuestro interés legítimo en medir el alcance de nuestro Sitio Web y de nuestro marketing (Art. 6(1)(f) del RGPD).
@@ -118,9 +118,13 @@ Esta sección abarca las visitas a nuestro Sitio Web beatloop.eu, incluidos los 
 
 **Formulario de cancelación.** Nuestro formulario de cancelación en beatloop.eu/premium/cancel (§ 312k BGB) le solicita su nombre y su dirección de correo electrónico y, de forma opcional, una referencia y un motivo. Enviamos su solicitud a nuestro equipo de soporte y a usted una confirmación por correo electrónico (a través de Resend, véase la Sección 10.1), y la conservamos como prueba de su cancelación, al igual que el resto de la correspondencia de soporte (Sección 13.4). Base jurídica: Art. 6(1)(b) y (c) del RGPD.
 
-**Entradas para eventos.** Cuando vendemos entradas para eventos en el Sitio Web, el pago lo gestiona Stripe. Tratamos su nombre, su dirección de correo electrónico, la entrada que ha reservado, el estado del pago y, en el evento, su estado de registro de acceso (check-in), con el fin de emitir su entrada, permitirle el acceso y gestionar los reembolsos (Art. 6(1)(b) del RGPD). Los registros de pago se conservan durante los plazos legales (Sección 13.3).
+**Entradas para eventos.** Cuando vendemos entradas para eventos en el Sitio Web, el pago lo gestiona Stripe. Tratamos su nombre, su dirección de correo electrónico, la entrada que ha reservado, el estado del pago y, en el evento, su estado de registro de acceso (check-in), con el fin de emitir su entrada, permitirle el acceso y gestionar los reembolsos (Art. 6(1)(b) del RGPD). Le enviamos sus entradas por correo electrónico con un código QR para el acceso (a través de Resend, véase la Sección 10.1). Los registros de pago se conservan durante los plazos legales (Sección 13.3).
 
-**Cookies en el Sitio Web.** Nuestro Sitio Web solo utiliza cookies estrictamente necesarias: cuando inicia sesión, las cookies de sesión mantienen su sesión iniciada (§ 25(2) n.º 2 TDDDG). No utilizamos cookies de publicidad, de redes sociales ni de análisis, por lo que el Sitio Web no muestra ningún banner de cookies.
+**Mapas de los lugares de los eventos (OpenStreetMap).** Las páginas de eventos muestran un mapa del lugar del evento procedente de OpenStreetMap. Para mostrarlo, su navegador carga el mapa desde los servidores de la OpenStreetMap Foundation, que reciben su dirección IP, información del navegador y la zona del mapa que se muestra (Art. 6(1)(f) del RGPD; nuestro interés legítimo en mostrar dónde tiene lugar un evento). Véase la Sección 10.1.
+
+**Vídeo de demostración (YouTube).** Nuestra página de inicio muestra un vídeo de demostración de YouTube. **Solo se carga cuando usted pulsa el botón de reproducción**; hasta entonces no se establece ninguna conexión con YouTube y se muestra nuestra propia imagen de vista previa. Cuando pulsa el botón de reproducción, el vídeo se carga desde YouTube en el modo de privacidad mejorada (youtube-nocookie.com). YouTube recibe entonces su dirección IP e información del navegador y puede almacenar información en su navegador. Véase la Sección 10.1.
+
+**Cookies en el Sitio Web.** Nuestro Sitio Web solo utiliza cookies estrictamente necesarias: cuando inicia sesión, las cookies de sesión mantienen su sesión iniciada (§ 25(2) n.º 2 TDDDG). No utilizamos cookies de publicidad, de redes sociales ni de análisis, por lo que el Sitio Web no muestra ningún banner de cookies. El vídeo de demostración solo carga YouTube, y con él el almacenamiento propio de YouTube, después de que usted pulse el botón de reproducción.
 
 ## 5. Integraciones de Servicios de Música de Terceros
 
@@ -386,9 +390,25 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - Base jurídica: Art. 6(1)(f) del RGPD (interés legítimo en pagar correctamente a nuestros afiliados)
 - Solo se aplica si compra con un código de afiliado
 
+**YouTube (Vídeo de Demostración en nuestro Sitio Web):**
+- Operador: Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda
+- Finalidad: Reproducción de nuestro vídeo de demostración en la página de inicio, en el modo de privacidad mejorada, solo después de que usted pulse el botón de reproducción (véase la Sección 4.5)
+- Datos tratados: dirección IP, información del navegador e información que YouTube almacena en su navegador o lee de él una vez cargado el vídeo
+- Base jurídica: Art. 6(1)(f) del RGPD; el vídeo solo se carga a petición suya
+- Salvaguardias: las transferencias a Google LLC en los Estados Unidos se basan en el Marco de Privacidad de Datos UE-EE. UU. y en Cláusulas Contractuales Tipo
+- Política de Privacidad de Google: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+**OpenStreetMap (Mapas de los Lugares en las Páginas de Eventos):**
+- Operador: OpenStreetMap Foundation, St John's Innovation Centre, Cowley Road, Cambridge, CB4 0WS, Reino Unido
+- Finalidad: Mostrar un mapa del lugar del evento en las páginas de eventos (véase la Sección 4.5)
+- Datos tratados: dirección IP, información del navegador y la zona del mapa que se muestra
+- Base jurídica: Art. 6(1)(f) del RGPD (interés legítimo en mostrar dónde tiene lugar un evento)
+- Salvaguardias: el Reino Unido está cubierto por una decisión de adecuación de la Comisión Europea
+- Política de Privacidad de la OpenStreetMap Foundation: [https://osmfoundation.org/wiki/Privacy_Policy](https://osmfoundation.org/wiki/Privacy_Policy)
+
 **Resend (Comunicaciones por Correo Electrónico):**
 - Ubicación de los datos: Estados Unidos
-- Finalidad: Entrega de correos electrónicos transaccionales, incluidas las confirmaciones de las solicitudes de cancelación enviadas en nuestro Sitio Web
+- Finalidad: Entrega de correos electrónicos transaccionales, incluidas las confirmaciones de las solicitudes de cancelación enviadas en nuestro Sitio Web y las entradas para eventos con sus códigos QR
 - Salvaguardias: Cláusulas Contractuales Tipo y medidas de cumplimiento del RGPD
 
 **Sentry (Informes de Fallos y Errores):**
@@ -537,7 +557,7 @@ Véase la Sección 10.1 (PostHog) para el alojamiento, la conservación, los sub
 - **Seguimiento de terceros:** No utilizamos píxeles de seguimiento de publicidad ni de redes sociales, y no le rastreamos a través de otras apps o sitios web
 
 ### 14.4 En nuestro Sitio Web
-Nuestro Sitio Web solo utiliza cookies estrictamente necesarias para mantener su sesión iniciada (§ 25(2) n.º 2 TDDDG). Su medición del alcance funciona sin cookies y no guarda nada en su dispositivo (véase la Sección 4.5). Por este motivo, el Sitio Web no muestra ningún banner de cookies.
+Nuestro Sitio Web solo utiliza cookies estrictamente necesarias para mantener su sesión iniciada (§ 25(2) n.º 2 TDDDG). Su medición del alcance funciona sin cookies y no guarda nada en su dispositivo (véase la Sección 4.5). Por este motivo, el Sitio Web no muestra ningún banner de cookies. El vídeo de demostración de nuestra página de inicio solo carga YouTube después de que usted pulse el botón de reproducción (véase la Sección 4.5).
 
 ## 15. Privacidad de los Menores
 
