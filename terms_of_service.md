@@ -1,7 +1,7 @@
 # Terms of Service (Allgemeine Geschäftsbedingungen - AGB)
 
 **Effective Date:** February 15, 2026
-**Last Updated:** August 18, 2026
+**Last Updated:** November 11, 2026
 
 ## 1. Service Provider and Scope
 
@@ -15,7 +15,7 @@ Email: support@on-beat.de
 Privacy Contact: privacy@on-beat.de
 
 ### 1.2 Scope of Application
-These Terms of Service ("Terms" or "AGB") govern your use of the BeatLoop mobile application and related services. By creating an account or using BeatLoop, you agree to be bound by these Terms and our Privacy Policy.
+These Terms of Service ("Terms" or "AGB") govern your use of the BeatLoop application (for iOS, Android and the web at app.beatloop.eu), our website beatloop.eu including purchases made there, and related services. By creating an account or using BeatLoop, you agree to be bound by these Terms and our Privacy Policy.
 
 ### 1.3 Language and Jurisdiction
 These Terms are governed by German law. These Terms are published in English, German and Spanish. **The English version is the authoritative version**; the German and Spanish versions are provided as convenience translations, and in the event of any discrepancy the English version prevails.
@@ -207,16 +207,16 @@ BeatLoop offers both free and premium subscription tiers:
 - Refunds are handled by Google according to their refund policy
 
 **Web (beatloop.eu):**
-- Premium subscriptions purchased on our website are processed by **Stripe Payments Europe, Ltd.**
-- The web subscription is offered as an **annual plan** and begins with a **7-day free trial**
-- No payment is taken during the free trial. Your payment method is first charged at the end of the trial, and once a year thereafter
-- Subscriptions renew automatically for a further year until cancelled
-- You can update your payment method, view your invoices and cancel at any time in the billing portal, reachable from **Account → My Subscription** on beatloop.eu
+- Premium subscriptions purchased on our website are sold through a checkout page operated by **RevenueCat** (RevenueCat Web Billing); payments are processed by **Stripe Payments Europe, Ltd.**
+- The web subscription is offered as a **monthly** or an **annual plan**, and each begins with a **7-day free trial**
+- No payment is taken during the free trial. Your payment method is first charged at the end of the trial, and then once per billing period (every month or every year, depending on your plan)
+- Subscriptions renew automatically for a further billing period of the same length until cancelled
+- You can update your payment method, view your invoices and cancel at any time in the BeatLoop web app (app.beatloop.eu) under **Account → Manage subscription**, or through the billing link in your purchase confirmation email
 - Cancelling ends future renewals. Your Premium access continues until the end of the period you have already paid for, and no further payment is taken
 
 **Subscription Management Infrastructure:**
-- We use **RevenueCat** to validate purchases with Apple and Google and to determine your premium entitlement. RevenueCat does not process payments and never receives your payment card details.
-- Premium is sold both **through the mobile apps** (Apple, Google) and **directly on beatloop.eu** (Stripe). Your BeatLoop account is Premium while any one of these is active — you never need more than one subscription, and buying on the web does not require a second purchase in the app.
+- We use **RevenueCat** to validate purchases with Apple and Google, to provide the checkout page for purchases on beatloop.eu, and to determine your premium entitlement. In the mobile apps, RevenueCat does not process payments and never receives your payment card details; payments on beatloop.eu are processed by Stripe.
+- Premium is sold both **through the mobile apps** (Apple, Google) and **directly on beatloop.eu** (RevenueCat Web Billing with Stripe). Your BeatLoop account is Premium while any one of these is active — you never need more than one subscription, and buying on the web does not require a second purchase in the app.
 
 **Important:** BeatLoop never collects or stores your payment card details. Card data is handled solely by the relevant payment provider — Apple, Google or Stripe — under their own terms. Refunds for App Store and Google Play purchases are administered by Apple and Google respectively. Refunds for purchases made on beatloop.eu are handled by us under Section 7.5 below.
 
@@ -229,7 +229,7 @@ You may cancel at any time, and cancellation is always possible for the future. 
 
 - **Bought on iOS:** cancel in your Apple ID Account Settings. We cannot cancel an Apple subscription for you.
 - **Bought on Android:** cancel in Google Play Store settings. We cannot cancel a Google subscription for you.
-- **Bought on beatloop.eu:** cancel in the billing portal under **Account → My Subscription**, or use the cancellation button described below.
+- **Bought on beatloop.eu:** cancel in the BeatLoop web app (app.beatloop.eu) under **Account → Manage subscription**, through the billing link in your purchase confirmation email, or with the cancellation button described below.
 
 In addition, and in accordance with **§ 312k BGB**, a **cancellation button** is available at **[beatloop.eu/premium/cancel](https://beatloop.eu/premium/cancel)**. It can be used **without logging in**. You will receive immediate confirmation of receipt by email, recording the date and time. A cancellation submitted this way is effective on receipt.
 
@@ -330,7 +330,7 @@ You have various rights regarding your personal data, including access, correcti
 BeatLoop can send push notifications, including promotional notifications about offers and subscription pricing. These are sent **only if you have given prior, explicit consent**, requested through a separate in-app prompt that is not bundled with your acceptance of these Terms. You may withdraw consent at any time — in Account → Settings, or by revoking the notification permission in your device settings — and **declining or withdrawing does not restrict your use of BeatLoop in any way**. See Section 6 of our Privacy Policy.
 
 ### 9.6 Analytics
-Product analytics are **switched off unless you actively consent**. If you decline, no analytics data is created or transmitted and the App remains fully functional. Separately, we use crash and error reporting on the basis of our legitimate interest in keeping the App stable; you may object under Article 21 GDPR. See our Privacy Policy for detail.
+Product analytics in the App are **switched off unless you actively consent**. If you decline, no analytics data is created or transmitted and the App remains fully functional. On our website beatloop.eu we measure reach without cookies on the basis of our legitimate interest; you can object at any time, for example by switching on "Global Privacy Control" or "Do Not Track" in your browser (see Section 4.5 of our Privacy Policy). Separately, we use crash and error reporting on the basis of our legitimate interest in keeping the App stable; you may object under Article 21 GDPR. See our Privacy Policy for detail.
 
 ### 9.7 Account Deletion
 Deleting your account deactivates it immediately and triggers permanent erasure within 30 days. During that window, signing in again with the same credentials restores your account and data. For immediate irreversible erasure, contact privacy@on-beat.de. Records we are legally required to keep, such as payment and invoicing records, are retained for the statutory period.
@@ -453,4 +453,4 @@ Wichterichstraße 4
 **By creating an account or using BeatLoop, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.**
 
 
-**These Terms were last updated on August 10, 2026, and become effective immediately upon acceptance.**
+**These Terms were last updated on November 11, 2026, and become effective immediately upon acceptance.**

@@ -1,11 +1,11 @@
 # Política de Privacidad
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 10 de agosto de 2026
+**Última Actualización:** 11 de noviembre de 2026
 
 ## 1. Información sobre el Responsable del Tratamiento
 
-**BeatLoop** (denominado «nosotros», «nos» o «nuestro») opera la aplicación móvil BeatLoop (la «App»).
+**BeatLoop** (denominado «nosotros», «nos» o «nuestro») opera la aplicación BeatLoop para iOS, Android y la web en app.beatloop.eu (la «App») y el sitio web beatloop.eu (el «Sitio Web»).
 
 **Responsable del Tratamiento:**
 OnBeat HQ UG (haftungsbeschränkt)
@@ -17,7 +17,7 @@ Para todas las consultas relacionadas con la privacidad, solicitudes de protecci
 
 ## 2. Introducción y Alcance
 
-Esta Política de Privacidad explica cómo recopilamos, usamos, procesamos y protegemos sus datos personales cuando utiliza nuestra aplicación móvil BeatLoop. Esta política se aplica a todos los usuarios en todo el mundo y cumple con el Reglamento General de Protección de Datos de la UE (RGPD), la Ley de Privacidad del Consumidor de California (CCPA) y otras leyes de protección de datos aplicables.
+Esta Política de Privacidad explica cómo recopilamos, usamos, procesamos y protegemos sus datos personales cuando utiliza la App BeatLoop o visita nuestro Sitio Web. Lo que ocurre en el Sitio Web se describe en la Sección 4.5; salvo que una sección indique lo contrario, el resto de esta política describe la App. Esta política se aplica a todos los usuarios en todo el mundo y cumple con el Reglamento General de Protección de Datos de la UE (RGPD), la Ley de Privacidad del Consumidor de California (CCPA) y otras leyes de protección de datos aplicables.
 
 **BeatLoop** es una aplicación de práctica musical diseñada para bailarines y músicos para crear bucles de audio, ajustar la velocidad de reproducción, grabar vídeo y gestionar sesiones de práctica. La App permite a los usuarios acceder a música desde el almacenamiento local del dispositivo, YouTube y Apple Music, y mantiene cuentas de usuario para funciones premium y sincronización de sesiones.
 
@@ -25,9 +25,9 @@ Esta Política de Privacidad explica cómo recopilamos, usamos, procesamos y pro
 
 Procesamos sus datos personales sobre la base de los siguientes fundamentos jurídicos:
 
-- **Ejecución de un Contrato** (Artículo 6(1)(b)): Para proporcionar los servicios de la App, la gestión de cuentas y las funciones premium
-- **Intereses Legítimos** (Artículo 6(1)(f)): Seguridad, prevención del fraude, diagnóstico de fallos y errores (Sentry) y atención al cliente
-- **Consentimiento** (Artículo 6(1)(a)): Comunicaciones de marketing, **análisis de producto y de uso (PostHog)** y determinadas integraciones opcionales de terceros. El análisis de producto se recopila **únicamente** después de que usted dé su consentimiento explícito (opt-in) y puede retirarse en cualquier momento.
+- **Ejecución de un Contrato** (Artículo 6(1)(b)): Para proporcionar los servicios de la App, la gestión de cuentas y las funciones premium, así como para vender suscripciones y entradas para eventos en nuestro Sitio Web
+- **Intereses Legítimos** (Artículo 6(1)(f)): Seguridad, prevención del fraude, diagnóstico de fallos y errores (Sentry), atención al cliente, alojamiento y entrega de nuestro Sitio Web, redirección de nuestros enlaces cortos, **medición del alcance de nuestro Sitio Web sin cookies** (Sección 4.5) y atribución de códigos de afiliado
+- **Consentimiento** (Artículo 6(1)(a)): **Notificaciones push y comunicaciones de marketing** (Artículo 6(1)(a) del RGPD junto con el § 7(2) de la UWG — véase la Sección 6), **análisis de producto y de uso en la App (PostHog)** y determinadas integraciones opcionales de terceros. El análisis de producto en la App se recopila **únicamente** después de que usted dé su consentimiento explícito (opt-in) y puede retirarse en cualquier momento.
 - **Obligación Legal** (Artículo 6(1)(c)): Cumplimiento de las leyes aplicables, obligaciones fiscales y solicitudes legales
 
 ## 4. Información que Recopilamos
@@ -53,8 +53,10 @@ Procesamos sus datos personales sobre la base de los siguientes fundamentos jur�
 
 ### 4.2 Información Recopilada Automáticamente
 
+Esta sección describe la App. Lo que se recopila automáticamente cuando visita nuestro Sitio Web se describe en la Sección 4.5.
+
 **Datos de Uso y Análisis:**
-- Análisis de producto/uso de funciones (qué funciones se usan y cómo) — recopilados a través de PostHog **únicamente después de que usted dé su consentimiento explícito (opt-in)** (véase la Sección 10.1); nunca se recopilan si usted rechaza o aún no ha dado su consentimiento
+- Análisis de producto/uso de funciones en la App (qué funciones se usan y cómo) — recopilados a través de PostHog **únicamente después de que usted dé su consentimiento explícito (opt-in)** (véase la Sección 10.1); nunca se recopilan si usted rechaza o aún no ha dado su consentimiento
 - Duración de la sesión y frecuencia de uso (parte del análisis basado en consentimiento mencionado arriba)
 - Métricas de rendimiento del dispositivo relacionadas con el procesamiento de audio/vídeo
 - Informes de errores y registros de fallos (a través de Sentry — véase la Sección 10.1, tratados sobre la base del interés legítimo, con independencia del consentimiento de análisis)
@@ -73,21 +75,52 @@ Procesamos sus datos personales sobre la base de los siguientes fundamentos jur�
 
 ### 4.3 Información de Terceros
 
-**Proveedores de Autenticación Social:**
+**Proveedores de Autenticación Social** (en la App y en nuestro Sitio Web):
 - Google OAuth: Nombre, dirección de correo electrónico, foto de perfil (opcional)
 - Apple Sign-In: Nombre, dirección de correo electrónico o correo electrónico de retransmisión privada
 
 **Procesamiento de Pagos:**
 - En iOS: Apple procesa la información de pago a través de Compras dentro de la Aplicación
 - En Android: Google procesa la información de pago a través de Google Play Billing
-- **RevenueCat** recibe de Apple y Google la confirmación de sus compras y nos comunica su estado de derechos (véase la Sección 10). Las suscripciones premium se venden únicamente a través de las aplicaciones móviles; no vendemos suscripciones en la web.
-- Solo recibimos confirmaciones de transacciones y el estado de la suscripción; no recopilamos ni almacenamos datos de tarjetas de pago a través de las aplicaciones móviles
+- En nuestro Sitio Web: las suscripciones se venden a través de una página de pago gestionada por **RevenueCat** (RevenueCat Web Billing), y el pago lo procesa **Stripe**. Las entradas para eventos de nuestro Sitio Web se venden a través de Stripe (véase la Sección 4.5)
+- **RevenueCat** recibe de Apple, Google y Stripe la confirmación de sus compras y nos comunica su estado de derechos (véase la Sección 10)
+- Si compra con un código de afiliado, el código y la compra correspondiente se transmiten a **Insert Affiliate** para que la compra pueda atribuirse al afiliado que lo compartió (véase la Sección 10.1)
+- Solo recibimos confirmaciones de transacciones, identificador de producto, precio, moneda, tienda y estado de la suscripción. **Nunca recibimos ni almacenamos datos de tarjetas de pago.**
 
 ### 4.4 Acceso a Medios Locales en Android
 
 Para que pueda elegir una pista, el explorador de archivos de BeatLoop enumera los archivos de audio y vídeo del almacenamiento compartido de su dispositivo. En Android esto incluye carpetas de medios habituales como `Music`, `Downloads`, `DCIM` y `Documents`, las carpetas de medios creadas por otras aplicaciones (por ejemplo WhatsApp, Telegram, Instagram, Facebook, Snapchat y TikTok) y el almacenamiento en tarjeta SD.
 
 **Este análisis se ejecuta íntegramente en su dispositivo.** Los nombres de archivo, las rutas y el contenido de las carpetas **nunca se transmiten a nosotros ni a terceros**. Requiere el permiso de medios que usted concede a nivel del sistema operativo y que puede revocar en cualquier momento en los ajustes de su dispositivo.
+
+### 4.5 Nuestro Sitio Web (beatloop.eu)
+
+Esta sección abarca las visitas a nuestro Sitio Web beatloop.eu, incluidos los enlaces cortos que empiezan por `beatloop.eu/go/`.
+
+**Alojamiento y registros del servidor.** Nuestro Sitio Web está alojado por **Vercel** (véase la Sección 10.1). Cada vez que se solicita una página o un enlace, los servidores de Vercel procesan automáticamente los datos técnicos que envía su navegador: dirección IP, fecha y hora, la dirección solicitada, la página de referencia y la cadena de agente de usuario (user-agent) de su navegador (navegador y sistema operativo). Esto es necesario para entregar el Sitio Web y mantenerlo seguro (Art. 6(1)(f) del RGPD). Nosotros no almacenamos estos registros; Vercel los conserva durante un período limitado para el funcionamiento y la seguridad.
+
+**Enlaces cortos (`beatloop.eu/go/…`).** Los enlaces que publicamos en redes sociales pasan por una breve redirección. Esta lee la cadena de agente de usuario de su navegador únicamente para decidir adónde enviarle: a la App Store en un iPhone, a Google Play en un teléfono Android y, en los demás casos, a nuestro Sitio Web. Añade una etiqueta de campaña que indica el perfil o la publicación en la que se compartió el enlace (por ejemplo `ig-beatloop-bio`). La etiqueta describe el enlace, no a usted. Aparte de los registros del servidor de Vercel, no se almacena nada sobre la redirección.
+
+**Etiquetas de campaña en los botones de las tiendas.** Si llega a través de uno de nuestros enlaces, los botones de App Store y Google Play de esa página llevan la misma etiqueta de campaña. Apple y Google nos muestran después cifras de descargas agregadas por campaña. No recibimos ninguna información sobre usted personalmente.
+
+**Medición del alcance sin cookies (PostHog).** Para saber qué páginas y campañas dan lugar a descargas y compras, contamos las visitas a nuestro Sitio Web con **PostHog** (PostHog Cloud EU, Frankfurt, Alemania):
+- **Qué se registra:** la página que visita (su dirección sin parámetros personales; las páginas de inicio de sesión, de cuenta, de administración y de cancelación no se registran en absoluto), el sitio web de referencia (solo su dominio), los valores de campaña del enlace que ha seguido, el navegador, el sistema operativo, el tipo de dispositivo y el tamaño de pantalla, así como los clics en los botones de App Store y Google Play, en el botón «Web App» y en el botón «Start free trial».
+- **Sin cookies, nada se guarda en su dispositivo:** la medición no instala cookies ni guarda ningún identificador en el almacenamiento de su navegador.
+- **Clave diaria de visitante:** para contar los visitantes, los servidores de PostHog derivan una clave a partir de su dirección IP y de la cadena de agente de usuario, combinadas con un valor secreto que cambia cada día. **Su dirección IP no se almacena.** Como el valor secreto cambia a diario, las visitas de días distintos no pueden vincularse entre sí. No se crea ningún perfil y los datos no se vinculan a su cuenta de BeatLoop.
+- **Base jurídica:** nuestro interés legítimo en medir el alcance de nuestro Sitio Web y de nuestro marketing (Art. 6(1)(f) del RGPD).
+- **Conservación:** 12 meses.
+
+**Su derecho de oposición (Art. 21 del RGPD).** Puede oponerse a esta medición del alcance en cualquier momento. La forma más sencilla es activar **«Global Privacy Control»** o **«Do Not Track»** en su navegador: cuando su navegador envía una de estas señales, nuestro Sitio Web no inicia la medición en absoluto. Los bloqueadores de contenido habituales también la impiden. También puede oponerse escribiendo a privacy@on-beat.de; como la medición no reconoce a visitantes individuales, es el ajuste del navegador lo que hace efectiva su oposición en su dispositivo.
+
+**Su cuenta en el Sitio Web.** En el Sitio Web puede crear su cuenta de BeatLoop o iniciar sesión en ella, con correo electrónico y contraseña o con Google o Apple. Es la misma cuenta que en la App (véanse las Secciones 4.1 y 4.3). Si marca la casilla del boletín al registrarse, registramos su consentimiento con fecha y hora (véase la Sección 6.6). Si abre la aplicación web desde el Sitio Web con la sesión iniciada, transferimos un token de inicio de sesión de un solo uso para que no tenga que volver a iniciar sesión.
+
+**Compra de Premium en el Sitio Web.** Las suscripciones que se venden en el Sitio Web utilizan una página de pago gestionada por RevenueCat (RevenueCat Web Billing); el pago en sí lo procesa Stripe. Transmitimos su identificador de cuenta de BeatLoop, el plan que ha seleccionado y, para rellenar previamente el formulario, su dirección de correo electrónico. Si compra con un código de afiliado, el código se transmite para que la compra pueda atribuirse al afiliado (Insert Affiliate, véase la Sección 10.1). Base jurídica: ejecución del contrato (Art. 6(1)(b) del RGPD); para la atribución a los afiliados, nuestro interés legítimo en pagar correctamente las comisiones (Art. 6(1)(f) del RGPD).
+
+**Formulario de cancelación.** Nuestro formulario de cancelación en beatloop.eu/premium/cancel (§ 312k BGB) le solicita su nombre y su dirección de correo electrónico y, de forma opcional, una referencia y un motivo. Enviamos su solicitud a nuestro equipo de soporte y a usted una confirmación por correo electrónico (a través de Resend, véase la Sección 10.1), y la conservamos como prueba de su cancelación, al igual que el resto de la correspondencia de soporte (Sección 13.4). Base jurídica: Art. 6(1)(b) y (c) del RGPD.
+
+**Entradas para eventos.** Cuando vendemos entradas para eventos en el Sitio Web, el pago lo gestiona Stripe. Tratamos su nombre, su dirección de correo electrónico, la entrada que ha reservado, el estado del pago y, en el evento, su estado de registro de acceso (check-in), con el fin de emitir su entrada, permitirle el acceso y gestionar los reembolsos (Art. 6(1)(b) del RGPD). Los registros de pago se conservan durante los plazos legales (Sección 13.3).
+
+**Cookies en el Sitio Web.** Nuestro Sitio Web solo utiliza cookies estrictamente necesarias: cuando inicia sesión, las cookies de sesión mantienen su sesión iniciada (§ 25(2) n.º 2 TDDDG). No utilizamos cookies de publicidad, de redes sociales ni de análisis, por lo que el Sitio Web no muestra ningún banner de cookies.
 
 ## 5. Integraciones de Servicios de Música de Terceros
 
@@ -219,6 +252,7 @@ Los correos transaccionales (restablecimiento de contraseña, confirmación de c
 - Cambios importantes en las políticas o el servicio (cuando lo exija la ley)
 
 ### 7.4 Análisis y Operaciones Comerciales
+- Medición de qué páginas del Sitio Web y qué campañas de marketing dan lugar a descargas y compras, sin cookies (Sección 4.5)
 - Métricas de Usuarios Activos Mensuales (MAU) y análisis de la interacción
 - Análisis de conversión y retención de suscripciones
 - Estadísticas generales de uso para la planificación empresarial
@@ -278,7 +312,7 @@ Si cree que algún contenido de BeatLoop infringe sus derechos de autor, póngas
 - **La información de la cuenta** se almacena de forma segura utilizando la infraestructura de Supabase
 - **Los metadatos de la sesión** (marcadores, marcas de tiempo, puntos de bucle, nombres de proyectos) pueden sincronizarse
 - **Los tokens de autenticación** se cifran y almacenan de forma segura
-- **La información de pago** es procesada y almacenada por Apple (iOS) o Google (Android), nunca por BeatLoop
+- **La información de pago** es procesada y almacenada por Apple (iOS), Google (Android) o Stripe (compras en nuestro Sitio Web), nunca por BeatLoop
 
 ### 9.3 Medidas de Seguridad
 - Cifrado estándar del sector para la transmisión de datos (TLS/HTTPS)
@@ -304,12 +338,14 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - Finalidad: Gestión de cuentas y autenticación
 - Salvaguardias: Alojamiento conforme al RGPD y acuerdos de tratamiento de datos
 
-**HubSpot (Gestión de Relaciones con los Clientes):**
-- Ubicación de los datos: Estados Unidos
-- Finalidad: Atención al cliente, gestión de relaciones y seguimiento de la comunicación con el usuario
-- Datos procesados: Direcciones de correo electrónico, interacciones de soporte, métricas de interacción del usuario y preferencias de comunicación
-- Salvaguardias: Cláusulas Contractuales Tipo y marcos sucesores del Privacy Shield
-- Nota: HubSpot procesa la información de contacto y el historial de interacciones para proporcionar soporte personalizado y gestionar las relaciones con los clientes
+**Vercel (Alojamiento del Sitio Web):**
+- Operador: Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, EE. UU.
+- Finalidad: Alojamiento y entrega de nuestro Sitio Web y de sus enlaces cortos (véase la Sección 4.5)
+- Datos tratados: dirección IP, fecha y hora, dirección solicitada, página de referencia, cadena de agente de usuario del navegador
+- Base jurídica: Art. 6(1)(f) del RGPD (interés legítimo en ofrecer un Sitio Web seguro)
+- Ubicación de los datos: Estados Unidos y la red global de Vercel
+- Salvaguardias: Anexo de Tratamiento de Datos que incluye Cláusulas Contractuales Tipo
+- Política de Privacidad de Vercel: [https://vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy)
 
 **Apple (Compras dentro de la Aplicación y MusicKit):**
 - Ubicación de los datos: Estados Unidos y UE
@@ -329,16 +365,30 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - Datos tratados: token de registro del dispositivo, suscripciones a temas, contenido de la notificación
 - Salvaguardias: Anexo de Tratamiento de Datos de Google Cloud, Cláusulas Contractuales Tipo, Marco de Privacidad de Datos UE-EE. UU.
 
-**RevenueCat (Gestión de Suscripciones):**
+**RevenueCat (Gestión de Suscripciones y Página de Pago del Sitio Web):**
 - Operador: RevenueCat, Inc., Estados Unidos
-- Finalidad: Validación de compras con Apple y Google y determinación de su derecho a premium
-- Datos tratados: su identificador de cuenta de BeatLoop (transmitido como ID de usuario de la aplicación en RevenueCat), eventos de compra y renovación, identificador de producto, precio, moneda, tienda, código de oferta y país
-- Nota: RevenueCat no procesa pagos y nunca recibe los datos de su tarjeta de pago
+- Finalidad: Validación de compras con Apple y Google, puesta a disposición de la página de pago para las suscripciones compradas en nuestro Sitio Web (RevenueCat Web Billing) y determinación de su derecho a premium
+- Datos tratados: su identificador de cuenta de BeatLoop (transmitido como ID de usuario de la aplicación en RevenueCat), eventos de compra y renovación, identificador de producto, precio, moneda, tienda, código de oferta y país; en las compras en nuestro Sitio Web, también su dirección de correo electrónico y, si utiliza uno, su código de afiliado
+- Nota: En la App, RevenueCat no procesa pagos y nunca recibe los datos de su tarjeta de pago. En las compras en nuestro Sitio Web, los pagos los procesa Stripe
 - Salvaguardias: Anexo de Tratamiento de Datos, Cláusulas Contractuales Tipo
+
+**Stripe (Pagos en nuestro Sitio Web):**
+- Operador: Stripe Payments Europe, Limited, 1 Grand Canal Street Lower, Grand Canal Dock, Dublín, D02 H210, Irlanda
+- Finalidad: Procesamiento de los pagos de las suscripciones compradas en nuestro Sitio Web y de las entradas para eventos
+- Datos tratados: nombre (para las entradas para eventos), dirección de correo electrónico, datos de pago como los datos de la tarjeta, país de facturación y datos de la transacción
+- Nota: Stripe también trata determinados datos como responsable independiente, por ejemplo para prevenir el fraude y cumplir sus obligaciones legales como proveedor de servicios de pago
+- Salvaguardias: las transferencias a Stripe, Inc. en los Estados Unidos se basan en Cláusulas Contractuales Tipo
+- Política de Privacidad de Stripe: [https://stripe.com/privacy](https://stripe.com/privacy)
+
+**Insert Affiliate (Atribución de Afiliados):**
+- Finalidad: Atribuir las compras realizadas con un código de afiliado al afiliado que compartió el código, para que las comisiones se paguen correctamente
+- Datos tratados: el código de afiliado que utilizó y la información de la compra correspondiente (producto, precio, fecha), recibida de nuestro proveedor de pagos
+- Base jurídica: Art. 6(1)(f) del RGPD (interés legítimo en pagar correctamente a nuestros afiliados)
+- Solo se aplica si compra con un código de afiliado
 
 **Resend (Comunicaciones por Correo Electrónico):**
 - Ubicación de los datos: Estados Unidos
-- Finalidad: Entrega de correos electrónicos transaccionales
+- Finalidad: Entrega de correos electrónicos transaccionales, incluidas las confirmaciones de las solicitudes de cancelación enviadas en nuestro Sitio Web
 - Salvaguardias: Cláusulas Contractuales Tipo y medidas de cumplimiento del RGPD
 
 **Sentry (Informes de Fallos y Errores):**
@@ -355,9 +405,11 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 **PostHog (Análisis de Producto):**
 - **Ubicación de los datos:** Unión Europea — PostHog Cloud EU (`eu.i.posthog.com`), alojado en AWS en Frankfurt, Alemania (`eu-central-1`)
 - **Operador:** PostHog, Inc. (empresa matriz en EE. UU.; los datos de EU Cloud se almacenan en la UE)
-- **Finalidad:** Análisis de producto y de uso de funciones para entender cómo se usa la App y mejorarla
-- **Datos procesados:** Un **identificador de instancia de app seudónimo** (un ID aleatorio, no vinculado a su nombre ni a su correo electrónico), eventos de uso de funciones dentro de la app, duración de la sesión, tipo de dispositivo/sistema operativo y nivel de suscripción (gratuito/premium). **No se recopila nombre, correo electrónico, dirección IP ni ubicación derivada de GeoIP** (el enriquecimiento de IP y GeoIP está desactivado), y **no se utiliza la reproducción de sesiones (session replay)**.
-- **Base jurídica:** **Consentimiento (Art. 6(1)(a) del RGPD)**. El análisis está **desactivado de forma predeterminada**; solo se activa después de que usted dé su consentimiento explícito a través del diálogo dentro de la app, y puede retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad** (el § 25 de la TDDDG alemana también se cumple con este consentimiento previo).
+- **Finalidad:** En la App, análisis de producto y de uso de funciones para entender cómo se usa la App y mejorarla. En nuestro Sitio Web, medición del alcance sin cookies (véase la Sección 4.5)
+- **Datos procesados (App):** Un **identificador de instancia de app seudónimo** (un ID aleatorio, no vinculado a su nombre ni a su correo electrónico), eventos de uso de funciones dentro de la app, duración de la sesión, tipo de dispositivo/sistema operativo y nivel de suscripción (gratuito/premium). **No se recopila nombre, correo electrónico, dirección IP ni ubicación derivada de GeoIP** (el enriquecimiento de IP y GeoIP está desactivado), y **no se utiliza la reproducción de sesiones (session replay)**.
+- **Datos procesados (Sitio Web):** visitas a páginas y clics, tal como se describe en la Sección 4.5. Su dirección IP se utiliza únicamente para derivar una clave diaria de visitante en los servidores de PostHog y **no se almacena**; sin ubicación derivada de GeoIP, sin cookies, sin perfiles y sin reproducción de sesiones.
+- **Base jurídica (App):** **Consentimiento (Art. 6(1)(a) del RGPD)**. El análisis está **desactivado de forma predeterminada**; solo se activa después de que usted dé su consentimiento explícito a través del diálogo dentro de la app, y puede retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad** (el § 25 de la TDDDG alemana también se cumple con este consentimiento previo).
+- **Base jurídica (Sitio Web):** Art. 6(1)(f) del RGPD (interés legítimo en medir el alcance de nuestro Sitio Web). Puede oponerse en cualquier momento (véase la Sección 4.5).
 - **Período de conservación:** 12 meses
 - **Salvaguardias:** Acuerdo de Tratamiento de Datos (DPA) firmado de conformidad con el Art. 28 del RGPD, incluidas las Cláusulas Contractuales Tipo para cualquier transferencia ulterior a los Estados Unidos
 - **Política de Privacidad de PostHog:** [https://posthog.com/privacy](https://posthog.com/privacy)
@@ -437,8 +489,7 @@ La eliminación se produce por fases, y queremos que sepa exactamente cómo:
 1. **De inmediato:** su cuenta se marca como eliminada y se desactiva. Su perfil y los datos de sus sesiones dejan de ser accesibles a través de la aplicación.
 2. **En un plazo de 30 días:** sus datos personales se borran de forma permanente de nuestros sistemas de producción mediante un proceso automatizado de limpieza.
 3. **Reactivación durante esos 30 días:** si vuelve a iniciar sesión con las mismas credenciales antes del borrado definitivo, **su cuenta y sus datos se restauran**. Este período de gracia le protege frente a eliminaciones accidentales. Si desea un borrado inmediato e irreversible sin período de gracia, escriba a privacy@on-beat.de y lo llevaremos a cabo manualmente.
-4. **HubSpot:** la eliminación de su ficha de contacto de nuestro CRM es **actualmente un paso manual**, que completamos en un plazo de 30 días desde su solicitud.
-5. **Datos que debemos conservar:** los registros de pago y facturación se conservan durante 7 años conforme a la legislación fiscal y mercantil alemana, con independencia de la eliminación de la cuenta.
+4. **Datos que debemos conservar:** los registros de pago y facturación se conservan durante 7 años conforme a la legislación fiscal y mercantil alemana, con independencia de la eliminación de la cuenta.
 
 ## 13. Conservación de Datos
 
@@ -449,7 +500,9 @@ La eliminación se produce por fases, y queremos que sepa exactamente cómo:
 
 ### 13.2 Datos de Uso y Análisis
 - **Registros de inicio de sesión:** Conservados durante 12 meses por motivos de seguridad
-- **Análisis de producto (PostHog):** Datos de eventos individuales conservados según la Sección 10.1 (12 meses); solo las conclusiones agregadas/derivadas pueden conservarse más tiempo. Recopilados únicamente con su consentimiento.
+- **Análisis de producto en la App (PostHog):** Datos de eventos individuales conservados según la Sección 10.1 (12 meses); solo las conclusiones agregadas/derivadas pueden conservarse más tiempo. Recopilados únicamente con su consentimiento.
+- **Medición del alcance del Sitio Web (PostHog):** Datos conservados durante 12 meses (véase la Sección 4.5)
+- **Registros del servidor del Sitio Web (Vercel):** Vercel los conserva durante un período limitado para el funcionamiento y la seguridad; nosotros no los almacenamos
 - **Registros de errores:** Conservados durante 12 meses para la depuración y la mejora
 
 ### 13.3 Datos Legales y de Cumplimiento
@@ -464,13 +517,13 @@ La eliminación se produce por fases, y queremos que sepa exactamente cómo:
 
 ## 14. Cookies y Tecnologías de Seguimiento
 
-### 14.1 Uso Actual
-BeatLoop actualmente utiliza tecnologías de seguimiento mínimas:
+### 14.1 En la App
+La App utiliza tecnologías de seguimiento mínimas:
 - **Tokens de autenticación:** Para un inicio de sesión seguro y la gestión de sesiones
 - **Preferencias de la App:** Almacenadas localmente para recordar su configuración
 - **Seguimiento de errores:** Informes básicos de fallos para la estabilidad de la app
 
-### 14.2 Análisis de Producto (PostHog)
+### 14.2 Análisis de Producto en la App (PostHog)
 Utilizamos **PostHog** (EU Cloud) para el análisis de producto/uso con el fin de entender cómo se usa la App y mejorarla. Este análisis:
 - está **desactivado de forma predeterminada** y solo se ejecuta **después de que usted dé su consentimiento explícito (opt-in)** (Art. 6(1)(a) del RGPD; § 25 de la TDDDG alemana)
 - utiliza únicamente un **identificador de instancia de app seudónimo** — sin nombre, correo electrónico, IP ni ubicación GeoIP, y sin reproducción de sesiones
@@ -479,9 +532,12 @@ Utilizamos **PostHog** (EU Cloud) para el análisis de producto/uso con el fin d
 Véase la Sección 10.1 (PostHog) para el alojamiento, la conservación, los subencargados del tratamiento y las salvaguardias.
 
 ### 14.3 Su Control
-- **Exclusión de análisis:** El análisis es opcional (opt-in); puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad**
-- **Configuración de cookies:** Puede gestionarse a través de la configuración de su dispositivo
+- **Exclusión de análisis en la App:** El análisis es opcional (opt-in); puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad**
+- **Medición del alcance en el Sitio Web:** active «Global Privacy Control» o «Do Not Track» en su navegador (véase la Sección 4.5)
 - **Seguimiento de terceros:** No utilizamos píxeles de seguimiento de publicidad ni de redes sociales, y no le rastreamos a través de otras apps o sitios web
+
+### 14.4 En nuestro Sitio Web
+Nuestro Sitio Web solo utiliza cookies estrictamente necesarias para mantener su sesión iniciada (§ 25(2) n.º 2 TDDDG). Su medición del alcance funciona sin cookies y no guarda nada en su dispositivo (véase la Sección 4.5). Por este motivo, el Sitio Web no muestra ningún banner de cookies.
 
 ## 15. Privacidad de los Menores
 
@@ -540,6 +596,6 @@ Esta Política de Privacidad se publica en inglés, alemán y español. **La ver
 
 ---
 
-**Esta Política de Privacidad se actualizó por última vez el 25 de junio de 2026 y entra en vigor inmediatamente después de su publicación.**
+**Esta Política de Privacidad se actualizó por última vez el 11 de noviembre de 2026 y entra en vigor inmediatamente después de su publicación.**
 
 Para obtener la versión más actual de nuestra Política de Privacidad, consulte este documento periódicamente o póngase en contacto con nosotros en privacy@on-beat.de.

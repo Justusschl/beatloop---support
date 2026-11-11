@@ -1,7 +1,7 @@
 # Nutzungsbedingungen (Allgemeine Geschäftsbedingungen - AGB)
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 18. August 2026
+**Zuletzt aktualisiert:** 11. November 2026
 
 ## 1. Diensteanbieter und Geltungsbereich
 
@@ -15,7 +15,7 @@ E-Mail: support@on-beat.de
 Datenschutzkontakt: privacy@on-beat.de
 
 ### 1.2 Anwendungsbereich
-Diese Nutzungsbedingungen („Bedingungen" oder „AGB") regeln Ihre Nutzung der mobilen Anwendung BeatLoop und der damit verbundenen Dienste. Durch die Erstellung eines Kontos oder die Nutzung von BeatLoop erklären Sie sich damit einverstanden, an diese Bedingungen und unsere Datenschutzerklärung gebunden zu sein.
+Diese Nutzungsbedingungen („Bedingungen" oder „AGB") regeln Ihre Nutzung der Anwendung BeatLoop (für iOS, Android und das Web unter app.beatloop.eu), unserer Website beatloop.eu einschließlich der dort getätigten Käufe sowie der damit verbundenen Dienste. Durch die Erstellung eines Kontos oder die Nutzung von BeatLoop erklären Sie sich damit einverstanden, an diese Bedingungen und unsere Datenschutzerklärung gebunden zu sein.
 
 ### 1.3 Sprache und Gerichtsstand
 Diese Bedingungen unterliegen deutschem Recht. Diese Bedingungen werden in englischer, deutscher und spanischer Sprache veröffentlicht. **Maßgeblich ist die englische Fassung**; die deutsche und die spanische Fassung sind Übersetzungen zur Erleichterung des Verständnisses, und bei Abweichungen geht die englische Fassung vor.
@@ -207,16 +207,16 @@ BeatLoop bietet sowohl kostenlose als auch Premium-Abonnementstufen:
 - Rückerstattungen werden von Google gemäß ihrer Rückerstattungsrichtlinie abgewickelt
 
 **Web (beatloop.eu):**
-- Auf unserer Website abgeschlossene Premium-Abonnements werden über **Stripe Payments Europe, Ltd.** abgewickelt
-- Das Web-Abonnement wird als **Jahresabonnement** angeboten und beginnt mit einer **7-tägigen kostenlosen Testphase**
-- Während der kostenlosen Testphase erfolgt keine Zahlung. Ihr Zahlungsmittel wird erstmals nach Ablauf der Testphase und danach einmal jährlich belastet
-- Das Abonnement verlängert sich automatisch um jeweils ein weiteres Jahr, bis es gekündigt wird
-- Sie können Ihr Zahlungsmittel ändern, Ihre Rechnungen einsehen und jederzeit kündigen — im Kundenportal, erreichbar über **Konto → Mein Abonnement** auf beatloop.eu
+- Auf unserer Website abgeschlossene Premium-Abonnements werden über eine von **RevenueCat** betriebene Bezahlseite (RevenueCat Web Billing) verkauft; die Zahlungen werden über **Stripe Payments Europe, Ltd.** abgewickelt
+- Das Web-Abonnement wird als **Monatsabonnement** oder als **Jahresabonnement** angeboten und beginnt jeweils mit einer **7-tägigen kostenlosen Testphase**
+- Während der kostenlosen Testphase erfolgt keine Zahlung. Ihr Zahlungsmittel wird erstmals nach Ablauf der Testphase und danach einmal je Abrechnungszeitraum belastet (je nach Abonnement monatlich oder jährlich)
+- Das Abonnement verlängert sich automatisch um jeweils einen weiteren Abrechnungszeitraum gleicher Länge, bis es gekündigt wird
+- Sie können Ihr Zahlungsmittel ändern, Ihre Rechnungen einsehen und jederzeit kündigen — in der BeatLoop-Web-App (app.beatloop.eu) unter **Konto → Abo verwalten** oder über den Abrechnungslink in Ihrer Kaufbestätigungs-E-Mail
 - Eine Kündigung beendet künftige Verlängerungen. Ihr Premium-Zugang bleibt bis zum Ende des bereits bezahlten Zeitraums bestehen; eine weitere Zahlung erfolgt nicht
 
 **Infrastruktur der Abonnementverwaltung:**
-- Wir setzen **RevenueCat** ein, um Käufe bei Apple und Google zu überprüfen und Ihre Premium-Berechtigung zu ermitteln. RevenueCat wickelt keine Zahlungen ab und erhält zu keinem Zeitpunkt Ihre Zahlungskartendaten.
-- Premium wird sowohl **über die mobilen Apps** (Apple, Google) als auch **unmittelbar über beatloop.eu** (Stripe) verkauft. Ihr BeatLoop-Konto ist Premium, solange eines dieser Abonnements aktiv ist — Sie benötigen niemals mehr als ein Abonnement, und ein Kauf über das Web erfordert keinen zusätzlichen Kauf in der App.
+- Wir setzen **RevenueCat** ein, um Käufe bei Apple und Google zu überprüfen, die Bezahlseite für Käufe über beatloop.eu bereitzustellen und Ihre Premium-Berechtigung zu ermitteln. In den mobilen Apps wickelt RevenueCat keine Zahlungen ab und erhält zu keinem Zeitpunkt Ihre Zahlungskartendaten; Zahlungen über beatloop.eu werden von Stripe abgewickelt.
+- Premium wird sowohl **über die mobilen Apps** (Apple, Google) als auch **unmittelbar über beatloop.eu** (RevenueCat Web Billing mit Stripe) verkauft. Ihr BeatLoop-Konto ist Premium, solange eines dieser Abonnements aktiv ist — Sie benötigen niemals mehr als ein Abonnement, und ein Kauf über das Web erfordert keinen zusätzlichen Kauf in der App.
 
 **Wichtig:** BeatLoop erhebt und speichert zu keinem Zeitpunkt Ihre Zahlungskartendaten. Kartendaten werden ausschließlich vom jeweiligen Zahlungsdienstleister — Apple, Google oder Stripe — nach dessen eigenen Bedingungen verarbeitet. Rückerstattungen für Käufe im App Store und bei Google Play werden von Apple bzw. Google abgewickelt. Rückerstattungen für Käufe über beatloop.eu werden von uns nach Ziffer 7.5 abgewickelt.
 
@@ -229,7 +229,7 @@ Sie können jederzeit mit Wirkung für die Zukunft kündigen. Wo Sie kündigen, 
 
 - **Kauf unter iOS:** Kündigung in den Einstellungen Ihres Apple-ID-Kontos. Wir können ein Apple-Abonnement nicht für Sie kündigen.
 - **Kauf unter Android:** Kündigung in den Einstellungen des Google Play Store. Wir können ein Google-Abonnement nicht für Sie kündigen.
-- **Kauf über beatloop.eu:** Kündigung im Kundenportal unter **Konto → Mein Abonnement** oder über die nachstehend beschriebene Kündigungsschaltfläche.
+- **Kauf über beatloop.eu:** Kündigung in der BeatLoop-Web-App (app.beatloop.eu) unter **Konto → Abo verwalten**, über den Abrechnungslink in Ihrer Kaufbestätigungs-E-Mail oder über die nachstehend beschriebene Kündigungsschaltfläche.
 
 Darüber hinaus steht Ihnen gemäß **§ 312k BGB** unter **[beatloop.eu/premium/cancel](https://beatloop.eu/premium/cancel)** eine **Kündigungsschaltfläche** zur Verfügung. Diese ist **ohne Anmeldung** nutzbar. Sie erhalten unverzüglich eine Bestätigung des Zugangs per E-Mail unter Angabe von Datum und Uhrzeit. Eine auf diesem Weg erklärte Kündigung wird mit Zugang wirksam.
 
@@ -330,7 +330,7 @@ Sie haben verschiedene Rechte in Bezug auf Ihre personenbezogenen Daten, einschl
 BeatLoop kann Push-Benachrichtigungen senden, einschließlich werblicher Benachrichtigungen zu Angeboten und Abonnementpreisen. Diese werden **ausschließlich bei vorheriger, ausdrücklicher Einwilligung** versendet, die über eine gesonderte Abfrage in der App eingeholt wird und nicht mit der Annahme dieser Bedingungen gekoppelt ist. Sie können Ihre Einwilligung jederzeit widerrufen — unter Konto → Einstellungen oder durch Entzug der Benachrichtigungsberechtigung in den Geräteeinstellungen —, und **eine Ablehnung oder ein Widerruf schränkt Ihre Nutzung von BeatLoop in keiner Weise ein**. Siehe Abschnitt 6 unserer Datenschutzerklärung.
 
 ### 9.6 Analyse
-Die Produktanalyse ist **deaktiviert, sofern Sie nicht aktiv einwilligen**. Bei Ablehnung werden keine Analysedaten erzeugt oder übermittelt, und die App bleibt vollständig nutzbar. Unabhängig davon setzen wir eine Absturz- und Fehlerberichterstattung auf Grundlage unseres berechtigten Interesses an der Stabilität der App ein; Sie können dem nach Art. 21 DSGVO widersprechen. Einzelheiten finden Sie in unserer Datenschutzerklärung.
+Die Produktanalyse in der App ist **deaktiviert, sofern Sie nicht aktiv einwilligen**. Bei Ablehnung werden keine Analysedaten erzeugt oder übermittelt, und die App bleibt vollständig nutzbar. Auf unserer Website beatloop.eu messen wir die Reichweite ohne Cookies auf Grundlage unseres berechtigten Interesses; Sie können dem jederzeit widersprechen, beispielsweise indem Sie in Ihrem Browser „Global Privacy Control" oder „Do Not Track" einschalten (siehe Abschnitt 4.5 unserer Datenschutzerklärung). Unabhängig davon setzen wir eine Absturz- und Fehlerberichterstattung auf Grundlage unseres berechtigten Interesses an der Stabilität der App ein; Sie können dem nach Art. 21 DSGVO widersprechen. Einzelheiten finden Sie in unserer Datenschutzerklärung.
 
 ### 9.7 Kontolöschung
 Die Löschung Ihres Kontos deaktiviert es sofort und löst die endgültige Löschung innerhalb von 30 Tagen aus. Innerhalb dieses Zeitraums werden Ihr Konto und Ihre Daten wiederhergestellt, wenn Sie sich erneut mit denselben Zugangsdaten anmelden. Für eine sofortige, unwiderrufliche Löschung wenden Sie sich an privacy@on-beat.de. Gesetzlich aufzubewahrende Unterlagen, etwa Zahlungs- und Rechnungsunterlagen, werden für die gesetzliche Dauer aufbewahrt.
@@ -453,4 +453,4 @@ Wichterichstraße 4
 **Durch die Erstellung eines Kontos oder die Nutzung von BeatLoop bestätigen Sie, dass Sie diese Nutzungsbedingungen und unsere Datenschutzerklärung gelesen und verstanden haben und sich damit einverstanden erklären, an sie gebunden zu sein.**
 
 
-**Diese Bedingungen wurden zuletzt am 25. Juni 2026 aktualisiert und treten unmittelbar nach Annahme in Kraft.**
+**Diese Bedingungen wurden zuletzt am 11. November 2026 aktualisiert und treten unmittelbar nach Annahme in Kraft.**
