@@ -56,7 +56,7 @@ We process your personal data based on the following legal grounds:
 This section describes the App. What is collected automatically when you visit our Website is described in Section 4.5.
 
 **Usage and Analytics Data:**
-- Product/feature-usage analytics in the App (which features are used and how) — collected via PostHog **only after you give explicit opt-in consent** (see Section 10.1); never collected if you decline or have not yet consented
+- Product/feature-usage analytics in the App (which features are used and how) and, on Android, which of our links you installed the App from (see Section 14.2) — collected via PostHog **only after you give explicit opt-in consent** (see Section 10.1); never collected if you decline or have not yet consented
 - Session duration and frequency of use (part of the consent-gated analytics above)
 - Device performance metrics related to audio/video processing
 - Error reports and crash logs (via Sentry — see Section 10.1, processed under legitimate interest, independent of analytics consent)
@@ -425,8 +425,8 @@ The following services may process your data outside the EU:
 **PostHog (Product Analytics):**
 - **Data location:** European Union — PostHog Cloud EU (`eu.i.posthog.com`), hosted on AWS in Frankfurt, Germany (`eu-central-1`)
 - **Operator:** PostHog, Inc. (US parent; EU Cloud data stored in the EU)
-- **Purpose:** In the App, product and feature-usage analytics to understand how the App is used and improve it. On our Website, reach measurement without cookies (see Section 4.5)
-- **Data processed (App):** A **pseudonymous app-instance identifier** (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). **No name, email, IP address, or GeoIP-derived location is collected** (IP and GeoIP enrichment are disabled), and **session replay is not used**.
+- **Purpose:** In the App, product and feature-usage analytics to understand how the App is used and improve it, and, on Android, which of our links the App was installed from. On our Website, reach measurement without cookies (see Section 4.5)
+- **Data processed (App):** A **pseudonymous app-instance identifier** (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). On Android, also the **install source**: the campaign label of the store link the App was installed from (see Section 14.2). **No name, email, IP address, or GeoIP-derived location is collected** (IP and GeoIP enrichment are disabled), and **session replay is not used**.
 - **Data processed (Website):** page views, clicks and short-link counts as described in Section 4.5. Your IP address is used only to derive a daily visitor key on PostHog's servers and is **not stored**; no GeoIP-derived location, no cookies, no profiles, and no session replay.
 - **Legal basis (App):** **Consent (Art. 6(1)(a) GDPR)**. Analytics is **off by default**; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in **Account → Privacy Settings** (German § 25 TDDDG is also satisfied by this prior consent).
 - **Legal basis (Website):** Art. 6(1)(f) GDPR (legitimate interest in measuring the reach of our Website). You can object at any time (see Section 4.5).
@@ -547,6 +547,7 @@ The App uses minimal tracking technologies:
 We use **PostHog** (EU Cloud) for product/usage analytics to understand how the App is used and improve it. This analytics:
 - Is **off by default** and runs **only after you give explicit opt-in consent** (Art. 6(1)(a) GDPR; German § 25 TDDDG)
 - Uses a **pseudonymous app-instance identifier** only — no name, email, IP, or GeoIP location, and no session replay
+- On **Android**, records once which of our links you installed the App from: the three campaign values of the Google Play link (platform, placement and content, for example `instagram · dm · r001`, or Google's own `google-play · organic` for an install found in the store), read through Google Play's Install Referrer API, which keeps this information for 90 days after installation. Nothing else from it is kept. It is read only if you agreed to the consent text that names this purpose ("which link you came to BeatLoop from"). This is not available on iPhone or in the web app
 - Stores its opt-out/consent preference on your device
 
 See Section 10.1 (PostHog) for hosting, retention, sub-processors, and safeguards.

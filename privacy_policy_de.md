@@ -56,7 +56,7 @@ Wir verarbeiten Ihre personenbezogenen Daten auf der Grundlage der folgenden Rec
 Dieser Abschnitt beschreibt die App. Was beim Besuch unserer Website automatisch erhoben wird, ist in Abschnitt 4.5 beschrieben.
 
 **Nutzungs- und Analysedaten:**
-- Produkt-/Funktionsnutzungsanalyse in der App (welche Funktionen wie genutzt werden) — über PostHog erfasst, **nur nachdem Sie ausdrücklich zugestimmt haben** (siehe Abschnitt 10.1); niemals erfasst, wenn Sie ablehnen oder noch nicht zugestimmt haben
+- Produkt-/Funktionsnutzungsanalyse in der App (welche Funktionen wie genutzt werden) und, unter Android, über welchen unserer Links Sie die App installiert haben (siehe Abschnitt 14.2) — über PostHog erfasst, **nur nachdem Sie ausdrücklich zugestimmt haben** (siehe Abschnitt 10.1); niemals erfasst, wenn Sie ablehnen oder noch nicht zugestimmt haben
 - Sitzungsdauer und Nutzungshäufigkeit (Teil der oben genannten einwilligungsbasierten Analyse)
 - Geräteleistungskennzahlen im Zusammenhang mit der Audio-/Videoverarbeitung
 - Fehlerberichte und Absturzprotokolle (über Sentry — siehe Abschnitt 10.1, verarbeitet auf Grundlage berechtigter Interessen, unabhängig von der Analyse-Einwilligung)
@@ -425,8 +425,8 @@ Die folgenden Dienste können Ihre Daten außerhalb der EU verarbeiten:
 **PostHog (Produktanalyse):**
 - **Datenstandort:** Europäische Union — PostHog Cloud EU (`eu.i.posthog.com`), gehostet auf AWS in Frankfurt, Deutschland (`eu-central-1`)
 - **Betreiber:** PostHog, Inc. (US-Muttergesellschaft; EU-Cloud-Daten werden in der EU gespeichert)
-- **Zweck:** In der App Produkt- und Funktionsnutzungsanalyse, um zu verstehen, wie die App genutzt wird, und sie zu verbessern. Auf unserer Website Reichweitenmessung ohne Cookies (siehe Abschnitt 4.5)
-- **Verarbeitete Daten (App):** Eine **pseudonyme App-Instanz-Kennung** (eine zufällige ID, nicht mit Ihrem Namen oder Ihrer E-Mail verknüpft), In-App-Funktionsnutzungsereignisse, Sitzungsdauer, Geräte-/Betriebssystemtyp und Abonnementstufe (kostenlos/Premium). **Es werden kein Name, keine E-Mail, keine IP-Adresse und kein per GeoIP ermittelter Standort erhoben** (IP- und GeoIP-Anreicherung sind deaktiviert), und **Session Replay wird nicht verwendet**.
+- **Zweck:** In der App Produkt- und Funktionsnutzungsanalyse, um zu verstehen, wie die App genutzt wird, und sie zu verbessern, sowie unter Android, über welchen unserer Links die App installiert wurde. Auf unserer Website Reichweitenmessung ohne Cookies (siehe Abschnitt 4.5)
+- **Verarbeitete Daten (App):** Eine **pseudonyme App-Instanz-Kennung** (eine zufällige ID, nicht mit Ihrem Namen oder Ihrer E-Mail verknüpft), In-App-Funktionsnutzungsereignisse, Sitzungsdauer, Geräte-/Betriebssystemtyp und Abonnementstufe (kostenlos/Premium). Unter Android außerdem die **Installationsquelle**: die Kampagnenbezeichnung des Store-Links, über den die App installiert wurde (siehe Abschnitt 14.2). **Es werden kein Name, keine E-Mail, keine IP-Adresse und kein per GeoIP ermittelter Standort erhoben** (IP- und GeoIP-Anreicherung sind deaktiviert), und **Session Replay wird nicht verwendet**.
 - **Verarbeitete Daten (Website):** Seitenaufrufe, Klicks und Kurzlink-Zählungen wie in Abschnitt 4.5 beschrieben. Ihre IP-Adresse wird ausschließlich auf den Servern von PostHog verwendet, um einen täglichen Besucherschlüssel abzuleiten, und **nicht gespeichert**; kein per GeoIP ermittelter Standort, keine Cookies, keine Profile und kein Session Replay.
 - **Rechtsgrundlage (App):** **Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)**. Die Analyse ist **standardmäßig deaktiviert**; sie wird erst aktiviert, nachdem Sie über den In-App-Dialog ausdrücklich zugestimmt haben, und Sie können die Einwilligung jederzeit unter **Konto → Datenschutzeinstellungen** widerrufen (auch § 25 TDDDG wird durch diese vorherige Einwilligung erfüllt).
 - **Rechtsgrundlage (Website):** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Messung der Reichweite unserer Website). Sie können jederzeit widersprechen (siehe Abschnitt 4.5).
@@ -547,6 +547,7 @@ Die App verwendet minimale Tracking-Technologien:
 Wir verwenden **PostHog** (EU Cloud) für Produkt-/Nutzungsanalysen, um zu verstehen, wie die App genutzt wird, und sie zu verbessern. Diese Analyse:
 - ist **standardmäßig deaktiviert** und läuft **nur nach Ihrer ausdrücklichen Einwilligung (Opt-in)** (Art. 6 Abs. 1 lit. a DSGVO; § 25 TDDDG)
 - verwendet ausschließlich eine **pseudonyme App-Instanz-Kennung** — kein Name, keine E-Mail, keine IP, kein GeoIP-Standort und kein Session Replay
+- erfasst unter **Android** einmalig, über welchen unserer Links Sie die App installiert haben: die drei Kampagnenwerte des Google-Play-Links (Plattform, Platzierung und Inhalt, zum Beispiel `instagram · dm · r001`, oder Googles eigenes `google-play · organic` bei einer Installation, die im Store gefunden wurde), ausgelesen über die Install-Referrer-Schnittstelle von Google Play, die diese Information 90 Tage nach der Installation bereithält. Weiteres daraus wird nicht gespeichert. Ausgelesen wird nur, wenn Sie dem Einwilligungstext zugestimmt haben, der diesen Zweck nennt („über welchen Link du zu BeatLoop gekommen bist"). Auf dem iPhone und in der Web-App gibt es dies nicht
 - speichert die Opt-out-/Einwilligungseinstellung auf Ihrem Gerät
 
 Siehe Abschnitt 10.1 (PostHog) für Hosting, Aufbewahrung, Unterauftragsverarbeiter und Schutzmaßnahmen.
