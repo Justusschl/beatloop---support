@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** February 15, 2026
-**Last Updated:** November 11, 2026
+**Last Updated:** November 12, 2026
 
 ## 1. Data Controller Information
 
@@ -99,18 +99,18 @@ This section covers visits to our Website beatloop.eu, including the short links
 
 **Hosting and server logs.** Our Website is hosted by **Vercel** (see Section 10.1). Whenever a page or link is requested, Vercel's servers automatically process the technical data your browser sends: IP address, date and time, the requested address, the referring page, and your browser's user-agent string (browser and operating system). This is necessary to deliver the Website and keep it secure (Art. 6(1)(f) GDPR). We do not store these logs ourselves; Vercel keeps them for a limited period for operation and security.
 
-**Short links (`beatloop.eu/go/…`).** The links we post on social media lead through a short redirect. It reads your browser's user-agent string only to decide where to send you: to the App Store on an iPhone, to Google Play on an Android phone, and to our Website otherwise. It adds a campaign label that names the profile or post the link was shared in (for example `ig-beatloop-bio`). The label describes the link, not you. Apart from Vercel's server logs, nothing about the redirect is stored.
+**Short links (`beatloop.eu/go/…`).** The links we post on social media lead through a short redirect. It reads your browser's user-agent string only to decide where to send you: to the App Store on an iPhone, to Google Play on an Android phone, and to our Website otherwise. It adds a campaign label that names the profile or post the link was shared in (for example `ig-beatloop-bio`). The label describes the link, not you. To learn how often each link is used, the redirect also sends one count to PostHog (see below): the campaign label, the kind of device (iPhone, Android or other) and where it sent you. This count contains no IP address, no user-agent string and no identifier, sets no cookie and stores nothing on your device; every click is counted on its own and cannot be linked to other clicks or visits. Link previews that apps generate are not counted, and neither are clicks from browsers that send Global Privacy Control or Do Not Track. Apart from this count and Vercel's server logs, nothing about the redirect is stored.
 
 **Campaign labels on store buttons.** If you arrive through one of our links, the App Store and Google Play buttons on that page carry the same campaign label. Apple and Google then show us aggregated download numbers per campaign. We receive no information about you personally.
 
 **Reach measurement without cookies (PostHog).** To learn which pages and campaigns lead to downloads and purchases, we count visits to our Website with **PostHog** (PostHog Cloud EU, Frankfurt, Germany):
-- **What is recorded:** the page you view (its address without personal parameters; sign-in, account, administration and cancellation pages are not recorded at all), the referring website (its domain only), the campaign values in the link you followed, browser, operating system, device type and screen size, and clicks on our App Store and Google Play buttons, on the buttons that open the web app or a course, and on the "Start free trial" button.
+- **What is recorded:** the page you view (its address without personal parameters; sign-in, account, administration and cancellation pages are not recorded at all), the referring website (its domain only), the campaign values in the link you followed, browser, operating system, device type and screen size, and clicks on our App Store and Google Play buttons, on the buttons that open the web app or a course, and on the "Start free trial" button. For our short links, only the count described above is recorded.
 - **No cookies, nothing kept on your device:** the measurement sets no cookies and keeps no identifier in your browser's storage.
 - **Daily visitor key:** to count visitors, PostHog's servers derive a key from your IP address and user-agent string, combined with a secret value that changes every day. **Your IP address is not stored.** Because the secret value changes daily, visits on different days cannot be linked to each other. No profile is created, and the data is not linked to your BeatLoop account.
 - **Legal basis:** our legitimate interest in measuring the reach of our Website and our marketing (Art. 6(1)(f) GDPR).
 - **Retention:** 12 months.
 
-**Your right to object (Art. 21 GDPR).** You can object to this reach measurement at any time. The simplest way is to switch on **"Global Privacy Control"** or **"Do Not Track"** in your browser: when your browser sends one of these signals, our Website does not start the measurement at all. Common content blockers also prevent it. You can also object by writing to privacy@on-beat.de; because the measurement does not recognise individual visitors, the browser setting is what makes your objection effective on your device.
+**Your right to object (Art. 21 GDPR).** You can object to this reach measurement at any time. The simplest way is to switch on **"Global Privacy Control"** or **"Do Not Track"** in your browser: when your browser sends one of these signals, our Website does not start the measurement at all and our short links do not count your click. Common content blockers also prevent it. You can also object by writing to privacy@on-beat.de; because the measurement does not recognise individual visitors, the browser setting is what makes your objection effective on your device.
 
 **Your account on the Website.** You can create or sign in to your BeatLoop account on the Website, with email and password or with Google or Apple. It is the same account as in the App (see Sections 4.1 and 4.3). If you tick the newsletter box when signing up, we record your consent with a timestamp (see Section 6.6). If you open the web app from the Website while signed in, we hand over a one-time sign-in token so that you do not need to sign in again.
 
@@ -427,7 +427,7 @@ The following services may process your data outside the EU:
 - **Operator:** PostHog, Inc. (US parent; EU Cloud data stored in the EU)
 - **Purpose:** In the App, product and feature-usage analytics to understand how the App is used and improve it. On our Website, reach measurement without cookies (see Section 4.5)
 - **Data processed (App):** A **pseudonymous app-instance identifier** (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). **No name, email, IP address, or GeoIP-derived location is collected** (IP and GeoIP enrichment are disabled), and **session replay is not used**.
-- **Data processed (Website):** page views and clicks as described in Section 4.5. Your IP address is used only to derive a daily visitor key on PostHog's servers and is **not stored**; no GeoIP-derived location, no cookies, no profiles, and no session replay.
+- **Data processed (Website):** page views, clicks and short-link counts as described in Section 4.5. Your IP address is used only to derive a daily visitor key on PostHog's servers and is **not stored**; no GeoIP-derived location, no cookies, no profiles, and no session replay.
 - **Legal basis (App):** **Consent (Art. 6(1)(a) GDPR)**. Analytics is **off by default**; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in **Account → Privacy Settings** (German § 25 TDDDG is also satisfied by this prior consent).
 - **Legal basis (Website):** Art. 6(1)(f) GDPR (legitimate interest in measuring the reach of our Website). You can object at any time (see Section 4.5).
 - **Retention period:** 12 months
@@ -616,6 +616,6 @@ This Privacy Policy is published in English, German and Spanish. **The English v
 
 ---
 
-**This Privacy Policy was last updated on November 11, 2026, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on November 12, 2026, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.
