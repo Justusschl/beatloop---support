@@ -158,7 +158,7 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <p><strong>Usage and Analytics Data:</strong></p>
 
 <ul>
-<li>Product/feature-usage analytics in the App (which features are used and how) — collected via PostHog <strong>only after you give explicit opt-in consent</strong> (see Section 10.1); never collected if you decline or have not yet consented</li>
+<li>Product/feature-usage analytics in the App (which features are used and how) and, on Android, which of our links you installed the App from (see Section 14.2) — collected via PostHog <strong>only after you give explicit opt-in consent</strong> (see Section 10.1); never collected if you decline or have not yet consented</li>
 <li>Session duration and frequency of use (part of the consent-gated analytics above)</li>
 <li>Device performance metrics related to audio/video processing</li>
 <li>Error reports and crash logs (via Sentry — see Section 10.1, processed under legitimate interest, independent of analytics consent)</li>
@@ -632,8 +632,8 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <ul>
 <li><strong>Data location:</strong> European Union — PostHog Cloud EU (<code>eu.i.posthog.com</code>), hosted on AWS in Frankfurt, Germany (<code>eu-central-1</code>)</li>
 <li><strong>Operator:</strong> PostHog, Inc. (US parent; EU Cloud data stored in the EU)</li>
-<li><strong>Purpose:</strong> In the App, product and feature-usage analytics to understand how the App is used and improve it. On our Website, reach measurement without cookies (see Section 4.5)</li>
-<li><strong>Data processed (App):</strong> A <strong>pseudonymous app-instance identifier</strong> (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). <strong>No name, email, IP address, or GeoIP-derived location is collected</strong> (IP and GeoIP enrichment are disabled), and <strong>session replay is not used</strong>.</li>
+<li><strong>Purpose:</strong> In the App, product and feature-usage analytics to understand how the App is used and improve it, and, on Android, which of our links the App was installed from. On our Website, reach measurement without cookies (see Section 4.5)</li>
+<li><strong>Data processed (App):</strong> A <strong>pseudonymous app-instance identifier</strong> (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). On Android, also the <strong>install source</strong>: the campaign label of the store link the App was installed from (see Section 14.2). <strong>No name, email, IP address, or GeoIP-derived location is collected</strong> (IP and GeoIP enrichment are disabled), and <strong>session replay is not used</strong>.</li>
 <li><strong>Data processed (Website):</strong> page views, clicks and short-link counts as described in Section 4.5. Your IP address is used only to derive a daily visitor key on PostHog's servers and is <strong>not stored</strong>; no GeoIP-derived location, no cookies, no profiles, and no session replay.</li>
 <li><strong>Legal basis (App):</strong> <strong>Consent (Art. 6(1)(a) GDPR)</strong>. Analytics is <strong>off by default</strong>; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in <strong>Account → Privacy Settings</strong> (German § 25 TDDDG is also satisfied by this prior consent).</li>
 <li><strong>Legal basis (Website):</strong> Art. 6(1)(f) GDPR (legitimate interest in measuring the reach of our Website). You can object at any time (see Section 4.5).</li>
@@ -789,6 +789,7 @@ Email: <a href="mailto:privacy@on-beat.de">privacy@on-beat.de</a></p>
 <ul>
 <li>Is <strong>off by default</strong> and runs <strong>only after you give explicit opt-in consent</strong> (Art. 6(1)(a) GDPR; German § 25 TDDDG)</li>
 <li>Uses a <strong>pseudonymous app-instance identifier</strong> only — no name, email, IP, or GeoIP location, and no session replay</li>
+<li>On <strong>Android</strong>, records once which of our links you installed the App from: the three campaign values of the Google Play link (platform, placement and content, for example <code>instagram · dm · r001</code>, or Google's own <code>google-play · organic</code> for an install found in the store), read through Google Play's Install Referrer API, which keeps this information for 90 days after installation. Nothing else from it is kept. It is read only if you agreed to the consent text that names this purpose ("which link you came to BeatLoop from"). This is not available on iPhone or in the web app</li>
 <li>Stores its opt-out/consent preference on your device</li>
 </ul>
 
