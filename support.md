@@ -159,6 +159,8 @@ A: We collect the minimum necessary for the app to work:
 
 Audio and video content is stored **only on your device** and is never uploaded to us. Streaming music is NOT downloaded or stored by BeatLoop. We show no ads and do not sell your data.
 
+On our website beatloop.eu we count visits without cookies and without storing anything on your device. If your browser sends "Global Privacy Control" or "Do Not Track", we do not count your visit at all. See Section 4.5 of the Privacy Policy.
+
 **Q: How do I turn push notifications on or off?**
 A: Notifications are **off unless you actively switch them on**. You're asked once, in a prompt separate from the Terms. Turn them on or off any time in Account > Settings, or in your phone's system settings. Turning them off unsubscribes your device immediately. We only target notifications by subscription tier and app language — never individually. See Section 6 of the Privacy Policy.
 

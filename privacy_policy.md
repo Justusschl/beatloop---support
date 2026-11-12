@@ -1,11 +1,11 @@
 # Privacy Policy
 
 **Effective Date:** February 15, 2026
-**Last Updated:** August 10, 2026
+**Last Updated:** November 11, 2026
 
 ## 1. Data Controller Information
 
-**BeatLoop** (referred to as "we," "us," or "our") operates the BeatLoop mobile application (the "App").
+**BeatLoop** (referred to as "we," "us," or "our") operates the BeatLoop application for iOS, Android and the web at app.beatloop.eu (the "App") and the website beatloop.eu (the "Website").
 
 **Data Controller:**
 OnBeat HQ UG (haftungsbeschränkt)
@@ -17,7 +17,7 @@ For all privacy-related inquiries, data protection requests, or exercise of your
 
 ## 2. Introduction and Scope
 
-This Privacy Policy explains how we collect, use, process, and protect your personal data when you use our mobile application BeatLoop. This policy applies to all users worldwide and complies with the EU General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and other applicable data protection laws.
+This Privacy Policy explains how we collect, use, process, and protect your personal data when you use the BeatLoop App or visit our Website. What happens on the Website is described in Section 4.5; unless a section says otherwise, the rest of this policy describes the App. This policy applies to all users worldwide and complies with the EU General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and other applicable data protection laws.
 
 **BeatLoop** is a music practice application designed for dancers and musicians to create audio loops, adjust playback speed, record video, and manage practice sessions. The App allows users to access music from local device storage, YouTube, and Apple Music, and maintains user accounts for premium features and session synchronization.
 
@@ -25,9 +25,9 @@ This Privacy Policy explains how we collect, use, process, and protect your pers
 
 We process your personal data based on the following legal grounds:
 
-- **Contract Performance** (Article 6(1)(b)): To provide App services, account management, and premium features
-- **Legitimate Interests** (Article 6(1)(f)): Security, fraud prevention, crash and error diagnostics (Sentry), and customer support
-- **Consent** (Article 6(1)(a)): **Push notifications and marketing communications** (Article 6(1)(a) GDPR together with § 7(2) UWG — see Section 6), **product and usage analytics (PostHog)**, and certain optional third-party integrations. Product analytics is collected **only** after you give explicit opt-in consent and can be withdrawn at any time.
+- **Contract Performance** (Article 6(1)(b)): To provide App services, account management, and premium features, and to sell subscriptions and event tickets on our Website
+- **Legitimate Interests** (Article 6(1)(f)): Security, fraud prevention, crash and error diagnostics (Sentry), customer support, hosting and delivering our Website, redirecting our short links, **measuring the reach of our Website without cookies** (Section 4.5), and crediting affiliate codes
+- **Consent** (Article 6(1)(a)): **Push notifications and marketing communications** (Article 6(1)(a) GDPR together with § 7(2) UWG — see Section 6), **product and usage analytics in the App (PostHog)**, and certain optional third-party integrations. Product analytics in the App is collected **only** after you give explicit opt-in consent and can be withdrawn at any time.
 - **Legal Obligation** (Article 6(1)(c)): Compliance with applicable laws, tax obligations, and legal requests
 
 ## 4. Information We Collect
@@ -53,8 +53,10 @@ We process your personal data based on the following legal grounds:
 
 ### 4.2 Information Collected Automatically
 
+This section describes the App. What is collected automatically when you visit our Website is described in Section 4.5.
+
 **Usage and Analytics Data:**
-- Product/feature-usage analytics (which features are used and how) — collected via PostHog **only after you give explicit opt-in consent** (see Section 10.1); never collected if you decline or have not yet consented
+- Product/feature-usage analytics in the App (which features are used and how) — collected via PostHog **only after you give explicit opt-in consent** (see Section 10.1); never collected if you decline or have not yet consented
 - Session duration and frequency of use (part of the consent-gated analytics above)
 - Device performance metrics related to audio/video processing
 - Error reports and crash logs (via Sentry — see Section 10.1, processed under legitimate interest, independent of analytics consent)
@@ -73,21 +75,56 @@ We process your personal data based on the following legal grounds:
 
 ### 4.3 Information from Third Parties
 
-**Social Authentication Providers:**
+**Social Authentication Providers** (in the App and on our Website):
 - Google OAuth: Name, email address, profile picture (optional)
 - Apple Sign-In: Name, email address, or private relay email
 
 **Payment Processing:**
 - On iOS: Apple processes payment information via In-App Purchase
 - On Android: Google processes payment information via Google Play Billing
-- **RevenueCat** receives confirmation of your purchases from Apple and Google and reports your entitlement status back to us (see Section 10)
-- We receive transaction confirmations, product identifier, price, currency, store, and subscription status only. **We never receive or store payment card details.** Premium subscriptions are sold only through the mobile apps; we do not sell subscriptions on the web.
+- On our Website: subscriptions are sold through a checkout page operated by **RevenueCat** (RevenueCat Web Billing), and the payment is processed by **Stripe**. Event tickets on our Website are sold through Stripe (see Section 4.5)
+- **RevenueCat** receives confirmation of your purchases from Apple, Google and Stripe and reports your entitlement status back to us (see Section 10)
+- If you buy with an affiliate code, the code and the related purchase are passed to **Insert Affiliate** so that the affiliate who shared it can be credited (see Section 10.1)
+- We receive transaction confirmations, product identifier, price, currency, store, and subscription status only. **We never receive or store payment card details.**
 
 ### 4.4 Local Media Access on Android
 
 To let you choose a track, BeatLoop's file browser enumerates audio and video files across your device's shared storage. On Android this includes commonly used media folders such as `Music`, `Downloads`, `DCIM` and `Documents`, and the media folders created by other apps (for example WhatsApp, Telegram, Instagram, Facebook, Snapchat and TikTok), as well as SD card storage.
 
 **This scan runs entirely on your device.** File names, paths and folder contents are **never transmitted to us or to any third party**. It requires the media permission you grant at the operating system level, which you can revoke at any time in your device settings.
+
+### 4.5 Our Website (beatloop.eu)
+
+This section covers visits to our Website beatloop.eu, including the short links that start with `beatloop.eu/go/`.
+
+**Hosting and server logs.** Our Website is hosted by **Vercel** (see Section 10.1). Whenever a page or link is requested, Vercel's servers automatically process the technical data your browser sends: IP address, date and time, the requested address, the referring page, and your browser's user-agent string (browser and operating system). This is necessary to deliver the Website and keep it secure (Art. 6(1)(f) GDPR). We do not store these logs ourselves; Vercel keeps them for a limited period for operation and security.
+
+**Short links (`beatloop.eu/go/…`).** The links we post on social media lead through a short redirect. It reads your browser's user-agent string only to decide where to send you: to the App Store on an iPhone, to Google Play on an Android phone, and to our Website otherwise. It adds a campaign label that names the profile or post the link was shared in (for example `ig-beatloop-bio`). The label describes the link, not you. Apart from Vercel's server logs, nothing about the redirect is stored.
+
+**Campaign labels on store buttons.** If you arrive through one of our links, the App Store and Google Play buttons on that page carry the same campaign label. Apple and Google then show us aggregated download numbers per campaign. We receive no information about you personally.
+
+**Reach measurement without cookies (PostHog).** To learn which pages and campaigns lead to downloads and purchases, we count visits to our Website with **PostHog** (PostHog Cloud EU, Frankfurt, Germany):
+- **What is recorded:** the page you view (its address without personal parameters; sign-in, account, administration and cancellation pages are not recorded at all), the referring website (its domain only), the campaign values in the link you followed, browser, operating system, device type and screen size, and clicks on our App Store and Google Play buttons, on the buttons that open the web app or a course, and on the "Start free trial" button.
+- **No cookies, nothing kept on your device:** the measurement sets no cookies and keeps no identifier in your browser's storage.
+- **Daily visitor key:** to count visitors, PostHog's servers derive a key from your IP address and user-agent string, combined with a secret value that changes every day. **Your IP address is not stored.** Because the secret value changes daily, visits on different days cannot be linked to each other. No profile is created, and the data is not linked to your BeatLoop account.
+- **Legal basis:** our legitimate interest in measuring the reach of our Website and our marketing (Art. 6(1)(f) GDPR).
+- **Retention:** 12 months.
+
+**Your right to object (Art. 21 GDPR).** You can object to this reach measurement at any time. The simplest way is to switch on **"Global Privacy Control"** or **"Do Not Track"** in your browser: when your browser sends one of these signals, our Website does not start the measurement at all. Common content blockers also prevent it. You can also object by writing to privacy@on-beat.de; because the measurement does not recognise individual visitors, the browser setting is what makes your objection effective on your device.
+
+**Your account on the Website.** You can create or sign in to your BeatLoop account on the Website, with email and password or with Google or Apple. It is the same account as in the App (see Sections 4.1 and 4.3). If you tick the newsletter box when signing up, we record your consent with a timestamp (see Section 6.6). If you open the web app from the Website while signed in, we hand over a one-time sign-in token so that you do not need to sign in again.
+
+**Buying Premium on the Website.** Subscriptions sold on the Website use a checkout page operated by RevenueCat (RevenueCat Web Billing); the payment itself is processed by Stripe. We pass on your BeatLoop account identifier, the plan you selected and, to prefill the form, your email address. If you buy with an affiliate code, the code is passed on so that the purchase can be credited to the affiliate (Insert Affiliate, see Section 10.1). Legal basis: performance of the contract (Art. 6(1)(b) GDPR); for crediting affiliates, our legitimate interest in paying commissions correctly (Art. 6(1)(f) GDPR).
+
+**Cancellation form.** Our cancellation form at beatloop.eu/premium/cancel (§ 312k BGB) asks for your name and email address and, optionally, a reference and a reason. We send your request to our support team and a confirmation to you by email (via Resend, see Section 10.1), and keep it as proof of your cancellation like other support correspondence (Section 13.4). Legal basis: Art. 6(1)(b) and (c) GDPR.
+
+**Event tickets.** When we sell tickets for events on the Website, payment is handled by Stripe. We process your name, email address, the ticket you booked, the payment status and, at the event, your check-in status, in order to issue your ticket, admit you and handle refunds (Art. 6(1)(b) GDPR). Your tickets are sent to you by email with a QR code for admission (via Resend, see Section 10.1). Payment records are kept for the statutory periods (Section 13.3).
+
+**Venue maps (OpenStreetMap).** Event pages show a map of the venue from OpenStreetMap. To display it, your browser loads the map from the servers of the OpenStreetMap Foundation, which receive your IP address, browser information and the map area shown (Art. 6(1)(f) GDPR; our legitimate interest in showing where an event takes place). See Section 10.1.
+
+**Demo video (YouTube).** Our homepage shows a demo video from YouTube. **It is loaded only when you press play**; until then no connection to YouTube is made and our own preview image is shown. When you press play, the video is loaded from YouTube in privacy-enhanced mode (youtube-nocookie.com). YouTube then receives your IP address and browser information and may store information in your browser. See Section 10.1.
+
+**Cookies on the Website.** Our Website only uses cookies that are strictly necessary: when you sign in, session cookies keep you signed in (§ 25(2) No. 2 TDDDG). We do not use advertising, social media or analytics cookies, which is why the Website shows no cookie banner. The demo video only loads YouTube, and with it YouTube's own storage, after you press play.
 
 ## 5. Third-Party Music Service Integrations
 
@@ -219,6 +256,7 @@ Transactional emails (password reset, account confirmation, purchase receipts) a
 - Important policy or service changes (where legally required)
 
 ### 7.4 Analytics and Business Operations
+- Measuring which Website pages and marketing campaigns lead to downloads and purchases, without cookies (Section 4.5)
 - Monthly Active User (MAU) metrics and engagement analysis
 - Subscription conversion and retention analytics
 - General usage statistics for business planning
@@ -278,7 +316,7 @@ If you believe content in BeatLoop infringes your copyright, please contact us a
 - **Account information** is securely stored using Supabase infrastructure
 - **Session metadata** (markers, timestamps, loop points, project names) may be synchronized
 - **Authentication tokens** are encrypted and stored securely
-- **Payment information** is processed and stored by Apple (iOS) or Google (Android), never by BeatLoop
+- **Payment information** is processed and stored by Apple (iOS), Google (Android) or Stripe (purchases on our Website), never by BeatLoop
 
 ### 9.3 Security Measures
 - Industry-standard encryption for data transmission (TLS/HTTPS)
@@ -304,12 +342,14 @@ The following services may process your data outside the EU:
 - Purpose: Account management and authentication
 - Safeguards: GDPR-compliant hosting and data processing agreements
 
-**HubSpot (Customer Relationship Management):**
-- Data location: United States
-- Purpose: Customer support, relationship management, and user communication tracking
-- Data processed: Email addresses, support interactions, user engagement metrics, and communication preferences
-- Safeguards: Standard Contractual Clauses and Privacy Shield successor frameworks
-- Note: HubSpot processes contact information and interaction history to provide personalized support and manage customer relationships
+**Vercel (Website Hosting):**
+- Operator: Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA
+- Purpose: Hosting and delivering our Website and its short links (see Section 4.5)
+- Data processed: IP address, date and time, requested address, referring page, browser user-agent string
+- Legal basis: Art. 6(1)(f) GDPR (legitimate interest in delivering a secure Website)
+- Data location: United States and Vercel's global network
+- Safeguards: Data Processing Addendum including Standard Contractual Clauses
+- Vercel Privacy Policy: [https://vercel.com/legal/privacy-policy](https://vercel.com/legal/privacy-policy)
 
 **Apple (In-App Purchase & MusicKit):**
 - Data location: United States and EU
@@ -329,16 +369,46 @@ The following services may process your data outside the EU:
 - Data processed: device registration token, topic subscriptions, notification content
 - Safeguards: Google Cloud Data Processing Addendum, Standard Contractual Clauses, EU-US Data Privacy Framework
 
-**RevenueCat (Subscription Management):**
+**RevenueCat (Subscription Management and Website Checkout):**
 - Operator: RevenueCat, Inc., United States
-- Purpose: Validating purchases with Apple and Google and determining your premium entitlement
-- Data processed: your BeatLoop account identifier (transmitted as the RevenueCat app user ID), purchase and renewal events, product identifier, price, currency, store, offer code, and country
-- Note: RevenueCat does not process payments and never receives your payment card details
+- Purpose: Validating purchases with Apple and Google, providing the checkout page for subscriptions bought on our Website (RevenueCat Web Billing), and determining your premium entitlement
+- Data processed: your BeatLoop account identifier (transmitted as the RevenueCat app user ID), purchase and renewal events, product identifier, price, currency, store, offer code, and country; for purchases on our Website also your email address and, if you use one, your affiliate code
+- Note: In the App, RevenueCat does not process payments and never receives your payment card details. For purchases on our Website, payments are processed by Stripe
 - Safeguards: Data Processing Addendum, Standard Contractual Clauses
+
+**Stripe (Payments on our Website):**
+- Operator: Stripe Payments Europe, Limited, 1 Grand Canal Street Lower, Grand Canal Dock, Dublin, D02 H210, Ireland
+- Purpose: Processing payments for subscriptions bought on our Website and for event tickets
+- Data processed: name (for event tickets), email address, payment details such as card data, billing country, and transaction data
+- Note: Stripe also processes certain data as an independent controller, for example to prevent fraud and to meet its legal obligations as a payment service provider
+- Safeguards: transfers to Stripe, Inc. in the United States are based on Standard Contractual Clauses
+- Stripe Privacy Policy: [https://stripe.com/privacy](https://stripe.com/privacy)
+
+**Insert Affiliate (Affiliate Attribution):**
+- Purpose: Crediting purchases made with an affiliate code to the affiliate who shared the code, so that commissions are paid correctly
+- Data processed: the affiliate code you used and the related purchase information (product, price, date), received from our payment provider
+- Legal basis: Art. 6(1)(f) GDPR (legitimate interest in paying our affiliates correctly)
+- Applies only if you buy with an affiliate code
+
+**YouTube (Demo Video on our Website):**
+- Operator: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland
+- Purpose: Playing our demo video on the homepage, in privacy-enhanced mode, only after you press play (see Section 4.5)
+- Data processed: IP address, browser information, and information YouTube stores in or reads from your browser once the video is loaded
+- Legal basis: Art. 6(1)(f) GDPR; the video is loaded only at your request
+- Safeguards: transfers to Google LLC in the United States are based on the EU-US Data Privacy Framework and Standard Contractual Clauses
+- Google Privacy Policy: [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+**OpenStreetMap (Venue Maps on Event Pages):**
+- Operator: OpenStreetMap Foundation, St John's Innovation Centre, Cowley Road, Cambridge, CB4 0WS, United Kingdom
+- Purpose: Displaying a map of the venue on event pages (see Section 4.5)
+- Data processed: IP address, browser information, and the map area shown
+- Legal basis: Art. 6(1)(f) GDPR (legitimate interest in showing where an event takes place)
+- Safeguards: the United Kingdom is covered by an adequacy decision of the European Commission
+- OpenStreetMap Foundation Privacy Policy: [https://osmfoundation.org/wiki/Privacy_Policy](https://osmfoundation.org/wiki/Privacy_Policy)
 
 **Resend (Email Communications):**
 - Data location: United States
-- Purpose: Transactional email delivery
+- Purpose: Transactional email delivery, including confirmations of cancellation requests submitted on our Website and event tickets with their QR codes
 - Safeguards: Standard Contractual Clauses and GDPR compliance measures
 
 **Sentry (Crash and Error Reporting):**
@@ -355,9 +425,11 @@ The following services may process your data outside the EU:
 **PostHog (Product Analytics):**
 - **Data location:** European Union — PostHog Cloud EU (`eu.i.posthog.com`), hosted on AWS in Frankfurt, Germany (`eu-central-1`)
 - **Operator:** PostHog, Inc. (US parent; EU Cloud data stored in the EU)
-- **Purpose:** Product and feature-usage analytics to understand how the App is used and improve it
-- **Data processed:** A **pseudonymous app-instance identifier** (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). **No name, email, IP address, or GeoIP-derived location is collected** (IP and GeoIP enrichment are disabled), and **session replay is not used**.
-- **Legal basis:** **Consent (Art. 6(1)(a) GDPR)**. Analytics is **off by default**; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in **Account → Privacy Settings** (German § 25 TDDDG is also satisfied by this prior consent).
+- **Purpose:** In the App, product and feature-usage analytics to understand how the App is used and improve it. On our Website, reach measurement without cookies (see Section 4.5)
+- **Data processed (App):** A **pseudonymous app-instance identifier** (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). **No name, email, IP address, or GeoIP-derived location is collected** (IP and GeoIP enrichment are disabled), and **session replay is not used**.
+- **Data processed (Website):** page views and clicks as described in Section 4.5. Your IP address is used only to derive a daily visitor key on PostHog's servers and is **not stored**; no GeoIP-derived location, no cookies, no profiles, and no session replay.
+- **Legal basis (App):** **Consent (Art. 6(1)(a) GDPR)**. Analytics is **off by default**; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in **Account → Privacy Settings** (German § 25 TDDDG is also satisfied by this prior consent).
+- **Legal basis (Website):** Art. 6(1)(f) GDPR (legitimate interest in measuring the reach of our Website). You can object at any time (see Section 4.5).
 - **Retention period:** 12 months
 - **Safeguards:** Data Processing Agreement (DPA) concluded pursuant to Art. 28 GDPR, including Standard Contractual Clauses for any onward transfer to the United States
 - **PostHog Privacy Policy:** [https://posthog.com/privacy](https://posthog.com/privacy)
@@ -437,8 +509,7 @@ Deletion happens in stages, and we want you to know exactly how:
 1. **Immediately:** your account is marked deleted and deactivated. Your profile and session data are no longer accessible through the App.
 2. **Within 30 days:** your personal data is permanently erased from our production systems by an automated cleanup process.
 3. **Reactivation during those 30 days:** if you sign in again with the same credentials before permanent erasure, **your account and data are restored**. This grace period protects you against accidental deletion. If you want immediate, irreversible erasure with no grace period, email privacy@on-beat.de and we will carry it out manually.
-4. **HubSpot:** removal of your contact record from our CRM is **currently a manual step**, completed within 30 days of your request.
-5. **Data we must retain:** payment and invoicing records are kept for 7 years under German tax and commercial law, regardless of account deletion.
+4. **Data we must retain:** payment and invoicing records are kept for 7 years under German tax and commercial law, regardless of account deletion.
 
 ## 13. Data Retention
 
@@ -449,7 +520,9 @@ Deletion happens in stages, and we want you to know exactly how:
 
 ### 13.2 Usage and Analytics Data
 - **Login records:** Retained for 12 months for security purposes
-- **Product analytics (PostHog):** Individual event data retained for 12 months (see Section 10.1); only aggregated/derived insights may be retained longer. Collected only with your consent.
+- **Product analytics in the App (PostHog):** Individual event data retained for 12 months (see Section 10.1); only aggregated/derived insights may be retained longer. Collected only with your consent.
+- **Website reach measurement (PostHog):** Retained for 12 months (see Section 4.5)
+- **Website server logs (Vercel):** Kept by Vercel for a limited period for operation and security; we do not store them ourselves
 - **Error logs:** Retained for 12 months for debugging and improvement
 
 ### 13.3 Legal and Compliance Data
@@ -464,13 +537,13 @@ Deletion happens in stages, and we want you to know exactly how:
 
 ## 14. Cookies and Tracking Technologies
 
-### 14.1 Current Use
-BeatLoop currently uses minimal tracking technologies:
+### 14.1 In the App
+The App uses minimal tracking technologies:
 - **Authentication tokens:** For secure login and session management
 - **App preferences:** Stored locally to remember your settings
 - **Error tracking:** Basic crash reporting for app stability
 
-### 14.2 Product Analytics (PostHog)
+### 14.2 Product Analytics in the App (PostHog)
 We use **PostHog** (EU Cloud) for product/usage analytics to understand how the App is used and improve it. This analytics:
 - Is **off by default** and runs **only after you give explicit opt-in consent** (Art. 6(1)(a) GDPR; German § 25 TDDDG)
 - Uses a **pseudonymous app-instance identifier** only — no name, email, IP, or GeoIP location, and no session replay
@@ -479,9 +552,12 @@ We use **PostHog** (EU Cloud) for product/usage analytics to understand how the 
 See Section 10.1 (PostHog) for hosting, retention, sub-processors, and safeguards.
 
 ### 14.3 Your Control
-- **Analytics opt-out:** Analytics is opt-in; you can grant or withdraw consent at any time in **Account → Privacy Settings**
-- **Cookie settings:** Can be managed through your device settings
+- **Analytics opt-out in the App:** Analytics is opt-in; you can grant or withdraw consent at any time in **Account → Privacy Settings**
+- **Reach measurement on the Website:** switch on "Global Privacy Control" or "Do Not Track" in your browser (see Section 4.5)
 - **Third-party tracking:** We do not use advertising or social media tracking pixels, and we do not track you across other apps or websites
+
+### 14.4 On our Website
+Our Website only uses cookies that are strictly necessary to keep you signed in (§ 25(2) No. 2 TDDDG). Its reach measurement works without cookies and keeps nothing on your device (see Section 4.5). For this reason the Website shows no cookie banner. The demo video on our homepage loads YouTube only after you press play (see Section 4.5).
 
 ## 15. Children's Privacy
 
@@ -540,6 +616,6 @@ This Privacy Policy is published in English, German and Spanish. **The English v
 
 ---
 
-**This Privacy Policy was last updated on August 10, 2026, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on November 11, 2026, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.
