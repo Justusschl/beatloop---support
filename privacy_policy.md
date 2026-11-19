@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** February 15, 2026
-**Last Updated:** November 12, 2026
+**Last Updated:** November 19, 2026
 
 ## 1. Data Controller Information
 
@@ -85,7 +85,7 @@ This section describes the App. What is collected automatically when you visit o
 - On our Website: subscriptions are sold through a checkout page operated by **RevenueCat** (RevenueCat Web Billing), and the payment is processed by **Stripe**. Event tickets on our Website are sold through Stripe (see Section 4.5)
 - **RevenueCat** receives confirmation of your purchases from Apple, Google and Stripe and reports your entitlement status back to us (see Section 10)
 - If you buy with an affiliate code, the code and the related purchase are passed to **Insert Affiliate** so that the affiliate who shared it can be credited (see Section 10.1)
-- We receive transaction confirmations, product identifier, price, currency, store, and subscription status only. **We never receive or store payment card details.**
+- We receive transaction confirmations, product identifier, price, currency, store, and subscription status only, plus, for purchases on our Website, the campaign label of the link the buyer came through (Section 4.5). **We never receive or store payment card details.**
 
 ### 4.4 Local Media Access on Android
 
@@ -99,9 +99,9 @@ This section covers visits to our Website beatloop.eu, including the short links
 
 **Hosting and server logs.** Our Website is hosted by **Vercel** (see Section 10.1). Whenever a page or link is requested, Vercel's servers automatically process the technical data your browser sends: IP address, date and time, the requested address, the referring page, and your browser's user-agent string (browser and operating system). This is necessary to deliver the Website and keep it secure (Art. 6(1)(f) GDPR). We do not store these logs ourselves; Vercel keeps them for a limited period for operation and security.
 
-**Short links (`beatloop.eu/go/…`).** The links we post on social media lead through a short redirect. It reads your browser's user-agent string only to decide where to send you: to the App Store on an iPhone, to Google Play on an Android phone, and to our Website otherwise. It adds a campaign label that names the profile or post the link was shared in (for example `ig-beatloop-bio`). The label describes the link, not you. To learn how often each link is used, the redirect also sends one count to PostHog (see below): the campaign label, the kind of device (iPhone, Android or other) and where it sent you. This count contains no IP address, no user-agent string and no identifier, sets no cookie and stores nothing on your device; every click is counted on its own and cannot be linked to other clicks or visits. Link previews that apps generate are not counted, and neither are clicks from browsers that send Global Privacy Control or Do Not Track. Apart from this count and Vercel's server logs, nothing about the redirect is stored.
+**Short links (`beatloop.eu/go/…`).** The links we post on social media lead through a short redirect. It reads your browser's user-agent string only to decide where to send you: to the App Store on an iPhone, to Google Play on an Android phone, and to our Website otherwise. A short link for a course (`beatloop.eu/go/…/<course>`) instead leads every device to that course's page in our web app (app.beatloop.eu). It adds a campaign label that names the profile or post the link was shared in (for example `ig-beatloop-bio`); a course link passes it on to the web app in the address. The label describes the link, not you. To learn how often each link is used, the redirect also sends one count to PostHog (see below): the campaign label, the kind of device (iPhone, Android or other) and where it sent you. This count contains no IP address, no user-agent string and no identifier, sets no cookie and stores nothing on your device; every click is counted on its own and cannot be linked to other clicks or visits. Link previews that apps generate are not counted, and neither are clicks from browsers that send Global Privacy Control or Do Not Track. Apart from this count and Vercel's server logs, nothing about the redirect is stored.
 
-**Campaign labels on store buttons.** If you arrive through one of our links, the App Store and Google Play buttons on that page carry the same campaign label. Apple and Google then show us aggregated download numbers per campaign. We receive no information about you personally.
+**Campaign labels on our buttons.** If you arrive through one of our links, the App Store and Google Play buttons carry the same campaign label while you browse our Website. We keep the label in the page's memory only: nothing is stored on your device, and it is gone when you reload or close the page. The buttons that open the web app or a course pass the label on to the web app in the address; without a campaign label, you are labelled as coming from our Website. Apple and Google then show us aggregated download numbers per campaign. We receive no information about you personally.
 
 **Reach measurement without cookies (PostHog).** To learn which pages and campaigns lead to downloads and purchases, we count visits to our Website with **PostHog** (PostHog Cloud EU, Frankfurt, Germany):
 - **What is recorded:** the page you view (its address without personal parameters; sign-in, account, administration and cancellation pages are not recorded at all), the referring website (its domain only), the campaign values in the link you followed, browser, operating system, device type and screen size, and clicks on our App Store and Google Play buttons, on the buttons that open the web app or a course, and on the "Start free trial" button. For our short links, only the count described above is recorded.
@@ -114,7 +114,7 @@ This section covers visits to our Website beatloop.eu, including the short links
 
 **Your account on the Website.** You can create or sign in to your BeatLoop account on the Website, with email and password or with Google or Apple. It is the same account as in the App (see Sections 4.1 and 4.3). If you tick the newsletter box when signing up, we record your consent with a timestamp (see Section 6.6). If you open the web app from the Website while signed in, we hand over a one-time sign-in token so that you do not need to sign in again.
 
-**Buying Premium on the Website.** Subscriptions sold on the Website use a checkout page operated by RevenueCat (RevenueCat Web Billing); the payment itself is processed by Stripe. We pass on your BeatLoop account identifier, the plan you selected and, to prefill the form, your email address. If you buy with an affiliate code, the code is passed on so that the purchase can be credited to the affiliate (Insert Affiliate, see Section 10.1). Legal basis: performance of the contract (Art. 6(1)(b) GDPR); for crediting affiliates, our legitimate interest in paying commissions correctly (Art. 6(1)(f) GDPR).
+**Buying Premium on the Website.** Subscriptions sold on the Website use a checkout page operated by RevenueCat (RevenueCat Web Billing); the payment itself is processed by Stripe. We pass on your BeatLoop account identifier, the plan you selected, to prefill the form, your email address, and the campaign label of the link you came through (see above; "website" without one), which RevenueCat stores with the purchase so that we can see which of our links lead to subscriptions. If you buy with an affiliate code, the code is passed on so that the purchase can be credited to the affiliate (Insert Affiliate, see Section 10.1). Legal basis: performance of the contract (Art. 6(1)(b) GDPR); for crediting affiliates, our legitimate interest in paying commissions correctly, and for the campaign label, our legitimate interest in knowing which of our links lead to subscriptions (Art. 6(1)(f) GDPR).
 
 **Cancellation form.** Our cancellation form at beatloop.eu/premium/cancel (§ 312k BGB) asks for your name and email address and, optionally, a reference and a reason. We send your request to our support team and a confirmation to you by email (via Resend, see Section 10.1), and keep it as proof of your cancellation like other support correspondence (Section 13.4). Legal basis: Art. 6(1)(b) and (c) GDPR.
 
@@ -617,6 +617,6 @@ This Privacy Policy is published in English, German and Spanish. **The English v
 
 ---
 
-**This Privacy Policy was last updated on November 12, 2026, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on November 19, 2026, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.
