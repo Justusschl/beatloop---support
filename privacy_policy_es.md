@@ -571,7 +571,7 @@ Véase la Sección 10.1 (PostHog) para el alojamiento, la conservación, los sub
 
 ### 14.3 Su Control
 - **Análisis con su consentimiento:** puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad**
-- **Recuento anónimo en la App:** puede oponerse (Art. 21 del RGPD) — en la aplicación web, activando «Global Privacy Control» o «Do Not Track» en su navegador, tras lo cual no se envía nada sin su consentimiento; en la app del teléfono, por correo electrónico a privacy@on-beat.de
+- **Recuento anónimo en la App:** puede oponerse (Art. 21 del RGPD) — en la aplicación web, activando «Global Privacy Control» o «Do Not Track» en su navegador, tras lo cual no se envía nada sin su consentimiento; en la app del teléfono, por correo electrónico a privacy@on-beat.de. Tras su oposición, no enviamos datos de análisis de su cuenta mientras haya iniciado sesión, ni anónimos ni con consentimiento
 - **Medición del alcance en el Sitio Web:** active «Global Privacy Control» o «Do Not Track» en su navegador (véase la Sección 4.5)
 - **Seguimiento de terceros:** No utilizamos píxeles de seguimiento de publicidad ni de redes sociales, y no le rastreamos a través de otras apps o sitios web
 

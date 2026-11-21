@@ -571,7 +571,7 @@ Siehe Abschnitt 10.1 (PostHog) für Hosting, Aufbewahrung, Unterauftragsverarbei
 
 ### 14.3 Ihre Kontrolle
 - **Analyse mit Ihrer Einwilligung:** Sie können die Einwilligung jederzeit unter **Konto → Datenschutzeinstellungen** erteilen oder widerrufen
-- **Anonyme Zählung in der App:** Sie können widersprechen (Art. 21 DSGVO) — in der Web-App, indem Sie in Ihrem Browser „Global Privacy Control" oder „Do Not Track" einschalten; dann wird ohne Ihre Einwilligung nichts gesendet; in der Smartphone-App per E-Mail an privacy@on-beat.de
+- **Anonyme Zählung in der App:** Sie können widersprechen (Art. 21 DSGVO) — in der Web-App, indem Sie in Ihrem Browser „Global Privacy Control" oder „Do Not Track" einschalten; dann wird ohne Ihre Einwilligung nichts gesendet; in der Smartphone-App per E-Mail an privacy@on-beat.de. Nach einem Widerspruch senden wir für Ihr Konto keine Analysedaten mehr, solange Sie angemeldet sind — weder anonym noch mit Einwilligung
 - **Reichweitenmessung auf der Website:** Schalten Sie in Ihrem Browser „Global Privacy Control" oder „Do Not Track" ein (siehe Abschnitt 4.5)
 - **Tracking durch Dritte:** Wir verwenden keine Werbe- oder Social-Media-Tracking-Pixel und verfolgen Sie nicht über andere Apps oder Websites hinweg
 

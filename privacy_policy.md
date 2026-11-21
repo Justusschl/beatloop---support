@@ -571,7 +571,7 @@ See Section 10.1 (PostHog) for hosting, retention, sub-processors, and safeguard
 
 ### 14.3 Your Control
 - **Analytics with your consent:** you can grant or withdraw consent at any time in **Account → Privacy Settings**
-- **Anonymous counting in the App:** you can object (Art. 21 GDPR) — in the web app by switching on "Global Privacy Control" or "Do Not Track" in your browser, after which nothing is sent without your consent; in the phone app by email to privacy@on-beat.de
+- **Anonymous counting in the App:** you can object (Art. 21 GDPR) — in the web app by switching on "Global Privacy Control" or "Do Not Track" in your browser, after which nothing is sent without your consent; in the phone app by email to privacy@on-beat.de. After an objection, we send no analytics data for your account while you are signed in — neither anonymous nor with consent
 - **Reach measurement on the Website:** switch on "Global Privacy Control" or "Do Not Track" in your browser (see Section 4.5)
 - **Third-party tracking:** We do not use advertising or social media tracking pixels, and we do not track you across other apps or websites
 
