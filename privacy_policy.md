@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** February 15, 2026
-**Last Updated:** November 19, 2026
+**Last Updated:** November 21, 2026
 
 ## 1. Data Controller Information
 
@@ -26,8 +26,8 @@ This Privacy Policy explains how we collect, use, process, and protect your pers
 We process your personal data based on the following legal grounds:
 
 - **Contract Performance** (Article 6(1)(b)): To provide App services, account management, and premium features, and to sell subscriptions and event tickets on our Website
-- **Legitimate Interests** (Article 6(1)(f)): Security, fraud prevention, crash and error diagnostics (Sentry), customer support, hosting and delivering our Website, redirecting our short links, **measuring the reach of our Website without cookies** (Section 4.5), and crediting affiliate codes
-- **Consent** (Article 6(1)(a)): **Push notifications and marketing communications** (Article 6(1)(a) GDPR together with § 7(2) UWG — see Section 6), **product and usage analytics in the App (PostHog)**, and certain optional third-party integrations. Product analytics in the App is collected **only** after you give explicit opt-in consent and can be withdrawn at any time.
+- **Legitimate Interests** (Article 6(1)(f)): Security, fraud prevention, crash and error diagnostics (Sentry), customer support, hosting and delivering our Website, redirecting our short links, **measuring the reach of our Website without cookies** (Section 4.5), **anonymous usage counting in the App** (Section 14.2), crediting affiliate codes, and recording the campaign label of a purchase
+- **Consent** (Article 6(1)(a)): **Push notifications and marketing communications** (Article 6(1)(a) GDPR together with § 7(2) UWG — see Section 6), **personal product and usage analytics in the App (PostHog)** — linking your usage to your account, free-text survey answers and, on Android, the install source — and certain optional third-party integrations. This analytics runs **only** after you give explicit opt-in consent and can be withdrawn at any time. Without consent, we only count usage anonymously (see Section 14.2).
 - **Legal Obligation** (Article 6(1)(c)): Compliance with applicable laws, tax obligations, and legal requests
 
 ## 4. Information We Collect
@@ -51,13 +51,17 @@ We process your personal data based on the following legal grounds:
 - Support inquiries and feedback
 - Correspondence regarding your account or the App
 
+**Surveys:**
+- Short surveys in the App: before signing in (your role, your dance styles, and how you heard about BeatLoop) and before the first video of certain courses (three yes/no questions about how you practise). Answers to the sign-in survey are stored with your account; answers to the course survey stay on your device. We use them to improve BeatLoop and to understand how people find us (Art. 6(1)(f) GDPR). The options you pick are also counted in our analytics (Section 14.2); a free text under "Other" only with your consent.
+
 ### 4.2 Information Collected Automatically
 
 This section describes the App. What is collected automatically when you visit our Website is described in Section 4.5.
 
 **Usage and Analytics Data:**
-- Product/feature-usage analytics in the App (which features are used and how) and, on Android, which of our links you installed the App from (see Section 14.2) — collected via PostHog **only after you give explicit opt-in consent** (see Section 10.1); never collected if you decline or have not yet consented
-- Session duration and frequency of use (part of the consent-gated analytics above)
+- **Anonymous usage counting** in the App and the web app (which features, courses and lessons are used, and which of our links you came through) — without storing anything on your device, building a profile, or linking it to your account; also without consent (see Section 14.2)
+- **Product/feature-usage analytics with your consent:** the same usage, linked to your account through an identifier that contains neither your name nor your email address, plus free-text survey answers and, on Android, which of our links you installed the App from (see Section 14.2) — collected via PostHog **only after you give explicit opt-in consent** (see Section 10.1)
+- Session duration and frequency of use (part of the analytics above)
 - Device performance metrics related to audio/video processing
 - Error reports and crash logs (via Sentry — see Section 10.1, processed under legitimate interest, independent of analytics consent)
 
@@ -85,7 +89,7 @@ This section describes the App. What is collected automatically when you visit o
 - On our Website: subscriptions are sold through a checkout page operated by **RevenueCat** (RevenueCat Web Billing), and the payment is processed by **Stripe**. Event tickets on our Website are sold through Stripe (see Section 4.5)
 - **RevenueCat** receives confirmation of your purchases from Apple, Google and Stripe and reports your entitlement status back to us (see Section 10)
 - If you buy with an affiliate code, the code and the related purchase are passed to **Insert Affiliate** so that the affiliate who shared it can be credited (see Section 10.1)
-- We receive transaction confirmations, product identifier, price, currency, store, and subscription status only, plus, for purchases on our Website, the campaign label of the link the buyer came through (Section 4.5). **We never receive or store payment card details.**
+- We receive transaction confirmations, product identifier, price, currency, store, and subscription status only, plus the campaign label of the link the buyer came through (for purchases on our Website see Section 4.5; in the App and the web app, Section 14.2). **We never receive or store payment card details.**
 
 ### 4.4 Local Media Access on Android
 
@@ -103,7 +107,7 @@ This section covers visits to our Website beatloop.eu, including the short links
 
 **Campaign labels on our buttons.** If you arrive through one of our links, the App Store and Google Play buttons carry the same campaign label while you browse our Website. We keep the label in the page's memory only: nothing is stored on your device, and it is gone when you reload or close the page. The buttons that open the web app or a course pass the label on to the web app in the address; without a campaign label, you are labelled as coming from our Website. Apple and Google then show us aggregated download numbers per campaign. We receive no information about you personally.
 
-**Reach measurement without cookies (PostHog).** To learn which pages and campaigns lead to downloads and purchases, we count visits to our Website with **PostHog** (PostHog Cloud EU, Frankfurt, Germany):
+**Reach measurement without cookies (PostHog).** To learn which pages and campaigns lead to downloads and purchases, we count visits to our Website with **PostHog** (PostHog Cloud EU, Frankfurt, Germany). Your browser sends this data to an address on our own domain (`beatloop.eu/bl`), which our host Vercel forwards to PostHog unchanged:
 - **What is recorded:** the page you view (its address without personal parameters; sign-in, account, administration and cancellation pages are not recorded at all), the referring website (its domain only), the campaign values in the link you followed, browser, operating system, device type and screen size, and clicks on our App Store and Google Play buttons, on the buttons that open the web app or a course, and on the "Start free trial" button. For our short links, only the count described above is recorded.
 - **No cookies, nothing kept on your device:** the measurement sets no cookies and keeps no identifier in your browser's storage.
 - **Daily visitor key:** to count visitors, PostHog's servers derive a key from your IP address and user-agent string, combined with a secret value that changes every day. **Your IP address is not stored.** Because the secret value changes daily, visits on different days cannot be linked to each other. No profile is created, and the data is not linked to your BeatLoop account.
@@ -423,12 +427,14 @@ The following services may process your data outside the EU:
 - **List of Sub-processors:** [https://sentry.io/legal/subprocessor-list/](https://sentry.io/legal/subprocessor-list/)
 
 **PostHog (Product Analytics):**
-- **Data location:** European Union — PostHog Cloud EU (`eu.i.posthog.com`), hosted on AWS in Frankfurt, Germany (`eu-central-1`)
+- **Data location:** European Union — PostHog Cloud EU (`eu.i.posthog.com`), hosted on AWS in Frankfurt, Germany (`eu-central-1`); our Website and web app send to it through an address on our own domain that Vercel forwards (see Sections 4.5 and 14.2)
 - **Operator:** PostHog, Inc. (US parent; EU Cloud data stored in the EU)
-- **Purpose:** In the App, product and feature-usage analytics to understand how the App is used and improve it, and, on Android, which of our links the App was installed from. On our Website, reach measurement without cookies (see Section 4.5)
-- **Data processed (App):** A **pseudonymous app-instance identifier** (a random ID, not linked to your name or email), in-app feature-usage events, session duration, device/OS type, and subscription tier (free/premium). On Android, also the **install source**: the campaign label of the store link the App was installed from (see Section 14.2). **No name, email, IP address, or GeoIP-derived location is collected** (IP and GeoIP enrichment are disabled), and **session replay is not used**.
+- **Purpose:** In the App and the web app, anonymous usage counting and, with your consent, product and feature-usage analytics to understand how the App is used, which of our links bring people to it, and to improve it; on Android, with your consent, also which of our links the App was installed from. On our Website, reach measurement without cookies (see Section 4.5)
+- **Data processed (App, without consent):** usage events (which feature, course or lesson), the campaign label of the link you came through, operating system, app version, and a **random identifier that lasts only until the App is closed** and is never stored on your device. In the web app, PostHog's servers derive a daily visitor key instead, as on our Website (Section 4.5). No profile is built and nothing is linked to your account.
+- **Data processed (App, with your consent):** in addition, a **pseudonymous identifier** on your device and, when you are signed in, an identifier derived from your account ID (a SHA-256 hash that contains neither your name nor your email address), so that your usage on your phone and in the browser is analysed together; subscription tier, app language, the first and last campaign label you came through, and your survey answers including free text; on Android, the **install source** (see Section 14.2). When you delete your account, we delete this data at PostHog (Section 12.5).
+- **In both cases:** **no name, no email address, no stored IP address, and no GeoIP-derived location** (IP and GeoIP enrichment are disabled), and **no session replay**. Addresses of web-app pages are cleaned of sign-in and gift codes before they are sent.
 - **Data processed (Website):** page views, clicks and short-link counts as described in Section 4.5. Your IP address is used only to derive a daily visitor key on PostHog's servers and is **not stored**; no GeoIP-derived location, no cookies, no profiles, and no session replay.
-- **Legal basis (App):** **Consent (Art. 6(1)(a) GDPR)**. Analytics is **off by default**; it is enabled only after you give explicit opt-in consent via the in-app prompt, and you can withdraw consent at any time in **Account → Privacy Settings** (German § 25 TDDDG is also satisfied by this prior consent).
+- **Legal basis (App):** **without consent**, Art. 6(1)(f) GDPR (our legitimate interest in understanding how the App is used and which of our links bring people to it); you can object at any time (see Section 14.3). **With consent**, Art. 6(1)(a) GDPR and German § 25(1) TDDDG: off by default, enabled only after you agree in the in-app prompt, and you can withdraw consent at any time in **Account → Privacy Settings**.
 - **Legal basis (Website):** Art. 6(1)(f) GDPR (legitimate interest in measuring the reach of our Website). You can object at any time (see Section 4.5).
 - **Retention period:** 12 months
 - **Safeguards:** Data Processing Agreement (DPA) concluded pursuant to Art. 28 GDPR, including Standard Contractual Clauses for any onward transfer to the United States
@@ -506,7 +512,7 @@ If you believe we have not adequately addressed your privacy concerns, you have 
 
 Deletion happens in stages, and we want you to know exactly how:
 
-1. **Immediately:** your account is marked deleted and deactivated. Your profile and session data are no longer accessible through the App.
+1. **Immediately:** your account is marked deleted and deactivated. Your profile and session data are no longer accessible through the App. The analytics data linked to your account at PostHog is deleted; usage counted anonymously (Section 14.2) cannot be linked to any account.
 2. **Within 30 days:** your personal data is permanently erased from our production systems by an automated cleanup process.
 3. **Reactivation during those 30 days:** if you sign in again with the same credentials before permanent erasure, **your account and data are restored**. This grace period protects you against accidental deletion. If you want immediate, irreversible erasure with no grace period, email privacy@on-beat.de and we will carry it out manually.
 4. **Data we must retain:** payment and invoicing records are kept for 7 years under German tax and commercial law, regardless of account deletion.
@@ -520,7 +526,7 @@ Deletion happens in stages, and we want you to know exactly how:
 
 ### 13.2 Usage and Analytics Data
 - **Login records:** Retained for 12 months for security purposes
-- **Product analytics in the App (PostHog):** Individual event data retained for 12 months (see Section 10.1); only aggregated/derived insights may be retained longer. Collected only with your consent.
+- **Product analytics in the App (PostHog):** Individual event data retained for 12 months (see Section 10.1); only aggregated/derived insights may be retained longer. Anonymous counting without consent; personal analytics only with your consent (Section 14.2).
 - **Website reach measurement (PostHog):** Retained for 12 months (see Section 4.5)
 - **Website server logs (Vercel):** Kept by Vercel for a limited period for operation and security; we do not store them ourselves
 - **Error logs:** Retained for 12 months for debugging and improvement
@@ -544,16 +550,28 @@ The App uses minimal tracking technologies:
 - **Error tracking:** Basic crash reporting for app stability
 
 ### 14.2 Product Analytics in the App (PostHog)
-We use **PostHog** (EU Cloud) for product/usage analytics to understand how the App is used and improve it. This analytics:
-- Is **off by default** and runs **only after you give explicit opt-in consent** (Art. 6(1)(a) GDPR; German § 25 TDDDG)
-- Uses a **pseudonymous app-instance identifier** only — no name, email, IP, or GeoIP location, and no session replay
-- On **Android**, records once which of our links you installed the App from: the three campaign values of the Google Play link (platform, placement and content, for example `instagram · dm · r001`, or Google's own `google-play · organic` for an install found in the store), read through Google Play's Install Referrer API, which keeps this information for 90 days after installation. Nothing else from it is kept. It is read only if you agreed to the consent text that names this purpose ("which link you came to BeatLoop from"). This is not available on iPhone or in the web app
-- Stores its opt-out/consent preference on your device
+We use **PostHog** (EU Cloud) for product/usage analytics to understand how the App is used, which of our links bring people to it, and to improve it. There are two levels:
+
+**Anonymous counting (without consent).** Before you decide, and also if you decline, we count how the App is used anonymously:
+- On your phone, the App sends usage events with a random identifier that lasts only until the App is closed and is not stored on your device; PostHog's analytics software is not even started. In the web app (app.beatloop.eu), PostHog runs without cookies and without browser storage; its servers derive a daily-changing visitor key, as on our Website (see Section 4.5).
+- No profile is built, no identifier of your account is sent, and nothing is stored on your device. Events from different app sessions or days cannot be linked.
+- Each event carries the campaign label of the link you came through (for example `ig-r012`), if any. When you buy in the App or the web app, we also pass this label to RevenueCat, which stores it with the purchase (see Section 4.3).
+- Legal basis: Art. 6(1)(f) GDPR. You can object at any time (see Section 14.3).
+
+**Analytics with your consent.** If you agree in the consent prompt:
+- We use a **pseudonymous identifier** on your device and, when you are signed in, an identifier derived from your account ID (a SHA-256 hash — no name, no email), so that your usage on your phone and in the browser is analysed together; what you did before signing in is attributed to your account.
+- We additionally record your subscription tier, app language, the first and last campaign label you came through, and free-text answers in surveys.
+- On **Android**, we record once which of our links you installed the App from: the three campaign values of the Google Play link (platform, placement and content, for example `instagram · dm · r001`, or Google's own `google-play · organic` for an install found in the store), read through Google Play's Install Referrer API, which keeps this information for 90 days after installation. Nothing else from it is kept. It is read only if you agreed to the consent text that names this purpose ("which link you came to BeatLoop from"). This is not available on iPhone or in the web app
+- When you sign out, the link to your account is removed on that device. Your choice is stored on your device.
+- Legal basis: consent (Art. 6(1)(a) GDPR; German § 25(1) TDDDG), which you can withdraw at any time.
+
+**In both levels:** no name, no email address, no stored IP address, no GeoIP location, and no session replay. The web app sends this data through an address on our own domain that our host Vercel forwards to PostHog, and removes sign-in and gift codes from page addresses before sending. Accounts of our own team are marked so that we can leave them out of our evaluations.
 
 See Section 10.1 (PostHog) for hosting, retention, sub-processors, and safeguards.
 
 ### 14.3 Your Control
-- **Analytics opt-out in the App:** Analytics is opt-in; you can grant or withdraw consent at any time in **Account → Privacy Settings**
+- **Analytics with your consent:** you can grant or withdraw consent at any time in **Account → Privacy Settings**
+- **Anonymous counting in the App:** you can object (Art. 21 GDPR) — in the web app by switching on "Global Privacy Control" or "Do Not Track" in your browser, after which nothing is sent without your consent; in the phone app by email to privacy@on-beat.de
 - **Reach measurement on the Website:** switch on "Global Privacy Control" or "Do Not Track" in your browser (see Section 4.5)
 - **Third-party tracking:** We do not use advertising or social media tracking pixels, and we do not track you across other apps or websites
 
@@ -617,6 +635,6 @@ This Privacy Policy is published in English, German and Spanish. **The English v
 
 ---
 
-**This Privacy Policy was last updated on November 19, 2026, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on November 21, 2026, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.
