@@ -1,7 +1,7 @@
 # Datenschutzerklärung
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 21. November 2026
+**Zuletzt aktualisiert:** 22. November 2026
 
 ## 1. Informationen zum Verantwortlichen
 
@@ -434,7 +434,7 @@ Die folgenden Dienste können Ihre Daten außerhalb der EU verarbeiten:
 - **Verarbeitete Daten (App, mit Ihrer Einwilligung):** zusätzlich eine **pseudonyme Kennung** auf Ihrem Gerät und, wenn Sie angemeldet sind, eine aus Ihrer Konto-ID abgeleitete Kennung (ein SHA-256-Hashwert, der weder Ihren Namen noch Ihre E-Mail-Adresse enthält), damit Ihre Nutzung auf dem Smartphone und im Browser zusammen ausgewertet wird; Abonnementstufe, App-Sprache, die erste und letzte Kampagnenbezeichnung, über die Sie gekommen sind, und Ihre Antworten in Umfragen einschließlich Freitext; Ihr **ungefährer Standort** (Land, Region und Stadt), den die Server von PostHog aus Ihrer IP-Adresse ermitteln, die danach verworfen wird; unter Android die **Installationsquelle** (siehe Abschnitt 14.2). Wenn Sie Ihr Konto löschen, löschen wir diese Daten bei PostHog (Abschnitt 12.5).
 - **In beiden Fällen:** **kein Name, keine E-Mail-Adresse, keine gespeicherte IP-Adresse** und **kein Session Replay**; **ohne Einwilligung auch kein Standort** (die Ermittlung des Standorts aus der IP-Adresse ist für diese Ereignisse abgeschaltet). Adressen von Seiten der Web-App werden vor dem Senden um Anmelde- und Geschenkcodes bereinigt.
 - **Verarbeitete Daten (Website):** Seitenaufrufe, Klicks und Kurzlink-Zählungen wie in Abschnitt 4.5 beschrieben. Ihre IP-Adresse wird ausschließlich auf den Servern von PostHog verwendet, um einen täglichen Besucherschlüssel abzuleiten, und **nicht gespeichert**; kein per GeoIP ermittelter Standort, keine Cookies, keine Profile und kein Session Replay.
-- **Rechtsgrundlage (App):** **ohne Einwilligung** Art. 6 Abs. 1 lit. f DSGVO (unser berechtigtes Interesse daran, zu verstehen, wie die App genutzt wird und welche unserer Links zu ihr führen); Sie können jederzeit widersprechen (siehe Abschnitt 14.3). **Mit Einwilligung** Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG: standardmäßig deaktiviert, erst nach Ihrer Zustimmung im In-App-Dialog aktiv und jederzeit widerrufbar unter **Konto → Datenschutzeinstellungen**.
+- **Rechtsgrundlage (App):** **ohne Einwilligung** Art. 6 Abs. 1 lit. f DSGVO (unser berechtigtes Interesse daran, zu verstehen, wie die App genutzt wird und welche unserer Links zu ihr führen); Sie können jederzeit widersprechen (siehe Abschnitt 14.3). **Mit Einwilligung** Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG: standardmäßig deaktiviert, erst nach Ihrer Zustimmung im In-App-Dialog aktiv und jederzeit widerrufbar unter **Konto → Nutzungsdaten teilen**.
 - **Rechtsgrundlage (Website):** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Messung der Reichweite unserer Website). Sie können jederzeit widersprechen (siehe Abschnitt 4.5).
 - **Aufbewahrungsfrist:** 12 Monate
 - **Schutzmaßnahmen:** Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO abgeschlossen, einschließlich Standardvertragsklauseln für jede Weiterübermittlung in die Vereinigten Staaten
@@ -562,7 +562,7 @@ Wir verwenden **PostHog** (EU Cloud) für Produkt-/Nutzungsanalysen, um zu verst
 - verwenden wir eine **pseudonyme Kennung** auf Ihrem Gerät und, wenn Sie angemeldet sind, eine aus Ihrer Konto-ID abgeleitete Kennung (ein SHA-256-Hashwert — kein Name, keine E-Mail), damit Ihre Nutzung auf dem Smartphone und im Browser zusammen ausgewertet wird; was Sie vor der Anmeldung getan haben, wird Ihrem Konto zugeordnet;
 - erfassen wir zusätzlich Ihre Abonnementstufe, App-Sprache, die erste und letzte Kampagnenbezeichnung, über die Sie gekommen sind, Freitext-Antworten in Umfragen und Ihren **ungefähren Standort** (Land, Region und Stadt): Die Server von PostHog ermitteln ihn aus Ihrer IP-Adresse, die danach verworfen und nicht gespeichert wird;
 - erfassen wir unter **Android** einmalig, über welchen unserer Links Sie die App installiert haben: die drei Kampagnenwerte des Google-Play-Links (Plattform, Platzierung und Inhalt, zum Beispiel `instagram · dm · r001`, oder Googles eigenes `google-play · organic` bei einer Installation, die im Store gefunden wurde), ausgelesen über die Install-Referrer-Schnittstelle von Google Play, die diese Information 90 Tage nach der Installation bereithält. Weiteres daraus wird nicht gespeichert. Ausgelesen wird nur, wenn Sie dem Einwilligungstext zugestimmt haben, der diesen Zweck nennt („über welchen Link du zu BeatLoop gekommen bist"). Auf dem iPhone und in der Web-App gibt es dies nicht
-- Wenn Sie sich abmelden, wird die Verknüpfung mit Ihrem Konto auf diesem Gerät getrennt. Ihre Entscheidung wird auf Ihrem Gerät gespeichert.
+- Wenn Sie sich abmelden, wird die Verknüpfung mit Ihrem Konto auf diesem Gerät getrennt. Ihre Entscheidung wird auf Ihrem Gerät gespeichert und gilt für dieses Gerät bzw. diesen Browser – auch wenn sich danach jemand anderes mit einem anderen Konto darauf anmeldet. Jede Person kann sie in ihrem Konto über den Schalter **„Nutzungsdaten teilen"** jederzeit ändern.
 - Rechtsgrundlage: Einwilligung (Art. 6 Abs. 1 lit. a DSGVO; § 25 Abs. 1 TDDDG), jederzeit widerrufbar.
 
 **In beiden Stufen:** kein Name, keine E-Mail-Adresse, keine gespeicherte IP-Adresse und kein Session Replay. Die Web-App sendet die Daten über eine Adresse auf unserer eigenen Domain, die unser Hosting-Anbieter Vercel an PostHog weiterleitet, und entfernt vor dem Senden Anmelde- und Geschenkcodes aus den Seitenadressen. Konten unseres eigenen Teams werden markiert, damit wir sie aus unseren Auswertungen herausfiltern können.
@@ -570,7 +570,7 @@ Wir verwenden **PostHog** (EU Cloud) für Produkt-/Nutzungsanalysen, um zu verst
 Siehe Abschnitt 10.1 (PostHog) für Hosting, Aufbewahrung, Unterauftragsverarbeiter und Schutzmaßnahmen.
 
 ### 14.3 Ihre Kontrolle
-- **Analyse mit Ihrer Einwilligung:** Sie können die Einwilligung jederzeit unter **Konto → Datenschutzeinstellungen** erteilen oder widerrufen
+- **Analyse mit Ihrer Einwilligung:** Sie können die Einwilligung jederzeit unter **Konto → Nutzungsdaten teilen** erteilen oder widerrufen
 - **Anonyme Zählung in der App:** Sie können widersprechen (Art. 21 DSGVO) — in der Web-App, indem Sie in Ihrem Browser „Global Privacy Control" oder „Do Not Track" einschalten; dann wird ohne Ihre Einwilligung nichts gesendet; in der Smartphone-App per E-Mail an privacy@on-beat.de. Nach einem Widerspruch senden wir für Ihr Konto keine Analysedaten mehr, solange Sie angemeldet sind — weder anonym noch mit Einwilligung
 - **Reichweitenmessung auf der Website:** Schalten Sie in Ihrem Browser „Global Privacy Control" oder „Do Not Track" ein (siehe Abschnitt 4.5)
 - **Tracking durch Dritte:** Wir verwenden keine Werbe- oder Social-Media-Tracking-Pixel und verfolgen Sie nicht über andere Apps oder Websites hinweg
@@ -635,6 +635,6 @@ Diese Datenschutzerklärung wird in englischer, deutscher und spanischer Sprache
 
 ---
 
-**Diese Datenschutzerklärung wurde zuletzt am 21. November 2026 aktualisiert und tritt unmittelbar nach Veröffentlichung in Kraft.**
+**Diese Datenschutzerklärung wurde zuletzt am 22. November 2026 aktualisiert und tritt unmittelbar nach Veröffentlichung in Kraft.**
 
 Für die aktuellste Version unserer Datenschutzerklärung überprüfen Sie bitte regelmäßig dieses Dokument oder kontaktieren Sie uns unter privacy@on-beat.de.

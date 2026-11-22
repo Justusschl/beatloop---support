@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective Date:** February 15, 2026
-**Last Updated:** November 21, 2026
+**Last Updated:** November 22, 2026
 
 ## 1. Data Controller Information
 
@@ -434,7 +434,7 @@ The following services may process your data outside the EU:
 - **Data processed (App, with your consent):** in addition, a **pseudonymous identifier** on your device and, when you are signed in, an identifier derived from your account ID (a SHA-256 hash that contains neither your name nor your email address), so that your usage on your phone and in the browser is analysed together; subscription tier, app language, the first and last campaign label you came through, and your survey answers including free text; your **approximate location** (country, region and city), which PostHog's servers derive from your IP address, which is then discarded; on Android, the **install source** (see Section 14.2). When you delete your account, we delete this data at PostHog (Section 12.5).
 - **In both cases:** **no name, no email address, no stored IP address** and **no session replay**; **without consent also no location** (deriving a location from the IP address is switched off for these events). Addresses of web-app pages are cleaned of sign-in and gift codes before they are sent.
 - **Data processed (Website):** page views, clicks and short-link counts as described in Section 4.5. Your IP address is used only to derive a daily visitor key on PostHog's servers and is **not stored**; no GeoIP-derived location, no cookies, no profiles, and no session replay.
-- **Legal basis (App):** **without consent**, Art. 6(1)(f) GDPR (our legitimate interest in understanding how the App is used and which of our links bring people to it); you can object at any time (see Section 14.3). **With consent**, Art. 6(1)(a) GDPR and German § 25(1) TDDDG: off by default, enabled only after you agree in the in-app prompt, and you can withdraw consent at any time in **Account → Privacy Settings**.
+- **Legal basis (App):** **without consent**, Art. 6(1)(f) GDPR (our legitimate interest in understanding how the App is used and which of our links bring people to it); you can object at any time (see Section 14.3). **With consent**, Art. 6(1)(a) GDPR and German § 25(1) TDDDG: off by default, enabled only after you agree in the in-app prompt, and you can withdraw consent at any time in **Account → Share Usage Data**.
 - **Legal basis (Website):** Art. 6(1)(f) GDPR (legitimate interest in measuring the reach of our Website). You can object at any time (see Section 4.5).
 - **Retention period:** 12 months
 - **Safeguards:** Data Processing Agreement (DPA) concluded pursuant to Art. 28 GDPR, including Standard Contractual Clauses for any onward transfer to the United States
@@ -562,7 +562,7 @@ We use **PostHog** (EU Cloud) for product/usage analytics to understand how the 
 - We use a **pseudonymous identifier** on your device and, when you are signed in, an identifier derived from your account ID (a SHA-256 hash — no name, no email), so that your usage on your phone and in the browser is analysed together; what you did before signing in is attributed to your account.
 - We additionally record your subscription tier, app language, the first and last campaign label you came through, free-text answers in surveys and your **approximate location** (country, region and city): PostHog's servers derive it from your IP address, which is then discarded and not stored.
 - On **Android**, we record once which of our links you installed the App from: the three campaign values of the Google Play link (platform, placement and content, for example `instagram · dm · r001`, or Google's own `google-play · organic` for an install found in the store), read through Google Play's Install Referrer API, which keeps this information for 90 days after installation. Nothing else from it is kept. It is read only if you agreed to the consent text that names this purpose ("which link you came to BeatLoop from"). This is not available on iPhone or in the web app
-- When you sign out, the link to your account is removed on that device. Your choice is stored on your device.
+- When you sign out, the link to your account is removed on that device. Your choice is stored on your device and applies to that device or browser, including when someone else later signs in to a different account on it. Anyone can change it at any time in their account with the **Share Usage Data** switch.
 - Legal basis: consent (Art. 6(1)(a) GDPR; German § 25(1) TDDDG), which you can withdraw at any time.
 
 **In both levels:** no name, no email address, no stored IP address, and no session replay. The web app sends this data through an address on our own domain that our host Vercel forwards to PostHog, and removes sign-in and gift codes from page addresses before sending. Accounts of our own team are marked so that we can leave them out of our evaluations.
@@ -570,7 +570,7 @@ We use **PostHog** (EU Cloud) for product/usage analytics to understand how the 
 See Section 10.1 (PostHog) for hosting, retention, sub-processors, and safeguards.
 
 ### 14.3 Your Control
-- **Analytics with your consent:** you can grant or withdraw consent at any time in **Account → Privacy Settings**
+- **Analytics with your consent:** you can grant or withdraw consent at any time in **Account → Share Usage Data**
 - **Anonymous counting in the App:** you can object (Art. 21 GDPR) — in the web app by switching on "Global Privacy Control" or "Do Not Track" in your browser, after which nothing is sent without your consent; in the phone app by email to privacy@on-beat.de. After an objection, we send no analytics data for your account while you are signed in — neither anonymous nor with consent
 - **Reach measurement on the Website:** switch on "Global Privacy Control" or "Do Not Track" in your browser (see Section 4.5)
 - **Third-party tracking:** We do not use advertising or social media tracking pixels, and we do not track you across other apps or websites
@@ -635,6 +635,6 @@ This Privacy Policy is published in English, German and Spanish. **The English v
 
 ---
 
-**This Privacy Policy was last updated on November 21, 2026, and becomes effective immediately upon posting.**
+**This Privacy Policy was last updated on November 22, 2026, and becomes effective immediately upon posting.**
 
 For the most current version of our Privacy Policy, please check this document regularly or contact us at privacy@on-beat.de.

@@ -1,7 +1,7 @@
 # Política de Privacidad
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 21 de noviembre de 2026
+**Última Actualización:** 22 de noviembre de 2026
 
 ## 1. Información sobre el Responsable del Tratamiento
 
@@ -434,7 +434,7 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - **Datos procesados (App, con su consentimiento):** además, un **identificador seudónimo** en su dispositivo y, cuando ha iniciado sesión, un identificador derivado del ID de su cuenta (un hash SHA-256 que no contiene ni su nombre ni su correo electrónico), para analizar juntos su uso en el teléfono y en el navegador; nivel de suscripción, idioma de la app, la primera y la última etiqueta de campaña por la que llegó y sus respuestas en encuestas, incluido el texto libre; su **ubicación aproximada** (país, región y ciudad), que los servidores de PostHog derivan de su dirección IP, que después se descarta; en Android, el **origen de la instalación** (véase la Sección 14.2). Cuando elimina su cuenta, eliminamos estos datos en PostHog (Sección 12.5).
 - **En ambos casos:** **sin nombre, sin correo electrónico, sin dirección IP almacenada** y **sin reproducción de sesiones**; **sin consentimiento, tampoco ubicación** (la obtención de la ubicación a partir de la dirección IP está desactivada para estos eventos). Las direcciones de las páginas de la aplicación web se limpian de códigos de inicio de sesión y de regalo antes de enviarse.
 - **Datos procesados (Sitio Web):** visitas a páginas, clics y recuentos de enlaces cortos, tal como se describe en la Sección 4.5. Su dirección IP se utiliza únicamente para derivar una clave diaria de visitante en los servidores de PostHog y **no se almacena**; sin ubicación derivada de GeoIP, sin cookies, sin perfiles y sin reproducción de sesiones.
-- **Base jurídica (App):** **sin consentimiento**, Art. 6(1)(f) del RGPD (nuestro interés legítimo en entender cómo se usa la App y cuáles de nuestros enlaces llevan a ella); puede oponerse en cualquier momento (véase la Sección 14.3). **Con consentimiento**, Art. 6(1)(a) del RGPD y § 25(1) de la TDDDG alemana: desactivado de forma predeterminada, solo se activa después de que usted acepte en el diálogo dentro de la app, y puede retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad**.
+- **Base jurídica (App):** **sin consentimiento**, Art. 6(1)(f) del RGPD (nuestro interés legítimo en entender cómo se usa la App y cuáles de nuestros enlaces llevan a ella); puede oponerse en cualquier momento (véase la Sección 14.3). **Con consentimiento**, Art. 6(1)(a) del RGPD y § 25(1) de la TDDDG alemana: desactivado de forma predeterminada, solo se activa después de que usted acepte en el diálogo dentro de la app, y puede retirar el consentimiento en cualquier momento en **Cuenta → Compartir datos de uso**.
 - **Base jurídica (Sitio Web):** Art. 6(1)(f) del RGPD (interés legítimo en medir el alcance de nuestro Sitio Web). Puede oponerse en cualquier momento (véase la Sección 4.5).
 - **Período de conservación:** 12 meses
 - **Salvaguardias:** Acuerdo de Tratamiento de Datos (DPA) firmado de conformidad con el Art. 28 del RGPD, incluidas las Cláusulas Contractuales Tipo para cualquier transferencia ulterior a los Estados Unidos
@@ -562,7 +562,7 @@ Utilizamos **PostHog** (EU Cloud) para el análisis de producto/uso con el fin d
 - utilizamos un **identificador seudónimo** en su dispositivo y, cuando ha iniciado sesión, un identificador derivado del ID de su cuenta (un hash SHA-256 — sin nombre ni correo electrónico), para analizar juntos su uso en el teléfono y en el navegador; lo que hizo antes de iniciar sesión se atribuye a su cuenta;
 - registramos además su nivel de suscripción, el idioma de la app, la primera y la última etiqueta de campaña por la que llegó, las respuestas de texto libre en encuestas y su **ubicación aproximada** (país, región y ciudad): los servidores de PostHog la derivan de su dirección IP, que después se descarta y no se almacena;
 - en **Android**, registramos una sola vez a través de cuál de nuestros enlaces instaló la App: los tres valores de campaña del enlace de Google Play (plataforma, ubicación y contenido, por ejemplo `instagram · dm · r001`, o el valor propio de Google `google-play · organic` si la App se encontró en la tienda), leídos mediante la interfaz Install Referrer de Google Play, que conserva esta información durante 90 días después de la instalación. No se guarda nada más de ella. Solo se lee si usted aceptó el texto de consentimiento que menciona esta finalidad («a través de qué enlace llegaste a BeatLoop»). No está disponible en iPhone ni en la aplicación web
-- al cerrar sesión, se elimina la vinculación con su cuenta en ese dispositivo. Su decisión se guarda en su dispositivo.
+- al cerrar sesión, se elimina la vinculación con su cuenta en ese dispositivo. Su decisión se guarda en su dispositivo y se aplica a ese dispositivo o navegador, también si después otra persona inicia sesión en él con otra cuenta. Cualquier persona puede cambiarla en cualquier momento en su cuenta con el interruptor **«Compartir datos de uso»**.
 - Base jurídica: consentimiento (Art. 6(1)(a) del RGPD; § 25(1) de la TDDDG alemana), que puede retirar en cualquier momento.
 
 **En ambos niveles:** sin nombre, sin correo electrónico, sin dirección IP almacenada y sin reproducción de sesiones. La aplicación web envía los datos a través de una dirección de nuestro propio dominio que nuestro proveedor de alojamiento Vercel reenvía a PostHog, y elimina de las direcciones de las páginas los códigos de inicio de sesión y de regalo antes de enviarlas. Las cuentas de nuestro propio equipo se marcan para poder excluirlas de nuestras evaluaciones.
@@ -570,7 +570,7 @@ Utilizamos **PostHog** (EU Cloud) para el análisis de producto/uso con el fin d
 Véase la Sección 10.1 (PostHog) para el alojamiento, la conservación, los subencargados del tratamiento y las salvaguardias.
 
 ### 14.3 Su Control
-- **Análisis con su consentimiento:** puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad**
+- **Análisis con su consentimiento:** puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Compartir datos de uso**
 - **Recuento anónimo en la App:** puede oponerse (Art. 21 del RGPD) — en la aplicación web, activando «Global Privacy Control» o «Do Not Track» en su navegador, tras lo cual no se envía nada sin su consentimiento; en la app del teléfono, por correo electrónico a privacy@on-beat.de. Tras su oposición, no enviamos datos de análisis de su cuenta mientras haya iniciado sesión, ni anónimos ni con consentimiento
 - **Medición del alcance en el Sitio Web:** active «Global Privacy Control» o «Do Not Track» en su navegador (véase la Sección 4.5)
 - **Seguimiento de terceros:** No utilizamos píxeles de seguimiento de publicidad ni de redes sociales, y no le rastreamos a través de otras apps o sitios web
@@ -635,6 +635,6 @@ Esta Política de Privacidad se publica en inglés, alemán y español. **La ver
 
 ---
 
-**Esta Política de Privacidad se actualizó por última vez el 21 de noviembre de 2026 y entra en vigor inmediatamente después de su publicación.**
+**Esta Política de Privacidad se actualizó por última vez el 22 de noviembre de 2026 y entra en vigor inmediatamente después de su publicación.**
 
 Para obtener la versión más actual de nuestra Política de Privacidad, consulte este documento periódicamente o póngase en contacto con nosotros en privacy@on-beat.de.
