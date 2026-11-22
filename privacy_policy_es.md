@@ -1,7 +1,7 @@
 # Política de Privacidad
 
 **Fecha de Entrada en Vigor:** 15 de febrero de 2026
-**Última Actualización:** 19 de noviembre de 2026
+**Última Actualización:** 22 de noviembre de 2026
 
 ## 1. Información sobre el Responsable del Tratamiento
 
@@ -26,8 +26,8 @@ Esta Política de Privacidad explica cómo recopilamos, usamos, procesamos y pro
 Procesamos sus datos personales sobre la base de los siguientes fundamentos jurídicos:
 
 - **Ejecución de un Contrato** (Artículo 6(1)(b)): Para proporcionar los servicios de la App, la gestión de cuentas y las funciones premium, así como para vender suscripciones y entradas para eventos en nuestro Sitio Web
-- **Intereses Legítimos** (Artículo 6(1)(f)): Seguridad, prevención del fraude, diagnóstico de fallos y errores (Sentry), atención al cliente, alojamiento y entrega de nuestro Sitio Web, redirección de nuestros enlaces cortos, **medición del alcance de nuestro Sitio Web sin cookies** (Sección 4.5) y atribución de códigos de afiliado
-- **Consentimiento** (Artículo 6(1)(a)): **Notificaciones push y comunicaciones de marketing** (Artículo 6(1)(a) del RGPD junto con el § 7(2) de la UWG — véase la Sección 6), **análisis de producto y de uso en la App (PostHog)** y determinadas integraciones opcionales de terceros. El análisis de producto en la App se recopila **únicamente** después de que usted dé su consentimiento explícito (opt-in) y puede retirarse en cualquier momento.
+- **Intereses Legítimos** (Artículo 6(1)(f)): Seguridad, prevención del fraude, diagnóstico de fallos y errores (Sentry), atención al cliente, alojamiento y entrega de nuestro Sitio Web, redirección de nuestros enlaces cortos, **medición del alcance de nuestro Sitio Web sin cookies** (Sección 4.5), **recuento anónimo del uso en la App** (Sección 14.2), atribución de códigos de afiliado y registro de la etiqueta de campaña de una compra
+- **Consentimiento** (Artículo 6(1)(a)): **Notificaciones push y comunicaciones de marketing** (Artículo 6(1)(a) del RGPD junto con el § 7(2) de la UWG — véase la Sección 6), **análisis personal de producto y de uso en la App (PostHog)** — la vinculación de su uso con su cuenta, las respuestas de texto libre en encuestas, su ubicación aproximada (ciudad) y, en Android, el origen de la instalación — y determinadas integraciones opcionales de terceros. Este análisis se realiza **únicamente** después de que usted dé su consentimiento explícito (opt-in) y puede retirarse en cualquier momento. Sin consentimiento, solo contamos el uso de forma anónima (véase la Sección 14.2).
 - **Obligación Legal** (Artículo 6(1)(c)): Cumplimiento de las leyes aplicables, obligaciones fiscales y solicitudes legales
 
 ## 4. Información que Recopilamos
@@ -51,20 +51,24 @@ Procesamos sus datos personales sobre la base de los siguientes fundamentos jur�
 - Consultas de soporte y comentarios
 - Correspondencia relativa a su cuenta o a la App
 
+**Encuestas:**
+- Encuestas breves en la App: antes de iniciar sesión (su rol, sus estilos de baile y cómo conoció BeatLoop) y antes del primer vídeo de determinados cursos (tres preguntas de sí/no sobre cómo practica). Las respuestas de la encuesta de inicio de sesión se guardan con su cuenta; las de la encuesta del curso permanecen en su dispositivo. Las utilizamos para mejorar BeatLoop y entender cómo llegan las personas a nosotros (Art. 6(1)(f) del RGPD). Las opciones que elige también se cuentan en nuestro análisis (Sección 14.2); un texto libre en «Otro», solo con su consentimiento.
+
 ### 4.2 Información Recopilada Automáticamente
 
 Esta sección describe la App. Lo que se recopila automáticamente cuando visita nuestro Sitio Web se describe en la Sección 4.5.
 
 **Datos de Uso y Análisis:**
-- Análisis de producto/uso de funciones en la App (qué funciones se usan y cómo) y, en Android, a través de cuál de nuestros enlaces instaló la App (véase la Sección 14.2) — recopilados a través de PostHog **únicamente después de que usted dé su consentimiento explícito (opt-in)** (véase la Sección 10.1); nunca se recopilan si usted rechaza o aún no ha dado su consentimiento
-- Duración de la sesión y frecuencia de uso (parte del análisis basado en consentimiento mencionado arriba)
+- **Recuento anónimo del uso** en la App y en la aplicación web (qué funciones, cursos y lecciones se utilizan y a través de cuál de nuestros enlaces llegó) — sin guardar nada en su dispositivo, crear un perfil ni vincularlo a su cuenta; también sin consentimiento (véase la Sección 14.2)
+- **Análisis de producto/uso de funciones con su consentimiento:** el mismo uso, vinculado a su cuenta mediante un identificador que no contiene ni su nombre ni su correo electrónico, además de las respuestas de texto libre en encuestas, su ubicación aproximada (ciudad) y, en Android, a través de cuál de nuestros enlaces instaló la App (véase la Sección 14.2) — recopilado a través de PostHog **únicamente después de que usted dé su consentimiento explícito (opt-in)** (véase la Sección 10.1)
+- Duración de la sesión y frecuencia de uso (parte del análisis mencionado arriba)
 - Métricas de rendimiento del dispositivo relacionadas con el procesamiento de audio/vídeo
 - Informes de errores y registros de fallos (a través de Sentry — véase la Sección 10.1, tratados sobre la base del interés legítimo, con independencia del consentimiento de análisis)
 
 **Información del Dispositivo y Técnica:**
 - Modelo del dispositivo, sistema operativo y versión
 - Versión de la App e identificador de instalación
-- Dirección IP y ubicación general (nivel de país/región)
+- Dirección IP y ubicación general (nivel de país/región; con su consentimiento para el análisis, también la ciudad, véase la Sección 14.2)
 - Tipo de conexión de red
 
 **Datos de Autenticación:**
@@ -85,7 +89,7 @@ Esta sección describe la App. Lo que se recopila automáticamente cuando visita
 - En nuestro Sitio Web: las suscripciones se venden a través de una página de pago gestionada por **RevenueCat** (RevenueCat Web Billing), y el pago lo procesa **Stripe**. Las entradas para eventos de nuestro Sitio Web se venden a través de Stripe (véase la Sección 4.5)
 - **RevenueCat** recibe de Apple, Google y Stripe la confirmación de sus compras y nos comunica su estado de derechos (véase la Sección 10)
 - Si compra con un código de afiliado, el código y la compra correspondiente se transmiten a **Insert Affiliate** para que la compra pueda atribuirse al afiliado que lo compartió (véase la Sección 10.1)
-- Solo recibimos confirmaciones de transacciones, identificador de producto, precio, moneda, tienda y estado de la suscripción, además, en las compras en nuestro Sitio Web, de la etiqueta de campaña del enlace por el que llegó el comprador (Sección 4.5). **Nunca recibimos ni almacenamos datos de tarjetas de pago.**
+- Solo recibimos confirmaciones de transacciones, identificador de producto, precio, moneda, tienda y estado de la suscripción, además de la etiqueta de campaña del enlace por el que llegó el comprador (para las compras en nuestro Sitio Web, véase la Sección 4.5; en la App y en la aplicación web, la Sección 14.2). **Nunca recibimos ni almacenamos datos de tarjetas de pago.**
 
 ### 4.4 Acceso a Medios Locales en Android
 
@@ -103,7 +107,7 @@ Esta sección abarca las visitas a nuestro Sitio Web beatloop.eu, incluidos los 
 
 **Etiquetas de campaña en nuestros botones.** Si llega a través de uno de nuestros enlaces, los botones de App Store y Google Play llevan la misma etiqueta de campaña mientras navega por nuestro Sitio Web. Conservamos la etiqueta solo en la memoria de la página: no se guarda nada en su dispositivo y desaparece al recargar o cerrar la página. Los botones que abren la aplicación web o un curso transmiten la etiqueta a la aplicación web en la dirección; sin etiqueta de campaña, se le identifica como visitante de nuestro Sitio Web. Apple y Google nos muestran después cifras de descargas agregadas por campaña. No recibimos ninguna información sobre usted personalmente.
 
-**Medición del alcance sin cookies (PostHog).** Para saber qué páginas y campañas dan lugar a descargas y compras, contamos las visitas a nuestro Sitio Web con **PostHog** (PostHog Cloud EU, Frankfurt, Alemania):
+**Medición del alcance sin cookies (PostHog).** Para saber qué páginas y campañas dan lugar a descargas y compras, contamos las visitas a nuestro Sitio Web con **PostHog** (PostHog Cloud EU, Frankfurt, Alemania). Su navegador envía estos datos a una dirección de nuestro propio dominio (`beatloop.eu/bl`), que nuestro proveedor de alojamiento Vercel reenvía sin cambios a PostHog:
 - **Qué se registra:** la página que visita (su dirección sin parámetros personales; las páginas de inicio de sesión, de cuenta, de administración y de cancelación no se registran en absoluto), el sitio web de referencia (solo su dominio), los valores de campaña del enlace que ha seguido, el navegador, el sistema operativo, el tipo de dispositivo y el tamaño de pantalla, así como los clics en nuestros botones de App Store y Google Play, en los botones que abren la aplicación web o un curso y en el botón «Start free trial». En nuestros enlaces cortos solo se registra el recuento descrito más arriba.
 - **Sin cookies, nada se guarda en su dispositivo:** la medición no instala cookies ni guarda ningún identificador en el almacenamiento de su navegador.
 - **Clave diaria de visitante:** para contar los visitantes, los servidores de PostHog derivan una clave a partir de su dirección IP y de la cadena de agente de usuario, combinadas con un valor secreto que cambia cada día. **Su dirección IP no se almacena.** Como el valor secreto cambia a diario, las visitas de días distintos no pueden vincularse entre sí. No se crea ningún perfil y los datos no se vinculan a su cuenta de BeatLoop.
@@ -423,12 +427,14 @@ Los siguientes servicios pueden procesar sus datos fuera de la UE:
 - **Lista de Subencargados del Tratamiento:** [https://sentry.io/legal/subprocessor-list/](https://sentry.io/legal/subprocessor-list/)
 
 **PostHog (Análisis de Producto):**
-- **Ubicación de los datos:** Unión Europea — PostHog Cloud EU (`eu.i.posthog.com`), alojado en AWS en Frankfurt, Alemania (`eu-central-1`)
+- **Ubicación de los datos:** Unión Europea — PostHog Cloud EU (`eu.i.posthog.com`), alojado en AWS en Frankfurt, Alemania (`eu-central-1`); nuestro Sitio Web y la aplicación web envían los datos a través de una dirección de nuestro propio dominio que Vercel reenvía (véanse las Secciones 4.5 y 14.2)
 - **Operador:** PostHog, Inc. (empresa matriz en EE. UU.; los datos de EU Cloud se almacenan en la UE)
-- **Finalidad:** En la App, análisis de producto y de uso de funciones para entender cómo se usa la App y mejorarla y, en Android, a través de cuál de nuestros enlaces se instaló la App. En nuestro Sitio Web, medición del alcance sin cookies (véase la Sección 4.5)
-- **Datos procesados (App):** Un **identificador de instancia de app seudónimo** (un ID aleatorio, no vinculado a su nombre ni a su correo electrónico), eventos de uso de funciones dentro de la app, duración de la sesión, tipo de dispositivo/sistema operativo y nivel de suscripción (gratuito/premium). En Android, además, el **origen de la instalación**: la etiqueta de campaña del enlace de la tienda a través del que se instaló la App (véase la Sección 14.2). **No se recopila nombre, correo electrónico, dirección IP ni ubicación derivada de GeoIP** (el enriquecimiento de IP y GeoIP está desactivado), y **no se utiliza la reproducción de sesiones (session replay)**.
+- **Finalidad:** En la App y en la aplicación web, recuento anónimo del uso y, con su consentimiento, análisis de producto y de uso de funciones para entender cómo se usa la App y cuáles de nuestros enlaces llevan a ella, y para mejorarla; en Android, con su consentimiento, también a través de cuál de nuestros enlaces se instaló la App. En nuestro Sitio Web, medición del alcance sin cookies (véase la Sección 4.5)
+- **Datos procesados (App, sin consentimiento):** eventos de uso (qué función, curso o lección), la etiqueta de campaña del enlace por el que llegó, sistema operativo, versión de la app y un **identificador aleatorio que solo dura hasta que se cierra la App** y nunca se guarda en su dispositivo. En la aplicación web, los servidores de PostHog derivan en su lugar una clave diaria de visitante, como en nuestro Sitio Web (Sección 4.5). No se crea ningún perfil ni se vincula nada con su cuenta.
+- **Datos procesados (App, con su consentimiento):** además, un **identificador seudónimo** en su dispositivo y, cuando ha iniciado sesión, un identificador derivado del ID de su cuenta (un hash SHA-256 que no contiene ni su nombre ni su correo electrónico), para analizar juntos su uso en el teléfono y en el navegador; nivel de suscripción, idioma de la app, la primera y la última etiqueta de campaña por la que llegó y sus respuestas en encuestas, incluido el texto libre; su **ubicación aproximada** (país, región y ciudad), que los servidores de PostHog derivan de su dirección IP, que después se descarta; en Android, el **origen de la instalación** (véase la Sección 14.2). Cuando elimina su cuenta, eliminamos estos datos en PostHog (Sección 12.5).
+- **En ambos casos:** **sin nombre, sin correo electrónico, sin dirección IP almacenada** y **sin reproducción de sesiones**; **sin consentimiento, tampoco ubicación** (la obtención de la ubicación a partir de la dirección IP está desactivada para estos eventos). Las direcciones de las páginas de la aplicación web se limpian de códigos de inicio de sesión y de regalo antes de enviarse.
 - **Datos procesados (Sitio Web):** visitas a páginas, clics y recuentos de enlaces cortos, tal como se describe en la Sección 4.5. Su dirección IP se utiliza únicamente para derivar una clave diaria de visitante en los servidores de PostHog y **no se almacena**; sin ubicación derivada de GeoIP, sin cookies, sin perfiles y sin reproducción de sesiones.
-- **Base jurídica (App):** **Consentimiento (Art. 6(1)(a) del RGPD)**. El análisis está **desactivado de forma predeterminada**; solo se activa después de que usted dé su consentimiento explícito a través del diálogo dentro de la app, y puede retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad** (el § 25 de la TDDDG alemana también se cumple con este consentimiento previo).
+- **Base jurídica (App):** **sin consentimiento**, Art. 6(1)(f) del RGPD (nuestro interés legítimo en entender cómo se usa la App y cuáles de nuestros enlaces llevan a ella); puede oponerse en cualquier momento (véase la Sección 14.3). **Con consentimiento**, Art. 6(1)(a) del RGPD y § 25(1) de la TDDDG alemana: desactivado de forma predeterminada, solo se activa después de que usted acepte en el diálogo dentro de la app, y puede retirar el consentimiento en cualquier momento en **Cuenta → Compartir datos de uso**.
 - **Base jurídica (Sitio Web):** Art. 6(1)(f) del RGPD (interés legítimo en medir el alcance de nuestro Sitio Web). Puede oponerse en cualquier momento (véase la Sección 4.5).
 - **Período de conservación:** 12 meses
 - **Salvaguardias:** Acuerdo de Tratamiento de Datos (DPA) firmado de conformidad con el Art. 28 del RGPD, incluidas las Cláusulas Contractuales Tipo para cualquier transferencia ulterior a los Estados Unidos
@@ -506,7 +512,7 @@ Si cree que no hemos abordado adecuadamente sus inquietudes sobre la privacidad,
 
 La eliminación se produce por fases, y queremos que sepa exactamente cómo:
 
-1. **De inmediato:** su cuenta se marca como eliminada y se desactiva. Su perfil y los datos de sus sesiones dejan de ser accesibles a través de la aplicación.
+1. **De inmediato:** su cuenta se marca como eliminada y se desactiva. Su perfil y los datos de sus sesiones dejan de ser accesibles a través de la aplicación. Los datos de análisis vinculados a su cuenta en PostHog se eliminan; el uso contado de forma anónima (Sección 14.2) no puede vincularse a ninguna cuenta.
 2. **En un plazo de 30 días:** sus datos personales se borran de forma permanente de nuestros sistemas de producción mediante un proceso automatizado de limpieza.
 3. **Reactivación durante esos 30 días:** si vuelve a iniciar sesión con las mismas credenciales antes del borrado definitivo, **su cuenta y sus datos se restauran**. Este período de gracia le protege frente a eliminaciones accidentales. Si desea un borrado inmediato e irreversible sin período de gracia, escriba a privacy@on-beat.de y lo llevaremos a cabo manualmente.
 4. **Datos que debemos conservar:** los registros de pago y facturación se conservan durante 7 años conforme a la legislación fiscal y mercantil alemana, con independencia de la eliminación de la cuenta.
@@ -520,7 +526,7 @@ La eliminación se produce por fases, y queremos que sepa exactamente cómo:
 
 ### 13.2 Datos de Uso y Análisis
 - **Registros de inicio de sesión:** Conservados durante 12 meses por motivos de seguridad
-- **Análisis de producto en la App (PostHog):** Datos de eventos individuales conservados según la Sección 10.1 (12 meses); solo las conclusiones agregadas/derivadas pueden conservarse más tiempo. Recopilados únicamente con su consentimiento.
+- **Análisis de producto en la App (PostHog):** Datos de eventos individuales conservados según la Sección 10.1 (12 meses); solo las conclusiones agregadas/derivadas pueden conservarse más tiempo. Recuento anónimo sin consentimiento; análisis personal solo con su consentimiento (Sección 14.2).
 - **Medición del alcance del Sitio Web (PostHog):** Datos conservados durante 12 meses (véase la Sección 4.5)
 - **Registros del servidor del Sitio Web (Vercel):** Vercel los conserva durante un período limitado para el funcionamiento y la seguridad; nosotros no los almacenamos
 - **Registros de errores:** Conservados durante 12 meses para la depuración y la mejora
@@ -544,16 +550,28 @@ La App utiliza tecnologías de seguimiento mínimas:
 - **Seguimiento de errores:** Informes básicos de fallos para la estabilidad de la app
 
 ### 14.2 Análisis de Producto en la App (PostHog)
-Utilizamos **PostHog** (EU Cloud) para el análisis de producto/uso con el fin de entender cómo se usa la App y mejorarla. Este análisis:
-- está **desactivado de forma predeterminada** y solo se ejecuta **después de que usted dé su consentimiento explícito (opt-in)** (Art. 6(1)(a) del RGPD; § 25 de la TDDDG alemana)
-- utiliza únicamente un **identificador de instancia de app seudónimo** — sin nombre, correo electrónico, IP ni ubicación GeoIP, y sin reproducción de sesiones
-- en **Android**, registra una sola vez a través de cuál de nuestros enlaces instaló la App: los tres valores de campaña del enlace de Google Play (plataforma, ubicación y contenido, por ejemplo `instagram · dm · r001`, o el valor propio de Google `google-play · organic` si la App se encontró en la tienda), leídos mediante la interfaz Install Referrer de Google Play, que conserva esta información durante 90 días después de la instalación. No se guarda nada más de ella. Solo se lee si usted aceptó el texto de consentimiento que menciona esta finalidad («a través de qué enlace llegaste a BeatLoop»). No está disponible en iPhone ni en la aplicación web
-- almacena su preferencia de exclusión/consentimiento en su dispositivo
+Utilizamos **PostHog** (EU Cloud) para el análisis de producto/uso con el fin de entender cómo se usa la App y cuáles de nuestros enlaces llevan a ella, y para mejorarla. Hay dos niveles:
+
+**Recuento anónimo (sin consentimiento).** Antes de que usted decida, y también si lo rechaza, contamos el uso de la App de forma anónima:
+- En el teléfono, la App envía eventos de uso con un identificador aleatorio que solo dura hasta que se cierra la App y no se guarda en su dispositivo; el software de análisis de PostHog ni siquiera se inicia. En la aplicación web (app.beatloop.eu), PostHog funciona sin cookies y sin almacenamiento en el navegador; sus servidores derivan una clave de visitante que cambia cada día, como en nuestro Sitio Web (véase la Sección 4.5).
+- No se crea ningún perfil, no se obtiene ninguna ubicación, no se envía ningún identificador de su cuenta y no se guarda nada en su dispositivo. Los eventos de distintas sesiones de la app o de distintos días no pueden vincularse.
+- Cada evento lleva, si existe, la etiqueta de campaña del enlace por el que llegó (por ejemplo `ig-r012`). Cuando compra en la App o en la aplicación web, también pasamos esta etiqueta a RevenueCat, que la guarda con la compra (véase la Sección 4.3).
+- Base jurídica: Art. 6(1)(f) del RGPD. Puede oponerse en cualquier momento (véase la Sección 14.3).
+
+**Análisis con su consentimiento.** Si acepta en el diálogo de consentimiento:
+- utilizamos un **identificador seudónimo** en su dispositivo y, cuando ha iniciado sesión, un identificador derivado del ID de su cuenta (un hash SHA-256 — sin nombre ni correo electrónico), para analizar juntos su uso en el teléfono y en el navegador; lo que hizo antes de iniciar sesión se atribuye a su cuenta;
+- registramos además su nivel de suscripción, el idioma de la app, la primera y la última etiqueta de campaña por la que llegó, las respuestas de texto libre en encuestas y su **ubicación aproximada** (país, región y ciudad): los servidores de PostHog la derivan de su dirección IP, que después se descarta y no se almacena;
+- en **Android**, registramos una sola vez a través de cuál de nuestros enlaces instaló la App: los tres valores de campaña del enlace de Google Play (plataforma, ubicación y contenido, por ejemplo `instagram · dm · r001`, o el valor propio de Google `google-play · organic` si la App se encontró en la tienda), leídos mediante la interfaz Install Referrer de Google Play, que conserva esta información durante 90 días después de la instalación. No se guarda nada más de ella. Solo se lee si usted aceptó el texto de consentimiento que menciona esta finalidad («a través de qué enlace llegaste a BeatLoop»). No está disponible en iPhone ni en la aplicación web
+- al cerrar sesión, se elimina la vinculación con su cuenta en ese dispositivo. Su decisión se guarda en su dispositivo y se aplica a ese dispositivo o navegador, también si después otra persona inicia sesión en él con otra cuenta. Cualquier persona puede cambiarla en cualquier momento en su cuenta con el interruptor **«Compartir datos de uso»**.
+- Base jurídica: consentimiento (Art. 6(1)(a) del RGPD; § 25(1) de la TDDDG alemana), que puede retirar en cualquier momento.
+
+**En ambos niveles:** sin nombre, sin correo electrónico, sin dirección IP almacenada y sin reproducción de sesiones. La aplicación web envía los datos a través de una dirección de nuestro propio dominio que nuestro proveedor de alojamiento Vercel reenvía a PostHog, y elimina de las direcciones de las páginas los códigos de inicio de sesión y de regalo antes de enviarlas. Las cuentas de nuestro propio equipo se marcan para poder excluirlas de nuestras evaluaciones.
 
 Véase la Sección 10.1 (PostHog) para el alojamiento, la conservación, los subencargados del tratamiento y las salvaguardias.
 
 ### 14.3 Su Control
-- **Exclusión de análisis en la App:** El análisis es opcional (opt-in); puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Configuración de Privacidad**
+- **Análisis con su consentimiento:** puede otorgar o retirar el consentimiento en cualquier momento en **Cuenta → Compartir datos de uso**
+- **Recuento anónimo en la App:** puede oponerse (Art. 21 del RGPD) — en la aplicación web, activando «Global Privacy Control» o «Do Not Track» en su navegador, tras lo cual no se envía nada sin su consentimiento; en la app del teléfono, por correo electrónico a privacy@on-beat.de. Tras su oposición, no enviamos datos de análisis de su cuenta mientras haya iniciado sesión, ni anónimos ni con consentimiento
 - **Medición del alcance en el Sitio Web:** active «Global Privacy Control» o «Do Not Track» en su navegador (véase la Sección 4.5)
 - **Seguimiento de terceros:** No utilizamos píxeles de seguimiento de publicidad ni de redes sociales, y no le rastreamos a través de otras apps o sitios web
 
@@ -617,6 +635,6 @@ Esta Política de Privacidad se publica en inglés, alemán y español. **La ver
 
 ---
 
-**Esta Política de Privacidad se actualizó por última vez el 19 de noviembre de 2026 y entra en vigor inmediatamente después de su publicación.**
+**Esta Política de Privacidad se actualizó por última vez el 22 de noviembre de 2026 y entra en vigor inmediatamente después de su publicación.**
 
 Para obtener la versión más actual de nuestra Política de Privacidad, consulte este documento periódicamente o póngase en contacto con nosotros en privacy@on-beat.de.

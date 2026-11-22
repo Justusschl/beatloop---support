@@ -1,7 +1,7 @@
 # Datenschutzerklärung
 
 **Datum des Inkrafttretens:** 15. Februar 2026
-**Zuletzt aktualisiert:** 19. November 2026
+**Zuletzt aktualisiert:** 22. November 2026
 
 ## 1. Informationen zum Verantwortlichen
 
@@ -26,8 +26,8 @@ Diese Datenschutzerklärung erläutert, wie wir Ihre personenbezogenen Daten erh
 Wir verarbeiten Ihre personenbezogenen Daten auf der Grundlage der folgenden Rechtsgrundlagen:
 
 - **Vertragserfüllung** (Artikel 6 Abs. 1 lit. b): Zur Bereitstellung von App-Diensten, Kontoverwaltung und Premium-Funktionen sowie zum Verkauf von Abonnements und Veranstaltungstickets auf unserer Website
-- **Berechtigte Interessen** (Artikel 6 Abs. 1 lit. f): Sicherheit, Betrugsprävention, Absturz- und Fehlerdiagnose (Sentry), Kundensupport, Hosting und Bereitstellung unserer Website, Weiterleitung unserer Kurzlinks, **Reichweitenmessung unserer Website ohne Cookies** (Abschnitt 4.5) und Zuordnung von Affiliate-Codes
-- **Einwilligung** (Artikel 6 Abs. 1 lit. a): **Push-Benachrichtigungen und Marketingkommunikation** (Art. 6 Abs. 1 lit. a DSGVO i.V.m. § 7 Abs. 2 UWG — siehe Abschnitt 6), **Produkt- und Nutzungsanalyse in der App (PostHog)** und bestimmte optionale Integrationen von Drittanbietern. Die Produktanalyse in der App wird **nur** nach Ihrer ausdrücklichen Einwilligung (Opt-in) erhoben und kann jederzeit widerrufen werden.
+- **Berechtigte Interessen** (Artikel 6 Abs. 1 lit. f): Sicherheit, Betrugsprävention, Absturz- und Fehlerdiagnose (Sentry), Kundensupport, Hosting und Bereitstellung unserer Website, Weiterleitung unserer Kurzlinks, **Reichweitenmessung unserer Website ohne Cookies** (Abschnitt 4.5), **anonyme Nutzungszählung in der App** (Abschnitt 14.2), Zuordnung von Affiliate-Codes sowie Speicherung der Kampagnenbezeichnung eines Kaufs
+- **Einwilligung** (Artikel 6 Abs. 1 lit. a): **Push-Benachrichtigungen und Marketingkommunikation** (Art. 6 Abs. 1 lit. a DSGVO i.V.m. § 7 Abs. 2 UWG — siehe Abschnitt 6), **personenbezogene Produkt- und Nutzungsanalyse in der App (PostHog)** — die Verknüpfung Ihrer Nutzung mit Ihrem Konto, Freitext-Antworten in Umfragen, Ihr ungefährer Standort (Stadt) und unter Android die Installationsquelle — sowie bestimmte optionale Integrationen von Drittanbietern. Diese Analyse läuft **nur** nach Ihrer ausdrücklichen Einwilligung (Opt-in) und kann jederzeit widerrufen werden. Ohne Einwilligung zählen wir die Nutzung nur anonym (siehe Abschnitt 14.2).
 - **Rechtliche Verpflichtung** (Artikel 6 Abs. 1 lit. c): Einhaltung geltender Gesetze, steuerlicher Verpflichtungen und behördlicher Anfragen
 
 ## 4. Informationen, die wir erheben
@@ -51,20 +51,24 @@ Wir verarbeiten Ihre personenbezogenen Daten auf der Grundlage der folgenden Rec
 - Support-Anfragen und Feedback
 - Korrespondenz bezüglich Ihres Kontos oder der App
 
+**Umfragen:**
+- Kurze Umfragen in der App: vor der Anmeldung (Ihre Rolle, Ihre Tanzstile und wie Sie von BeatLoop erfahren haben) und vor dem ersten Video bestimmter Kurse (drei Ja/Nein-Fragen dazu, wie Sie üben). Die Antworten der Anmelde-Umfrage werden mit Ihrem Konto gespeichert; die Antworten der Kurs-Umfrage bleiben auf Ihrem Gerät. Wir nutzen sie, um BeatLoop zu verbessern und zu verstehen, wie Menschen zu uns finden (Art. 6 Abs. 1 lit. f DSGVO). Die angeklickten Antworten zählen wir außerdem in unserer Analyse (Abschnitt 14.2); einen Freitext unter „Sonstiges" nur mit Ihrer Einwilligung.
+
 ### 4.2 Automatisch erhobene Informationen
 
 Dieser Abschnitt beschreibt die App. Was beim Besuch unserer Website automatisch erhoben wird, ist in Abschnitt 4.5 beschrieben.
 
 **Nutzungs- und Analysedaten:**
-- Produkt-/Funktionsnutzungsanalyse in der App (welche Funktionen wie genutzt werden) und, unter Android, über welchen unserer Links Sie die App installiert haben (siehe Abschnitt 14.2) — über PostHog erfasst, **nur nachdem Sie ausdrücklich zugestimmt haben** (siehe Abschnitt 10.1); niemals erfasst, wenn Sie ablehnen oder noch nicht zugestimmt haben
-- Sitzungsdauer und Nutzungshäufigkeit (Teil der oben genannten einwilligungsbasierten Analyse)
+- **Anonyme Nutzungszählung** in der App und der Web-App (welche Funktionen, Kurse und Lektionen genutzt werden und über welchen unserer Links Sie gekommen sind) — ohne etwas auf Ihrem Gerät zu speichern, ein Profil zu bilden oder einen Bezug zu Ihrem Konto herzustellen; auch ohne Einwilligung (siehe Abschnitt 14.2)
+- **Produkt-/Funktionsnutzungsanalyse mit Ihrer Einwilligung:** dieselbe Nutzung, verknüpft mit Ihrem Konto über eine Kennung, die weder Ihren Namen noch Ihre E-Mail-Adresse enthält, dazu Freitext-Antworten in Umfragen, Ihr ungefährer Standort (Stadt) und unter Android, über welchen unserer Links Sie die App installiert haben (siehe Abschnitt 14.2) — über PostHog erfasst, **nur nachdem Sie ausdrücklich zugestimmt haben** (siehe Abschnitt 10.1)
+- Sitzungsdauer und Nutzungshäufigkeit (Teil der oben genannten Analyse)
 - Geräteleistungskennzahlen im Zusammenhang mit der Audio-/Videoverarbeitung
 - Fehlerberichte und Absturzprotokolle (über Sentry — siehe Abschnitt 10.1, verarbeitet auf Grundlage berechtigter Interessen, unabhängig von der Analyse-Einwilligung)
 
 **Geräte- und technische Informationen:**
 - Gerätemodell, Betriebssystem und Version
 - App-Version und Installationskennung
-- IP-Adresse und allgemeiner Standort (Land-/Regionsebene)
+- IP-Adresse und allgemeiner Standort (Land-/Regionsebene; mit Ihrer Analyse-Einwilligung auch die Stadt, siehe Abschnitt 14.2)
 - Netzwerkverbindungstyp
 
 **Authentifizierungsdaten:**
@@ -85,7 +89,7 @@ Dieser Abschnitt beschreibt die App. Was beim Besuch unserer Website automatisch
 - Auf unserer Website: Abonnements werden über eine von **RevenueCat** betriebene Bezahlseite (RevenueCat Web Billing) verkauft, die Zahlung wird von **Stripe** abgewickelt. Veranstaltungstickets auf unserer Website werden über Stripe verkauft (siehe Abschnitt 4.5)
 - **RevenueCat** erhält von Apple, Google und Stripe die Bestätigung Ihrer Käufe und meldet uns Ihren Berechtigungsstatus zurück (siehe Abschnitt 10)
 - Wenn Sie mit einem Affiliate-Code kaufen, werden der Code und der zugehörige Kauf an **Insert Affiliate** übermittelt, damit der Kauf dem Affiliate gutgeschrieben werden kann, der den Code geteilt hat (siehe Abschnitt 10.1)
-- Wir erhalten ausschließlich Transaktionsbestätigungen, Produktkennung, Preis, Währung, Store und Abonnementstatus sowie bei Käufen auf unserer Website die Kampagnenbezeichnung des Links, über den der Käufer gekommen ist (Abschnitt 4.5). **Zahlungskartendaten erhalten oder speichern wir zu keinem Zeitpunkt.**
+- Wir erhalten ausschließlich Transaktionsbestätigungen, Produktkennung, Preis, Währung, Store und Abonnementstatus sowie die Kampagnenbezeichnung des Links, über den der Käufer gekommen ist (bei Käufen auf unserer Website siehe Abschnitt 4.5, in der App und der Web-App Abschnitt 14.2). **Zahlungskartendaten erhalten oder speichern wir zu keinem Zeitpunkt.**
 
 ### 4.4 Zugriff auf lokale Medien unter Android
 
@@ -103,7 +107,7 @@ Dieser Abschnitt betrifft Besuche unserer Website beatloop.eu, einschließlich d
 
 **Kampagnenbezeichnungen an unseren Schaltflächen.** Wenn Sie über einen unserer Links zu uns kommen, tragen die App-Store- und Google-Play-Schaltflächen dieselbe Kampagnenbezeichnung, solange Sie auf unserer Website unterwegs sind. Wir halten die Bezeichnung nur im Arbeitsspeicher der Seite: Auf Ihrem Gerät wird nichts gespeichert, und sie ist weg, sobald Sie die Seite neu laden oder schließen. Die Schaltflächen, die die Web-App oder einen Kurs öffnen, geben die Bezeichnung in der Adresse an die Web-App weiter; ohne Kampagnenbezeichnung werden Sie als Besucher unserer Website gekennzeichnet. Apple und Google zeigen uns daraufhin zusammengefasste Downloadzahlen je Kampagne an. Informationen über Sie persönlich erhalten wir nicht.
 
-**Reichweitenmessung ohne Cookies (PostHog).** Um zu erfahren, welche Seiten und Kampagnen zu Downloads und Käufen führen, zählen wir Besuche unserer Website mit **PostHog** (PostHog Cloud EU, Frankfurt, Deutschland):
+**Reichweitenmessung ohne Cookies (PostHog).** Um zu erfahren, welche Seiten und Kampagnen zu Downloads und Käufen führen, zählen wir Besuche unserer Website mit **PostHog** (PostHog Cloud EU, Frankfurt, Deutschland). Ihr Browser sendet diese Daten an eine Adresse auf unserer eigenen Domain (`beatloop.eu/bl`), die unser Hosting-Anbieter Vercel unverändert an PostHog weiterleitet:
 - **Was erfasst wird:** die von Ihnen aufgerufene Seite (ihre Adresse ohne personenbezogene Parameter; Anmelde-, Konto-, Verwaltungs- und Kündigungsseiten werden überhaupt nicht erfasst), die verweisende Website (nur deren Domain), die Kampagnenwerte in dem Link, dem Sie gefolgt sind, Browser, Betriebssystem, Gerätetyp und Bildschirmgröße sowie Klicks auf unsere App-Store- und Google-Play-Schaltflächen, auf die Schaltflächen, die die Web-App oder einen Kurs öffnen, und auf die Schaltfläche „Start free trial". Bei unseren Kurzlinks wird nur die oben beschriebene Zählung erfasst.
 - **Keine Cookies, nichts auf Ihrem Gerät gespeichert:** Die Messung setzt keine Cookies und legt keine Kennung im Speicher Ihres Browsers ab.
 - **Täglicher Besucherschlüssel:** Um Besucher zu zählen, leiten die Server von PostHog aus Ihrer IP-Adresse und Ihrem User-Agent-String in Verbindung mit einem geheimen, täglich wechselnden Wert einen Schlüssel ab. **Ihre IP-Adresse wird nicht gespeichert.** Da der geheime Wert täglich wechselt, können Besuche an verschiedenen Tagen nicht miteinander verknüpft werden. Es wird kein Profil erstellt, und die Daten werden nicht mit Ihrem BeatLoop-Konto verknüpft.
@@ -423,12 +427,14 @@ Die folgenden Dienste können Ihre Daten außerhalb der EU verarbeiten:
 - **Liste der Unterauftragsverarbeiter:** [https://sentry.io/legal/subprocessor-list/](https://sentry.io/legal/subprocessor-list/)
 
 **PostHog (Produktanalyse):**
-- **Datenstandort:** Europäische Union — PostHog Cloud EU (`eu.i.posthog.com`), gehostet auf AWS in Frankfurt, Deutschland (`eu-central-1`)
+- **Datenstandort:** Europäische Union — PostHog Cloud EU (`eu.i.posthog.com`), gehostet auf AWS in Frankfurt, Deutschland (`eu-central-1`); unsere Website und Web-App senden über eine Adresse auf unserer eigenen Domain, die Vercel weiterleitet (siehe Abschnitte 4.5 und 14.2)
 - **Betreiber:** PostHog, Inc. (US-Muttergesellschaft; EU-Cloud-Daten werden in der EU gespeichert)
-- **Zweck:** In der App Produkt- und Funktionsnutzungsanalyse, um zu verstehen, wie die App genutzt wird, und sie zu verbessern, sowie unter Android, über welchen unserer Links die App installiert wurde. Auf unserer Website Reichweitenmessung ohne Cookies (siehe Abschnitt 4.5)
-- **Verarbeitete Daten (App):** Eine **pseudonyme App-Instanz-Kennung** (eine zufällige ID, nicht mit Ihrem Namen oder Ihrer E-Mail verknüpft), In-App-Funktionsnutzungsereignisse, Sitzungsdauer, Geräte-/Betriebssystemtyp und Abonnementstufe (kostenlos/Premium). Unter Android außerdem die **Installationsquelle**: die Kampagnenbezeichnung des Store-Links, über den die App installiert wurde (siehe Abschnitt 14.2). **Es werden kein Name, keine E-Mail, keine IP-Adresse und kein per GeoIP ermittelter Standort erhoben** (IP- und GeoIP-Anreicherung sind deaktiviert), und **Session Replay wird nicht verwendet**.
+- **Zweck:** In der App und der Web-App anonyme Nutzungszählung und, mit Ihrer Einwilligung, Produkt- und Funktionsnutzungsanalyse, um zu verstehen, wie die App genutzt wird und welche unserer Links zu ihr führen, und um sie zu verbessern; unter Android mit Ihrer Einwilligung außerdem, über welchen unserer Links die App installiert wurde. Auf unserer Website Reichweitenmessung ohne Cookies (siehe Abschnitt 4.5)
+- **Verarbeitete Daten (App, ohne Einwilligung):** Nutzungsereignisse (welche Funktion, welcher Kurs, welche Lektion), die Kampagnenbezeichnung des Links, über den Sie gekommen sind, Betriebssystem, App-Version und eine **zufällige Kennung, die nur bis zum Schließen der App gilt** und nie auf Ihrem Gerät gespeichert wird. In der Web-App leiten die Server von PostHog stattdessen wie auf unserer Website einen täglichen Besucherschlüssel ab (Abschnitt 4.5). Es wird kein Profil gebildet und kein Bezug zu Ihrem Konto hergestellt.
+- **Verarbeitete Daten (App, mit Ihrer Einwilligung):** zusätzlich eine **pseudonyme Kennung** auf Ihrem Gerät und, wenn Sie angemeldet sind, eine aus Ihrer Konto-ID abgeleitete Kennung (ein SHA-256-Hashwert, der weder Ihren Namen noch Ihre E-Mail-Adresse enthält), damit Ihre Nutzung auf dem Smartphone und im Browser zusammen ausgewertet wird; Abonnementstufe, App-Sprache, die erste und letzte Kampagnenbezeichnung, über die Sie gekommen sind, und Ihre Antworten in Umfragen einschließlich Freitext; Ihr **ungefährer Standort** (Land, Region und Stadt), den die Server von PostHog aus Ihrer IP-Adresse ermitteln, die danach verworfen wird; unter Android die **Installationsquelle** (siehe Abschnitt 14.2). Wenn Sie Ihr Konto löschen, löschen wir diese Daten bei PostHog (Abschnitt 12.5).
+- **In beiden Fällen:** **kein Name, keine E-Mail-Adresse, keine gespeicherte IP-Adresse** und **kein Session Replay**; **ohne Einwilligung auch kein Standort** (die Ermittlung des Standorts aus der IP-Adresse ist für diese Ereignisse abgeschaltet). Adressen von Seiten der Web-App werden vor dem Senden um Anmelde- und Geschenkcodes bereinigt.
 - **Verarbeitete Daten (Website):** Seitenaufrufe, Klicks und Kurzlink-Zählungen wie in Abschnitt 4.5 beschrieben. Ihre IP-Adresse wird ausschließlich auf den Servern von PostHog verwendet, um einen täglichen Besucherschlüssel abzuleiten, und **nicht gespeichert**; kein per GeoIP ermittelter Standort, keine Cookies, keine Profile und kein Session Replay.
-- **Rechtsgrundlage (App):** **Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)**. Die Analyse ist **standardmäßig deaktiviert**; sie wird erst aktiviert, nachdem Sie über den In-App-Dialog ausdrücklich zugestimmt haben, und Sie können die Einwilligung jederzeit unter **Konto → Datenschutzeinstellungen** widerrufen (auch § 25 TDDDG wird durch diese vorherige Einwilligung erfüllt).
+- **Rechtsgrundlage (App):** **ohne Einwilligung** Art. 6 Abs. 1 lit. f DSGVO (unser berechtigtes Interesse daran, zu verstehen, wie die App genutzt wird und welche unserer Links zu ihr führen); Sie können jederzeit widersprechen (siehe Abschnitt 14.3). **Mit Einwilligung** Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG: standardmäßig deaktiviert, erst nach Ihrer Zustimmung im In-App-Dialog aktiv und jederzeit widerrufbar unter **Konto → Nutzungsdaten teilen**.
 - **Rechtsgrundlage (Website):** Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Messung der Reichweite unserer Website). Sie können jederzeit widersprechen (siehe Abschnitt 4.5).
 - **Aufbewahrungsfrist:** 12 Monate
 - **Schutzmaßnahmen:** Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO abgeschlossen, einschließlich Standardvertragsklauseln für jede Weiterübermittlung in die Vereinigten Staaten
@@ -506,7 +512,7 @@ Wenn Sie der Ansicht sind, dass wir Ihre Datenschutzbedenken nicht angemessen be
 
 Die Löschung erfolgt in mehreren Schritten, die wir Ihnen transparent darlegen möchten:
 
-1. **Sofort:** Ihr Konto wird als gelöscht markiert und deaktiviert. Ihr Profil und Ihre Sitzungsdaten sind über die App nicht mehr zugänglich.
+1. **Sofort:** Ihr Konto wird als gelöscht markiert und deaktiviert. Ihr Profil und Ihre Sitzungsdaten sind über die App nicht mehr zugänglich. Die mit Ihrem Konto verknüpften Analysedaten bei PostHog werden gelöscht; anonym gezählte Nutzung (Abschnitt 14.2) lässt sich keinem Konto zuordnen.
 2. **Innerhalb von 30 Tagen:** Ihre personenbezogenen Daten werden durch einen automatisierten Bereinigungsprozess endgültig aus unseren Produktivsystemen gelöscht.
 3. **Reaktivierung innerhalb dieser 30 Tage:** Melden Sie sich vor der endgültigen Löschung erneut mit denselben Zugangsdaten an, **werden Ihr Konto und Ihre Daten wiederhergestellt**. Diese Karenzzeit schützt Sie vor einer versehentlichen Löschung. Wünschen Sie eine sofortige, unwiderrufliche Löschung ohne Karenzzeit, schreiben Sie an privacy@on-beat.de; wir führen sie dann manuell durch.
 4. **Gesetzlich aufzubewahrende Daten:** Zahlungs- und Rechnungsunterlagen bewahren wir nach deutschem Steuer- und Handelsrecht 7 Jahre auf, unabhängig von der Kontolöschung.
@@ -520,7 +526,7 @@ Die Löschung erfolgt in mehreren Schritten, die wir Ihnen transparent darlegen 
 
 ### 13.2 Nutzungs- und Analysedaten
 - **Anmeldeaufzeichnungen:** Aus Sicherheitsgründen 12 Monate aufbewahrt
-- **Produktanalyse in der App (PostHog):** Individuelle Ereignisdaten gemäß Abschnitt 10.1 aufbewahrt (12 Monate); nur aggregierte/abgeleitete Erkenntnisse können länger aufbewahrt werden. Nur mit Ihrer Einwilligung erhoben.
+- **Produktanalyse in der App (PostHog):** Individuelle Ereignisdaten gemäß Abschnitt 10.1 aufbewahrt (12 Monate); nur aggregierte/abgeleitete Erkenntnisse können länger aufbewahrt werden. Anonyme Zählung ohne Einwilligung, personenbezogene Analyse nur mit Ihrer Einwilligung (Abschnitt 14.2).
 - **Reichweitenmessung der Website (PostHog):** 12 Monate aufbewahrt (siehe Abschnitt 4.5)
 - **Server-Logs der Website (Vercel):** Von Vercel für einen begrenzten Zeitraum zu Betriebs- und Sicherheitszwecken aufbewahrt; wir speichern sie nicht selbst
 - **Fehlerprotokolle:** Zur Fehlerbehebung und Verbesserung 12 Monate aufbewahrt
@@ -544,16 +550,28 @@ Die App verwendet minimale Tracking-Technologien:
 - **Fehler-Tracking:** Grundlegende Absturzberichterstattung für App-Stabilität
 
 ### 14.2 Produktanalyse in der App (PostHog)
-Wir verwenden **PostHog** (EU Cloud) für Produkt-/Nutzungsanalysen, um zu verstehen, wie die App genutzt wird, und sie zu verbessern. Diese Analyse:
-- ist **standardmäßig deaktiviert** und läuft **nur nach Ihrer ausdrücklichen Einwilligung (Opt-in)** (Art. 6 Abs. 1 lit. a DSGVO; § 25 TDDDG)
-- verwendet ausschließlich eine **pseudonyme App-Instanz-Kennung** — kein Name, keine E-Mail, keine IP, kein GeoIP-Standort und kein Session Replay
-- erfasst unter **Android** einmalig, über welchen unserer Links Sie die App installiert haben: die drei Kampagnenwerte des Google-Play-Links (Plattform, Platzierung und Inhalt, zum Beispiel `instagram · dm · r001`, oder Googles eigenes `google-play · organic` bei einer Installation, die im Store gefunden wurde), ausgelesen über die Install-Referrer-Schnittstelle von Google Play, die diese Information 90 Tage nach der Installation bereithält. Weiteres daraus wird nicht gespeichert. Ausgelesen wird nur, wenn Sie dem Einwilligungstext zugestimmt haben, der diesen Zweck nennt („über welchen Link du zu BeatLoop gekommen bist"). Auf dem iPhone und in der Web-App gibt es dies nicht
-- speichert die Opt-out-/Einwilligungseinstellung auf Ihrem Gerät
+Wir verwenden **PostHog** (EU Cloud) für Produkt-/Nutzungsanalysen, um zu verstehen, wie die App genutzt wird und welche unserer Links zu ihr führen, und um sie zu verbessern. Es gibt zwei Stufen:
+
+**Anonyme Zählung (ohne Einwilligung).** Bevor Sie sich entscheiden, und auch, wenn Sie ablehnen, zählen wir die Nutzung der App anonym:
+- Auf dem Smartphone sendet die App Nutzungsereignisse mit einer zufälligen Kennung, die nur bis zum Schließen der App gilt und nicht auf Ihrem Gerät gespeichert wird; die Analyse-Software von PostHog wird dabei gar nicht gestartet. In der Web-App (app.beatloop.eu) arbeitet PostHog ohne Cookies und ohne Speicher im Browser; seine Server leiten wie auf unserer Website einen täglich wechselnden Besucherschlüssel ab (siehe Abschnitt 4.5).
+- Es wird kein Profil gebildet, kein Standort ermittelt, keine Kennung Ihres Kontos übermittelt und nichts auf Ihrem Gerät gespeichert. Ereignisse verschiedener App-Sitzungen oder Tage lassen sich nicht verknüpfen.
+- Jedes Ereignis trägt, falls vorhanden, die Kampagnenbezeichnung des Links, über den Sie gekommen sind (zum Beispiel `ig-r012`). Wenn Sie in der App oder der Web-App kaufen, geben wir diese Bezeichnung außerdem an RevenueCat weiter, das sie mit dem Kauf speichert (siehe Abschnitt 4.3).
+- Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Sie können jederzeit widersprechen (siehe Abschnitt 14.3).
+
+**Analyse mit Ihrer Einwilligung.** Wenn Sie im Einwilligungsdialog zustimmen:
+- verwenden wir eine **pseudonyme Kennung** auf Ihrem Gerät und, wenn Sie angemeldet sind, eine aus Ihrer Konto-ID abgeleitete Kennung (ein SHA-256-Hashwert — kein Name, keine E-Mail), damit Ihre Nutzung auf dem Smartphone und im Browser zusammen ausgewertet wird; was Sie vor der Anmeldung getan haben, wird Ihrem Konto zugeordnet;
+- erfassen wir zusätzlich Ihre Abonnementstufe, App-Sprache, die erste und letzte Kampagnenbezeichnung, über die Sie gekommen sind, Freitext-Antworten in Umfragen und Ihren **ungefähren Standort** (Land, Region und Stadt): Die Server von PostHog ermitteln ihn aus Ihrer IP-Adresse, die danach verworfen und nicht gespeichert wird;
+- erfassen wir unter **Android** einmalig, über welchen unserer Links Sie die App installiert haben: die drei Kampagnenwerte des Google-Play-Links (Plattform, Platzierung und Inhalt, zum Beispiel `instagram · dm · r001`, oder Googles eigenes `google-play · organic` bei einer Installation, die im Store gefunden wurde), ausgelesen über die Install-Referrer-Schnittstelle von Google Play, die diese Information 90 Tage nach der Installation bereithält. Weiteres daraus wird nicht gespeichert. Ausgelesen wird nur, wenn Sie dem Einwilligungstext zugestimmt haben, der diesen Zweck nennt („über welchen Link du zu BeatLoop gekommen bist"). Auf dem iPhone und in der Web-App gibt es dies nicht
+- Wenn Sie sich abmelden, wird die Verknüpfung mit Ihrem Konto auf diesem Gerät getrennt. Ihre Entscheidung wird auf Ihrem Gerät gespeichert und gilt für dieses Gerät bzw. diesen Browser – auch wenn sich danach jemand anderes mit einem anderen Konto darauf anmeldet. Jede Person kann sie in ihrem Konto über den Schalter **„Nutzungsdaten teilen"** jederzeit ändern.
+- Rechtsgrundlage: Einwilligung (Art. 6 Abs. 1 lit. a DSGVO; § 25 Abs. 1 TDDDG), jederzeit widerrufbar.
+
+**In beiden Stufen:** kein Name, keine E-Mail-Adresse, keine gespeicherte IP-Adresse und kein Session Replay. Die Web-App sendet die Daten über eine Adresse auf unserer eigenen Domain, die unser Hosting-Anbieter Vercel an PostHog weiterleitet, und entfernt vor dem Senden Anmelde- und Geschenkcodes aus den Seitenadressen. Konten unseres eigenen Teams werden markiert, damit wir sie aus unseren Auswertungen herausfiltern können.
 
 Siehe Abschnitt 10.1 (PostHog) für Hosting, Aufbewahrung, Unterauftragsverarbeiter und Schutzmaßnahmen.
 
 ### 14.3 Ihre Kontrolle
-- **Analyse-Opt-out in der App:** Die Analyse ist Opt-in; Sie können die Einwilligung jederzeit unter **Konto → Datenschutzeinstellungen** erteilen oder widerrufen
+- **Analyse mit Ihrer Einwilligung:** Sie können die Einwilligung jederzeit unter **Konto → Nutzungsdaten teilen** erteilen oder widerrufen
+- **Anonyme Zählung in der App:** Sie können widersprechen (Art. 21 DSGVO) — in der Web-App, indem Sie in Ihrem Browser „Global Privacy Control" oder „Do Not Track" einschalten; dann wird ohne Ihre Einwilligung nichts gesendet; in der Smartphone-App per E-Mail an privacy@on-beat.de. Nach einem Widerspruch senden wir für Ihr Konto keine Analysedaten mehr, solange Sie angemeldet sind — weder anonym noch mit Einwilligung
 - **Reichweitenmessung auf der Website:** Schalten Sie in Ihrem Browser „Global Privacy Control" oder „Do Not Track" ein (siehe Abschnitt 4.5)
 - **Tracking durch Dritte:** Wir verwenden keine Werbe- oder Social-Media-Tracking-Pixel und verfolgen Sie nicht über andere Apps oder Websites hinweg
 
@@ -617,6 +635,6 @@ Diese Datenschutzerklärung wird in englischer, deutscher und spanischer Sprache
 
 ---
 
-**Diese Datenschutzerklärung wurde zuletzt am 19. November 2026 aktualisiert und tritt unmittelbar nach Veröffentlichung in Kraft.**
+**Diese Datenschutzerklärung wurde zuletzt am 22. November 2026 aktualisiert und tritt unmittelbar nach Veröffentlichung in Kraft.**
 
 Für die aktuellste Version unserer Datenschutzerklärung überprüfen Sie bitte regelmäßig dieses Dokument oder kontaktieren Sie uns unter privacy@on-beat.de.
